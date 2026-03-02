@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-02) [我的退休计划：把无期变成有期](202603/2026-03-02-%E6%88%91%E7%9A%84%E9%80%80%E4%BC%91%E8%AE%A1%E5%88%92%EF%BC%9A%E6%8A%8A%E6%97%A0%E6%9C%9F%E5%8F%98%E6%88%90%E6%9C%89%E6%9C%9F.md)
+- 通过财务规划将上班视为"无期徒刑"转为"有期"退休，建立真正资产而非加厚牢房，夺回时间与工作自主权，实现从"必须做"到"我选择做"的转变。
+- Tags: #life
+
 (2026-03-02) [家庭网络环境改造](202603/2026-03-02-%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E6%94%B9%E9%80%A0.md)
 - 通过硬路由桥接解决双 NAT，结合 MosDNS + AdGuard Home 实现 DNS 分流，优化 OpenClash 配置，实现全屋代理与精确分流。
 - Tags: #home #web #setup
@@ -21,4 +25,4 @@
 
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (4 entries)
+- [2026-03](202603/monthly-index.md) (5 entries)
