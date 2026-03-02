@@ -17,5 +17,15 @@
       "home",
       "setup"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "Hoard things you know how to do",
+    "url": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/",
+    "timestamp": 1772438494,
+    "tags": [
+      "agent",
+      "advice"
+    ]
   }
 ]

@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-02) [Hoard things you know how to do](2026-03-02-hoard-things-you-know-how-to-do.md)
+- 囤积已解决问题的知识与代码，结合 AI 编码助手，通过重新组合创造新解决方案，大幅提高开发效率。
+- Tags: #agent #advice
+
 (2026-03-02) [Personal Infrastructure Setup 2026](2026-03-02-personal-infrastructure-setup-2026.md)
 - 作者分享其 2026 年个人基础设施架构，使用 Incus 容器化和 OpenTofu 基础设施即代码，通过 Wireguard 和 Nginx 暴露服务，实现自托管邮件、博客等服务。
 - Tags: #home #setup
