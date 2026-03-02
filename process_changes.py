@@ -509,11 +509,11 @@ def build_summary_readme_md(
     grouped_bookmarks: Dict[str, List[SummarizedBookmark]],
     tldr_lookup: Dict[Tuple[str, str, int], str],
 ) -> str:
-    initial_prefix = """# LLM Summary 
-读取 kohsmemo 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 kohsmemo 中的 Github Action 一起使用。
+    initial_prefix = """# Bookmark AI Summary 
+自动读取 leehyon/kohsmemo 仓库中的书签数据，通过 Jina Reader 获取网页文本内容，再借助大模型生成内容总结。
 """
 
-    lines: List[str] = [initial_prefix.rstrip(), "", "## Latest 10 Summaries", ""]
+    lines: List[str] = [initial_prefix.rstrip(), "", "## Latest 10 Entries", ""]
 
     latest_entries = sorted(
         summarized_bookmarks, key=lambda b: b.timestamp, reverse=True
