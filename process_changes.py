@@ -510,7 +510,7 @@ def build_summary_readme_md(
     tldr_lookup: Dict[Tuple[str, str, int], str],
 ) -> str:
     initial_prefix = """# Bookmark Summary 
-自动读取 leehyon/kohsmemo 仓库中的书签数据，通过 Jina Reader 获取网页文本内容，再借助大模型生成内容总结。
+自动读取 [kohsmemo](https://github.com/leehyon/kohsmemo) 仓库中的书签数据，通过 Jina Reader 获取网页文本内容，再借助大模型生成内容总结。
 """
 
     lines: List[str] = [initial_prefix.rstrip(), "", "## Latest 10 Entries", ""]
