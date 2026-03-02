@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-02) [家庭网络环境改造](202603/2026-03-02-%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E6%94%B9%E9%80%A0.md)
+- 当访问不存在的 GitHub Pages 网站时，会显示 404 错误页面，提供设置指南和官方资源链接帮助用户解决。
+- Tags: #home #web #setup
+
 (2026-03-02) [Hoard things you know how to do](202603/2026-03-02-hoard-things-you-know-how-to-do.md)
 - 囤积已解决问题的知识与代码，结合 AI 编码助手，通过重新组合创造新解决方案，大幅提高开发效率。
 - Tags: #agent #advice
@@ -17,4 +21,4 @@
 
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (3 entries)
+- [2026-03](202603/monthly-index.md) (4 entries)
