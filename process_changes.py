@@ -248,7 +248,7 @@ def build_summary_file(
     return (
         f"# {title}\n"
         f"- URL: {url}\n"
-        f"- Added At: {CURRENT_DATE_AND_TIME}\n"
+        f"- Added: {CURRENT_DATE_AND_TIME}\n"
         f"{tag_line}\n"
         f"## TL;DR\n{one_sentence}\n\n"
         f"## Summary\n{summary}\n"
@@ -389,8 +389,8 @@ def call_openai_api(prompt: str, content: str) -> str:
 @log_execution_time
 def summarize_text(text: str) -> str:
     prompt: str = """
-结构化总结这篇文章。输出时使用简体中文。
-输出时直接给出总结内容，不需要附带“以下是总结”的开始文字或额外的标题。
+结构化总结本文，提炼核心主题、关键信息与逻辑脉络，分点呈现且层次清晰；
+输出为简体中文，中英字符间保留空格，直接展示总结内容，无任何前缀、标题及冗余表述。
 """
     return call_openai_api(prompt, text)
 
