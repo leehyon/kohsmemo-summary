@@ -39,6 +39,8 @@ MAX_CONTENT_LENGTH: int = 32 * 1024  # 32KB
 MIN_CONTENT_LENGTH: int = 200  # Minimum content length to consider valid
 MAX_RETRIES: int = 3  # Maximum retry attempts for fetching content
 NO_SUMMARY_TAG: str = "#nosummary"
+HTTP_CONNECT_TIMEOUT_SECONDS: int = 5
+HTTP_READ_TIMEOUT_SECONDS: int = 30
 # -- configurations end --
 
 logging.basicConfig(
@@ -279,16 +281,110 @@ def submit_to_wayback_machine(url: str):
         logging.exception(error)
 
 
+def normalize_http_url(url: str) -> str:
+    url = url.strip()
+    if not url:
+        raise ValueError("URL is empty")
+    if re.match(r"^https?://", url, flags=re.IGNORECASE):
+        return url
+    return f"https://{url}"
+
+
+def preflight_check_url(url: str) -> Tuple[Optional[int], Optional[str]]:
+    """Best-effort check whether the origin URL is reachable.
+
+    Returns (status_code, error_message). If the request fails before receiving an
+    HTTP response, status_code is None and error_message is set.
+    """
+    if requests is None:
+        return None, "requests package not available"
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+        )
+    }
+    timeout = (HTTP_CONNECT_TIMEOUT_SECONDS, HTTP_READ_TIMEOUT_SECONDS)
+
+    try:
+        response: requests.Response = requests.head(
+            url,
+            allow_redirects=True,
+            headers=headers,
+            timeout=timeout,
+        )
+        status = response.status_code
+
+        # Some sites block/ignore HEAD; fall back to a lightweight GET.
+        if status in (403, 405):
+            response = requests.get(
+                url,
+                allow_redirects=True,
+                headers=headers,
+                timeout=timeout,
+                stream=True,
+            )
+            status = response.status_code
+            response.close()
+
+        return status, None
+    except requests.RequestException as error:
+        return None, str(error)
+
+
 @log_execution_time
 def get_text_content(url: str) -> str:
     if requests is None:
         raise RuntimeError("requests package not available; cannot fetch content.")
 
+    url = normalize_http_url(url)
+    status_code, preflight_error = preflight_check_url(url)
+    if preflight_error:
+        logging.warning("Preflight check failed for %s: %s", url, preflight_error)
+    elif status_code is not None:
+        if status_code in (404, 410):
+            raise Exception(f"Origin URL not found (HTTP {status_code}): {url}")
+        if status_code >= 400 and status_code not in (401, 403, 429):
+            logging.warning(
+                "Origin URL returned HTTP %d for %s; content fetch may fail.",
+                status_code,
+                url,
+            )
+
     jina_url: str = f"https://r.jina.ai/{url}"
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+        )
+    }
+    timeout = (HTTP_CONNECT_TIMEOUT_SECONDS, HTTP_READ_TIMEOUT_SECONDS)
 
     for attempt in range(MAX_RETRIES):
         try:
-            response: requests.Response = requests.get(jina_url)
+            response: requests.Response = requests.get(
+                jina_url,
+                headers=headers,
+                timeout=timeout,
+            )
+            if response.status_code >= 400:
+                status = response.status_code
+                error_msg = (
+                    f"Jina fetch failed (HTTP {status}) - attempt {attempt + 1}/{MAX_RETRIES}"
+                )
+                logging.warning(error_msg)
+
+                should_retry = status in (429, 500, 502, 503, 504)
+                if should_retry and attempt < MAX_RETRIES - 1:
+                    wait_time = 2**attempt
+                    logging.info("Retrying in %d seconds...", wait_time)
+                    time.sleep(wait_time)
+                    continue
+                raise Exception(
+                    f"All {MAX_RETRIES} retry attempts failed. Last error: {error_msg}"
+                )
+
             content = response.text.strip()
 
             if len(content) < MIN_CONTENT_LENGTH:
