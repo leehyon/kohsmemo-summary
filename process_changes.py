@@ -475,11 +475,11 @@ def render_bookmark_lines(
     date_str = datetime.fromtimestamp(
         bookmark.timestamp, tz=timezone.utc
     ).strftime("%Y-%m-%d")
-    lines = [f"- ({date_str}) [{bookmark.title}]({link})"]
+    lines = [f"({date_str}) [{bookmark.title}]({link})"]
     if tldr:
-        lines.append(f"  - {tldr}")
+        lines.append(f"- {tldr}")
     if bookmark.tags:
-        lines.append(f"  - Tags: {format_tags(bookmark.tags)}")
+        lines.append(f"- Tags: {format_tags(bookmark.tags)}")
     return lines
 
 
@@ -509,7 +509,7 @@ def build_summary_readme_md(
     grouped_bookmarks: Dict[str, List[SummarizedBookmark]],
     tldr_lookup: Dict[Tuple[str, str, int], str],
 ) -> str:
-    initial_prefix = """# Bookmark AI Summary 
+    initial_prefix = """# Bookmark Summary 
 自动读取 leehyon/kohsmemo 仓库中的书签数据，通过 Jina Reader 获取网页文本内容，再借助大模型生成内容总结。
 """
 
