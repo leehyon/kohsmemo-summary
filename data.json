@@ -67,5 +67,16 @@
       "vibe-coding",
       "advice"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "谈谈 AI 编程工具的进化与 Vibe Coding",
+    "url": "https://guangzhengli.com/blog/zh/vibe-coding-and-context-coding",
+    "timestamp": 1772515212,
+    "tags": [
+      "vibe-coding",
+      "agent",
+      "advice"
+    ]
   }
 ]

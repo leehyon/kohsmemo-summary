@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-03) [谈谈 AI 编程工具的进化与 Vibe Coding](202603/2026-03-03-%E8%B0%88%E8%B0%88-ai-%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7%E7%9A%84%E8%BF%9B%E5%8C%96%E4%B8%8E-vibe-coding.md)
+  - Tags: #vibe-coding #agent #advice
+  - Summary: AI 编程工具从 Copilot 到 Claude Code 不断进化，核心是上下文工程能力提升。作者区分 Context Coding 与 Vibe Coding，认为后者可能带来技术债务，但 AI 将改变编程生态，程序员需持续学习适应。
+
 - (2026-03-03) [AI Coding：從「Vibe Coding」到專業開發](202603/2026-03-03-ai-coding%EF%BC%9A%E5%BE%9E%E3%80%8Cvibe-coding%E3%80%8D%E5%88%B0%E5%B0%88%E6%A5%AD%E9%96%8B%E7%99%BC.md)
   - Tags: #vibe-coding #advice
   - Summary: 从 "Vibe Coding" 到 AI 专业开发，需平衡速度与质量，建立结构化流程与心态。开发者将转变为 AI 协调者，通过管理 AI 舰队与流程，而非个人编码能力，实现高效协作。
