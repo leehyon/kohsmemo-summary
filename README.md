@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-03) [AI Coding：從「Vibe Coding」到專業開發](202603/2026-03-03-ai-coding%EF%BC%9A%E5%BE%9E%E3%80%8Cvibe-coding%E3%80%8D%E5%88%B0%E5%B0%88%E6%A5%AD%E9%96%8B%E7%99%BC.md)
+- 从 "Vibe Coding" 到 AI 专业开发，需平衡速度与质量，建立结构化流程与心态。开发者将转变为 AI 协调者，通过管理 AI 舰队与流程，而非个人编码能力，实现高效协作。
+- Tags: #vibe-coding #advice
+
 (2026-03-03) [Neko Master: 从 0 到 1K+ Star 的 Vibe Coding 实践](202603/2026-03-03-neko-master-%E4%BB%8E-0-%E5%88%B0-1k%2B-star-%E7%9A%84-vibe-coding-%E5%AE%9E%E8%B7%B5.md)
 - 作者通过 Vibe Coding 快速开发 Neko Master 开源项目，结合多种 AI 工具实现高效迭代，展示 AI 在"从 0 到 1"中的价值，但"从 1 到 100"仍需人工判断。
 - Tags: #agent #best-practice
@@ -29,4 +33,4 @@
 
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (6 entries)
+- [2026-03](202603/monthly-index.md) (7 entries)
