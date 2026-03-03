@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-03) [Neko Master: 从 0 到 1K+ Star 的 Vibe Coding 实践](202603/2026-03-03-neko-master-%E4%BB%8E-0-%E5%88%B0-1k%2B-star-%E7%9A%84-vibe-coding-%E5%AE%9E%E8%B7%B5.md)
+  - Tags: #agent #best-practice
+  - Summary: 作者通过 Vibe Coding 快速开发 Neko Master 开源项目，结合多种 AI 工具实现高效迭代，展示 AI 在"从 0 到 1"中的价值，但"从 1 到 100"仍需人工判断。
+
 - (2026-03-02) [我的退休计划：把无期变成有期](202603/2026-03-02-%E6%88%91%E7%9A%84%E9%80%80%E4%BC%91%E8%AE%A1%E5%88%92%EF%BC%9A%E6%8A%8A%E6%97%A0%E6%9C%9F%E5%8F%98%E6%88%90%E6%9C%89%E6%9C%9F.md)
   - Tags: #life
   - Summary: 通过财务规划将上班视为"无期徒刑"转为"有期"退休，建立真正资产而非加厚牢房，夺回时间与工作自主权，实现从"必须做"到"我选择做"的转变。
