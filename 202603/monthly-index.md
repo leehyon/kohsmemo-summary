@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-05) [Claude Skills 入门：一篇文章搞懂 AI 怎么从「嘴替」升级成「打工人」](2026-03-05-claude-skills-%E5%85%A5%E9%97%A8%EF%BC%9A%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E6%87%82-ai-%E6%80%8E%E4%B9%88%E4%BB%8E%E3%80%8C%E5%98%B4%E6%9B%BF%E3%80%8D%E5%8D%87%E7%BA%A7%E6%88%90%E3%80%8C%E6%89%93%E5%B7%A5%E4%BA%BA%E3%80%8D.md)
+- Claude Skills 通过三层架构演进，使 AI 从简单应答者升级为专业协作者，整合工具与指令形成完整工作流，赋能非专业人士创建专业解决方案。
+- Tags: #skill #agent #guide
+
 (2026-03-03) [谈谈 AI 编程工具的进化与 Vibe Coding](2026-03-03-%E8%B0%88%E8%B0%88-ai-%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7%E7%9A%84%E8%BF%9B%E5%8C%96%E4%B8%8E-vibe-coding.md)
 - AI 编程工具从 Copilot 到 Claude Code 不断进化，核心是上下文工程能力提升。作者区分 Context Coding 与 Vibe Coding，认为后者可能带来技术债务，但 AI 将改变编程生态，程序员需持续学习适应。
 - Tags: #vibe-coding #agent #advice
