@@ -99,5 +99,15 @@
       "life",
       "llm"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "Skills - 从编程工具的配角到 Agent 研发的核心",
+    "url": "https://developer.aliyun.com/article/1714757",
+    "timestamp": 1772763929,
+    "tags": [
+      "skill",
+      "agent"
+    ]
   }
 ]
