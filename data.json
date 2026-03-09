@@ -119,5 +119,14 @@
       "agent",
       "design"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "Humans and Agents in Software Engineering Loops",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html",
+    "timestamp": 1773021194,
+    "tags": [
+      "agent"
+    ]
   }
 ]

@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-09) [Humans and Agents in Software Engineering Loops](2026-03-09-humans-and-agents-in-software-engineering-loops.md)
+- 文章提出"在循环上"工作模式，平衡人类与 AI 代理角色，通过约束系统指导 AI，关注成果质量而非代码细节，实现高效软件工程。
+- Tags: #agent
+
 (2026-03-09) [Design-First Collaboration](2026-03-09-design-first-collaboration.md)
 - 设计优先协作是一种结构化对话模式，通过五层设计对齐（能力、组件、交互、契约、实现）减少认知负荷，在设计阶段达成一致后再生成代码，避免昂贵的技术债务和误解。
 - Tags: #agent #design
