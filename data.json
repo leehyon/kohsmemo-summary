@@ -109,5 +109,15 @@
       "skill",
       "agent"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "Design-First Collaboration",
+    "url": "https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html",
+    "timestamp": 1773021029,
+    "tags": [
+      "agent",
+      "design"
+    ]
   }
 ]

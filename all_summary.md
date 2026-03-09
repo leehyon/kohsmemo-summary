@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-09) [Design-First Collaboration](202603/2026-03-09-design-first-collaboration.md)
+  - Tags: #agent #design
+  - Summary: 设计优先协作是一种结构化对话模式，通过五层设计对齐（能力、组件、交互、契约、实现）减少认知负荷，在设计阶段达成一致后再生成代码，避免昂贵的技术债务和误解。
+
 - (2026-03-06) [Skills - 从编程工具的配角到 Agent 研发的核心](202603/2026-03-06-skills---%E4%BB%8E%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7%E7%9A%84%E9%85%8D%E8%A7%92%E5%88%B0-agent-%E7%A0%94%E5%8F%91%E7%9A%84%E6%A0%B8%E5%BF%83.md)
   - Tags: #skill #agent
   - Summary: Skills 的价值具有高度场景依赖性，在编程工具中表现平淡，但在 Agent 研发场景中成为核心，能解决能力复用、标准化和生态协作问题。

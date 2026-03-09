@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-09) [Design-First Collaboration](202603/2026-03-09-design-first-collaboration.md)
+- 设计优先协作是一种结构化对话模式，通过五层设计对齐（能力、组件、交互、契约、实现）减少认知负荷，在设计阶段达成一致后再生成代码，避免昂贵的技术债务和误解。
+- Tags: #agent #design
+
 (2026-03-06) [Skills - 从编程工具的配角到 Agent 研发的核心](202603/2026-03-06-skills---%E4%BB%8E%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7%E7%9A%84%E9%85%8D%E8%A7%92%E5%88%B0-agent-%E7%A0%94%E5%8F%91%E7%9A%84%E6%A0%B8%E5%BF%83.md)
 - Skills 的价值具有高度场景依赖性，在编程工具中表现平淡，但在 Agent 研发场景中成为核心，能解决能力复用、标准化和生态协作问题。
 - Tags: #skill #agent
@@ -39,10 +43,6 @@
 - 囤积已解决问题的知识与代码，结合 AI 编码助手，通过重新组合创造新解决方案，大幅提高开发效率。
 - Tags: #agent #advice
 
-(2026-03-02) [Personal Infrastructure Setup 2026](202603/2026-03-02-personal-infrastructure-setup-2026.md)
-- 作者分享其 2026 年个人基础设施架构，使用 Incus 容器化和 OpenTofu 基础设施即代码，通过 Wireguard 和 Nginx 暴露服务，实现自托管邮件、博客等服务。
-- Tags: #home #setup
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (11 entries)
+- [2026-03](202603/monthly-index.md) (12 entries)
