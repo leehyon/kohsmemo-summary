@@ -128,5 +128,14 @@
     "tags": [
       "agent"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "AI should help us produce better code",
+    "url": "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/",
+    "timestamp": 1773284869,
+    "tags": [
+      "agent"
+    ]
   }
 ]

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-12) [AI should help us produce better code](202603/2026-03-12-ai-should-help-us-produce-better-code.md)
+- AI 可帮助开发者提升代码质量，避免技术债务。通过异步工具处理重构任务，扩展技术选择，并实现持续优化，使同时开发新功能和改进质量成为可能。
+- Tags: #agent
+
 (2026-03-09) [Humans and Agents in Software Engineering Loops](202603/2026-03-09-humans-and-agents-in-software-engineering-loops.md)
 - 文章提出"在循环上"工作模式，平衡人类与 AI 代理角色，通过约束系统指导 AI，关注成果质量而非代码细节，实现高效软件工程。
 - Tags: #agent
@@ -39,10 +43,6 @@
 - 通过财务规划将上班视为"无期徒刑"转为"有期"退休，建立真正资产而非加厚牢房，夺回时间与工作自主权，实现从"必须做"到"我选择做"的转变。
 - Tags: #life
 
-(2026-03-02) [家庭网络环境改造](202603/2026-03-02-%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E6%94%B9%E9%80%A0.md)
-- 通过硬路由桥接解决双 NAT，结合 MosDNS + AdGuard Home 实现 DNS 分流，优化 OpenClash 配置，实现全屋代理与精确分流。
-- Tags: #home #web #setup
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (13 entries)
+- [2026-03](202603/monthly-index.md) (14 entries)
