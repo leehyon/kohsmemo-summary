@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-12) [A pragmatic guide to LLM evals for devs](202603/2026-03-12-a-pragmatic-guide-to-llm-evals-for-devs.md)
+- 本文探讨了开发者如何从主观判断转向系统化评估流程，通过错误分析方法和构建合适的评估工具，提高 AI 质量并克服 LLM 开发中的挑战。
+- Tags: #guide #llm
+
 (2026-03-12) [They have to be able to talk about us without us](202603/2026-03-12-they-have-to-be-able-to-talk-about-us-without-us.md)
 - 有效沟通的核心是让他人能在你不在场时传播你的故事。需基于价值观、明确独特性、引人入胜，并放下自我，让故事自然生长，创造更大影响力。
 - Tags: #life
@@ -39,10 +43,6 @@
 - 设计优先协作是一种结构化对话模式，通过五层设计对齐（能力、组件、交互、契约、实现）减少认知负荷，在设计阶段达成一致后再生成代码，避免昂贵的技术债务和误解。
 - Tags: #agent #design
 
-(2026-03-06) [Skills - 从编程工具的配角到 Agent 研发的核心](202603/2026-03-06-skills---%E4%BB%8E%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7%E7%9A%84%E9%85%8D%E8%A7%92%E5%88%B0-agent-%E7%A0%94%E5%8F%91%E7%9A%84%E6%A0%B8%E5%BF%83.md)
-- Skills 的价值具有高度场景依赖性，在编程工具中表现平淡，但在 Agent 研发场景中成为核心，能解决能力复用、标准化和生态协作问题。
-- Tags: #skill #agent
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (20 entries)
+- [2026-03](202603/monthly-index.md) (21 entries)
