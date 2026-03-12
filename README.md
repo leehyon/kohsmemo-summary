@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-12) [你不知道的 Claude Code：架构、治理与工程实践](202603/2026-03-12-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-claude-code%EF%BC%9A%E6%9E%B6%E6%9E%84%E3%80%81%E6%B2%BB%E7%90%86%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5.md)
+- Claude Code 采用六层架构，通过 Prompt Caching 实现代理循环，结合上下文分层、Skills 设计、工具策略、Hooks 机制和 Subagents 隔离，构建可验证、可审计的 AI 协作系统。
+- Tags: #agent #best-practice
+
 (2026-03-12) [AI should help us produce better code](202603/2026-03-12-ai-should-help-us-produce-better-code.md)
 - AI 可帮助开发者提升代码质量，避免技术债务。通过异步工具处理重构任务，扩展技术选择，并实现持续优化，使同时开发新功能和改进质量成为可能。
 - Tags: #agent
@@ -39,10 +43,6 @@
 - 作者通过 Vibe Coding 快速开发 Neko Master 开源项目，结合多种 AI 工具实现高效迭代，展示 AI 在"从 0 到 1"中的价值，但"从 1 到 100"仍需人工判断。
 - Tags: #agent #best-practice
 
-(2026-03-02) [我的退休计划：把无期变成有期](202603/2026-03-02-%E6%88%91%E7%9A%84%E9%80%80%E4%BC%91%E8%AE%A1%E5%88%92%EF%BC%9A%E6%8A%8A%E6%97%A0%E6%9C%9F%E5%8F%98%E6%88%90%E6%9C%89%E6%9C%9F.md)
-- 通过财务规划将上班视为"无期徒刑"转为"有期"退休，建立真正资产而非加厚牢房，夺回时间与工作自主权，实现从"必须做"到"我选择做"的转变。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (14 entries)
+- [2026-03](202603/monthly-index.md) (15 entries)

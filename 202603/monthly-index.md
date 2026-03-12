@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-12) [你不知道的 Claude Code：架构、治理与工程实践](2026-03-12-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-claude-code%EF%BC%9A%E6%9E%B6%E6%9E%84%E3%80%81%E6%B2%BB%E7%90%86%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5.md)
+- Claude Code 采用六层架构，通过 Prompt Caching 实现代理循环，结合上下文分层、Skills 设计、工具策略、Hooks 机制和 Subagents 隔离，构建可验证、可审计的 AI 协作系统。
+- Tags: #agent #best-practice
+
 (2026-03-12) [AI should help us produce better code](2026-03-12-ai-should-help-us-produce-better-code.md)
 - AI 可帮助开发者提升代码质量，避免技术债务。通过异步工具处理重构任务，扩展技术选择，并实现持续优化，使同时开发新功能和改进质量成为可能。
 - Tags: #agent
