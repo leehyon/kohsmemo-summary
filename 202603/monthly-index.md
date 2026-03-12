@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-12) [A Year of Vibes](2026-03-12-a-year-of-vibes.md)
+- 作者反思 2025 年 AI 代理编程工具对软件开发的影响，从直接编码转向指导 AI，思考人机关系，并展望新版本控制与代码审查需求。
+- Tags: #agent
+
 (2026-03-12) [Software engineers should be a little bit cynical](2026-03-12-software-engineers-should-be-a-little-bit-cynical.md)
 - 软件工程师应保持适度犬儒主义，理解组织运作复杂度，避免陷入过度理想主义或极端犬儒，从而更有效地实现技术价值与理想目标。
 - Tags: #view
