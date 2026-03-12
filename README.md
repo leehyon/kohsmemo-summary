@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-12) [How uv got so fast](202603/2026-03-12-how-uv-got-so-fast.md)
+- uv 的速度优势主要来自现代标准利用、功能精简和架构决策，Rust 提供了额外但相对较小的性能提升。
+- Tags: #python #why
+
 (2026-03-12) [你不知道的 Claude Code：架构、治理与工程实践](202603/2026-03-12-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-claude-code%EF%BC%9A%E6%9E%B6%E6%9E%84%E3%80%81%E6%B2%BB%E7%90%86%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5.md)
 - Claude Code 采用六层架构，通过 Prompt Caching 实现代理循环，结合上下文分层、Skills 设计、工具策略、Hooks 机制和 Subagents 隔离，构建可验证、可审计的 AI 协作系统。
 - Tags: #agent #best-practice
@@ -39,10 +43,6 @@
 - 从 "Vibe Coding" 到 AI 专业开发，需平衡速度与质量，建立结构化流程与心态。开发者将转变为 AI 协调者，通过管理 AI 舰队与流程，而非个人编码能力，实现高效协作。
 - Tags: #vibe-coding #advice
 
-(2026-03-03) [Neko Master: 从 0 到 1K+ Star 的 Vibe Coding 实践](202603/2026-03-03-neko-master-%E4%BB%8E-0-%E5%88%B0-1k%2B-star-%E7%9A%84-vibe-coding-%E5%AE%9E%E8%B7%B5.md)
-- 作者通过 Vibe Coding 快速开发 Neko Master 开源项目，结合多种 AI 工具实现高效迭代，展示 AI 在"从 0 到 1"中的价值，但"从 1 到 100"仍需人工判断。
-- Tags: #agent #best-practice
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (15 entries)
+- [2026-03](202603/monthly-index.md) (16 entries)

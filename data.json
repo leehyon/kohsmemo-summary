@@ -147,5 +147,15 @@
       "agent",
       "best-practice"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "How uv got so fast",
+    "url": "https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html",
+    "timestamp": 1773307960,
+    "tags": [
+      "python",
+      "why"
+    ]
   }
 ]
