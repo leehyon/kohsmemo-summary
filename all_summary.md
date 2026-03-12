@@ -1,8 +1,12 @@
 # All Summary
 
+- (2026-03-12) [They have to be able to talk about us without us](202603/2026-03-12-they-have-to-be-able-to-talk-about-us-without-us.md)
+  - Tags: #life
+  - Summary: 有效沟通的核心是让他人能在你不在场时传播你的故事。需基于价值观、明确独特性、引人入胜，并放下自我，让故事自然生长，创造更大影响力。
+
 - (2026-03-12) [Writing a good CLAUDE.md](202603/2026-03-12-writing-a-good-claude.md.md)
   - Tags: #agent
-  - Summary: 编写有效的 `CLAUDE.md` 文件，应简洁明确，涵盖项目目的、技术栈和工作方式，避免冗余指令，保持文件简短，并使用渐进式披露策略优化与 Claude AI 的交互体验。
+  - Summary: 编写有效的  文件，应简洁明确，涵盖项目目的、技术栈和工作方式，避免冗余指令，保持文件简短，并使用渐进式披露策略优化与 Claude AI 的交互体验。
 
 - (2026-03-12) [A Year of Vibes](202603/2026-03-12-a-year-of-vibes.md)
   - Tags: #agent

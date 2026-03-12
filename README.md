@@ -3,8 +3,12 @@
 
 ## Latest 10 Entries
 
+(2026-03-12) [They have to be able to talk about us without us](202603/2026-03-12-they-have-to-be-able-to-talk-about-us-without-us.md)
+- 有效沟通的核心是让他人能在你不在场时传播你的故事。需基于价值观、明确独特性、引人入胜，并放下自我，让故事自然生长，创造更大影响力。
+- Tags: #life
+
 (2026-03-12) [Writing a good CLAUDE.md](202603/2026-03-12-writing-a-good-claude.md.md)
-- 编写有效的 `CLAUDE.md` 文件，应简洁明确，涵盖项目目的、技术栈和工作方式，避免冗余指令，保持文件简短，并使用渐进式披露策略优化与 Claude AI 的交互体验。
+- 编写有效的  文件，应简洁明确，涵盖项目目的、技术栈和工作方式，避免冗余指令，保持文件简短，并使用渐进式披露策略优化与 Claude AI 的交互体验。
 - Tags: #agent
 
 (2026-03-12) [A Year of Vibes](202603/2026-03-12-a-year-of-vibes.md)
@@ -39,10 +43,6 @@
 - Skills 的价值具有高度场景依赖性，在编程工具中表现平淡，但在 Agent 研发场景中成为核心，能解决能力复用、标准化和生态协作问题。
 - Tags: #skill #agent
 
-(2026-03-06) [2026 年，我把自己做成了一个 AI](202603/2026-03-06-2026-%E5%B9%B4%EF%BC%8C%E6%88%91%E6%8A%8A%E8%87%AA%E5%B7%B1%E5%81%9A%E6%88%90%E4%BA%86%E4%B8%80%E4%B8%AA-ai.md)
-- 作者构建个人 AI 分身，整合多平台内容，通过多模型画像与聊天功能，让 AI 理解个人知识结构，实现内容解释权回归，未来将扩展知识库并降低供应商依赖。
-- Tags: #life #llm
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (19 entries)
+- [2026-03](202603/monthly-index.md) (20 entries)
