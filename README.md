@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-12) [Writing a good CLAUDE.md](202603/2026-03-12-writing-a-good-claude.md.md)
+- 编写有效的 `CLAUDE.md` 文件，应简洁明确，涵盖项目目的、技术栈和工作方式，避免冗余指令，保持文件简短，并使用渐进式披露策略优化与 Claude AI 的交互体验。
+- Tags: #agent
+
 (2026-03-12) [A Year of Vibes](202603/2026-03-12-a-year-of-vibes.md)
 - 作者反思 2025 年 AI 代理编程工具对软件开发的影响，从直接编码转向指导 AI，思考人机关系，并展望新版本控制与代码审查需求。
 - Tags: #agent
@@ -39,10 +43,6 @@
 - 作者构建个人 AI 分身，整合多平台内容，通过多模型画像与聊天功能，让 AI 理解个人知识结构，实现内容解释权回归，未来将扩展知识库并降低供应商依赖。
 - Tags: #life #llm
 
-(2026-03-05) [Claude Skills 入门：一篇文章搞懂 AI 怎么从「嘴替」升级成「打工人」](202603/2026-03-05-claude-skills-%E5%85%A5%E9%97%A8%EF%BC%9A%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E6%87%82-ai-%E6%80%8E%E4%B9%88%E4%BB%8E%E3%80%8C%E5%98%B4%E6%9B%BF%E3%80%8D%E5%8D%87%E7%BA%A7%E6%88%90%E3%80%8C%E6%89%93%E5%B7%A5%E4%BA%BA%E3%80%8D.md)
-- Claude Skills 通过三层架构演进，使 AI 从简单应答者升级为专业协作者，整合工具与指令形成完整工作流，赋能非专业人士创建专业解决方案。
-- Tags: #skill #agent #guide
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (18 entries)
+- [2026-03](202603/monthly-index.md) (19 entries)

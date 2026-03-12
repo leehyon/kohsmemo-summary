@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-12) [Writing a good CLAUDE.md](2026-03-12-writing-a-good-claude.md.md)
+- 编写有效的 `CLAUDE.md` 文件，应简洁明确，涵盖项目目的、技术栈和工作方式，避免冗余指令，保持文件简短，并使用渐进式披露策略优化与 Claude AI 的交互体验。
+- Tags: #agent
+
 (2026-03-12) [A Year of Vibes](2026-03-12-a-year-of-vibes.md)
 - 作者反思 2025 年 AI 代理编程工具对软件开发的影响，从直接编码转向指导 AI，思考人机关系，并展望新版本控制与代码审查需求。
 - Tags: #agent
