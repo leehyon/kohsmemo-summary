@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-12) [Software engineers should be a little bit cynical](202603/2026-03-12-software-engineers-should-be-a-little-bit-cynical.md)
+  - Tags: #view
+  - Summary: 软件工程师应保持适度犬儒主义，理解组织运作复杂度，避免陷入过度理想主义或极端犬儒，从而更有效地实现技术价值与理想目标。
+
 - (2026-03-12) [How uv got so fast](202603/2026-03-12-how-uv-got-so-fast.md)
   - Tags: #python #why
   - Summary: uv 的速度优势主要来自现代标准利用、功能精简和架构决策，Rust 提供了额外但相对较小的性能提升。
