@@ -8,7 +8,7 @@ from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 from functools import wraps
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Tuple
+from typing import Dict, Iterable, List, Optional, Tuple, Set
 from urllib.parse import quote
 
 # Optional dependency: enables more robust Markdown parsing when present. Falls back
@@ -57,7 +57,9 @@ def log_execution_time(func):
         start_time = time.time()
         result = func(*args, **kwargs)
         elapsed_time = time.time() - start_time
-        logging.info("Exiting %s - Elapsed time: %.4f seconds", func.__name__, elapsed_time)
+        logging.info(
+            "Exiting %s - Elapsed time: %.4f seconds", func.__name__, elapsed_time
+        )
         return result
 
     return wrapper
@@ -134,7 +136,9 @@ def write_text_file(path: Path, content: str, dry_run: bool = False) -> None:
 
 def load_summarized_bookmarks() -> List[SummarizedBookmark]:
     if not DATA_PATH.exists():
-        logging.info("No data.json found at %s, starting with empty dataset.", DATA_PATH)
+        logging.info(
+            "No data.json found at %s, starting with empty dataset.", DATA_PATH
+        )
         return []
 
     with DATA_PATH.open("r", encoding="utf-8") as handle:
@@ -212,7 +216,9 @@ def build_url_tag_lookup(bookmark_lines: Iterable[str]) -> Dict[str, List[str]]:
 
 def slugify(text: str) -> str:
     invalid_fs_chars: str = '/\\:*?"<>|'
-    return re.sub(r"[" + re.escape(invalid_fs_chars) + r"\s]+", "-", text.lower()).strip("-")
+    return re.sub(
+        r"[" + re.escape(invalid_fs_chars) + r"\s]+", "-", text.lower()
+    ).strip("-")
 
 
 def get_summary_file_path(
@@ -275,9 +281,7 @@ def submit_to_wayback_machine(url: str):
         wayback_url = save_api.save()
         logging.info("Wayback Saved: %s", wayback_url)
     except Exception as error:  # noqa: BLE001 - allow any failure without raising
-        logging.warning(
-            "submit to wayback machine failed, skipping, url=%s", url
-        )
+        logging.warning("submit to wayback machine failed, skipping, url=%s", url)
         logging.exception(error)
 
 
@@ -370,9 +374,7 @@ def get_text_content(url: str) -> str:
             )
             if response.status_code >= 400:
                 status = response.status_code
-                error_msg = (
-                    f"Jina fetch failed (HTTP {status}) - attempt {attempt + 1}/{MAX_RETRIES}"
-                )
+                error_msg = f"Jina fetch failed (HTTP {status}) - attempt {attempt + 1}/{MAX_RETRIES}"
                 logging.warning(error_msg)
 
                 should_retry = status in (429, 500, 502, 503, 504)
@@ -388,7 +390,10 @@ def get_text_content(url: str) -> str:
             content = response.text.strip()
 
             if len(content) < MIN_CONTENT_LENGTH:
-                if "upstream connect error" in content.lower() or "connection termination" in content.lower():
+                if (
+                    "upstream connect error" in content.lower()
+                    or "connection termination" in content.lower()
+                ):
                     error_msg = f"Connection error detected (attempt {attempt + 1}/{MAX_RETRIES})"
                 else:
                     error_msg = (
@@ -415,7 +420,9 @@ def get_text_content(url: str) -> str:
                 )
                 content = content[:MAX_CONTENT_LENGTH]
 
-            logging.info("Successfully fetched content with %d characters", len(content))
+            logging.info(
+                "Successfully fetched content with %d characters", len(content)
+            )
             return content
 
         except requests.RequestException as error:
@@ -545,6 +552,7 @@ def extract_tldr_from_markdown(file_path: str) -> str:
             if found_tldr:
                 break
         elif found_tldr and token["type"] == "paragraph":
+
             def extract_text(children):
                 parts: List[str] = []
                 for child in children:
@@ -568,9 +576,9 @@ def render_bookmark_lines(
     link: str,
     tldr: str,
 ) -> List[str]:
-    date_str = datetime.fromtimestamp(
-        bookmark.timestamp, tz=timezone.utc
-    ).strftime("%Y-%m-%d")
+    date_str = datetime.fromtimestamp(bookmark.timestamp, tz=timezone.utc).strftime(
+        "%Y-%m-%d"
+    )
     lines = [f"({date_str}) [{bookmark.title}]({link})"]
     if tldr:
         lines.append(f"- {tldr}")
@@ -623,7 +631,9 @@ def build_summary_readme_md(
                 in_readme_md=True,
             ).as_posix()
             key = bookmark_identity(bookmark)
-            lines.extend(render_bookmark_lines(bookmark, link, tldr_lookup.get(key, "")))
+            lines.extend(
+                render_bookmark_lines(bookmark, link, tldr_lookup.get(key, ""))
+            )
             lines.append("")
     else:
         lines.append("- _No summaries available yet._")
@@ -653,10 +663,12 @@ def build_all_summary_md(
         "",
     ]
 
-    for bookmark in sorted(summarized_bookmarks, key=lambda b: b.timestamp, reverse=True):
-        date_str = datetime.fromtimestamp(
-            bookmark.timestamp, tz=timezone.utc
-        ).strftime("%Y-%m-%d")
+    for bookmark in sorted(
+        summarized_bookmarks, key=lambda b: b.timestamp, reverse=True
+    ):
+        date_str = datetime.fromtimestamp(bookmark.timestamp, tz=timezone.utc).strftime(
+            "%Y-%m-%d"
+        )
         key = bookmark_identity(bookmark)
         tldr = tldr_lookup.get(key, "").strip()
         tags_str = format_tags(bookmark.tags) if bookmark.tags else ""
@@ -749,14 +761,25 @@ def find_next_bookmark_to_process(
     bookmark_lines: Iterable[str], summarized_urls: Iterable[str]
 ) -> Optional[Tuple[str, str, List[str]]]:
     summarized_url_set = set(summarized_urls)
+    seen_urls: Set[str] = set()
+
     for line in bookmark_lines:
         match: Optional[re.Match[str]] = re.search(r"-\s*\[(.*?)\]\((.*?)\)", line)
         if not match:
             continue
 
         title, url = match.groups()
+
+        # Skip duplicate occurrences within the README itself
+        if url in seen_urls:
+            logging.debug("Skipping duplicate URL in README: %s", url)
+            continue
+        seen_urls.add(url)
+
+        # Skip URLs already summarized in data.json
         if url in summarized_url_set:
             continue
+
         if NO_SUMMARY_TAG in line:
             logging.debug(
                 "Skipping bookmark with %s tag: %s", NO_SUMMARY_TAG, match.group(1)
