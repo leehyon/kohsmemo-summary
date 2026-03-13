@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-13) [Own A Graph](2026-03-13-own-a-graph.md)
+- 高级人员应拥有并管理工作价值图表，用于解决重要问题、简洁沟通和跟踪进展，这是职业发展的关键工具。
+- Tags: #career
+
 (2026-03-13) [Context plumbing](2026-03-13-context-plumbing.md)
 - AI 系统需构建上下文管道架构，动态连接分散上下文源，支持意图理解与响应，实现"做我想做的"交互范式。
 - Tags: #agent

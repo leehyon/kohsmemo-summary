@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-13) [Own A Graph](202603/2026-03-13-own-a-graph.md)
+- 高级人员应拥有并管理工作价值图表，用于解决重要问题、简洁沟通和跟踪进展，这是职业发展的关键工具。
+- Tags: #career
+
 (2026-03-13) [Context plumbing](202603/2026-03-13-context-plumbing.md)
 - AI 系统需构建上下文管道架构，动态连接分散上下文源，支持意图理解与响应，实现"做我想做的"交互范式。
 - Tags: #agent
@@ -39,10 +43,6 @@
 - uv 的速度优势主要来自现代标准利用、功能精简和架构决策，Rust 提供了额外但相对较小的性能提升。
 - Tags: #python #why
 
-(2026-03-12) [你不知道的 Claude Code：架构、治理与工程实践](202603/2026-03-12-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-claude-code%EF%BC%9A%E6%9E%B6%E6%9E%84%E3%80%81%E6%B2%BB%E7%90%86%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5.md)
-- Claude Code 采用六层架构，通过 Prompt Caching 实现代理循环，结合上下文分层、Skills 设计、工具策略、Hooks 机制和 Subagents 隔离，构建可验证、可审计的 AI 协作系统。
-- Tags: #agent #best-practice
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (24 entries)
+- [2026-03](202603/monthly-index.md) (25 entries)
