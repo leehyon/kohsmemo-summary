@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-13) [To get better at technical writing, lower your expectations](202603/2026-03-13-to-get-better-at-technical-writing%2C-lower-your-expectations.md)
+  - Tags: #writing
+  - Summary: 技术写作关键在降低期望，简洁表达。读者注意力有限，应精简内容，优先传达核心信息，接受无法完全传递理解的局限性。
+
 - (2026-03-13) [Glue work considered harmful](202603/2026-03-13-glue-work-considered-harmful.md)
   - Tags: #career
   - Summary: "Glue work" 对团队效率至关重要，但公司晋升机制常忽视。工程师应战略性地而非持续性地进行此类工作，专注于自己负责的项目，而非提高整体效率。
