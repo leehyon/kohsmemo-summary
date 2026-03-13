@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-13) [Context plumbing](202603/2026-03-13-context-plumbing.md)
+- AI 系统需构建上下文管道架构，动态连接分散上下文源，支持意图理解与响应，实现"做我想做的"交互范式。
+- Tags: #agent
+
 (2026-03-13) [Stop Over-thinking AI Subscriptions](202603/2026-03-13-stop-over-thinking-ai-subscriptions.md)
 - AI 订阅服务实际成本被高估，合理使用可显著提升生产力，投资回报率高，不应因价格顾虑而错失效率提升机会。
 - Tags: #agent #life
@@ -39,10 +43,6 @@
 - Claude Code 采用六层架构，通过 Prompt Caching 实现代理循环，结合上下文分层、Skills 设计、工具策略、Hooks 机制和 Subagents 隔离，构建可验证、可审计的 AI 协作系统。
 - Tags: #agent #best-practice
 
-(2026-03-12) [AI should help us produce better code](202603/2026-03-12-ai-should-help-us-produce-better-code.md)
-- AI 可帮助开发者提升代码质量，避免技术债务。通过异步工具处理重构任务，扩展技术选择，并实现持续优化，使同时开发新功能和改进质量成为可能。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (23 entries)
+- [2026-03](202603/monthly-index.md) (24 entries)

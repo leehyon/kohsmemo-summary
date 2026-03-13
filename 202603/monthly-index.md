@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-13) [Context plumbing](2026-03-13-context-plumbing.md)
+- AI 系统需构建上下文管道架构，动态连接分散上下文源，支持意图理解与响应，实现"做我想做的"交互范式。
+- Tags: #agent
+
 (2026-03-13) [Stop Over-thinking AI Subscriptions](2026-03-13-stop-over-thinking-ai-subscriptions.md)
 - AI 订阅服务实际成本被高估，合理使用可显著提升生产力，投资回报率高，不应因价格顾虑而错失效率提升机会。
 - Tags: #agent #life

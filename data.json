@@ -222,5 +222,14 @@
       "agent",
       "life"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "Context plumbing",
+    "url": "https://interconnected.org/home/2025/11/28/plumbing",
+    "timestamp": 1773367974,
+    "tags": [
+      "agent"
+    ]
   }
 ]
