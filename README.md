@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-13) [Becoming unblockable](202603/2026-03-13-becoming-unblockable.md)
+- 成为不可阻挡工程师需多任务处理、合理排序工作、稳定开发环境、主动调试、建立人际关系及必要时寻求高层支持。
+- Tags: #career
+
 (2026-03-13) [Own A Graph](202603/2026-03-13-own-a-graph.md)
 - 高级人员应拥有并管理工作价值图表，用于解决重要问题、简洁沟通和跟踪进展，这是职业发展的关键工具。
 - Tags: #career
@@ -39,10 +43,6 @@
 - 软件工程师应保持适度犬儒主义，理解组织运作复杂度，避免陷入过度理想主义或极端犬儒，从而更有效地实现技术价值与理想目标。
 - Tags: #view
 
-(2026-03-12) [How uv got so fast](202603/2026-03-12-how-uv-got-so-fast.md)
-- uv 的速度优势主要来自现代标准利用、功能精简和架构决策，Rust 提供了额外但相对较小的性能提升。
-- Tags: #python #why
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (25 entries)
+- [2026-03](202603/monthly-index.md) (26 entries)
