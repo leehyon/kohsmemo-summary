@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-13) [I don't know if my job will still exist in ten years](202603/2026-03-13-i-don%27t-know-if-my-job-will-still-exist-in-ten-years.md)
+- 软件工程师因 AI 技术发展面临职业危机，初级和中级工程师最易被替代，资深工程师可能转为监督 AI。作者认为 AI 将取代而非创造工程师需求，但希望人类元素仍有不可替代之处。
+- Tags: #career
+
 (2026-03-12) [A pragmatic guide to LLM evals for devs](202603/2026-03-12-a-pragmatic-guide-to-llm-evals-for-devs.md)
 - 本文探讨了开发者如何从主观判断转向系统化评估流程，通过错误分析方法和构建合适的评估工具，提高 AI 质量并克服 LLM 开发中的挑战。
 - Tags: #guide #llm
@@ -39,10 +43,6 @@
 - 文章提出"在循环上"工作模式，平衡人类与 AI 代理角色，通过约束系统指导 AI，关注成果质量而非代码细节，实现高效软件工程。
 - Tags: #agent
 
-(2026-03-09) [Design-First Collaboration](202603/2026-03-09-design-first-collaboration.md)
-- 设计优先协作是一种结构化对话模式，通过五层设计对齐（能力、组件、交互、契约、实现）减少认知负荷，在设计阶段达成一致后再生成代码，避免昂贵的技术债务和误解。
-- Tags: #agent #design
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (21 entries)
+- [2026-03](202603/monthly-index.md) (22 entries)

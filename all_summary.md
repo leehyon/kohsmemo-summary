@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-13) [I don't know if my job will still exist in ten years](202603/2026-03-13-i-don%27t-know-if-my-job-will-still-exist-in-ten-years.md)
+  - Tags: #career
+  - Summary: 软件工程师因 AI 技术发展面临职业危机，初级和中级工程师最易被替代，资深工程师可能转为监督 AI。作者认为 AI 将取代而非创造工程师需求，但希望人类元素仍有不可替代之处。
+
 - (2026-03-12) [A pragmatic guide to LLM evals for devs](202603/2026-03-12-a-pragmatic-guide-to-llm-evals-for-devs.md)
   - Tags: #guide #llm
   - Summary: 本文探讨了开发者如何从主观判断转向系统化评估流程，通过错误分析方法和构建合适的评估工具，提高 AI 质量并克服 LLM 开发中的挑战。
