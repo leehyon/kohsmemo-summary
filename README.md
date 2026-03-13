@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-13) [21 Lessons From 14 Years at Google](202603/2026-03-13-21-lessons-from-14-years-at-google.md)
+- 谷歌工程师经验表明，技术成功关键在于软技能：专注用户问题、协作精神、行动导向、清晰表达和人脉建设。职业生涯是长期复利，需保持好奇谦逊，记住工作始终是关于人的。
+- Tags: #career
+
 (2026-03-13) [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](202603/2026-03-13-understanding-spec-driven-development-kiro%2C-spec-kit%2C-and-tessl.md)
 - 规范驱动开发 (SDD) 强调先编写规范再编码，分为三个层次。现有工具支持不同工作流，但仍面临灵活性不足、审查负担重等问题，需从历史教训中学习。
 - Tags: #dev
@@ -39,10 +43,6 @@
 - 软件工程师因 AI 技术发展面临职业危机，初级和中级工程师最易被替代，资深工程师可能转为监督 AI。作者认为 AI 将取代而非创造工程师需求，但希望人类元素仍有不可替代之处。
 - Tags: #career
 
-(2026-03-12) [A pragmatic guide to LLM evals for devs](202603/2026-03-12-a-pragmatic-guide-to-llm-evals-for-devs.md)
-- 本文探讨了开发者如何从主观判断转向系统化评估流程，通过错误分析方法和构建合适的评估工具，提高 AI 质量并克服 LLM 开发中的挑战。
-- Tags: #guide #llm
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (30 entries)
+- [2026-03](202603/monthly-index.md) (31 entries)

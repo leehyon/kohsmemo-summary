@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-13) [21 Lessons From 14 Years at Google](2026-03-13-21-lessons-from-14-years-at-google.md)
+- 谷歌工程师经验表明，技术成功关键在于软技能：专注用户问题、协作精神、行动导向、清晰表达和人脉建设。职业生涯是长期复利，需保持好奇谦逊，记住工作始终是关于人的。
+- Tags: #career
+
 (2026-03-13) [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](2026-03-13-understanding-spec-driven-development-kiro%2C-spec-kit%2C-and-tessl.md)
 - 规范驱动开发 (SDD) 强调先编写规范再编码，分为三个层次。现有工具支持不同工作流，但仍面临灵活性不足、审查负担重等问题，需从历史教训中学习。
 - Tags: #dev
