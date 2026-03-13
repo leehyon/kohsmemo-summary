@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-13) [Intermediate Developer](202603/2026-03-13-intermediate-developer.md)
+  - Tags: #career
+  - Summary: 中级开发者需注重代码质量、协作沟通、持续学习，掌握全栈知识，测试驱动，并培养软技能，通过团队协作与知识分享实现个人成长。
+
 - (2026-03-13) [Becoming unblockable](202603/2026-03-13-becoming-unblockable.md)
   - Tags: #career
   - Summary: 成为不可阻挡工程师需多任务处理、合理排序工作、稳定开发环境、主动调试、建立人际关系及必要时寻求高层支持。
