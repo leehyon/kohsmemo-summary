@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-13) [Glue work considered harmful](202603/2026-03-13-glue-work-considered-harmful.md)
+- "Glue work" 对团队效率至关重要，但公司晋升机制常忽视。工程师应战略性地而非持续性地进行此类工作，专注于自己负责的项目，而非提高整体效率。
+- Tags: #career
+
 (2026-03-13) [Intermediate Developer](202603/2026-03-13-intermediate-developer.md)
 - 中级开发者需注重代码质量、协作沟通、持续学习，掌握全栈知识，测试驱动，并培养软技能，通过团队协作与知识分享实现个人成长。
 - Tags: #career
@@ -39,10 +43,6 @@
 - 编写有效的  文件，应简洁明确，涵盖项目目的、技术栈和工作方式，避免冗余指令，保持文件简短，并使用渐进式披露策略优化与 Claude AI 的交互体验。
 - Tags: #agent
 
-(2026-03-12) [A Year of Vibes](202603/2026-03-12-a-year-of-vibes.md)
-- 作者反思 2025 年 AI 代理编程工具对软件开发的影响，从直接编码转向指导 AI，思考人机关系，并展望新版本控制与代码审查需求。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (27 entries)
+- [2026-03](202603/monthly-index.md) (28 entries)

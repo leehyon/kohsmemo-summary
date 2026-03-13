@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-13) [Glue work considered harmful](202603/2026-03-13-glue-work-considered-harmful.md)
+  - Tags: #career
+  - Summary: "Glue work" 对团队效率至关重要，但公司晋升机制常忽视。工程师应战略性地而非持续性地进行此类工作，专注于自己负责的项目，而非提高整体效率。
+
 - (2026-03-13) [Intermediate Developer](202603/2026-03-13-intermediate-developer.md)
   - Tags: #career
   - Summary: 中级开发者需注重代码质量、协作沟通、持续学习，掌握全栈知识，测试驱动，并培养软技能，通过团队协作与知识分享实现个人成长。
