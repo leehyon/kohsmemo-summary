@@ -276,5 +276,14 @@
     "tags": [
       "writing"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html",
+    "timestamp": 1773369391,
+    "tags": [
+      "dev"
+    ]
   }
 ]

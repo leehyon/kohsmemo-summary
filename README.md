@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-13) [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](202603/2026-03-13-understanding-spec-driven-development-kiro%2C-spec-kit%2C-and-tessl.md)
+- 规范驱动开发 (SDD) 强调先编写规范再编码，分为三个层次。现有工具支持不同工作流，但仍面临灵活性不足、审查负担重等问题，需从历史教训中学习。
+- Tags: #dev
+
 (2026-03-13) [To get better at technical writing, lower your expectations](202603/2026-03-13-to-get-better-at-technical-writing%2C-lower-your-expectations.md)
 - 技术写作关键在降低期望，简洁表达。读者注意力有限，应精简内容，优先传达核心信息，接受无法完全传递理解的局限性。
 - Tags: #writing
@@ -39,10 +43,6 @@
 - 本文探讨了开发者如何从主观判断转向系统化评估流程，通过错误分析方法和构建合适的评估工具，提高 AI 质量并克服 LLM 开发中的挑战。
 - Tags: #guide #llm
 
-(2026-03-12) [They have to be able to talk about us without us](202603/2026-03-12-they-have-to-be-able-to-talk-about-us-without-us.md)
-- 有效沟通的核心是让他人能在你不在场时传播你的故事。需基于价值观、明确独特性、引人入胜，并放下自我，让故事自然生长，创造更大影响力。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (29 entries)
+- [2026-03](202603/monthly-index.md) (30 entries)
