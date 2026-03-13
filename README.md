@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-13) [Stop Over-thinking AI Subscriptions](202603/2026-03-13-stop-over-thinking-ai-subscriptions.md)
+- AI 订阅服务实际成本被高估，合理使用可显著提升生产力，投资回报率高，不应因价格顾虑而错失效率提升机会。
+- Tags: #agent #life
+
 (2026-03-13) [I don't know if my job will still exist in ten years](202603/2026-03-13-i-don%27t-know-if-my-job-will-still-exist-in-ten-years.md)
 - 软件工程师因 AI 技术发展面临职业危机，初级和中级工程师最易被替代，资深工程师可能转为监督 AI。作者认为 AI 将取代而非创造工程师需求，但希望人类元素仍有不可替代之处。
 - Tags: #career
@@ -39,10 +43,6 @@
 - AI 可帮助开发者提升代码质量，避免技术债务。通过异步工具处理重构任务，扩展技术选择，并实现持续优化，使同时开发新功能和改进质量成为可能。
 - Tags: #agent
 
-(2026-03-09) [Humans and Agents in Software Engineering Loops](202603/2026-03-09-humans-and-agents-in-software-engineering-loops.md)
-- 文章提出"在循环上"工作模式，平衡人类与 AI 代理角色，通过约束系统指导 AI，关注成果质量而非代码细节，实现高效软件工程。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (22 entries)
+- [2026-03](202603/monthly-index.md) (23 entries)

@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-13) [Stop Over-thinking AI Subscriptions](202603/2026-03-13-stop-over-thinking-ai-subscriptions.md)
+  - Tags: #agent #life
+  - Summary: AI 订阅服务实际成本被高估，合理使用可显著提升生产力，投资回报率高，不应因价格顾虑而错失效率提升机会。
+
 - (2026-03-13) [I don't know if my job will still exist in ten years](202603/2026-03-13-i-don%27t-know-if-my-job-will-still-exist-in-ten-years.md)
   - Tags: #career
   - Summary: 软件工程师因 AI 技术发展面临职业危机，初级和中级工程师最易被替代，资深工程师可能转为监督 AI。作者认为 AI 将取代而非创造工程师需求，但希望人类元素仍有不可替代之处。
