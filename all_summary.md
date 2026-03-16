@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-16) [使用 GitHub Copilot 进行 Vibe Coding](202603/2026-03-16-%E4%BD%BF%E7%94%A8-github-copilot-%E8%BF%9B%E8%A1%8C-vibe-coding.md)
+  - Tags: #agent #vibe-coding
+  - Summary: 作者分享使用 GitHub-Copilot 开发项目的经验，强调产品思维、安全意识和清晰需求的重要性，建议专注核心功能，做减法，优化细节和性能。
+
 - (2026-03-13) [21 Lessons From 14 Years at Google](202603/2026-03-13-21-lessons-from-14-years-at-google.md)
   - Tags: #career
   - Summary: 谷歌工程师经验表明，技术成功关键在于软技能：专注用户问题、协作精神、行动导向、清晰表达和人脉建设。职业生涯是长期复利，需保持好奇谦逊，记住工作始终是关于人的。

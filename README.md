@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-16) [使用 GitHub Copilot 进行 Vibe Coding](202603/2026-03-16-%E4%BD%BF%E7%94%A8-github-copilot-%E8%BF%9B%E8%A1%8C-vibe-coding.md)
+- 作者分享使用 GitHub-Copilot 开发项目的经验，强调产品思维、安全意识和清晰需求的重要性，建议专注核心功能，做减法，优化细节和性能。
+- Tags: #agent #vibe-coding
+
 (2026-03-13) [21 Lessons From 14 Years at Google](202603/2026-03-13-21-lessons-from-14-years-at-google.md)
 - 谷歌工程师经验表明，技术成功关键在于软技能：专注用户问题、协作精神、行动导向、清晰表达和人脉建设。职业生涯是长期复利，需保持好奇谦逊，记住工作始终是关于人的。
 - Tags: #career
@@ -39,10 +43,6 @@
 - AI 订阅服务实际成本被高估，合理使用可显著提升生产力，投资回报率高，不应因价格顾虑而错失效率提升机会。
 - Tags: #agent #life
 
-(2026-03-13) [I don't know if my job will still exist in ten years](202603/2026-03-13-i-don%27t-know-if-my-job-will-still-exist-in-ten-years.md)
-- 软件工程师因 AI 技术发展面临职业危机，初级和中级工程师最易被替代，资深工程师可能转为监督 AI。作者认为 AI 将取代而非创造工程师需求，但希望人类元素仍有不可替代之处。
-- Tags: #career
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (31 entries)
+- [2026-03](202603/monthly-index.md) (32 entries)

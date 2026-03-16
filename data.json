@@ -294,5 +294,15 @@
     "tags": [
       "career"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "使用 GitHub Copilot 进行 Vibe Coding",
+    "url": "https://www.bboy.app/2026/03/16/%E4%BD%BF%E7%94%A8github-copilot%E8%BF%9B%E8%A1%8Cvibe-coding/",
+    "timestamp": 1773668960,
+    "tags": [
+      "agent",
+      "vibe-coding"
+    ]
   }
 ]
