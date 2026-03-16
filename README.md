@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-16) [The Thing I Loved Has Changed](202603/2026-03-16-the-thing-i-loved-has-changed.md)
+- 资深开发者反思编程本质随技术演变，AI 带来根本性变化，从"构建"转向"指导"，虽系统思维仍重要，但惊奇感与身份认同面临挑战。
+- Tags: #career
+
 (2026-03-16) [使用 GitHub Copilot 进行 Vibe Coding](202603/2026-03-16-%E4%BD%BF%E7%94%A8-github-copilot-%E8%BF%9B%E8%A1%8C-vibe-coding.md)
 - 作者分享使用 GitHub-Copilot 开发项目的经验，强调产品思维、安全意识和清晰需求的重要性，建议专注核心功能，做减法，优化细节和性能。
 - Tags: #agent #vibe-coding
@@ -39,10 +43,6 @@
 - AI 系统需构建上下文管道架构，动态连接分散上下文源，支持意图理解与响应，实现"做我想做的"交互范式。
 - Tags: #agent
 
-(2026-03-13) [Stop Over-thinking AI Subscriptions](202603/2026-03-13-stop-over-thinking-ai-subscriptions.md)
-- AI 订阅服务实际成本被高估，合理使用可显著提升生产力，投资回报率高，不应因价格顾虑而错失效率提升机会。
-- Tags: #agent #life
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (32 entries)
+- [2026-03](202603/monthly-index.md) (33 entries)

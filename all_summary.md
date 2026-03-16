@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-16) [The Thing I Loved Has Changed](202603/2026-03-16-the-thing-i-loved-has-changed.md)
+  - Tags: #career
+  - Summary: 资深开发者反思编程本质随技术演变，AI 带来根本性变化，从"构建"转向"指导"，虽系统思维仍重要，但惊奇感与身份认同面临挑战。
+
 - (2026-03-16) [使用 GitHub Copilot 进行 Vibe Coding](202603/2026-03-16-%E4%BD%BF%E7%94%A8-github-copilot-%E8%BF%9B%E8%A1%8C-vibe-coding.md)
   - Tags: #agent #vibe-coding
   - Summary: 作者分享使用 GitHub-Copilot 开发项目的经验，强调产品思维、安全意识和清晰需求的重要性，建议专注核心功能，做减法，优化细节和性能。
