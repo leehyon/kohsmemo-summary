@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-17) [为什么 AI 只会说正确的废话，以及怎么把它逼出舒适区](202603/2026-03-17-%E4%B8%BA%E4%BB%80%E4%B9%88-ai-%E5%8F%AA%E4%BC%9A%E8%AF%B4%E6%AD%A3%E7%A1%AE%E7%9A%84%E5%BA%9F%E8%AF%9D%EF%BC%8C%E4%BB%A5%E5%8F%8A%E6%80%8E%E4%B9%88%E6%8A%8A%E5%AE%83%E9%80%BC%E5%87%BA%E8%88%92%E9%80%82%E5%8C%BA.md)
+  - Tags: #agent #best-practice
+  - Summary: AI 产出平庸因训练机制倾向共识。突破需构建个人上下文系统，积累数据分层提炼，形成非共识判断，实现深度思考。
+
 - (2026-03-16) [The Thing I Loved Has Changed](202603/2026-03-16-the-thing-i-loved-has-changed.md)
   - Tags: #career
   - Summary: 资深开发者反思编程本质随技术演变，AI 带来根本性变化，从"构建"转向"指导"，虽系统思维仍重要，但惊奇感与身份认同面临挑战。

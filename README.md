@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-17) [为什么 AI 只会说正确的废话，以及怎么把它逼出舒适区](202603/2026-03-17-%E4%B8%BA%E4%BB%80%E4%B9%88-ai-%E5%8F%AA%E4%BC%9A%E8%AF%B4%E6%AD%A3%E7%A1%AE%E7%9A%84%E5%BA%9F%E8%AF%9D%EF%BC%8C%E4%BB%A5%E5%8F%8A%E6%80%8E%E4%B9%88%E6%8A%8A%E5%AE%83%E9%80%BC%E5%87%BA%E8%88%92%E9%80%82%E5%8C%BA.md)
+- AI 产出平庸因训练机制倾向共识。突破需构建个人上下文系统，积累数据分层提炼，形成非共识判断，实现深度思考。
+- Tags: #agent #best-practice
+
 (2026-03-16) [The Thing I Loved Has Changed](202603/2026-03-16-the-thing-i-loved-has-changed.md)
 - 资深开发者反思编程本质随技术演变，AI 带来根本性变化，从"构建"转向"指导"，虽系统思维仍重要，但惊奇感与身份认同面临挑战。
 - Tags: #career
@@ -39,10 +43,6 @@
 - 高级人员应拥有并管理工作价值图表，用于解决重要问题、简洁沟通和跟踪进展，这是职业发展的关键工具。
 - Tags: #career
 
-(2026-03-13) [Context plumbing](202603/2026-03-13-context-plumbing.md)
-- AI 系统需构建上下文管道架构，动态连接分散上下文源，支持意图理解与响应，实现"做我想做的"交互范式。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (33 entries)
+- [2026-03](202603/monthly-index.md) (34 entries)

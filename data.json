@@ -313,5 +313,15 @@
     "tags": [
       "career"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "为什么 AI 只会说正确的废话，以及怎么把它逼出舒适区",
+    "url": "https://yage.ai/context-infrastructure.html",
+    "timestamp": 1773728842,
+    "tags": [
+      "agent",
+      "best-practice"
+    ]
   }
 ]
