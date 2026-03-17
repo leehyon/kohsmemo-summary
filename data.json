@@ -361,5 +361,15 @@
     "tags": [
       "engineering"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "OpenSpec 使用心得",
+    "url": "https://kaifeiji.cc/post/using-openspec/",
+    "timestamp": 1773759559,
+    "tags": [
+      "guide",
+      "setup"
+    ]
   }
 ]

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-17) [OpenSpec 使用心得](202603/2026-03-17-openspec-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.md)
+- OpenSpec 是规格驱动开发工具，将人类意图转化为工程共识，降低 AI 认知负荷，提升执行效率。通过结构化文档管理需求、设计和任务，实现自动化版本控制和变更管理。
+- Tags: #guide #setup
+
 (2026-03-17) [It Depends](202603/2026-03-17-it-depends.md)
 - 真正的专业不在于给出简单答案，而在于认识到任何决定都依赖于多种变量因素。"这取决于"是专家的诚实回应，体现了对复杂性的理解和专业成长。
 - Tags: #engineering
@@ -39,10 +43,6 @@
 - 规范驱动开发 (SDD) 强调先编写规范再编码，分为三个层次。现有工具支持不同工作流，但仍面临灵活性不足、审查负担重等问题，需从历史教训中学习。
 - Tags: #dev
 
-(2026-03-13) [To get better at technical writing, lower your expectations](202603/2026-03-13-to-get-better-at-technical-writing%2C-lower-your-expectations.md)
-- 技术写作关键在降低期望，简洁表达。读者注意力有限，应精简内容，优先传达核心信息，接受无法完全传递理解的局限性。
-- Tags: #writing
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (38 entries)
+- [2026-03](202603/monthly-index.md) (39 entries)
