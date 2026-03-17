@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-17) [It Depends](202603/2026-03-17-it-depends.md)
+- 真正的专业不在于给出简单答案，而在于认识到任何决定都依赖于多种变量因素。"这取决于"是专家的诚实回应，体现了对复杂性的理解和专业成长。
+- Tags: #engineering
+
 (2026-03-17) [Which web frameworks are most token-efficient for AI agents](202603/2026-03-17-which-web-frameworks-are-most-token-efficient-for-ai-agents.md)
 - 研究测试 19 个 Web 框架，发现轻量级框架（如 Express、Flask）令牌效率显著高于全功能框架（如 Rails、Django），ASP.NET Minimal API 最省，Phoenix 最耗，但所有框架均能成功构建应用。
 - Tags: #agent
@@ -39,10 +43,6 @@
 - 技术写作关键在降低期望，简洁表达。读者注意力有限，应精简内容，优先传达核心信息，接受无法完全传递理解的局限性。
 - Tags: #writing
 
-(2026-03-13) [Glue work considered harmful](202603/2026-03-13-glue-work-considered-harmful.md)
-- "Glue work" 对团队效率至关重要，但公司晋升机制常忽视。工程师应战略性地而非持续性地进行此类工作，专注于自己负责的项目，而非提高整体效率。
-- Tags: #career
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (37 entries)
+- [2026-03](202603/monthly-index.md) (38 entries)

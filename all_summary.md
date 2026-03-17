@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-17) [It Depends](202603/2026-03-17-it-depends.md)
+  - Tags: #engineering
+  - Summary: 真正的专业不在于给出简单答案，而在于认识到任何决定都依赖于多种变量因素。"这取决于"是专家的诚实回应，体现了对复杂性的理解和专业成长。
+
 - (2026-03-17) [Which web frameworks are most token-efficient for AI agents](202603/2026-03-17-which-web-frameworks-are-most-token-efficient-for-ai-agents.md)
   - Tags: #agent
   - Summary: 研究测试 19 个 Web 框架，发现轻量级框架（如 Express、Flask）令牌效率显著高于全功能框架（如 Rails、Django），ASP.NET Minimal API 最省，Phoenix 最耗，但所有框架均能成功构建应用。
