@@ -323,5 +323,14 @@
       "agent",
       "best-practice"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "Comprehension Debt - the hidden cost of AI generated code",
+    "url": "https://addyosmani.com/blog/comprehension-debt/",
+    "timestamp": 1773728948,
+    "tags": [
+      "agent"
+    ]
   }
 ]

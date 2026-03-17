@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-17) [Comprehension Debt - the hidden cost of AI generated code](202603/2026-03-17-comprehension-debt---the-hidden-cost-of-ai-generated-code.md)
+- 理解债务是 AI 生成代码带来的隐藏成本，表现为代码与人类理解间的差距。研究显示使用 AI 的工程师理解力下降，需转变策略，强调真正理解系统而非仅生成代码。
+- Tags: #agent
+
 (2026-03-17) [为什么 AI 只会说正确的废话，以及怎么把它逼出舒适区](202603/2026-03-17-%E4%B8%BA%E4%BB%80%E4%B9%88-ai-%E5%8F%AA%E4%BC%9A%E8%AF%B4%E6%AD%A3%E7%A1%AE%E7%9A%84%E5%BA%9F%E8%AF%9D%EF%BC%8C%E4%BB%A5%E5%8F%8A%E6%80%8E%E4%B9%88%E6%8A%8A%E5%AE%83%E9%80%BC%E5%87%BA%E8%88%92%E9%80%82%E5%8C%BA.md)
 - AI 产出平庸因训练机制倾向共识。突破需构建个人上下文系统，积累数据分层提炼，形成非共识判断，实现深度思考。
 - Tags: #agent #best-practice
@@ -39,10 +43,6 @@
 - 成为不可阻挡工程师需多任务处理、合理排序工作、稳定开发环境、主动调试、建立人际关系及必要时寻求高层支持。
 - Tags: #career
 
-(2026-03-13) [Own A Graph](202603/2026-03-13-own-a-graph.md)
-- 高级人员应拥有并管理工作价值图表，用于解决重要问题、简洁沟通和跟踪进展，这是职业发展的关键工具。
-- Tags: #career
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (34 entries)
+- [2026-03](202603/monthly-index.md) (35 entries)
