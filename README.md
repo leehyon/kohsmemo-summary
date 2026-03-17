@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-17) [AI 越用越累的真相：配置税与验证地狱](202603/2026-03-17-ai-%E8%B6%8A%E7%94%A8%E8%B6%8A%E7%B4%AF%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E9%85%8D%E7%BD%AE%E7%A8%8E%E4%B8%8E%E9%AA%8C%E8%AF%81%E5%9C%B0%E7%8B%B1.md)
+- AI 工具越强大，用户越疲惫，收入反而下降。需理性使用 AI，明确边界，打造思维签名，构建长期数字资产，避免沦为"算力包工头"和"验证地狱"。
+- Tags: #agent #best-practice #career
+
 (2026-03-17) [Comprehension Debt - the hidden cost of AI generated code](202603/2026-03-17-comprehension-debt---the-hidden-cost-of-ai-generated-code.md)
 - 理解债务是 AI 生成代码带来的隐藏成本，表现为代码与人类理解间的差距。研究显示使用 AI 的工程师理解力下降，需转变策略，强调真正理解系统而非仅生成代码。
 - Tags: #agent
@@ -39,10 +43,6 @@
 - 中级开发者需注重代码质量、协作沟通、持续学习，掌握全栈知识，测试驱动，并培养软技能，通过团队协作与知识分享实现个人成长。
 - Tags: #career
 
-(2026-03-13) [Becoming unblockable](202603/2026-03-13-becoming-unblockable.md)
-- 成为不可阻挡工程师需多任务处理、合理排序工作、稳定开发环境、主动调试、建立人际关系及必要时寻求高层支持。
-- Tags: #career
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (35 entries)
+- [2026-03](202603/monthly-index.md) (36 entries)

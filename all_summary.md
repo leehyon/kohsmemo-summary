@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-17) [AI 越用越累的真相：配置税与验证地狱](202603/2026-03-17-ai-%E8%B6%8A%E7%94%A8%E8%B6%8A%E7%B4%AF%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E9%85%8D%E7%BD%AE%E7%A8%8E%E4%B8%8E%E9%AA%8C%E8%AF%81%E5%9C%B0%E7%8B%B1.md)
+  - Tags: #agent #best-practice #career
+  - Summary: AI 工具越强大，用户越疲惫，收入反而下降。需理性使用 AI，明确边界，打造思维签名，构建长期数字资产，避免沦为"算力包工头"和"验证地狱"。
+
 - (2026-03-17) [Comprehension Debt - the hidden cost of AI generated code](202603/2026-03-17-comprehension-debt---the-hidden-cost-of-ai-generated-code.md)
   - Tags: #agent
   - Summary: 理解债务是 AI 生成代码带来的隐藏成本，表现为代码与人类理解间的差距。研究显示使用 AI 的工程师理解力下降，需转变策略，强调真正理解系统而非仅生成代码。
