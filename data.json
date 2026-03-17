@@ -343,5 +343,14 @@
       "best-practice",
       "career"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "Which web frameworks are most token-efficient for AI agents",
+    "url": "https://martinalderson.com/posts/which-web-frameworks-are-most-token-efficient-for-ai-agents/",
+    "timestamp": 1773758649,
+    "tags": [
+      "agent"
+    ]
   }
 ]

@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-17) [Which web frameworks are most token-efficient for AI agents](202603/2026-03-17-which-web-frameworks-are-most-token-efficient-for-ai-agents.md)
+  - Tags: #agent
+  - Summary: 研究测试 19 个 Web 框架，发现轻量级框架（如 Express、Flask）令牌效率显著高于全功能框架（如 Rails、Django），ASP.NET Minimal API 最省，Phoenix 最耗，但所有框架均能成功构建应用。
+
 - (2026-03-17) [AI 越用越累的真相：配置税与验证地狱](202603/2026-03-17-ai-%E8%B6%8A%E7%94%A8%E8%B6%8A%E7%B4%AF%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E9%85%8D%E7%BD%AE%E7%A8%8E%E4%B8%8E%E9%AA%8C%E8%AF%81%E5%9C%B0%E7%8B%B1.md)
   - Tags: #agent #best-practice #career
   - Summary: AI 工具越强大，用户越疲惫，收入反而下降。需理性使用 AI，明确边界，打造思维签名，构建长期数字资产，避免沦为"算力包工头"和"验证地狱"。

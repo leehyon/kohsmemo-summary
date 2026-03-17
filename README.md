@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-17) [Which web frameworks are most token-efficient for AI agents](202603/2026-03-17-which-web-frameworks-are-most-token-efficient-for-ai-agents.md)
+- 研究测试 19 个 Web 框架，发现轻量级框架（如 Express、Flask）令牌效率显著高于全功能框架（如 Rails、Django），ASP.NET Minimal API 最省，Phoenix 最耗，但所有框架均能成功构建应用。
+- Tags: #agent
+
 (2026-03-17) [AI 越用越累的真相：配置税与验证地狱](202603/2026-03-17-ai-%E8%B6%8A%E7%94%A8%E8%B6%8A%E7%B4%AF%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E9%85%8D%E7%BD%AE%E7%A8%8E%E4%B8%8E%E9%AA%8C%E8%AF%81%E5%9C%B0%E7%8B%B1.md)
 - AI 工具越强大，用户越疲惫，收入反而下降。需理性使用 AI，明确边界，打造思维签名，构建长期数字资产，避免沦为"算力包工头"和"验证地狱"。
 - Tags: #agent #best-practice #career
@@ -39,10 +43,6 @@
 - "Glue work" 对团队效率至关重要，但公司晋升机制常忽视。工程师应战略性地而非持续性地进行此类工作，专注于自己负责的项目，而非提高整体效率。
 - Tags: #career
 
-(2026-03-13) [Intermediate Developer](202603/2026-03-13-intermediate-developer.md)
-- 中级开发者需注重代码质量、协作沟通、持续学习，掌握全栈知识，测试驱动，并培养软技能，通过团队协作与知识分享实现个人成长。
-- Tags: #career
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (36 entries)
+- [2026-03](202603/monthly-index.md) (37 entries)
