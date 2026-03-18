@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-18) [Building a High-End AI Desktop](202603/2026-03-18-building-a-high-end-ai-desktop.md)
+- 作者以 7,500 欧元购入企业级 Grace-Hopper 系统，经改造后成功在家庭环境运行 235B 参数 AI 模型，总成本约 9,000 欧元，远低于市场价。
+- Tags: #home #setup
+
 (2026-03-18) [How I estimate work as a staff software engineer](202603/2026-03-18-how-i-estimate-work-as-a-staff-software-engineer.md)
 - 软件估值本质是政治工具，无法准确估算。工程师应关注未知工作风险，提供多种方案供管理层权衡，而非追求精确计算。
 - Tags: #engineering
@@ -39,10 +43,6 @@
 - 作者分享使用 GitHub-Copilot 开发项目的经验，强调产品思维、安全意识和清晰需求的重要性，建议专注核心功能，做减法，优化细节和性能。
 - Tags: #agent #vibe-coding
 
-(2026-03-13) [21 Lessons From 14 Years at Google](202603/2026-03-13-21-lessons-from-14-years-at-google.md)
-- 谷歌工程师经验表明，技术成功关键在于软技能：专注用户问题、协作精神、行动导向、清晰表达和人脉建设。职业生涯是长期复利，需保持好奇谦逊，记住工作始终是关于人的。
-- Tags: #career
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (40 entries)
+- [2026-03](202603/monthly-index.md) (41 entries)

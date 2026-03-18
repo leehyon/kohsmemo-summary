@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-18) [Building a High-End AI Desktop](2026-03-18-building-a-high-end-ai-desktop.md)
+- 作者以 7,500 欧元购入企业级 Grace-Hopper 系统，经改造后成功在家庭环境运行 235B 参数 AI 模型，总成本约 9,000 欧元，远低于市场价。
+- Tags: #home #setup
+
 (2026-03-18) [How I estimate work as a staff software engineer](2026-03-18-how-i-estimate-work-as-a-staff-software-engineer.md)
 - 软件估值本质是政治工具，无法准确估算。工程师应关注未知工作风险，提供多种方案供管理层权衡，而非追求精确计算。
 - Tags: #engineering
