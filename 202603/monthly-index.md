@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-18) [OpenClaw 从热闹到落地：后端团队可复用的治理与内容运营实战](2026-03-18-openclaw-%E4%BB%8E%E7%83%AD%E9%97%B9%E5%88%B0%E8%90%BD%E5%9C%B0%EF%BC%9A%E5%90%8E%E7%AB%AF%E5%9B%A2%E9%98%9F%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84%E6%B2%BB%E7%90%86%E4%B8%8E%E5%86%85%E5%AE%B9%E8%BF%90%E8%90%A5%E5%AE%9E%E6%88%98.md)
+- OpenClaw 是 Agent 执行底盘，团队通过四层闭环解决并发、工具副作用、上下文膨胀等问题，将 AI 纳入工程体系，实现从 Demo 到生产落地。
+- Tags: #agent #engineering
+
 (2026-03-18) [When AI Writes the World's Software, Who Verifies It](2026-03-18-when-ai-writes-the-world%27s-software%2C-who-verifies-it.md)
 - AI 生成软件引发验证危机，传统方法失效。数学证明提供保证，Lean 平台已展示可行性。未来软件栈将逐步重构为形式化验证组件，AI 将从生产力工具转变为信任基础设施。
 - Tags: #agent #engineering

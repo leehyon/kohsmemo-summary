@@ -400,5 +400,15 @@
       "agent",
       "engineering"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "OpenClaw 从热闹到落地：后端团队可复用的治理与内容运营实战",
+    "url": "https://www.rowkey.cn/blog/2026/03/18/openclaw-from-demo-to-production/",
+    "timestamp": 1773826227,
+    "tags": [
+      "agent",
+      "engineering"
+    ]
   }
 ]
