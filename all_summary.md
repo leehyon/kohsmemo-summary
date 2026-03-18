@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-18) [When AI Writes the World's Software, Who Verifies It](202603/2026-03-18-when-ai-writes-the-world%27s-software%2C-who-verifies-it.md)
+  - Tags: #agent #engineering
+  - Summary: AI 生成软件引发验证危机，传统方法失效。数学证明提供保证，Lean 平台已展示可行性。未来软件栈将逐步重构为形式化验证组件，AI 将从生产力工具转变为信任基础设施。
+
 - (2026-03-18) [Building a High-End AI Desktop](202603/2026-03-18-building-a-high-end-ai-desktop.md)
   - Tags: #home #setup
   - Summary: 作者以 7,500 欧元购入企业级 Grace-Hopper 系统，经改造后成功在家庭环境运行 235B 参数 AI 模型，总成本约 9,000 欧元，远低于市场价。

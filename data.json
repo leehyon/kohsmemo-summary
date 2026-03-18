@@ -390,5 +390,15 @@
       "home",
       "setup"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "When AI Writes the World's Software, Who Verifies It",
+    "url": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
+    "timestamp": 1773814973,
+    "tags": [
+      "agent",
+      "engineering"
+    ]
   }
 ]

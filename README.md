@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-18) [When AI Writes the World's Software, Who Verifies It](202603/2026-03-18-when-ai-writes-the-world%27s-software%2C-who-verifies-it.md)
+- AI 生成软件引发验证危机，传统方法失效。数学证明提供保证，Lean 平台已展示可行性。未来软件栈将逐步重构为形式化验证组件，AI 将从生产力工具转变为信任基础设施。
+- Tags: #agent #engineering
+
 (2026-03-18) [Building a High-End AI Desktop](202603/2026-03-18-building-a-high-end-ai-desktop.md)
 - 作者以 7,500 欧元购入企业级 Grace-Hopper 系统，经改造后成功在家庭环境运行 235B 参数 AI 模型，总成本约 9,000 欧元，远低于市场价。
 - Tags: #home #setup
@@ -39,10 +43,6 @@
 - 资深开发者反思编程本质随技术演变，AI 带来根本性变化，从"构建"转向"指导"，虽系统思维仍重要，但惊奇感与身份认同面临挑战。
 - Tags: #career
 
-(2026-03-16) [使用 GitHub Copilot 进行 Vibe Coding](202603/2026-03-16-%E4%BD%BF%E7%94%A8-github-copilot-%E8%BF%9B%E8%A1%8C-vibe-coding.md)
-- 作者分享使用 GitHub-Copilot 开发项目的经验，强调产品思维、安全意识和清晰需求的重要性，建议专注核心功能，做减法，优化细节和性能。
-- Tags: #agent #vibe-coding
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (41 entries)
+- [2026-03](202603/monthly-index.md) (42 entries)
