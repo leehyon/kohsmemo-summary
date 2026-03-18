@@ -410,5 +410,15 @@
       "agent",
       "engineering"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "AGENTS.md",
+    "url": "https://kaifeiji.cc/post/using-agents-md/",
+    "timestamp": 1773826475,
+    "tags": [
+      "agent",
+      "best-practice"
+    ]
   }
 ]

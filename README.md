@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-18) [AGENTS.md](202603/2026-03-18-agents.md.md)
+- AGENTS.md 为 AI Agent 提供非显性约束，避免"随机鹦鹉"困境。通过标准化结构，包含架构决策、技术债边界和部落知识，提升开发效能，减少无效搜索与 Token 消耗。
+- Tags: #agent #best-practice
+
 (2026-03-18) [OpenClaw 从热闹到落地：后端团队可复用的治理与内容运营实战](202603/2026-03-18-openclaw-%E4%BB%8E%E7%83%AD%E9%97%B9%E5%88%B0%E8%90%BD%E5%9C%B0%EF%BC%9A%E5%90%8E%E7%AB%AF%E5%9B%A2%E9%98%9F%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84%E6%B2%BB%E7%90%86%E4%B8%8E%E5%86%85%E5%AE%B9%E8%BF%90%E8%90%A5%E5%AE%9E%E6%88%98.md)
 - OpenClaw 是 Agent 执行底盘，团队通过四层闭环解决并发、工具副作用、上下文膨胀等问题，将 AI 纳入工程体系，实现从 Demo 到生产落地。
 - Tags: #agent #engineering
@@ -39,10 +43,6 @@
 - 理解债务是 AI 生成代码带来的隐藏成本，表现为代码与人类理解间的差距。研究显示使用 AI 的工程师理解力下降，需转变策略，强调真正理解系统而非仅生成代码。
 - Tags: #agent
 
-(2026-03-17) [为什么 AI 只会说正确的废话，以及怎么把它逼出舒适区](202603/2026-03-17-%E4%B8%BA%E4%BB%80%E4%B9%88-ai-%E5%8F%AA%E4%BC%9A%E8%AF%B4%E6%AD%A3%E7%A1%AE%E7%9A%84%E5%BA%9F%E8%AF%9D%EF%BC%8C%E4%BB%A5%E5%8F%8A%E6%80%8E%E4%B9%88%E6%8A%8A%E5%AE%83%E9%80%BC%E5%87%BA%E8%88%92%E9%80%82%E5%8C%BA.md)
-- AI 产出平庸因训练机制倾向共识。突破需构建个人上下文系统，积累数据分层提炼，形成非共识判断，实现深度思考。
-- Tags: #agent #best-practice
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (43 entries)
+- [2026-03](202603/monthly-index.md) (44 entries)

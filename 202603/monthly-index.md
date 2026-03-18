@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-18) [AGENTS.md](2026-03-18-agents.md.md)
+- AGENTS.md 为 AI Agent 提供非显性约束，避免"随机鹦鹉"困境。通过标准化结构，包含架构决策、技术债边界和部落知识，提升开发效能，减少无效搜索与 Token 消耗。
+- Tags: #agent #best-practice
+
 (2026-03-18) [OpenClaw 从热闹到落地：后端团队可复用的治理与内容运营实战](2026-03-18-openclaw-%E4%BB%8E%E7%83%AD%E9%97%B9%E5%88%B0%E8%90%BD%E5%9C%B0%EF%BC%9A%E5%90%8E%E7%AB%AF%E5%9B%A2%E9%98%9F%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84%E6%B2%BB%E7%90%86%E4%B8%8E%E5%86%85%E5%AE%B9%E8%BF%90%E8%90%A5%E5%AE%9E%E6%88%98.md)
 - OpenClaw 是 Agent 执行底盘，团队通过四层闭环解决并发、工具副作用、上下文膨胀等问题，将 AI 纳入工程体系，实现从 Demo 到生产落地。
 - Tags: #agent #engineering
