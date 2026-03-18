@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-18) [How I estimate work as a staff software engineer](202603/2026-03-18-how-i-estimate-work-as-a-staff-software-engineer.md)
+  - Tags: #engineering
+  - Summary: 软件估值本质是政治工具，无法准确估算。工程师应关注未知工作风险，提供多种方案供管理层权衡，而非追求精确计算。
+
 - (2026-03-17) [OpenSpec 使用心得](202603/2026-03-17-openspec-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.md)
   - Tags: #guide #setup
   - Summary: OpenSpec 是规格驱动开发工具，将人类意图转化为工程共识，降低 AI 认知负荷，提升执行效率。通过结构化文档管理需求、设计和任务，实现自动化版本控制和变更管理。

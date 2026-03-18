@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-18) [How I estimate work as a staff software engineer](202603/2026-03-18-how-i-estimate-work-as-a-staff-software-engineer.md)
+- 软件估值本质是政治工具，无法准确估算。工程师应关注未知工作风险，提供多种方案供管理层权衡，而非追求精确计算。
+- Tags: #engineering
+
 (2026-03-17) [OpenSpec 使用心得](202603/2026-03-17-openspec-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.md)
 - OpenSpec 是规格驱动开发工具，将人类意图转化为工程共识，降低 AI 认知负荷，提升执行效率。通过结构化文档管理需求、设计和任务，实现自动化版本控制和变更管理。
 - Tags: #guide #setup
@@ -39,10 +43,6 @@
 - 谷歌工程师经验表明，技术成功关键在于软技能：专注用户问题、协作精神、行动导向、清晰表达和人脉建设。职业生涯是长期复利，需保持好奇谦逊，记住工作始终是关于人的。
 - Tags: #career
 
-(2026-03-13) [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](202603/2026-03-13-understanding-spec-driven-development-kiro%2C-spec-kit%2C-and-tessl.md)
-- 规范驱动开发 (SDD) 强调先编写规范再编码，分为三个层次。现有工具支持不同工作流，但仍面临灵活性不足、审查负担重等问题，需从历史教训中学习。
-- Tags: #dev
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (39 entries)
+- [2026-03](202603/monthly-index.md) (40 entries)
