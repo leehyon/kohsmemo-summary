@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-19) [为什么你的 AI Agent 总是像个智障](202603/2026-03-19-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E7%9A%84-ai-agent-%E6%80%BB%E6%98%AF%E5%83%8F%E4%B8%AA%E6%99%BA%E9%9A%9C.md)
+- AI Agent 表现不佳源于工具选择认知过载，建议采用简化的 Unix 命令行交互，利用大模型对 CLI 的熟悉度，通过渐进式发现和错误引导实现高效任务处理。
+- Tags: #best-practice #agent
+
 (2026-03-18) [AGENTS.md](202603/2026-03-18-agents.md.md)
 - AGENTS.md 为 AI Agent 提供非显性约束，避免"随机鹦鹉"困境。通过标准化结构，包含架构决策、技术债边界和部落知识，提升开发效能，减少无效搜索与 Token 消耗。
 - Tags: #agent #best-practice
@@ -39,10 +43,6 @@
 - AI 工具越强大，用户越疲惫，收入反而下降。需理性使用 AI，明确边界，打造思维签名，构建长期数字资产，避免沦为"算力包工头"和"验证地狱"。
 - Tags: #agent #best-practice #career
 
-(2026-03-17) [Comprehension Debt - the hidden cost of AI generated code](202603/2026-03-17-comprehension-debt---the-hidden-cost-of-ai-generated-code.md)
-- 理解债务是 AI 生成代码带来的隐藏成本，表现为代码与人类理解间的差距。研究显示使用 AI 的工程师理解力下降，需转变策略，强调真正理解系统而非仅生成代码。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (44 entries)
+- [2026-03](202603/monthly-index.md) (45 entries)

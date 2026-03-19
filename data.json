@@ -420,5 +420,15 @@
       "agent",
       "best-practice"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "为什么你的 AI Agent 总是像个智障",
+    "url": "https://tonybai.com/2026/03/18/why-ai-agents-act-stupid-manus-expert-pitfall-guide/",
+    "timestamp": 1773886102,
+    "tags": [
+      "best-practice",
+      "agent"
+    ]
   }
 ]

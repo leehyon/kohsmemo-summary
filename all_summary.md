@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-19) [为什么你的 AI Agent 总是像个智障](202603/2026-03-19-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E7%9A%84-ai-agent-%E6%80%BB%E6%98%AF%E5%83%8F%E4%B8%AA%E6%99%BA%E9%9A%9C.md)
+  - Tags: #best-practice #agent
+  - Summary: AI Agent 表现不佳源于工具选择认知过载，建议采用简化的 Unix 命令行交互，利用大模型对 CLI 的熟悉度，通过渐进式发现和错误引导实现高效任务处理。
+
 - (2026-03-18) [AGENTS.md](202603/2026-03-18-agents.md.md)
   - Tags: #agent #best-practice
   - Summary: AGENTS.md 为 AI Agent 提供非显性约束，避免"随机鹦鹉"困境。通过标准化结构，包含架构决策、技术债边界和部落知识，提升开发效能，减少无效搜索与 Token 消耗。
