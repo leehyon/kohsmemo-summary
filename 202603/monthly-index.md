@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-20) [How I write software with LLMs](2026-03-20-how-i-write-software-with-llms.md)
+- 作者分享使用 LLM 编程的工作流程，强调编程从写代码转向系统架构，通过多代理协作构建高质量软件，保持对整体系统的理解。
+- Tags: #agent #engineering
+
 (2026-03-20) [The programmers who live in Flatland](2026-03-20-the-programmers-who-live-in-flatland.md)
 - 文章以《平面国》为隐喻，探讨程序员为何难以理解如 Clojure 宏等高维编程概念，指出这是认知局限而非概念本身问题，鼓励突破思维边界探索新维度。
 - Tags: #engineering #design

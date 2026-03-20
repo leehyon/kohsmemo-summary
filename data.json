@@ -460,5 +460,15 @@
       "engineering",
       "design"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "How I write software with LLMs",
+    "url": "https://www.stavros.io/posts/how-i-write-software-with-llms/",
+    "timestamp": 1773994953,
+    "tags": [
+      "agent",
+      "engineering"
+    ]
   }
 ]

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-20) [How I write software with LLMs](202603/2026-03-20-how-i-write-software-with-llms.md)
+- 作者分享使用 LLM 编程的工作流程，强调编程从写代码转向系统架构，通过多代理协作构建高质量软件，保持对整体系统的理解。
+- Tags: #agent #engineering
+
 (2026-03-20) [The programmers who live in Flatland](202603/2026-03-20-the-programmers-who-live-in-flatland.md)
 - 文章以《平面国》为隐喻，探讨程序员为何难以理解如 Clojure 宏等高维编程概念，指出这是认知局限而非概念本身问题，鼓励突破思维边界探索新维度。
 - Tags: #engineering #design
@@ -39,10 +43,6 @@
 - 软件估值本质是政治工具，无法准确估算。工程师应关注未知工作风险，提供多种方案供管理层权衡，而非追求精确计算。
 - Tags: #engineering
 
-(2026-03-17) [OpenSpec 使用心得](202603/2026-03-17-openspec-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.md)
-- OpenSpec 是规格驱动开发工具，将人类意图转化为工程共识，降低 AI 认知负荷，提升执行效率。通过结构化文档管理需求、设计和任务，实现自动化版本控制和变更管理。
-- Tags: #guide #setup
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (48 entries)
+- [2026-03](202603/monthly-index.md) (49 entries)
