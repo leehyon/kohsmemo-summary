@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-20) [2016 年，我做过一次 AI 写代码创业](202603/2026-03-20-2016-%E5%B9%B4%EF%BC%8C%E6%88%91%E5%81%9A%E8%BF%87%E4%B8%80%E6%AC%A1-ai-%E5%86%99%E4%BB%A3%E7%A0%81%E5%88%9B%E4%B8%9A.md)
+- 作者回顾 2016 年 AI 写代码创业经历，分析失败原因与收获，反思技术超前性与时代机遇的关系，强调在可见边界内做对得起自己的选择。
+- Tags: #career #engineering
+
 (2026-03-19) [为什么你的 AI Agent 总是像个智障](202603/2026-03-19-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E7%9A%84-ai-agent-%E6%80%BB%E6%98%AF%E5%83%8F%E4%B8%AA%E6%99%BA%E9%9A%9C.md)
 - AI Agent 表现不佳源于工具选择认知过载，建议采用简化的 Unix 命令行交互，利用大模型对 CLI 的熟悉度，通过渐进式发现和错误引导实现高效任务处理。
 - Tags: #best-practice #agent
@@ -39,10 +43,6 @@
 - 研究测试 19 个 Web 框架，发现轻量级框架（如 Express、Flask）令牌效率显著高于全功能框架（如 Rails、Django），ASP.NET Minimal API 最省，Phoenix 最耗，但所有框架均能成功构建应用。
 - Tags: #agent
 
-(2026-03-17) [AI 越用越累的真相：配置税与验证地狱](202603/2026-03-17-ai-%E8%B6%8A%E7%94%A8%E8%B6%8A%E7%B4%AF%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E9%85%8D%E7%BD%AE%E7%A8%8E%E4%B8%8E%E9%AA%8C%E8%AF%81%E5%9C%B0%E7%8B%B1.md)
-- AI 工具越强大，用户越疲惫，收入反而下降。需理性使用 AI，明确边界，打造思维签名，构建长期数字资产，避免沦为"算力包工头"和"验证地狱"。
-- Tags: #agent #best-practice #career
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (45 entries)
+- [2026-03](202603/monthly-index.md) (46 entries)
