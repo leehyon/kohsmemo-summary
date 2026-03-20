@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-20) [信息过载时代，我的漏斗式阅读工作流](202603/2026-03-20-%E4%BF%A1%E6%81%AF%E8%BF%87%E8%BD%BD%E6%97%B6%E4%BB%A3%EF%BC%8C%E6%88%91%E7%9A%84%E6%BC%8F%E6%96%97%E5%BC%8F%E9%98%85%E8%AF%BB%E5%B7%A5%E4%BD%9C%E6%B5%81.md)
+- 信息过载时代，通过漏斗式工作流实现高效信息处理。分层筛选、AI 辅助、人工决策，形成从信息获取到知识沉淀的闭环系统，提升认知效率，成为信息环境主人。
+- Tags: #setup #reading
+
 (2026-03-20) [2016 年，我做过一次 AI 写代码创业](202603/2026-03-20-2016-%E5%B9%B4%EF%BC%8C%E6%88%91%E5%81%9A%E8%BF%87%E4%B8%80%E6%AC%A1-ai-%E5%86%99%E4%BB%A3%E7%A0%81%E5%88%9B%E4%B8%9A.md)
 - 作者回顾 2016 年 AI 写代码创业经历，分析失败原因与收获，反思技术超前性与时代机遇的关系，强调在可见边界内做对得起自己的选择。
 - Tags: #career #engineering
@@ -39,10 +43,6 @@
 - 真正的专业不在于给出简单答案，而在于认识到任何决定都依赖于多种变量因素。"这取决于"是专家的诚实回应，体现了对复杂性的理解和专业成长。
 - Tags: #engineering
 
-(2026-03-17) [Which web frameworks are most token-efficient for AI agents](202603/2026-03-17-which-web-frameworks-are-most-token-efficient-for-ai-agents.md)
-- 研究测试 19 个 Web 框架，发现轻量级框架（如 Express、Flask）令牌效率显著高于全功能框架（如 Rails、Django），ASP.NET Minimal API 最省，Phoenix 最耗，但所有框架均能成功构建应用。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (46 entries)
+- [2026-03](202603/monthly-index.md) (47 entries)
