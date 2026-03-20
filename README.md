@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-20) [Switch to Jujutsu already](202603/2026-03-20-switch-to-jujutsu-already.md)
+- Jujutsu (jj) 兼容 Git，采用可变提交模型。它摒弃暂存区，支持自动快照、非阻塞冲突及随时撤销，使代码历史灵活可塑，降低了心智负担，提升开发效率。
+- Tags: #setup
+
 (2026-03-20) [How I write software with LLMs](202603/2026-03-20-how-i-write-software-with-llms.md)
 - 作者分享使用 LLM 编程的工作流程，强调编程从写代码转向系统架构，通过多代理协作构建高质量软件，保持对整体系统的理解。
 - Tags: #agent #engineering
@@ -39,10 +43,6 @@
 - 作者以 7,500 欧元购入企业级 Grace-Hopper 系统，经改造后成功在家庭环境运行 235B 参数 AI 模型，总成本约 9,000 欧元，远低于市场价。
 - Tags: #home #setup
 
-(2026-03-18) [How I estimate work as a staff software engineer](202603/2026-03-18-how-i-estimate-work-as-a-staff-software-engineer.md)
-- 软件估值本质是政治工具，无法准确估算。工程师应关注未知工作风险，提供多种方案供管理层权衡，而非追求精确计算。
-- Tags: #engineering
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (49 entries)
+- [2026-03](202603/monthly-index.md) (50 entries)

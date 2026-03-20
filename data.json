@@ -470,5 +470,14 @@
       "agent",
       "engineering"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "Switch to Jujutsu already",
+    "url": "https://www.stavros.io/posts/switch-to-jujutsu-already-a-tutorial/",
+    "timestamp": 1773995450,
+    "tags": [
+      "setup"
+    ]
   }
 ]

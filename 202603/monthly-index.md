@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-20) [Switch to Jujutsu already](2026-03-20-switch-to-jujutsu-already.md)
+- Jujutsu (jj) 兼容 Git，采用可变提交模型。它摒弃暂存区，支持自动快照、非阻塞冲突及随时撤销，使代码历史灵活可塑，降低了心智负担，提升开发效率。
+- Tags: #setup
+
 (2026-03-20) [How I write software with LLMs](2026-03-20-how-i-write-software-with-llms.md)
 - 作者分享使用 LLM 编程的工作流程，强调编程从写代码转向系统架构，通过多代理协作构建高质量软件，保持对整体系统的理解。
 - Tags: #agent #engineering
