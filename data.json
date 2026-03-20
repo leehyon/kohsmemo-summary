@@ -450,5 +450,15 @@
       "setup",
       "reading"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "The programmers who live in Flatland",
+    "url": "https://blog.redplanetlabs.com/2025/11/24/the-programmers-who-live-in-flatland/",
+    "timestamp": 1773973139,
+    "tags": [
+      "engineering",
+      "design"
+    ]
   }
 ]

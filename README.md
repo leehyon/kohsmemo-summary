@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-20) [The programmers who live in Flatland](202603/2026-03-20-the-programmers-who-live-in-flatland.md)
+- 文章以《平面国》为隐喻，探讨程序员为何难以理解如 Clojure 宏等高维编程概念，指出这是认知局限而非概念本身问题，鼓励突破思维边界探索新维度。
+- Tags: #engineering #design
+
 (2026-03-20) [信息过载时代，我的漏斗式阅读工作流](202603/2026-03-20-%E4%BF%A1%E6%81%AF%E8%BF%87%E8%BD%BD%E6%97%B6%E4%BB%A3%EF%BC%8C%E6%88%91%E7%9A%84%E6%BC%8F%E6%96%97%E5%BC%8F%E9%98%85%E8%AF%BB%E5%B7%A5%E4%BD%9C%E6%B5%81.md)
 - 信息过载时代，通过漏斗式工作流实现高效信息处理。分层筛选、AI 辅助、人工决策，形成从信息获取到知识沉淀的闭环系统，提升认知效率，成为信息环境主人。
 - Tags: #setup #reading
@@ -39,10 +43,6 @@
 - OpenSpec 是规格驱动开发工具，将人类意图转化为工程共识，降低 AI 认知负荷，提升执行效率。通过结构化文档管理需求、设计和任务，实现自动化版本控制和变更管理。
 - Tags: #guide #setup
 
-(2026-03-17) [It Depends](202603/2026-03-17-it-depends.md)
-- 真正的专业不在于给出简单答案，而在于认识到任何决定都依赖于多种变量因素。"这取决于"是专家的诚实回应，体现了对复杂性的理解和专业成长。
-- Tags: #engineering
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (47 entries)
+- [2026-03](202603/monthly-index.md) (48 entries)
