@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-23) [深度解析AI Coding辅助神器 Superpowers](2026-03-23-%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90ai-coding%E8%BE%85%E5%8A%A9%E7%A5%9E%E5%99%A8-superpowers.md)
+- Superpowers 是一套 AI Coding Agent 技能集。通过 14 个强制工程规范覆盖开发全流程，解决 AI 跳步与不可靠痛点，将编程能力提升至专业团队标准，推动 AI 编程迈向工程化。
+- Tags: #agent #skill #engineering
+
 (2026-03-20) [Switch to Jujutsu already](2026-03-20-switch-to-jujutsu-already.md)
 - Jujutsu (jj) 兼容 Git，采用可变提交模型。它摒弃暂存区，支持自动快照、非阻塞冲突及随时撤销，使代码历史灵活可塑，降低了心智负担，提升开发效率。
 - Tags: #setup

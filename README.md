@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-23) [深度解析AI Coding辅助神器 Superpowers](202603/2026-03-23-%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90ai-coding%E8%BE%85%E5%8A%A9%E7%A5%9E%E5%99%A8-superpowers.md)
+- Superpowers 是一套 AI Coding Agent 技能集。通过 14 个强制工程规范覆盖开发全流程，解决 AI 跳步与不可靠痛点，将编程能力提升至专业团队标准，推动 AI 编程迈向工程化。
+- Tags: #agent #skill #engineering
+
 (2026-03-20) [Switch to Jujutsu already](202603/2026-03-20-switch-to-jujutsu-already.md)
 - Jujutsu (jj) 兼容 Git，采用可变提交模型。它摒弃暂存区，支持自动快照、非阻塞冲突及随时撤销，使代码历史灵活可塑，降低了心智负担，提升开发效率。
 - Tags: #setup
@@ -39,10 +43,6 @@
 - AI 生成软件引发验证危机，传统方法失效。数学证明提供保证，Lean 平台已展示可行性。未来软件栈将逐步重构为形式化验证组件，AI 将从生产力工具转变为信任基础设施。
 - Tags: #agent #engineering
 
-(2026-03-18) [Building a High-End AI Desktop](202603/2026-03-18-building-a-high-end-ai-desktop.md)
-- 作者以 7,500 欧元购入企业级 Grace-Hopper 系统，经改造后成功在家庭环境运行 235B 参数 AI 模型，总成本约 9,000 欧元，远低于市场价。
-- Tags: #home #setup
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (50 entries)
+- [2026-03](202603/monthly-index.md) (51 entries)
