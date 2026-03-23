@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-23) [顶级交易员浓缩 14 年的 5 个交易心理学法则](202603/2026-03-23-%E9%A1%B6%E7%BA%A7%E4%BA%A4%E6%98%93%E5%91%98%E6%B5%93%E7%BC%A9-14-%E5%B9%B4%E7%9A%84-5-%E4%B8%AA%E4%BA%A4%E6%98%93%E5%BF%83%E7%90%86%E5%AD%A6%E6%B3%95%E5%88%99.md)
+- 本文强调交易心理学与自我管理是盈利核心。资深交易员通过情绪觉察、建立枯燥系统、熔断规则、适应策略及重视恢复，实现长期盈利。极度自律是拉开差距的关键。
+- Tags: #trade #advice #life
+
 (2026-03-23) [深度解析AI Coding辅助神器 Superpowers](202603/2026-03-23-%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90ai-coding%E8%BE%85%E5%8A%A9%E7%A5%9E%E5%99%A8-superpowers.md)
 - Superpowers 是一套 AI Coding Agent 技能集。通过 14 个强制工程规范覆盖开发全流程，解决 AI 跳步与不可靠痛点，将编程能力提升至专业团队标准，推动 AI 编程迈向工程化。
 - Tags: #agent #skill #engineering
@@ -39,10 +43,6 @@
 - OpenClaw 是 Agent 执行底盘，团队通过四层闭环解决并发、工具副作用、上下文膨胀等问题，将 AI 纳入工程体系，实现从 Demo 到生产落地。
 - Tags: #agent #engineering
 
-(2026-03-18) [When AI Writes the World's Software, Who Verifies It](202603/2026-03-18-when-ai-writes-the-world%27s-software%2C-who-verifies-it.md)
-- AI 生成软件引发验证危机，传统方法失效。数学证明提供保证，Lean 平台已展示可行性。未来软件栈将逐步重构为形式化验证组件，AI 将从生产力工具转变为信任基础设施。
-- Tags: #agent #engineering
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (51 entries)
+- [2026-03](202603/monthly-index.md) (52 entries)
