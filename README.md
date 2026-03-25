@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-25) [Some Things Just Take Time](202603/2026-03-25-some-things-just-take-time.md)
+- 文章反思了即时满足与速度崇拜，指出时间沉淀不可替代。批评 AI 时代盲目消除摩擦导致软件贬值，强调长期承诺才是构建持久价值的关键。
+- Tags: #advice #life
+
 (2026-03-25) [给做独立站新手的一些建议 ](202603/2026-03-25-%E7%BB%99%E5%81%9A%E7%8B%AC%E7%AB%8B%E7%AB%99%E6%96%B0%E6%89%8B%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BB%BA%E8%AE%AE.md)
 - 独立站应摒弃创意，以关键词为核心。筛选低 KD 高搜索量词，遵循标准化 SOP 快速建站与优化，实现流量增长。
 - Tags: #advice
@@ -38,10 +42,6 @@
 - Jujutsu (jj) 兼容 Git，采用可变提交模型。它摒弃暂存区，支持自动快照、非阻塞冲突及随时撤销，使代码历史灵活可塑，降低了心智负担，提升开发效率。
 - Tags: #setup
 
-(2026-03-20) [How I write software with LLMs](202603/2026-03-20-how-i-write-software-with-llms.md)
-- 作者分享使用 LLM 编程的工作流程，强调编程从写代码转向系统架构，通过多代理协作构建高质量软件，保持对整体系统的理解。
-- Tags: #agent #engineering
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (58 entries)
+- [2026-03](202603/monthly-index.md) (59 entries)

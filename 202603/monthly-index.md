@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-25) [Some Things Just Take Time](2026-03-25-some-things-just-take-time.md)
+- 文章反思了即时满足与速度崇拜，指出时间沉淀不可替代。批评 AI 时代盲目消除摩擦导致软件贬值，强调长期承诺才是构建持久价值的关键。
+- Tags: #advice #life
+
 (2026-03-25) [给做独立站新手的一些建议 ](2026-03-25-%E7%BB%99%E5%81%9A%E7%8B%AC%E7%AB%8B%E7%AB%99%E6%96%B0%E6%89%8B%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BB%BA%E8%AE%AE.md)
 - 独立站应摒弃创意，以关键词为核心。筛选低 KD 高搜索量词，遵循标准化 SOP 快速建站与优化，实现流量增长。
 - Tags: #advice
