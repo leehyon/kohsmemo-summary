@@ -501,5 +501,15 @@
       "advice",
       "life"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "一个 100% AI 编码的项目如何建立治理闭环",
+    "url": "https://www.phodal.com/blog/ai-coded-project-governance-evolution-250k-lines/",
+    "timestamp": 1774402130,
+    "tags": [
+      "agent",
+      "dev"
+    ]
   }
 ]
