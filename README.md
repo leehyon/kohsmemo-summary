@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-25) [OpenClaw Gateway 三种对外接口怎么选](202603/2026-03-25-openclaw-gateway-%E4%B8%89%E7%A7%8D%E5%AF%B9%E5%A4%96%E6%8E%A5%E5%8F%A3%E6%80%8E%E4%B9%88%E9%80%89.md)
+- 文章解析 OpenClaw Gateway 三种接口选型。基于分层设计，建议采用渐进式策略：先以 Chat Completions 快速验证，再迁移至 OpenResponses 处理复杂交互，最终由 Gateway WS 实现统一治理。
+- Tags: #agent
+
 (2026-03-25) [We mourn our craft](202603/2026-03-25-we-mourn-our-craft.md)
 - AI 颠覆了传统编程，开发者被迫从创作者沦为审核员。面对生存压力与效率碾压，尽管哀悼手写技艺的消逝，也不得不接受 AI 时代不可逆转的到来。
 
@@ -38,10 +42,6 @@
 - 文章以《平面国》为隐喻，探讨程序员为何难以理解如 Clojure 宏等高维编程概念，指出这是认知局限而非概念本身问题，鼓励突破思维边界探索新维度。
 - Tags: #engineering #design
 
-(2026-03-20) [信息过载时代，我的漏斗式阅读工作流](202603/2026-03-20-%E4%BF%A1%E6%81%AF%E8%BF%87%E8%BD%BD%E6%97%B6%E4%BB%A3%EF%BC%8C%E6%88%91%E7%9A%84%E6%BC%8F%E6%96%97%E5%BC%8F%E9%98%85%E8%AF%BB%E5%B7%A5%E4%BD%9C%E6%B5%81.md)
-- 信息过载时代，通过漏斗式工作流实现高效信息处理。分层筛选、AI 辅助、人工决策，形成从信息获取到知识沉淀的闭环系统，提升认知效率，成为信息环境主人。
-- Tags: #setup #reading
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (56 entries)
+- [2026-03](202603/monthly-index.md) (57 entries)
