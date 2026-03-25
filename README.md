@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-25) [Thoughts On AI In Early 2026](202603/2026-03-25-thoughts-on-ai-in-early-2026.md)
+- 本文记录技术老兵对 AI 的反思。指出行业存在盲目乐观与内卷，肯定 AI 在搜索和分析中的价值，但拒绝用于创作。作者认为创业门槛实则提升，竞争加剧，短期卖铲子有机会，长期垂直领域生意难做。
+- Tags: #life #agent
+
 (2026-03-25) [优化交互方式让法律 AI 更精准专业](202603/2026-03-25-%E4%BC%98%E5%8C%96%E4%BA%A4%E4%BA%92%E6%96%B9%E5%BC%8F%E8%AE%A9%E6%B3%95%E5%BE%8B-ai-%E6%9B%B4%E7%B2%BE%E5%87%86%E4%B8%93%E4%B8%9A.md)
 - 针对通用大模型的法律服务局限，本文提出引入 IRAC 模型。通过结构化输入、角色设定、深度分析及反馈修正四步法，优化交互逻辑，从而实现精准、专业的法律 AI 服务。
 - Tags: #agent #law
@@ -39,10 +43,6 @@
 - 作者回顾 2016 年 AI 写代码创业经历，分析失败原因与收获，反思技术超前性与时代机遇的关系，强调在可见边界内做对得起自己的选择。
 - Tags: #career #engineering
 
-(2026-03-19) [为什么你的 AI Agent 总是像个智障](202603/2026-03-19-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E7%9A%84-ai-agent-%E6%80%BB%E6%98%AF%E5%83%8F%E4%B8%AA%E6%99%BA%E9%9A%9C.md)
-- AI Agent 表现不佳源于工具选择认知过载，建议采用简化的 Unix 命令行交互，利用大模型对 CLI 的熟悉度，通过渐进式发现和错误引导实现高效任务处理。
-- Tags: #best-practice #agent
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (54 entries)
+- [2026-03](202603/monthly-index.md) (55 entries)
