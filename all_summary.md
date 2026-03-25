@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-25) [Steve Yegge's Vibe Coding Manifesto](202603/2026-03-25-steve-yegge%27s-vibe-coding-manifesto.md)
+  - Tags: #podcast #transcript #agent
+  - Summary: 本文探讨 Vibe Coding 运动，主张用 AI Agent 取代传统编程。虽面临资深工程师阻力，但 AI 带来 10 倍生产力。未来 IDE 将衰落，转向多 Agent 协作与“代码工厂化”模式，重塑工程文化。
+
 - (2026-03-25) [Some Things Just Take Time](202603/2026-03-25-some-things-just-take-time.md)
   - Tags: #advice #life
   - Summary: 文章反思了即时满足与速度崇拜，指出时间沉淀不可替代。批评 AI 时代盲目消除摩擦导致软件贬值，强调长期承诺才是构建持久价值的关键。

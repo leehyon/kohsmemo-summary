@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-25) [Steve Yegge's Vibe Coding Manifesto](202603/2026-03-25-steve-yegge%27s-vibe-coding-manifesto.md)
+- 本文探讨 Vibe Coding 运动，主张用 AI Agent 取代传统编程。虽面临资深工程师阻力，但 AI 带来 10 倍生产力。未来 IDE 将衰落，转向多 Agent 协作与“代码工厂化”模式，重塑工程文化。
+- Tags: #podcast #transcript #agent
+
 (2026-03-25) [Some Things Just Take Time](202603/2026-03-25-some-things-just-take-time.md)
 - 文章反思了即时满足与速度崇拜，指出时间沉淀不可替代。批评 AI 时代盲目消除摩擦导致软件贬值，强调长期承诺才是构建持久价值的关键。
 - Tags: #advice #life
@@ -38,10 +42,6 @@
 - Superpowers 是一套 AI Coding Agent 技能集。通过 14 个强制工程规范覆盖开发全流程，解决 AI 跳步与不可靠痛点，将编程能力提升至专业团队标准，推动 AI 编程迈向工程化。
 - Tags: #agent #skill #engineering
 
-(2026-03-20) [Switch to Jujutsu already](202603/2026-03-20-switch-to-jujutsu-already.md)
-- Jujutsu (jj) 兼容 Git，采用可变提交模型。它摒弃暂存区，支持自动快照、非阻塞冲突及随时撤销，使代码历史灵活可塑，降低了心智负担，提升开发效率。
-- Tags: #setup
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (59 entries)
+- [2026-03](202603/monthly-index.md) (60 entries)
