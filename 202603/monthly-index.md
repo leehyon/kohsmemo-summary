@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-25) [基于 Cloudflare 生态的 AI Agent 实现](2026-03-25-%E5%9F%BA%E4%BA%8E-cloudflare-%E7%94%9F%E6%80%81%E7%9A%84-ai-agent-%E5%AE%9E%E7%8E%B0.md)
+- 本文介绍了基于 Cloudflare 生态构建的个人博客 AI Agent，拆分了管理与用户端服务。文章采用 Workers + D1 + 裸 API 架构，利用 R2 和 AI Search 实现 RAG，并分享了实践经验。
+- Tags: #agent #engineering
+
 (2026-03-25) [可能是最后一次更换博客引擎](2026-03-25-%E5%8F%AF%E8%83%BD%E6%98%AF%E6%9C%80%E5%90%8E%E4%B8%80%E6%AC%A1%E6%9B%B4%E6%8D%A2%E5%8D%9A%E5%AE%A2%E5%BC%95%E6%93%8E.md)
 - 作者将博客从 Astro 迁移至基于 Bun 的自建引擎，通过极致减法与 AI 辅助，大幅提升构建性能。文章探讨了 AI 时代框架价值的重构，认为低复杂度场景下应减少抽象，让框架回归架构本质。
 - Tags: #blog #setup

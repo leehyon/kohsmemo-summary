@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-25) [基于 Cloudflare 生态的 AI Agent 实现](202603/2026-03-25-%E5%9F%BA%E4%BA%8E-cloudflare-%E7%94%9F%E6%80%81%E7%9A%84-ai-agent-%E5%AE%9E%E7%8E%B0.md)
+- 本文介绍了基于 Cloudflare 生态构建的个人博客 AI Agent，拆分了管理与用户端服务。文章采用 Workers + D1 + 裸 API 架构，利用 R2 和 AI Search 实现 RAG，并分享了实践经验。
+- Tags: #agent #engineering
+
 (2026-03-25) [可能是最后一次更换博客引擎](202603/2026-03-25-%E5%8F%AF%E8%83%BD%E6%98%AF%E6%9C%80%E5%90%8E%E4%B8%80%E6%AC%A1%E6%9B%B4%E6%8D%A2%E5%8D%9A%E5%AE%A2%E5%BC%95%E6%93%8E.md)
 - 作者将博客从 Astro 迁移至基于 Bun 的自建引擎，通过极致减法与 AI 辅助，大幅提升构建性能。文章探讨了 AI 时代框架价值的重构，认为低复杂度场景下应减少抽象，让框架回归架构本质。
 - Tags: #blog #setup
@@ -38,10 +42,6 @@
 - 针对通用大模型的法律服务局限，本文提出引入 IRAC 模型。通过结构化输入、角色设定、深度分析及反馈修正四步法，优化交互逻辑，从而实现精准、专业的法律 AI 服务。
 - Tags: #agent #law
 
-(2026-03-25) [一个 100% AI 编码的项目如何建立治理闭环](202603/2026-03-25-%E4%B8%80%E4%B8%AA-100%25-ai-%E7%BC%96%E7%A0%81%E7%9A%84%E9%A1%B9%E7%9B%AE%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E6%B2%BB%E7%90%86%E9%97%AD%E7%8E%AF.md)
-- 本文以 Routa 项目为例，探讨全 AI 开发的工程治理。通过建立包含规则、契约、本地检查及 CI/CD 的四层反馈环，将 AI 纳入协作系统，强调治理能力是核心竞争力，确保系统稳定。
-- Tags: #agent #dev
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (62 entries)
+- [2026-03](202603/monthly-index.md) (63 entries)
