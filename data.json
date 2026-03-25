@@ -587,5 +587,15 @@
       "best-practice",
       "agent"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "可能是最后一次更换博客引擎",
+    "url": "https://jw1.dev/blog-engine/",
+    "timestamp": 1774407196,
+    "tags": [
+      "blog",
+      "setup"
+    ]
   }
 ]
