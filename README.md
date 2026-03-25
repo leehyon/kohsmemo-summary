@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-25) [给做独立站新手的一些建议 ](202603/2026-03-25-%E7%BB%99%E5%81%9A%E7%8B%AC%E7%AB%8B%E7%AB%99%E6%96%B0%E6%89%8B%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BB%BA%E8%AE%AE.md)
+- 独立站应摒弃创意，以关键词为核心。筛选低 KD 高搜索量词，遵循标准化 SOP 快速建站与优化，实现流量增长。
+- Tags: #advice
+
 (2026-03-25) [OpenClaw Gateway 三种对外接口怎么选](202603/2026-03-25-openclaw-gateway-%E4%B8%89%E7%A7%8D%E5%AF%B9%E5%A4%96%E6%8E%A5%E5%8F%A3%E6%80%8E%E4%B9%88%E9%80%89.md)
 - 文章解析 OpenClaw Gateway 三种接口选型。基于分层设计，建议采用渐进式策略：先以 Chat Completions 快速验证，再迁移至 OpenResponses 处理复杂交互，最终由 Gateway WS 实现统一治理。
 - Tags: #agent
@@ -38,10 +42,6 @@
 - 作者分享使用 LLM 编程的工作流程，强调编程从写代码转向系统架构，通过多代理协作构建高质量软件，保持对整体系统的理解。
 - Tags: #agent #engineering
 
-(2026-03-20) [The programmers who live in Flatland](202603/2026-03-20-the-programmers-who-live-in-flatland.md)
-- 文章以《平面国》为隐喻，探讨程序员为何难以理解如 Clojure 宏等高维编程概念，指出这是认知局限而非概念本身问题，鼓励突破思维边界探索新维度。
-- Tags: #engineering #design
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (57 entries)
+- [2026-03](202603/monthly-index.md) (58 entries)
