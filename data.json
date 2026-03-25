@@ -627,5 +627,15 @@
       "setup",
       "openclaw"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "Claude Code 的三种 Skill 类型以及一些常见陷阱",
+    "url": "https://www.ccgxk.com/codeother/689.html",
+    "timestamp": 1774415324,
+    "tags": [
+      "best-practice",
+      "agent"
+    ]
   }
 ]

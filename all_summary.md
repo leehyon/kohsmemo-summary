@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-25) [Claude Code 的三种 Skill 类型以及一些常见陷阱](202603/2026-03-25-claude-code-%E7%9A%84%E4%B8%89%E7%A7%8D-skill-%E7%B1%BB%E5%9E%8B%E4%BB%A5%E5%8F%8A%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E9%99%B7%E9%98%B1.md)
+  - Tags: #best-practice #agent
+  - Summary: 本文探讨 Claude Code 的 Agentic Engineering，详解三种 Skill 类型以优化 AI 协作，揭示反模式与子 Agent 管理陷阱，并汇总高频命令提升开发效率。
+
 - (2026-03-25) [OpenClaw 必装 10 大技能](202603/2026-03-25-openclaw-%E5%BF%85%E8%A3%85-10-%E5%A4%A7%E6%8A%80%E8%83%BD.md)
   - Tags: #setup #openclaw
   - Summary: 本文介绍了 OpenClaw AI Agent 的 10 大必装技能，涵盖搜索、内容处理及效率提升三大维度，旨在将工具从“能用”升级为“好用”。
