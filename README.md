@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-25) [如何让 OpenClaw 更好用 - 调教篇](202603/2026-03-25-%E5%A6%82%E4%BD%95%E8%AE%A9-openclaw-%E6%9B%B4%E5%A5%BD%E7%94%A8---%E8%B0%83%E6%95%99%E7%AF%87.md)
+- 本文旨在通过制定涵盖错误处理、记忆管理及工作流优化的系统化规则，提升 OpenClaw AI Agent 的稳定性与效率，解决幻觉及操作失误问题，并提供实战避坑指南。
+- Tags: #best-practice #agent
+
 (2026-03-25) [Steve Yegge's Vibe Coding Manifesto](202603/2026-03-25-steve-yegge%27s-vibe-coding-manifesto.md)
 - 本文探讨 Vibe Coding 运动，主张用 AI Agent 取代传统编程。虽面临资深工程师阻力，但 AI 带来 10 倍生产力。未来 IDE 将衰落，转向多 Agent 协作与“代码工厂化”模式，重塑工程文化。
 - Tags: #podcast #transcript #agent
@@ -38,10 +42,6 @@
 - 本文强调交易心理学与自我管理是盈利核心。资深交易员通过情绪觉察、建立枯燥系统、熔断规则、适应策略及重视恢复，实现长期盈利。极度自律是拉开差距的关键。
 - Tags: #trade #advice #life
 
-(2026-03-23) [深度解析AI Coding辅助神器 Superpowers](202603/2026-03-23-%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90ai-coding%E8%BE%85%E5%8A%A9%E7%A5%9E%E5%99%A8-superpowers.md)
-- Superpowers 是一套 AI Coding Agent 技能集。通过 14 个强制工程规范覆盖开发全流程，解决 AI 跳步与不可靠痛点，将编程能力提升至专业团队标准，推动 AI 编程迈向工程化。
-- Tags: #agent #skill #engineering
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (60 entries)
+- [2026-03](202603/monthly-index.md) (61 entries)
