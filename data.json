@@ -607,5 +607,15 @@
       "agent",
       "engineering"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "一份关于 AI 编程的简明行为指南",
+    "url": "https://www.piglei.com/articles/a-simple-ai-coding-guide-for-engineers/",
+    "timestamp": 1774408717,
+    "tags": [
+      "agent",
+      "advice"
+    ]
   }
 ]

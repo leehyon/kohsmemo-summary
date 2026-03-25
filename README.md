@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-25) [一份关于 AI 编程的简明行为指南](202603/2026-03-25-%E4%B8%80%E4%BB%BD%E5%85%B3%E4%BA%8E-ai-%E7%BC%96%E7%A8%8B%E7%9A%84%E7%AE%80%E6%98%8E%E8%A1%8C%E4%B8%BA%E6%8C%87%E5%8D%97.md)
+- 本文倡导 AI 编程坚持“人为主导、 AI 协作”，强调工程师担责并理解代码。建议控制 PR 粒度，优选成熟库，强化验证。初级工程师应重质量补架构，避免盲目依赖，利用 AI 提升能力。
+- Tags: #agent #advice
+
 (2026-03-25) [基于 Cloudflare 生态的 AI Agent 实现](202603/2026-03-25-%E5%9F%BA%E4%BA%8E-cloudflare-%E7%94%9F%E6%80%81%E7%9A%84-ai-agent-%E5%AE%9E%E7%8E%B0.md)
 - 本文介绍了基于 Cloudflare 生态构建的个人博客 AI Agent，拆分了管理与用户端服务。文章采用 Workers + D1 + 裸 API 架构，利用 R2 和 AI Search 实现 RAG，并分享了实践经验。
 - Tags: #agent #engineering
@@ -38,10 +42,6 @@
 - 本文记录技术老兵对 AI 的反思。指出行业存在盲目乐观与内卷，肯定 AI 在搜索和分析中的价值，但拒绝用于创作。作者认为创业门槛实则提升，竞争加剧，短期卖铲子有机会，长期垂直领域生意难做。
 - Tags: #life #agent
 
-(2026-03-25) [优化交互方式让法律 AI 更精准专业](202603/2026-03-25-%E4%BC%98%E5%8C%96%E4%BA%A4%E4%BA%92%E6%96%B9%E5%BC%8F%E8%AE%A9%E6%B3%95%E5%BE%8B-ai-%E6%9B%B4%E7%B2%BE%E5%87%86%E4%B8%93%E4%B8%9A.md)
-- 针对通用大模型的法律服务局限，本文提出引入 IRAC 模型。通过结构化输入、角色设定、深度分析及反馈修正四步法，优化交互逻辑，从而实现精准、专业的法律 AI 服务。
-- Tags: #agent #law
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (63 entries)
+- [2026-03](202603/monthly-index.md) (64 entries)
