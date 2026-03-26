@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-26) [Quantization from the ground up](202603/2026-03-26-quantization-from-the-ground-up.md)
+  - Tags: #llm #math
+  - Summary: 本文解析 LLM 量化原理，通过降低数值精度实现模型缩容与提速。介绍了非对称量化及分块处理 Outliers 策略。实测表明，4-bit 量化性能接近原模型，而 2-bit 效果极差。
+
 - (2026-03-26) [Thoughts on slowing the fuck down](202603/2026-03-26-thoughts-on-slowing-the-fuck-down.md)
   - Tags: #agent
   - Summary: 盲目依赖 AI Agent 会导致软件质量崩塌与复杂性失控。开发者应回归人类主导，主动降速，仅将 Agent 用于辅助。通过手写核心代码保持掌控，最终构建高质量、可维护的软件系统。
