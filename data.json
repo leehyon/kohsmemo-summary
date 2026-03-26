@@ -666,5 +666,14 @@
       "llm",
       "math"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "ripgrep is faster than {grep, ag, git grep, ucg, pt, sift}",
+    "url": "https://blog.burntsushi.net/ripgrep/",
+    "timestamp": 1774490748,
+    "tags": [
+      "linux"
+    ]
   }
 ]

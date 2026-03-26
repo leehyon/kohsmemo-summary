@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-26) [ripgrep is faster than {grep, ag, git grep, ucg, pt, sift}](2026-03-26-ripgrep-is-faster-than-%7Bgrep%2C-ag%2C-git-grep%2C-ucg%2C-pt%2C-sift%7D.md)
+- 本文介绍 Rust 编写的命令行搜索工具 `ripgrep`，旨在替代现有工具。它结合易用性与高性能，解析了其利用有限自动机、SIMD 算法及增量搜索实现极速的技术原理，并论证了其在速度与正确性上的显著优势。
+- Tags: #linux
+
 (2026-03-26) [Quantization from the ground up](2026-03-26-quantization-from-the-ground-up.md)
 - 本文解析 LLM 量化原理，通过降低数值精度实现模型缩容与提速。介绍了非对称量化及分块处理 Outliers 策略。实测表明，4-bit 量化性能接近原模型，而 2-bit 效果极差。
 - Tags: #llm #math

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-26) [ripgrep is faster than {grep, ag, git grep, ucg, pt, sift}](202603/2026-03-26-ripgrep-is-faster-than-%7Bgrep%2C-ag%2C-git-grep%2C-ucg%2C-pt%2C-sift%7D.md)
+- 本文介绍 Rust 编写的命令行搜索工具 `ripgrep`，旨在替代现有工具。它结合易用性与高性能，解析了其利用有限自动机、SIMD 算法及增量搜索实现极速的技术原理，并论证了其在速度与正确性上的显著优势。
+- Tags: #linux
+
 (2026-03-26) [Quantization from the ground up](202603/2026-03-26-quantization-from-the-ground-up.md)
 - 本文解析 LLM 量化原理，通过降低数值精度实现模型缩容与提速。介绍了非对称量化及分块处理 Outliers 策略。实测表明，4-bit 量化性能接近原模型，而 2-bit 效果极差。
 - Tags: #llm #math
@@ -39,10 +43,6 @@
 - 本文旨在通过制定涵盖错误处理、记忆管理及工作流优化的系统化规则，提升 OpenClaw AI Agent 的稳定性与效率，解决幻觉及操作失误问题，并提供实战避坑指南。
 - Tags: #best-practice #agent
 
-(2026-03-25) [Steve Yegge's Vibe Coding Manifesto](202603/2026-03-25-steve-yegge%27s-vibe-coding-manifesto.md)
-- 本文探讨 Vibe Coding 运动，主张用 AI Agent 取代传统编程。虽面临资深工程师阻力，但 AI 带来 10 倍生产力。未来 IDE 将衰落，转向多 Agent 协作与“代码工厂化”模式，重塑工程文化。
-- Tags: #podcast #transcript #agent
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (69 entries)
+- [2026-03](202603/monthly-index.md) (70 entries)
