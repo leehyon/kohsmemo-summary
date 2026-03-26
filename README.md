@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-26) [Thoughts on slowing the fuck down](202603/2026-03-26-thoughts-on-slowing-the-fuck-down.md)
+- 盲目依赖 AI Agent 会导致软件质量崩塌与复杂性失控。开发者应回归人类主导，主动降速，仅将 Agent 用于辅助。通过手写核心代码保持掌控，最终构建高质量、可维护的软件系统。
+- Tags: #agent
+
 (2026-03-25) [历史不站在你以为的那一边](202603/2026-03-25-%E5%8E%86%E5%8F%B2%E4%B8%8D%E7%AB%99%E5%9C%A8%E4%BD%A0%E4%BB%A5%E4%B8%BA%E7%9A%84%E9%82%A3%E4%B8%80%E8%BE%B9.md)
 - 技术革命下，手艺人面临隐蔽的“降级”与“去技能化”。技术路径实为权力博弈的结果。AI 将剥夺程序员的决策权，使其沦为操作员，这种去技能化比失业更致命。
 - Tags: #engineering #career
@@ -39,10 +43,6 @@
 - 文章反思了即时满足与速度崇拜，指出时间沉淀不可替代。批评 AI 时代盲目消除摩擦导致软件贬值，强调长期承诺才是构建持久价值的关键。
 - Tags: #advice #life
 
-(2026-03-25) [给做独立站新手的一些建议 ](202603/2026-03-25-%E7%BB%99%E5%81%9A%E7%8B%AC%E7%AB%8B%E7%AB%99%E6%96%B0%E6%89%8B%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BB%BA%E8%AE%AE.md)
-- 独立站应摒弃创意，以关键词为核心。筛选低 KD 高搜索量词，遵循标准化 SOP 快速建站与优化，实现流量增长。
-- Tags: #advice
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (67 entries)
+- [2026-03](202603/monthly-index.md) (68 entries)

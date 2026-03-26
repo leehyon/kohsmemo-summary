@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-03-26) [Thoughts on slowing the fuck down](202603/2026-03-26-thoughts-on-slowing-the-fuck-down.md)
+  - Tags: #agent
+  - Summary: 盲目依赖 AI Agent 会导致软件质量崩塌与复杂性失控。开发者应回归人类主导，主动降速，仅将 Agent 用于辅助。通过手写核心代码保持掌控，最终构建高质量、可维护的软件系统。
+
 - (2026-03-25) [历史不站在你以为的那一边](202603/2026-03-25-%E5%8E%86%E5%8F%B2%E4%B8%8D%E7%AB%99%E5%9C%A8%E4%BD%A0%E4%BB%A5%E4%B8%BA%E7%9A%84%E9%82%A3%E4%B8%80%E8%BE%B9.md)
   - Tags: #engineering #career
   - Summary: 技术革命下，手艺人面临隐蔽的“降级”与“去技能化”。技术路径实为权力博弈的结果。AI 将剥夺程序员的决策权，使其沦为操作员，这种去技能化比失业更致命。
