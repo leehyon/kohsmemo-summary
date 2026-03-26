@@ -3,8 +3,12 @@
 
 ## Latest 10 Entries
 
+(2026-03-26) [从张雪峰聊到认知水平](202603/2026-03-26-%E4%BB%8E%E5%BC%A0%E9%9B%AA%E5%B3%B0%E8%81%8A%E5%88%B0%E8%AE%A4%E7%9F%A5%E6%B0%B4%E5%B9%B3.md)
+- 本文批判一元论与二元对立思维，剖析认知六层级结构。指出无效沟通源于层级错位，高认知者应具备向下兼容能力。主张警惕单一价值观，多角度理解世界，避免陷入无意义的低级争论。
+- Tags: #web #view
+
 (2026-03-26) [ripgrep is faster than {grep, ag, git grep, ucg, pt, sift}](202603/2026-03-26-ripgrep-is-faster-than-%7Bgrep%2C-ag%2C-git-grep%2C-ucg%2C-pt%2C-sift%7D.md)
-- 本文介绍 Rust 编写的命令行搜索工具 `ripgrep`，旨在替代现有工具。它结合易用性与高性能，解析了其利用有限自动机、SIMD 算法及增量搜索实现极速的技术原理，并论证了其在速度与正确性上的显著优势。
+- 本文介绍 Rust 编写的命令行搜索工具 ，旨在替代现有工具。它结合易用性与高性能，解析了其利用有限自动机、SIMD 算法及增量搜索实现极速的技术原理，并论证了其在速度与正确性上的显著优势。
 - Tags: #linux
 
 (2026-03-26) [Quantization from the ground up](202603/2026-03-26-quantization-from-the-ground-up.md)
@@ -39,10 +43,6 @@
 - 作者将博客从 Astro 迁移至基于 Bun 的自建引擎，通过极致减法与 AI 辅助，大幅提升构建性能。文章探讨了 AI 时代框架价值的重构，认为低复杂度场景下应减少抽象，让框架回归架构本质。
 - Tags: #blog #setup
 
-(2026-03-25) [如何让 OpenClaw 更好用 - 调教篇](202603/2026-03-25-%E5%A6%82%E4%BD%95%E8%AE%A9-openclaw-%E6%9B%B4%E5%A5%BD%E7%94%A8---%E8%B0%83%E6%95%99%E7%AF%87.md)
-- 本文旨在通过制定涵盖错误处理、记忆管理及工作流优化的系统化规则，提升 OpenClaw AI Agent 的稳定性与效率，解决幻觉及操作失误问题，并提供实战避坑指南。
-- Tags: #best-practice #agent
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (70 entries)
+- [2026-03](202603/monthly-index.md) (71 entries)

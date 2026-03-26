@@ -1,8 +1,12 @@
 # All Summary
 
+- (2026-03-26) [从张雪峰聊到认知水平](202603/2026-03-26-%E4%BB%8E%E5%BC%A0%E9%9B%AA%E5%B3%B0%E8%81%8A%E5%88%B0%E8%AE%A4%E7%9F%A5%E6%B0%B4%E5%B9%B3.md)
+  - Tags: #web #view
+  - Summary: 本文批判一元论与二元对立思维，剖析认知六层级结构。指出无效沟通源于层级错位，高认知者应具备向下兼容能力。主张警惕单一价值观，多角度理解世界，避免陷入无意义的低级争论。
+
 - (2026-03-26) [ripgrep is faster than {grep, ag, git grep, ucg, pt, sift}](202603/2026-03-26-ripgrep-is-faster-than-%7Bgrep%2C-ag%2C-git-grep%2C-ucg%2C-pt%2C-sift%7D.md)
   - Tags: #linux
-  - Summary: 本文介绍 Rust 编写的命令行搜索工具 `ripgrep`，旨在替代现有工具。它结合易用性与高性能，解析了其利用有限自动机、SIMD 算法及增量搜索实现极速的技术原理，并论证了其在速度与正确性上的显著优势。
+  - Summary: 本文介绍 Rust 编写的命令行搜索工具 ，旨在替代现有工具。它结合易用性与高性能，解析了其利用有限自动机、SIMD 算法及增量搜索实现极速的技术原理，并论证了其在速度与正确性上的显著优势。
 
 - (2026-03-26) [Quantization from the ground up](202603/2026-03-26-quantization-from-the-ground-up.md)
   - Tags: #llm #math
