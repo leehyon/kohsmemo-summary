@@ -1,5 +1,8 @@
 # 2026-03 Monthly Index
 
+(2026-03-27) [Ruler - 多 AI 编程助手统一配置管理方案](2026-03-27-ruler---%E5%A4%9A-ai-%E7%BC%96%E7%A8%8B%E5%8A%A9%E6%89%8B%E7%BB%9F%E4%B8%80%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88.md)
+- Ruler 通过单一数据源集中管理多 AI 编程助手的配置，实现一键分发，解决配置碎片化问题。
+
 (2026-03-27) [Ruby Is the Best Language for Building AI Apps](2026-03-27-ruby-is-the-best-language-for-building-ai-apps.md)
 - Ruby 凭借开发效率和代码优雅性，成为 2026 年构建 AI 应用的最佳语言。相比 Python 和 JS，RubyLLM 更简洁，Rails 提供全栈支持，Async 生态处理并发，获社区高度认可。
 - Tags: #engineering

@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-03-27) [Ruler - 多 AI 编程助手统一配置管理方案](202603/2026-03-27-ruler---%E5%A4%9A-ai-%E7%BC%96%E7%A8%8B%E5%8A%A9%E6%89%8B%E7%BB%9F%E4%B8%80%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88.md)
+- Ruler 通过单一数据源集中管理多 AI 编程助手的配置，实现一键分发，解决配置碎片化问题。
+
 (2026-03-27) [Ruby Is the Best Language for Building AI Apps](202603/2026-03-27-ruby-is-the-best-language-for-building-ai-apps.md)
 - Ruby 凭借开发效率和代码优雅性，成为 2026 年构建 AI 应用的最佳语言。相比 Python 和 JS，RubyLLM 更简洁，Rails 提供全栈支持，Async 生态处理并发，获社区高度认可。
 - Tags: #engineering
@@ -39,10 +42,6 @@
 - 本文介绍了 OpenClaw AI Agent 的 10 大必装技能，涵盖搜索、内容处理及效率提升三大维度，旨在将工具从“能用”升级为“好用”。
 - Tags: #setup #openclaw
 
-(2026-03-25) [一份关于 AI 编程的简明行为指南](202603/2026-03-25-%E4%B8%80%E4%BB%BD%E5%85%B3%E4%BA%8E-ai-%E7%BC%96%E7%A8%8B%E7%9A%84%E7%AE%80%E6%98%8E%E8%A1%8C%E4%B8%BA%E6%8C%87%E5%8D%97.md)
-- 本文倡导 AI 编程坚持“人为主导、 AI 协作”，强调工程师担责并理解代码。建议控制 PR 粒度，优选成熟库，强化验证。初级工程师应重质量补架构，避免盲目依赖，利用 AI 提升能力。
-- Tags: #agent #advice
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (73 entries)
+- [2026-03](202603/monthly-index.md) (74 entries)
