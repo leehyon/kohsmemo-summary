@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-27) [Ruby Is the Best Language for Building AI Apps](2026-03-27-ruby-is-the-best-language-for-building-ai-apps.md)
+- Ruby 凭借开发效率和代码优雅性，成为 2026 年构建 AI 应用的最佳语言。相比 Python 和 JS，RubyLLM 更简洁，Rails 提供全栈支持，Async 生态处理并发，获社区高度认可。
+- Tags: #engineering
+
 (2026-03-27) [The Slow Collapse of MkDocs](2026-03-27-the-slow-collapse-of-mkdocs.md)
 - MkDocs 因权力斗争与创始人激进的 2.0 重构，引发维护者出走与长期停滞。核心生态瓦解，Material 团队已转向 Zensical，原项目面临被遗弃。
 - Tags: #story

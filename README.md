@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-27) [Ruby Is the Best Language for Building AI Apps](202603/2026-03-27-ruby-is-the-best-language-for-building-ai-apps.md)
+- Ruby 凭借开发效率和代码优雅性，成为 2026 年构建 AI 应用的最佳语言。相比 Python 和 JS，RubyLLM 更简洁，Rails 提供全栈支持，Async 生态处理并发，获社区高度认可。
+- Tags: #engineering
+
 (2026-03-27) [The Slow Collapse of MkDocs](202603/2026-03-27-the-slow-collapse-of-mkdocs.md)
 - MkDocs 因权力斗争与创始人激进的 2.0 重构，引发维护者出走与长期停滞。核心生态瓦解，Material 团队已转向 Zensical，原项目面临被遗弃。
 - Tags: #story
@@ -39,10 +43,6 @@
 - 本文倡导 AI 编程坚持“人为主导、 AI 协作”，强调工程师担责并理解代码。建议控制 PR 粒度，优选成熟库，强化验证。初级工程师应重质量补架构，避免盲目依赖，利用 AI 提升能力。
 - Tags: #agent #advice
 
-(2026-03-25) [基于 Cloudflare 生态的 AI Agent 实现](202603/2026-03-25-%E5%9F%BA%E4%BA%8E-cloudflare-%E7%94%9F%E6%80%81%E7%9A%84-ai-agent-%E5%AE%9E%E7%8E%B0.md)
-- 本文介绍了基于 Cloudflare 生态构建的个人博客 AI Agent，拆分了管理与用户端服务。文章采用 Workers + D1 + 裸 API 架构，利用 R2 和 AI Search 实现 RAG，并分享了实践经验。
-- Tags: #agent #engineering
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (72 entries)
+- [2026-03](202603/monthly-index.md) (73 entries)
