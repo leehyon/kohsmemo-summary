@@ -685,5 +685,14 @@
       "web",
       "view"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "The Slow Collapse of MkDocs",
+    "url": "https://fpgmaas.com/blog/collapse-of-mkdocs/",
+    "timestamp": 1774576357,
+    "tags": [
+      "story"
+    ]
   }
 ]

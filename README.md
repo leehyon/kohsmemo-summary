@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-27) [The Slow Collapse of MkDocs](202603/2026-03-27-the-slow-collapse-of-mkdocs.md)
+- MkDocs 因权力斗争与创始人激进的 2.0 重构，引发维护者出走与长期停滞。核心生态瓦解，Material 团队已转向 Zensical，原项目面临被遗弃。
+- Tags: #story
+
 (2026-03-26) [从张雪峰聊到认知水平](202603/2026-03-26-%E4%BB%8E%E5%BC%A0%E9%9B%AA%E5%B3%B0%E8%81%8A%E5%88%B0%E8%AE%A4%E7%9F%A5%E6%B0%B4%E5%B9%B3.md)
 - 本文批判一元论与二元对立思维，剖析认知六层级结构。指出无效沟通源于层级错位，高认知者应具备向下兼容能力。主张警惕单一价值观，多角度理解世界，避免陷入无意义的低级争论。
 - Tags: #web #view
@@ -39,10 +43,6 @@
 - 本文介绍了基于 Cloudflare 生态构建的个人博客 AI Agent，拆分了管理与用户端服务。文章采用 Workers + D1 + 裸 API 架构，利用 R2 和 AI Search 实现 RAG，并分享了实践经验。
 - Tags: #agent #engineering
 
-(2026-03-25) [可能是最后一次更换博客引擎](202603/2026-03-25-%E5%8F%AF%E8%83%BD%E6%98%AF%E6%9C%80%E5%90%8E%E4%B8%80%E6%AC%A1%E6%9B%B4%E6%8D%A2%E5%8D%9A%E5%AE%A2%E5%BC%95%E6%93%8E.md)
-- 作者将博客从 Astro 迁移至基于 Bun 的自建引擎，通过极致减法与 AI 辅助，大幅提升构建性能。文章探讨了 AI 时代框架价值的重构，认为低复杂度场景下应减少抽象，让框架回归架构本质。
-- Tags: #blog #setup
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (71 entries)
+- [2026-03](202603/monthly-index.md) (72 entries)
