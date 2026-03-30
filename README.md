@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-30) [我是如何构建一个 AI 原生量化系统的](202603/2026-03-30-%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA-ai-%E5%8E%9F%E7%94%9F%E9%87%8F%E5%8C%96%E7%B3%BB%E7%BB%9F%E7%9A%84.md)
+- 本文介绍了 AI 量化系统 "策引" 的构建经验。系统采用 DSL 和 DAG 架构，让 AI 充当翻译器而非决策者，通过混合 Agent 模式平衡模糊性与确定性，旨在建立透明可信任的决策框架。
+- Tags: #trade #agent
+
 (2026-03-27) [Ruler - 多 AI 编程助手统一配置管理方案](202603/2026-03-27-ruler---%E5%A4%9A-ai-%E7%BC%96%E7%A8%8B%E5%8A%A9%E6%89%8B%E7%BB%9F%E4%B8%80%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88.md)
 - Ruler 通过单一数据源集中管理多 AI 编程助手的配置，实现一键分发，解决配置碎片化问题。
 
@@ -38,10 +42,6 @@
 - 本文探讨 Claude Code 的 Agentic Engineering，详解三种 Skill 类型以优化 AI 协作，揭示反模式与子 Agent 管理陷阱，并汇总高频命令提升开发效率。
 - Tags: #best-practice #agent
 
-(2026-03-25) [OpenClaw 必装 10 大技能](202603/2026-03-25-openclaw-%E5%BF%85%E8%A3%85-10-%E5%A4%A7%E6%8A%80%E8%83%BD.md)
-- 本文介绍了 OpenClaw AI Agent 的 10 大必装技能，涵盖搜索、内容处理及效率提升三大维度，旨在将工具从“能用”升级为“好用”。
-- Tags: #setup #openclaw
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (74 entries)
+- [2026-03](202603/monthly-index.md) (75 entries)

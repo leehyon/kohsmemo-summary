@@ -710,5 +710,15 @@
     "url": "https://atbug.com/ruler-unified-ai-coding-assistant-configuration/",
     "timestamp": 1774589460,
     "tags": []
+  },
+  {
+    "month": "202603",
+    "title": "我是如何构建一个 AI 原生量化系统的",
+    "url": "https://www.bmpi.dev/dev/ai-native-investment-system/",
+    "timestamp": 1774837360,
+    "tags": [
+      "trade",
+      "agent"
+    ]
   }
 ]
