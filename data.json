@@ -720,5 +720,15 @@
       "trade",
       "agent"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "用 iMessage 串接 Claude Code",
+    "url": "https://raymondhouch.com/lifehacker/digital-workflow/imessage-claude-code-ai-assistant/",
+    "timestamp": 1774837703,
+    "tags": [
+      "life",
+      "setup"
+    ]
   }
 ]

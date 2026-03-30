@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-30) [用 iMessage 串接 Claude Code](202603/2026-03-30-%E7%94%A8-imessage-%E4%B8%B2%E6%8E%A5-claude-code.md)
+- 本文介绍利用 Claude Code 的 iMessage 插件在 Mac 上搭建 AI 助理。通过设置触发词与群组权限，让家人在 iMessage 中直接调用 AI，无需额外 App，并分享了长期运行与避坑指南。
+- Tags: #life #setup
+
 (2026-03-30) [我是如何构建一个 AI 原生量化系统的](202603/2026-03-30-%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA-ai-%E5%8E%9F%E7%94%9F%E9%87%8F%E5%8C%96%E7%B3%BB%E7%BB%9F%E7%9A%84.md)
 - 本文介绍了 AI 量化系统 "策引" 的构建经验。系统采用 DSL 和 DAG 架构，让 AI 充当翻译器而非决策者，通过混合 Agent 模式平衡模糊性与确定性，旨在建立透明可信任的决策框架。
 - Tags: #trade #agent
@@ -38,10 +42,6 @@
 - 技术革命下，手艺人面临隐蔽的“降级”与“去技能化”。技术路径实为权力博弈的结果。AI 将剥夺程序员的决策权，使其沦为操作员，这种去技能化比失业更致命。
 - Tags: #engineering #career
 
-(2026-03-25) [Claude Code 的三种 Skill 类型以及一些常见陷阱](202603/2026-03-25-claude-code-%E7%9A%84%E4%B8%89%E7%A7%8D-skill-%E7%B1%BB%E5%9E%8B%E4%BB%A5%E5%8F%8A%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E9%99%B7%E9%98%B1.md)
-- 本文探讨 Claude Code 的 Agentic Engineering，详解三种 Skill 类型以优化 AI 协作，揭示反模式与子 Agent 管理陷阱，并汇总高频命令提升开发效率。
-- Tags: #best-practice #agent
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (75 entries)
+- [2026-03](202603/monthly-index.md) (76 entries)
