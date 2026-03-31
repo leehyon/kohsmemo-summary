@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-31) [How I manage Images for my Blog](2026-03-31-how-i-manage-images-for-my-blog.md)
+- 作者为解决手动导出 Excalidraw 配图效率低的问题，通过 Fork VSCode 扩展，实现了监听文件变化并自动导出双主题 SVG 图片的功能，达成本地实时预览，显著提升了写作体验。
+- Tags: #blog #setup
+
 (2026-03-31) [AI Agent 正在进入工程化深水区](2026-03-31-ai-agent-%E6%AD%A3%E5%9C%A8%E8%BF%9B%E5%85%A5%E5%B7%A5%E7%A8%8B%E5%8C%96%E6%B7%B1%E6%B0%B4%E5%8C%BA.md)
 - AI Agent 竞争重心已从模型能力转向工程系统能力。通过模型专用化、框架生产化、架构分层及协议标准化，Agent 正演变为系统基础设施，未来核心竞争在于构建完整的工程体系。
 - Tags: #agent #engineering
