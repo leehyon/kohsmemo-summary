@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-31) [从 Vibe Coding 到范式编程](202603/2026-03-31-%E4%BB%8E-vibe-coding-%E5%88%B0%E8%8C%83%E5%BC%8F%E7%BC%96%E7%A8%8B.md)
+- 文章提出从 Vibe Coding 向范式编程演进。针对企业级痛点，采用 Spec 驱动开发，结合知识库与 AI Agent，以规范为核心构建体系，实现高质量人机协同。
+- Tags: #engineering #vibe-coding
+
 (2026-03-31) [胶水编程：业务需求出码最佳实践](202603/2026-03-31-%E8%83%B6%E6%B0%B4%E7%BC%96%E7%A8%8B%EF%BC%9A%E4%B8%9A%E5%8A%A1%E9%9C%80%E6%B1%82%E5%87%BA%E7%A0%81%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md)
 - 天猫提出“胶水编程”，构建四层物料体系，将 AI 转变为装配工。通过“能抄不写”策略，代码采纳率升至 97.9%，实现了高匹配度场景下的高效与高质量交付。
 - Tags: #agent #best-practice #vibe-coding
@@ -38,10 +42,6 @@
 - Ruby 凭借开发效率和代码优雅性，成为 2026 年构建 AI 应用的最佳语言。相比 Python 和 JS，RubyLLM 更简洁，Rails 提供全栈支持，Async 生态处理并发，获社区高度认可。
 - Tags: #engineering
 
-(2026-03-27) [The Slow Collapse of MkDocs](202603/2026-03-27-the-slow-collapse-of-mkdocs.md)
-- MkDocs 因权力斗争与创始人激进的 2.0 重构，引发维护者出走与长期停滞。核心生态瓦解，Material 团队已转向 Zensical，原项目面临被遗弃。
-- Tags: #story
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (81 entries)
+- [2026-03](202603/monthly-index.md) (82 entries)
