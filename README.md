@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-31) [模型智能提升的下一个关键方向](202603/2026-03-31-%E6%A8%A1%E5%9E%8B%E6%99%BA%E8%83%BD%E6%8F%90%E5%8D%87%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%85%B3%E9%94%AE%E6%96%B9%E5%90%91.md)
+- AI 工程转向构建 Harness 系统，决定 Agent 性能上限。通过捕获执行轨迹实现“训练即部署”闭环，模型与系统共生演化。未来将向 Coordination Engineering 演进。
+- Tags: #agent #llm
+
 (2026-03-31) [OpenClaw：技术解读和给 AI 应用开发的启示（2026）](202603/2026-03-31-openclaw%EF%BC%9A%E6%8A%80%E6%9C%AF%E8%A7%A3%E8%AF%BB%E5%92%8C%E7%BB%99-ai-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E7%9A%84%E5%90%AF%E7%A4%BA%EF%BC%882026%EF%BC%89.md)
 - OpenClaw 是系统级个人 AI 助手。文章通过 ToyClaw 揭示其核心机制，详述 Gateway 架构与 Skill 系统，强调利用 .md 文件构建记忆与人格，旨在让 AI 真正操控电脑并执行实际任务。
 - Tags: #agent #openclaw
@@ -38,10 +42,6 @@
 - 本文批判一元论与二元对立思维，剖析认知六层级结构。指出无效沟通源于层级错位，高认知者应具备向下兼容能力。主张警惕单一价值观，多角度理解世界，避免陷入无意义的低级争论。
 - Tags: #web #view
 
-(2026-03-26) [ripgrep is faster than {grep, ag, git grep, ucg, pt, sift}](202603/2026-03-26-ripgrep-is-faster-than-%7Bgrep%2C-ag%2C-git-grep%2C-ucg%2C-pt%2C-sift%7D.md)
-- 本文介绍 Rust 编写的命令行搜索工具 ，旨在替代现有工具。它结合易用性与高性能，解析了其利用有限自动机、SIMD 算法及增量搜索实现极速的技术原理，并论证了其在速度与正确性上的显著优势。
-- Tags: #linux
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (79 entries)
+- [2026-03](202603/monthly-index.md) (80 entries)
