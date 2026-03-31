@@ -730,5 +730,15 @@
       "life",
       "setup"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "AI Agent 正在进入工程化深水区",
+    "url": "https://www.rowkey.cn/blog/2026/03/31/ai-agent-engineering-depth/",
+    "timestamp": 1774921733,
+    "tags": [
+      "agent",
+      "engineering"
+    ]
   }
 ]

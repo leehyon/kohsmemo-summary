@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-31) [AI Agent 正在进入工程化深水区](202603/2026-03-31-ai-agent-%E6%AD%A3%E5%9C%A8%E8%BF%9B%E5%85%A5%E5%B7%A5%E7%A8%8B%E5%8C%96%E6%B7%B1%E6%B0%B4%E5%8C%BA.md)
+- AI Agent 竞争重心已从模型能力转向工程系统能力。通过模型专用化、框架生产化、架构分层及协议标准化，Agent 正演变为系统基础设施，未来核心竞争在于构建完整的工程体系。
+- Tags: #agent #engineering
+
 (2026-03-30) [用 iMessage 串接 Claude Code](202603/2026-03-30-%E7%94%A8-imessage-%E4%B8%B2%E6%8E%A5-claude-code.md)
 - 本文介绍利用 Claude Code 的 iMessage 插件在 Mac 上搭建 AI 助理。通过设置触发词与群组权限，让家人在 iMessage 中直接调用 AI，无需额外 App，并分享了长期运行与避坑指南。
 - Tags: #life #setup
@@ -38,10 +42,6 @@
 - 盲目依赖 AI Agent 会导致软件质量崩塌与复杂性失控。开发者应回归人类主导，主动降速，仅将 Agent 用于辅助。通过手写核心代码保持掌控，最终构建高质量、可维护的软件系统。
 - Tags: #agent
 
-(2026-03-25) [历史不站在你以为的那一边](202603/2026-03-25-%E5%8E%86%E5%8F%B2%E4%B8%8D%E7%AB%99%E5%9C%A8%E4%BD%A0%E4%BB%A5%E4%B8%BA%E7%9A%84%E9%82%A3%E4%B8%80%E8%BE%B9.md)
-- 技术革命下，手艺人面临隐蔽的“降级”与“去技能化”。技术路径实为权力博弈的结果。AI 将剥夺程序员的决策权，使其沦为操作员，这种去技能化比失业更致命。
-- Tags: #engineering #career
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (76 entries)
+- [2026-03](202603/monthly-index.md) (77 entries)

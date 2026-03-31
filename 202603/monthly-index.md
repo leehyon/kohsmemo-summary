@@ -1,5 +1,9 @@
 # 2026-03 Monthly Index
 
+(2026-03-31) [AI Agent 正在进入工程化深水区](2026-03-31-ai-agent-%E6%AD%A3%E5%9C%A8%E8%BF%9B%E5%85%A5%E5%B7%A5%E7%A8%8B%E5%8C%96%E6%B7%B1%E6%B0%B4%E5%8C%BA.md)
+- AI Agent 竞争重心已从模型能力转向工程系统能力。通过模型专用化、框架生产化、架构分层及协议标准化，Agent 正演变为系统基础设施，未来核心竞争在于构建完整的工程体系。
+- Tags: #agent #engineering
+
 (2026-03-30) [用 iMessage 串接 Claude Code](2026-03-30-%E7%94%A8-imessage-%E4%B8%B2%E6%8E%A5-claude-code.md)
 - 本文介绍利用 Claude Code 的 iMessage 插件在 Mac 上搭建 AI 助理。通过设置触发词与群组权限，让家人在 iMessage 中直接调用 AI，无需额外 App，并分享了长期运行与避坑指南。
 - Tags: #life #setup
