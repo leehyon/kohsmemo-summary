@@ -770,5 +770,16 @@
       "agent",
       "llm"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "胶水编程：业务需求出码最佳实践",
+    "url": "https://www.bestblogs.dev/en/article/1b54037f",
+    "timestamp": 1774950813,
+    "tags": [
+      "agent",
+      "best-practice",
+      "vibe-coding"
+    ]
   }
 ]
