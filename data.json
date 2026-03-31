@@ -750,5 +750,15 @@
       "blog",
       "setup"
     ]
+  },
+  {
+    "month": "202603",
+    "title": "OpenClaw：技术解读和给 AI 应用开发的启示（2026）",
+    "url": "https://arthurchiao.art/blog/openclaw-technical-notes-zh/",
+    "timestamp": 1774943941,
+    "tags": [
+      "agent",
+      "openclaw"
+    ]
   }
 ]

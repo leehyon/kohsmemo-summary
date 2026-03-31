@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-03-31) [OpenClaw：技术解读和给 AI 应用开发的启示（2026）](202603/2026-03-31-openclaw%EF%BC%9A%E6%8A%80%E6%9C%AF%E8%A7%A3%E8%AF%BB%E5%92%8C%E7%BB%99-ai-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E7%9A%84%E5%90%AF%E7%A4%BA%EF%BC%882026%EF%BC%89.md)
+- OpenClaw 是系统级个人 AI 助手。文章通过 ToyClaw 揭示其核心机制，详述 Gateway 架构与 Skill 系统，强调利用 .md 文件构建记忆与人格，旨在让 AI 真正操控电脑并执行实际任务。
+- Tags: #agent #openclaw
+
 (2026-03-31) [How I manage Images for my Blog](202603/2026-03-31-how-i-manage-images-for-my-blog.md)
 - 作者为解决手动导出 Excalidraw 配图效率低的问题，通过 Fork VSCode 扩展，实现了监听文件变化并自动导出双主题 SVG 图片的功能，达成本地实时预览，显著提升了写作体验。
 - Tags: #blog #setup
@@ -38,10 +42,6 @@
 - 本文介绍 Rust 编写的命令行搜索工具 ，旨在替代现有工具。它结合易用性与高性能，解析了其利用有限自动机、SIMD 算法及增量搜索实现极速的技术原理，并论证了其在速度与正确性上的显著优势。
 - Tags: #linux
 
-(2026-03-26) [Quantization from the ground up](202603/2026-03-26-quantization-from-the-ground-up.md)
-- 本文解析 LLM 量化原理，通过降低数值精度实现模型缩容与提速。介绍了非对称量化及分块处理 Outliers 策略。实测表明，4-bit 量化性能接近原模型，而 2-bit 效果极差。
-- Tags: #llm #math
-
 ## Monthly Archive
 
-- [2026-03](202603/monthly-index.md) (78 entries)
+- [2026-03](202603/monthly-index.md) (79 entries)
