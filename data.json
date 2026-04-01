@@ -791,5 +791,15 @@
       "engineering",
       "vibe-coding"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "Rust 所有权：C++ RAII 本来想成为的样子",
+    "url": "https://quant67.com/post/rust/ownership-vs-raii/ownership-vs-raii.html",
+    "timestamp": 1775007945,
+    "tags": [
+      "cpp",
+      "design"
+    ]
   }
 ]

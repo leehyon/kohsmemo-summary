@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-01) [Rust 所有权：C++ RAII 本来想成为的样子](202604/2026-04-01-rust-%E6%89%80%E6%9C%89%E6%9D%83%EF%BC%9Ac%2B%2B-raii-%E6%9C%AC%E6%9D%A5%E6%83%B3%E6%88%90%E4%B8%BA%E7%9A%84%E6%A0%B7%E5%AD%90.md)
+  - Tags: #cpp #design
+  - Summary: 本文对比 C++ RAII 与 Rust 所有权，指出前者依赖约定易生隐患，后者由编译器强制执行。Rust 通过借用检查彻底杜绝了内存与并发问题，虽 C++ 有工程优势，但 Rust 真正实现了严格的资源管理目标。
+
 - (2026-03-31) [从 Vibe Coding 到范式编程](202603/2026-03-31-%E4%BB%8E-vibe-coding-%E5%88%B0%E8%8C%83%E5%BC%8F%E7%BC%96%E7%A8%8B.md)
   - Tags: #engineering #vibe-coding
   - Summary: 文章提出从 Vibe Coding 向范式编程演进。针对企业级痛点，采用 Spec 驱动开发，结合知识库与 AI Agent，以规范为核心构建体系，实现高质量人机协同。

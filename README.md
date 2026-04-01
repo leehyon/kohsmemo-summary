@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-01) [Rust 所有权：C++ RAII 本来想成为的样子](202604/2026-04-01-rust-%E6%89%80%E6%9C%89%E6%9D%83%EF%BC%9Ac%2B%2B-raii-%E6%9C%AC%E6%9D%A5%E6%83%B3%E6%88%90%E4%B8%BA%E7%9A%84%E6%A0%B7%E5%AD%90.md)
+- 本文对比 C++ RAII 与 Rust 所有权，指出前者依赖约定易生隐患，后者由编译器强制执行。Rust 通过借用检查彻底杜绝了内存与并发问题，虽 C++ 有工程优势，但 Rust 真正实现了严格的资源管理目标。
+- Tags: #cpp #design
+
 (2026-03-31) [从 Vibe Coding 到范式编程](202603/2026-03-31-%E4%BB%8E-vibe-coding-%E5%88%B0%E8%8C%83%E5%BC%8F%E7%BC%96%E7%A8%8B.md)
 - 文章提出从 Vibe Coding 向范式编程演进。针对企业级痛点，采用 Spec 驱动开发，结合知识库与 AI Agent，以规范为核心构建体系，实现高质量人机协同。
 - Tags: #engineering #vibe-coding
@@ -38,10 +42,7 @@
 (2026-03-27) [Ruler - 多 AI 编程助手统一配置管理方案](202603/2026-03-27-ruler---%E5%A4%9A-ai-%E7%BC%96%E7%A8%8B%E5%8A%A9%E6%89%8B%E7%BB%9F%E4%B8%80%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88.md)
 - Ruler 通过单一数据源集中管理多 AI 编程助手的配置，实现一键分发，解决配置碎片化问题。
 
-(2026-03-27) [Ruby Is the Best Language for Building AI Apps](202603/2026-03-27-ruby-is-the-best-language-for-building-ai-apps.md)
-- Ruby 凭借开发效率和代码优雅性，成为 2026 年构建 AI 应用的最佳语言。相比 Python 和 JS，RubyLLM 更简洁，Rails 提供全栈支持，Async 生态处理并发，获社区高度认可。
-- Tags: #engineering
-
 ## Monthly Archive
 
+- [2026-04](202604/monthly-index.md) (1 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
