@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-01) [Failure As a Means to Build Resilient Software Systems](2026-04-01-failure-as-a-means-to-build-resilient-software-systems.md)
+- 本文探讨利用故障构建韧性系统。指出 Chaos Monkey 等工具的局限，强调从真实事故中学习。文章分析可靠性与复杂性的悖论，主张管理风险吸收能力，并倡导无责备文化以挖掘系统性根源。
+- Tags: #engineering
+
 (2026-04-01) [Encoding Team Standards](2026-04-01-encoding-team-standards.md)
 - 本文针对 A I 辅助开发中的代码一致性问题，提出将团队编码标准转化为可执行的共享基础设施。通过结构化指令挖掘隐性知识并融入工作流，消除个人提示能力差异，实现团队协作的一致性与高质量交付。
 - Tags: #engineering

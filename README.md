@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-01) [Failure As a Means to Build Resilient Software Systems](202604/2026-04-01-failure-as-a-means-to-build-resilient-software-systems.md)
+- 本文探讨利用故障构建韧性系统。指出 Chaos Monkey 等工具的局限，强调从真实事故中学习。文章分析可靠性与复杂性的悖论，主张管理风险吸收能力，并倡导无责备文化以挖掘系统性根源。
+- Tags: #engineering
+
 (2026-04-01) [Encoding Team Standards](202604/2026-04-01-encoding-team-standards.md)
 - 本文针对 A I 辅助开发中的代码一致性问题，提出将团队编码标准转化为可执行的共享基础设施。通过结构化指令挖掘隐性知识并融入工作流，消除个人提示能力差异，实现团队协作的一致性与高质量交付。
 - Tags: #engineering
@@ -39,11 +43,7 @@
 - 本文介绍利用 Claude Code 的 iMessage 插件在 Mac 上搭建 AI 助理。通过设置触发词与群组权限，让家人在 iMessage 中直接调用 AI，无需额外 App，并分享了长期运行与避坑指南。
 - Tags: #life #setup
 
-(2026-03-30) [我是如何构建一个 AI 原生量化系统的](202603/2026-03-30-%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA-ai-%E5%8E%9F%E7%94%9F%E9%87%8F%E5%8C%96%E7%B3%BB%E7%BB%9F%E7%9A%84.md)
-- 本文介绍了 AI 量化系统 "策引" 的构建经验。系统采用 DSL 和 DAG 架构，让 AI 充当翻译器而非决策者，通过混合 Agent 模式平衡模糊性与确定性，旨在建立透明可信任的决策框架。
-- Tags: #trade #agent
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (2 entries)
+- [2026-04](202604/monthly-index.md) (3 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
