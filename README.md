@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-01) [Encoding Team Standards](202604/2026-04-01-encoding-team-standards.md)
+- 本文针对 A I 辅助开发中的代码一致性问题，提出将团队编码标准转化为可执行的共享基础设施。通过结构化指令挖掘隐性知识并融入工作流，消除个人提示能力差异，实现团队协作的一致性与高质量交付。
+- Tags: #engineering
+
 (2026-04-01) [Rust 所有权：C++ RAII 本来想成为的样子](202604/2026-04-01-rust-%E6%89%80%E6%9C%89%E6%9D%83%EF%BC%9Ac%2B%2B-raii-%E6%9C%AC%E6%9D%A5%E6%83%B3%E6%88%90%E4%B8%BA%E7%9A%84%E6%A0%B7%E5%AD%90.md)
 - 本文对比 C++ RAII 与 Rust 所有权，指出前者依赖约定易生隐患，后者由编译器强制执行。Rust 通过借用检查彻底杜绝了内存与并发问题，虽 C++ 有工程优势，但 Rust 真正实现了严格的资源管理目标。
 - Tags: #cpp #design
@@ -39,10 +43,7 @@
 - 本文介绍了 AI 量化系统 "策引" 的构建经验。系统采用 DSL 和 DAG 架构，让 AI 充当翻译器而非决策者，通过混合 Agent 模式平衡模糊性与确定性，旨在建立透明可信任的决策框架。
 - Tags: #trade #agent
 
-(2026-03-27) [Ruler - 多 AI 编程助手统一配置管理方案](202603/2026-03-27-ruler---%E5%A4%9A-ai-%E7%BC%96%E7%A8%8B%E5%8A%A9%E6%89%8B%E7%BB%9F%E4%B8%80%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88.md)
-- Ruler 通过单一数据源集中管理多 AI 编程助手的配置，实现一键分发，解决配置碎片化问题。
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (1 entries)
+- [2026-04](202604/monthly-index.md) (2 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

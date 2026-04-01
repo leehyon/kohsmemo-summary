@@ -801,5 +801,14 @@
       "cpp",
       "design"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "Encoding Team Standards",
+    "url": "https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html",
+    "timestamp": 1775022217,
+    "tags": [
+      "engineering"
+    ]
   }
 ]
