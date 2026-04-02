@@ -819,5 +819,15 @@
     "tags": [
       "engineering"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "Claude Code 源码泄露过程全解析",
+    "url": "https://lukefan.com/2026/04/02/claude-code-source-leak-anthropic-ai-release-failure-2026/",
+    "timestamp": 1775100794,
+    "tags": [
+      "harness",
+      "story"
+    ]
   }
 ]

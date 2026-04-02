@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-02) [Claude Code 源码泄露过程全解析](2026-04-02-claude-code-%E6%BA%90%E7%A0%81%E6%B3%84%E9%9C%B2%E8%BF%87%E7%A8%8B%E5%85%A8%E8%A7%A3%E6%9E%90.md)
+- 本文解析 Anthropic 因 AI 配置失误导致 Claude Code 源码泄露事件，揭示过度依赖 AI 实现极速迭代致使人工审核失效，引发严重安全危机，并探讨了速度与安全间的矛盾。
+- Tags: #harness #story
+
 (2026-04-01) [Failure As a Means to Build Resilient Software Systems](2026-04-01-failure-as-a-means-to-build-resilient-software-systems.md)
 - 本文探讨利用故障构建韧性系统。指出 Chaos Monkey 等工具的局限，强调从真实事故中学习。文章分析可靠性与复杂性的悖论，主张管理风险吸收能力，并倡导无责备文化以挖掘系统性根源。
 - Tags: #engineering

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-02) [Claude Code 源码泄露过程全解析](202604/2026-04-02-claude-code-%E6%BA%90%E7%A0%81%E6%B3%84%E9%9C%B2%E8%BF%87%E7%A8%8B%E5%85%A8%E8%A7%A3%E6%9E%90.md)
+- 本文解析 Anthropic 因 AI 配置失误导致 Claude Code 源码泄露事件，揭示过度依赖 AI 实现极速迭代致使人工审核失效，引发严重安全危机，并探讨了速度与安全间的矛盾。
+- Tags: #harness #story
+
 (2026-04-01) [Failure As a Means to Build Resilient Software Systems](202604/2026-04-01-failure-as-a-means-to-build-resilient-software-systems.md)
 - 本文探讨利用故障构建韧性系统。指出 Chaos Monkey 等工具的局限，强调从真实事故中学习。文章分析可靠性与复杂性的悖论，主张管理风险吸收能力，并倡导无责备文化以挖掘系统性根源。
 - Tags: #engineering
@@ -39,11 +43,7 @@
 - AI Agent 竞争重心已从模型能力转向工程系统能力。通过模型专用化、框架生产化、架构分层及协议标准化，Agent 正演变为系统基础设施，未来核心竞争在于构建完整的工程体系。
 - Tags: #agent #engineering
 
-(2026-03-30) [用 iMessage 串接 Claude Code](202603/2026-03-30-%E7%94%A8-imessage-%E4%B8%B2%E6%8E%A5-claude-code.md)
-- 本文介绍利用 Claude Code 的 iMessage 插件在 Mac 上搭建 AI 助理。通过设置触发词与群组权限，让家人在 iMessage 中直接调用 AI，无需额外 App，并分享了长期运行与避坑指南。
-- Tags: #life #setup
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (3 entries)
+- [2026-04](202604/monthly-index.md) (4 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
