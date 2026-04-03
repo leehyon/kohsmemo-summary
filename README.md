@@ -3,8 +3,12 @@
 
 ## Latest 10 Entries
 
+(2026-04-03) [Machine Learning: A Practitioner's Mental Model](202604/2026-04-03-machine-learning-a-practitioner%27s-mental-model.md)
+- 本文构建基于第一性原理的 ML 心智模型，涵盖神经元几何、架构逻辑、优化机制、泛化原理及知识存储，并解析不同架构的组合规则。
+- Tags: #guide
+
 (2026-04-03) [Anatomy of the .claude/ Folder](202604/2026-04-03-anatomy-of-the-.claude-folder.md)
-- 文章解析 `.claude` 目录结构，通过 `CLAUDE.md`、`settings.json` 及扩展模块定制规则与权限，满足团队与个人需求，打造高效 AI 开发工具。
+- 文章解析  目录结构，通过 、 及扩展模块定制规则与权限，满足团队与个人需求，打造高效 AI 开发工具。
 - Tags: #agent #design #guide
 
 (2026-04-02) [Claude Code 源码泄露过程全解析](202604/2026-04-02-claude-code-%E6%BA%90%E7%A0%81%E6%B3%84%E9%9C%B2%E8%BF%87%E7%A8%8B%E5%85%A8%E8%A7%A3%E6%9E%90.md)
@@ -39,11 +43,7 @@
 - OpenClaw 是系统级个人 AI 助手。文章通过 ToyClaw 揭示其核心机制，详述 Gateway 架构与 Skill 系统，强调利用 .md 文件构建记忆与人格，旨在让 AI 真正操控电脑并执行实际任务。
 - Tags: #agent #openclaw
 
-(2026-03-31) [How I manage Images for my Blog](202603/2026-03-31-how-i-manage-images-for-my-blog.md)
-- 作者为解决手动导出 Excalidraw 配图效率低的问题，通过 Fork VSCode 扩展，实现了监听文件变化并自动导出双主题 SVG 图片的功能，达成本地实时预览，显著提升了写作体验。
-- Tags: #blog #setup
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (5 entries)
+- [2026-04](202604/monthly-index.md) (6 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

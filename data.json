@@ -840,5 +840,14 @@
       "design",
       "guide"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "Machine Learning: A Practitioner's Mental Model",
+    "url": "https://github.com/dreddnafious/thereisnospoon/blob/main/ml-primer.md",
+    "timestamp": 1775193744,
+    "tags": [
+      "guide"
+    ]
   }
 ]

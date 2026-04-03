@@ -1,7 +1,11 @@
 # 2026-04 Monthly Index
 
+(2026-04-03) [Machine Learning: A Practitioner's Mental Model](2026-04-03-machine-learning-a-practitioner%27s-mental-model.md)
+- 本文构建基于第一性原理的 ML 心智模型，涵盖神经元几何、架构逻辑、优化机制、泛化原理及知识存储，并解析不同架构的组合规则。
+- Tags: #guide
+
 (2026-04-03) [Anatomy of the .claude/ Folder](2026-04-03-anatomy-of-the-.claude-folder.md)
-- 文章解析 `.claude` 目录结构，通过 `CLAUDE.md`、`settings.json` 及扩展模块定制规则与权限，满足团队与个人需求，打造高效 AI 开发工具。
+- 文章解析  目录结构，通过 、 及扩展模块定制规则与权限，满足团队与个人需求，打造高效 AI 开发工具。
 - Tags: #agent #design #guide
 
 (2026-04-02) [Claude Code 源码泄露过程全解析](2026-04-02-claude-code-%E6%BA%90%E7%A0%81%E6%B3%84%E9%9C%B2%E8%BF%87%E7%A8%8B%E5%85%A8%E8%A7%A3%E6%9E%90.md)
