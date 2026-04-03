@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-03) [Anatomy of the .claude/ Folder](202604/2026-04-03-anatomy-of-the-.claude-folder.md)
+- 文章解析 `.claude` 目录结构，通过 `CLAUDE.md`、`settings.json` 及扩展模块定制规则与权限，满足团队与个人需求，打造高效 AI 开发工具。
+- Tags: #agent #design #guide
+
 (2026-04-02) [Claude Code 源码泄露过程全解析](202604/2026-04-02-claude-code-%E6%BA%90%E7%A0%81%E6%B3%84%E9%9C%B2%E8%BF%87%E7%A8%8B%E5%85%A8%E8%A7%A3%E6%9E%90.md)
 - 本文解析 Anthropic 因 AI 配置失误导致 Claude Code 源码泄露事件，揭示过度依赖 AI 实现极速迭代致使人工审核失效，引发严重安全危机，并探讨了速度与安全间的矛盾。
 - Tags: #harness #story
@@ -39,11 +43,7 @@
 - 作者为解决手动导出 Excalidraw 配图效率低的问题，通过 Fork VSCode 扩展，实现了监听文件变化并自动导出双主题 SVG 图片的功能，达成本地实时预览，显著提升了写作体验。
 - Tags: #blog #setup
 
-(2026-03-31) [AI Agent 正在进入工程化深水区](202603/2026-03-31-ai-agent-%E6%AD%A3%E5%9C%A8%E8%BF%9B%E5%85%A5%E5%B7%A5%E7%A8%8B%E5%8C%96%E6%B7%B1%E6%B0%B4%E5%8C%BA.md)
-- AI Agent 竞争重心已从模型能力转向工程系统能力。通过模型专用化、框架生产化、架构分层及协议标准化，Agent 正演变为系统基础设施，未来核心竞争在于构建完整的工程体系。
-- Tags: #agent #engineering
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (4 entries)
+- [2026-04](202604/monthly-index.md) (5 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
