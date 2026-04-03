@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-03) [Identify, solve, verify](202604/2026-04-03-identify%2C-solve%2C-verify.md)
+- LLM 时代，软件开发者的核心价值从编码转向识别问题与验证方案。AI 虽能接管中间环节，但寻找问题并确认解决仍需人类专家，这构成了开发者的高价值工作主体。
+- Tags: #career
+
 (2026-04-03) [Machine Learning: A Practitioner's Mental Model](202604/2026-04-03-machine-learning-a-practitioner%27s-mental-model.md)
 - 本文构建基于第一性原理的 ML 心智模型，涵盖神经元几何、架构逻辑、优化机制、泛化原理及知识存储，并解析不同架构的组合规则。
 - Tags: #guide
@@ -39,11 +43,7 @@
 - AI 工程转向构建 Harness 系统，决定 Agent 性能上限。通过捕获执行轨迹实现“训练即部署”闭环，模型与系统共生演化。未来将向 Coordination Engineering 演进。
 - Tags: #agent #llm
 
-(2026-03-31) [OpenClaw：技术解读和给 AI 应用开发的启示（2026）](202603/2026-03-31-openclaw%EF%BC%9A%E6%8A%80%E6%9C%AF%E8%A7%A3%E8%AF%BB%E5%92%8C%E7%BB%99-ai-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E7%9A%84%E5%90%AF%E7%A4%BA%EF%BC%882026%EF%BC%89.md)
-- OpenClaw 是系统级个人 AI 助手。文章通过 ToyClaw 揭示其核心机制，详述 Gateway 架构与 Skill 系统，强调利用 .md 文件构建记忆与人格，旨在让 AI 真正操控电脑并执行实际任务。
-- Tags: #agent #openclaw
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (6 entries)
+- [2026-04](202604/monthly-index.md) (7 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

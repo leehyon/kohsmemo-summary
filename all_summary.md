@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-03) [Identify, solve, verify](202604/2026-04-03-identify%2C-solve%2C-verify.md)
+  - Tags: #career
+  - Summary: LLM 时代，软件开发者的核心价值从编码转向识别问题与验证方案。AI 虽能接管中间环节，但寻找问题并确认解决仍需人类专家，这构成了开发者的高价值工作主体。
+
 - (2026-04-03) [Machine Learning: A Practitioner's Mental Model](202604/2026-04-03-machine-learning-a-practitioner%27s-mental-model.md)
   - Tags: #guide
   - Summary: 本文构建基于第一性原理的 ML 心智模型，涵盖神经元几何、架构逻辑、优化机制、泛化原理及知识存储，并解析不同架构的组合规则。
