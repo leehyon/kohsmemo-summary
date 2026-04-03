@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-03) [Harness engineering for coding agent users](2026-04-03-harness-engineering-for-coding-agent-users.md)
+- 本文探讨面向编码代理的 Harness 工程，利用 Guides 和 Sensors 实现前馈引导与反馈自纠。该系统将人类经验显性化，提升 AI 代码生成质量，减轻审查负担并建立信任。
+- Tags: #agent
+
 (2026-04-03) [Your job isn't programming](2026-04-03-your-job-isn%27t-programming.md)
 - 软件开发本质是设计和管理 abstraction 以控制 complexity。单纯技术手段无效，应从业务与数据中提炼抽象，通过重构修正错误，从而简化理解，降低系统难度。
 - Tags: #career #view

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-03) [Harness engineering for coding agent users](202604/2026-04-03-harness-engineering-for-coding-agent-users.md)
+- 本文探讨面向编码代理的 Harness 工程，利用 Guides 和 Sensors 实现前馈引导与反馈自纠。该系统将人类经验显性化，提升 AI 代码生成质量，减轻审查负担并建立信任。
+- Tags: #agent
+
 (2026-04-03) [Your job isn't programming](202604/2026-04-03-your-job-isn%27t-programming.md)
 - 软件开发本质是设计和管理 abstraction 以控制 complexity。单纯技术手段无效，应从业务与数据中提炼抽象，通过重构修正错误，从而简化理解，降低系统难度。
 - Tags: #career #view
@@ -39,11 +43,7 @@
 - 文章提出从 Vibe Coding 向范式编程演进。针对企业级痛点，采用 Spec 驱动开发，结合知识库与 AI Agent，以规范为核心构建体系，实现高质量人机协同。
 - Tags: #engineering #vibe-coding
 
-(2026-03-31) [胶水编程：业务需求出码最佳实践](202603/2026-03-31-%E8%83%B6%E6%B0%B4%E7%BC%96%E7%A8%8B%EF%BC%9A%E4%B8%9A%E5%8A%A1%E9%9C%80%E6%B1%82%E5%87%BA%E7%A0%81%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md)
-- 天猫提出“胶水编程”，构建四层物料体系，将 AI 转变为装配工。通过“能抄不写”策略，代码采纳率升至 97.9%，实现了高匹配度场景下的高效与高质量交付。
-- Tags: #agent #best-practice #vibe-coding
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (8 entries)
+- [2026-04](202604/monthly-index.md) (9 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
