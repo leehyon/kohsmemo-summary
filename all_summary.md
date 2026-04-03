@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-03) [Your job isn't programming](202604/2026-04-03-your-job-isn%27t-programming.md)
+  - Tags: #career #view
+  - Summary: 软件开发本质是设计和管理 abstraction 以控制 complexity。单纯技术手段无效，应从业务与数据中提炼抽象，通过重构修正错误，从而简化理解，降低系统难度。
+
 - (2026-04-03) [Identify, solve, verify](202604/2026-04-03-identify%2C-solve%2C-verify.md)
   - Tags: #career
   - Summary: LLM 时代，软件开发者的核心价值从编码转向识别问题与验证方案。AI 虽能接管中间环节，但寻找问题并确认解决仍需人类专家，这构成了开发者的高价值工作主体。

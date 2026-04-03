@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-03) [Your job isn't programming](202604/2026-04-03-your-job-isn%27t-programming.md)
+- 软件开发本质是设计和管理 abstraction 以控制 complexity。单纯技术手段无效，应从业务与数据中提炼抽象，通过重构修正错误，从而简化理解，降低系统难度。
+- Tags: #career #view
+
 (2026-04-03) [Identify, solve, verify](202604/2026-04-03-identify%2C-solve%2C-verify.md)
 - LLM 时代，软件开发者的核心价值从编码转向识别问题与验证方案。AI 虽能接管中间环节，但寻找问题并确认解决仍需人类专家，这构成了开发者的高价值工作主体。
 - Tags: #career
@@ -39,11 +43,7 @@
 - 天猫提出“胶水编程”，构建四层物料体系，将 AI 转变为装配工。通过“能抄不写”策略，代码采纳率升至 97.9%，实现了高匹配度场景下的高效与高质量交付。
 - Tags: #agent #best-practice #vibe-coding
 
-(2026-03-31) [模型智能提升的下一个关键方向](202603/2026-03-31-%E6%A8%A1%E5%9E%8B%E6%99%BA%E8%83%BD%E6%8F%90%E5%8D%87%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%85%B3%E9%94%AE%E6%96%B9%E5%90%91.md)
-- AI 工程转向构建 Harness 系统，决定 Agent 性能上限。通过捕获执行轨迹实现“训练即部署”闭环，模型与系统共生演化。未来将向 Coordination Engineering 演进。
-- Tags: #agent #llm
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (7 entries)
+- [2026-04](202604/monthly-index.md) (8 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
