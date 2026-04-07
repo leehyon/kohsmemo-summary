@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-07) [Garbage Collection: From First Principles to Modern Collectors in Java, Go and Python](202604/2026-04-07-garbage-collection-from-first-principles-to-modern-collectors-in-java%2C-go-and-python.md)
+  - Tags: #design #python #guide
+  - Summary: 本文解析 GC 理论演进，对比引用计数与追踪法，深入剖析 Go 语言基于三色标记与混合写屏障的并发实现，旨在最小化 STW 停顿。
+
 - (2026-04-07) [教育的下一步 · 其二](202604/2026-04-07-%E6%95%99%E8%82%B2%E7%9A%84%E4%B8%8B%E4%B8%80%E6%AD%A5-%C2%B7-%E5%85%B6%E4%BA%8C.md)
   - Tags: #life #education
   - Summary: 本文提出 AI 时代教育应转向“扩展版计算思维”，包含统计模型、抽象编程与学术写作三大能力。旨在培养个体定义问题、驾驭 AI 的底层素养，最终塑造提出真实问题的品味。

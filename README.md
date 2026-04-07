@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-07) [Garbage Collection: From First Principles to Modern Collectors in Java, Go and Python](202604/2026-04-07-garbage-collection-from-first-principles-to-modern-collectors-in-java%2C-go-and-python.md)
+- 本文解析 GC 理论演进，对比引用计数与追踪法，深入剖析 Go 语言基于三色标记与混合写屏障的并发实现，旨在最小化 STW 停顿。
+- Tags: #design #python #guide
+
 (2026-04-07) [教育的下一步 · 其二](202604/2026-04-07-%E6%95%99%E8%82%B2%E7%9A%84%E4%B8%8B%E4%B8%80%E6%AD%A5-%C2%B7-%E5%85%B6%E4%BA%8C.md)
 - 本文提出 AI 时代教育应转向“扩展版计算思维”，包含统计模型、抽象编程与学术写作三大能力。旨在培养个体定义问题、驾驭 AI 的底层素养，最终塑造提出真实问题的品味。
 - Tags: #life #education
@@ -39,11 +43,7 @@
 - 本文探讨利用故障构建韧性系统。指出 Chaos Monkey 等工具的局限，强调从真实事故中学习。文章分析可靠性与复杂性的悖论，主张管理风险吸收能力，并倡导无责备文化以挖掘系统性根源。
 - Tags: #engineering
 
-(2026-04-01) [Encoding Team Standards](202604/2026-04-01-encoding-team-standards.md)
-- 本文针对 A I 辅助开发中的代码一致性问题，提出将团队编码标准转化为可执行的共享基础设施。通过结构化指令挖掘隐性知识并融入工作流，消除个人提示能力差异，实现团队协作的一致性与高质量交付。
-- Tags: #engineering
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (11 entries)
+- [2026-04](202604/monthly-index.md) (12 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

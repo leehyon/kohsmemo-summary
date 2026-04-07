@@ -897,5 +897,16 @@
       "life",
       "education"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "Garbage Collection: From First Principles to Modern Collectors in Java, Go and Python",
+    "url": "https://shbhmrzd.github.io/systems/garbage-collection/memory-management/2026/04/01/garbage-collectors-deep-dive.html",
+    "timestamp": 1775532459,
+    "tags": [
+      "design",
+      "python",
+      "guide"
+    ]
   }
 ]
