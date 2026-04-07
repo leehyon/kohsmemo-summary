@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-07) [在 AI 时代，我是如何深入学习一个技术领域的](202604/2026-04-07-%E5%9C%A8-ai-%E6%97%B6%E4%BB%A3%EF%BC%8C%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%E4%B8%80%E4%B8%AA%E6%8A%80%E6%9C%AF%E9%A2%86%E5%9F%9F%E7%9A%84.md)
+- 本文主张 AI 时代应坚持“输出倒逼输入”的深度学习。AI 是优化流程的工具而非思维替代者，负责信息清洗等工业化环节。通过工程化组织学习，人主导深度判断，将输入转化为扎实认知，避免碎片化。
+- Tags: #skill #guide
+
 (2026-04-03) [Harness engineering for coding agent users](202604/2026-04-03-harness-engineering-for-coding-agent-users.md)
 - 本文探讨面向编码代理的 Harness 工程，利用 Guides 和 Sensors 实现前馈引导与反馈自纠。该系统将人类经验显性化，提升 AI 代码生成质量，减轻审查负担并建立信任。
 - Tags: #agent
@@ -39,11 +43,7 @@
 - 本文对比 C++ RAII 与 Rust 所有权，指出前者依赖约定易生隐患，后者由编译器强制执行。Rust 通过借用检查彻底杜绝了内存与并发问题，虽 C++ 有工程优势，但 Rust 真正实现了严格的资源管理目标。
 - Tags: #cpp #design
 
-(2026-03-31) [从 Vibe Coding 到范式编程](202603/2026-03-31-%E4%BB%8E-vibe-coding-%E5%88%B0%E8%8C%83%E5%BC%8F%E7%BC%96%E7%A8%8B.md)
-- 文章提出从 Vibe Coding 向范式编程演进。针对企业级痛点，采用 Spec 驱动开发，结合知识库与 AI Agent，以规范为核心构建体系，实现高质量人机协同。
-- Tags: #engineering #vibe-coding
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (9 entries)
+- [2026-04](202604/monthly-index.md) (10 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

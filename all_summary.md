@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-07) [在 AI 时代，我是如何深入学习一个技术领域的](202604/2026-04-07-%E5%9C%A8-ai-%E6%97%B6%E4%BB%A3%EF%BC%8C%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%E4%B8%80%E4%B8%AA%E6%8A%80%E6%9C%AF%E9%A2%86%E5%9F%9F%E7%9A%84.md)
+  - Tags: #skill #guide
+  - Summary: 本文主张 AI 时代应坚持“输出倒逼输入”的深度学习。AI 是优化流程的工具而非思维替代者，负责信息清洗等工业化环节。通过工程化组织学习，人主导深度判断，将输入转化为扎实认知，避免碎片化。
+
 - (2026-04-03) [Harness engineering for coding agent users](202604/2026-04-03-harness-engineering-for-coding-agent-users.md)
   - Tags: #agent
   - Summary: 本文探讨面向编码代理的 Harness 工程，利用 Guides 和 Sensors 实现前馈引导与反馈自纠。该系统将人类经验显性化，提升 AI 代码生成质量，减轻审查负担并建立信任。
