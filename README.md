@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-08) [Claude Code 和 OpenClaw 的上下文管理对比](202604/2026-04-08-claude-code-%E5%92%8C-openclaw-%E7%9A%84%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AE%A1%E7%90%86%E5%AF%B9%E6%AF%94.md)
+- 文章对比 Claude Code 与 OpenClaw 的上下文管理。Claude Code 利用 API 特性实现低成本压缩与状态恢复；OpenClaw 侧重通用兼容，当前成本高且缺乏深度优化。
+- Tags: #agent #openclaw #design
+
 (2026-04-07) [Garbage Collection: From First Principles to Modern Collectors in Java, Go and Python](202604/2026-04-07-garbage-collection-from-first-principles-to-modern-collectors-in-java%2C-go-and-python.md)
 - 本文解析 GC 理论演进，对比引用计数与追踪法，深入剖析 Go 语言基于三色标记与混合写屏障的并发实现，旨在最小化 STW 停顿。
 - Tags: #design #python #guide
@@ -39,11 +43,7 @@
 - 本文解析 Anthropic 因 AI 配置失误导致 Claude Code 源码泄露事件，揭示过度依赖 AI 实现极速迭代致使人工审核失效，引发严重安全危机，并探讨了速度与安全间的矛盾。
 - Tags: #harness #story
 
-(2026-04-01) [Failure As a Means to Build Resilient Software Systems](202604/2026-04-01-failure-as-a-means-to-build-resilient-software-systems.md)
-- 本文探讨利用故障构建韧性系统。指出 Chaos Monkey 等工具的局限，强调从真实事故中学习。文章分析可靠性与复杂性的悖论，主张管理风险吸收能力，并倡导无责备文化以挖掘系统性根源。
-- Tags: #engineering
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (12 entries)
+- [2026-04](202604/monthly-index.md) (13 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

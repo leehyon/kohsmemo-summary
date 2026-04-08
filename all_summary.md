@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-08) [Claude Code 和 OpenClaw 的上下文管理对比](202604/2026-04-08-claude-code-%E5%92%8C-openclaw-%E7%9A%84%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AE%A1%E7%90%86%E5%AF%B9%E6%AF%94.md)
+  - Tags: #agent #openclaw #design
+  - Summary: 文章对比 Claude Code 与 OpenClaw 的上下文管理。Claude Code 利用 API 特性实现低成本压缩与状态恢复；OpenClaw 侧重通用兼容，当前成本高且缺乏深度优化。
+
 - (2026-04-07) [Garbage Collection: From First Principles to Modern Collectors in Java, Go and Python](202604/2026-04-07-garbage-collection-from-first-principles-to-modern-collectors-in-java%2C-go-and-python.md)
   - Tags: #design #python #guide
   - Summary: 本文解析 GC 理论演进，对比引用计数与追踪法，深入剖析 Go 语言基于三色标记与混合写屏障的并发实现，旨在最小化 STW 停顿。
