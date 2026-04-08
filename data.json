@@ -919,5 +919,15 @@
       "openclaw",
       "design"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "从 Rule、Spec 到 Harness：AI Coding 的分阶段演进路径",
+    "url": "https://www.phodal.com/blog/from-rule-spec-to-harness-ai-coding-adoption-path/",
+    "timestamp": 1775611788,
+    "tags": [
+      "agent",
+      "engineering"
+    ]
   }
 ]

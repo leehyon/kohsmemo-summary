@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-08) [从 Rule、Spec 到 Harness：AI Coding 的分阶段演进路径](202604/2026-04-08-%E4%BB%8E-rule%E3%80%81spec-%E5%88%B0-harness%EF%BC%9Aai-coding-%E7%9A%84%E5%88%86%E9%98%B6%E6%AE%B5%E6%BC%94%E8%BF%9B%E8%B7%AF%E5%BE%84.md)
+- AI Coding 落地难点不在于模型，而在于工程管控。需建立 Rule、Spec、Loop、Harness 四层架构，逐层收紧控制面，将 AI 从代码生成工具转变为工程边界内稳定工作的交付系统。
+- Tags: #agent #engineering
+
 (2026-04-08) [Claude Code 和 OpenClaw 的上下文管理对比](202604/2026-04-08-claude-code-%E5%92%8C-openclaw-%E7%9A%84%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AE%A1%E7%90%86%E5%AF%B9%E6%AF%94.md)
 - 文章对比 Claude Code 与 OpenClaw 的上下文管理。Claude Code 利用 API 特性实现低成本压缩与状态恢复；OpenClaw 侧重通用兼容，当前成本高且缺乏深度优化。
 - Tags: #agent #openclaw #design
@@ -39,11 +43,7 @@
 - 文章解析  目录结构，通过 、 及扩展模块定制规则与权限，满足团队与个人需求，打造高效 AI 开发工具。
 - Tags: #agent #design #guide
 
-(2026-04-02) [Claude Code 源码泄露过程全解析](202604/2026-04-02-claude-code-%E6%BA%90%E7%A0%81%E6%B3%84%E9%9C%B2%E8%BF%87%E7%A8%8B%E5%85%A8%E8%A7%A3%E6%9E%90.md)
-- 本文解析 Anthropic 因 AI 配置失误导致 Claude Code 源码泄露事件，揭示过度依赖 AI 实现极速迭代致使人工审核失效，引发严重安全危机，并探讨了速度与安全间的矛盾。
-- Tags: #harness #story
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (13 entries)
+- [2026-04](202604/monthly-index.md) (14 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
