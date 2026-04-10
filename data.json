@@ -939,5 +939,17 @@
       "agent",
       "engineering"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "顶级开发团队设计的 Harness 工程项目源码什么样",
+    "url": "https://www.bestblogs.dev/en/article/3e1cd52f",
+    "timestamp": 1775807441,
+    "tags": [
+      "agent",
+      "harness",
+      "guide",
+      "engineering"
+    ]
   }
 ]
