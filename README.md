@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-10) [OpenClaw 实战：一个人、一台 Mac、六个 AI Agent](202604/2026-04-10-openclaw-%E5%AE%9E%E6%88%98%EF%BC%9A%E4%B8%80%E4%B8%AA%E4%BA%BA%E3%80%81%E4%B8%80%E5%8F%B0-mac%E3%80%81%E5%85%AD%E4%B8%AA-ai-agent.md)
+- 本文分享基于 OpenClaw 构建生产级 AI 系统的实战经验。通过解决上下文管理、记忆进化及多 Agent 协作三大难题，实现了系统的 7x24 稳定运行与自主迭代。
+- Tags: #best-practice #openclaw
+
 (2026-04-10) [拥抱 AI 这一年，我的工具、实践和思考](202604/2026-04-10-%E6%8B%A5%E6%8A%B1-ai-%E8%BF%99%E4%B8%80%E5%B9%B4%EF%BC%8C%E6%88%91%E7%9A%84%E5%B7%A5%E5%85%B7%E3%80%81%E5%AE%9E%E8%B7%B5%E5%92%8C%E6%80%9D%E8%80%83.md)
 - 基于作者万元投入 AI 一年的实践，本文分享了从工具链搭建、工程范式从 Prompt 演进至 Harness、到 Agent 驱动知识管理的经验，并探讨了 AI Native 形态与人机关系的思考。
 - Tags: #agent #best-practice
@@ -39,11 +43,7 @@
 - 本文主张 AI 时代应坚持“输出倒逼输入”的深度学习。AI 是优化流程的工具而非思维替代者，负责信息清洗等工业化环节。通过工程化组织学习，人主导深度判断，将输入转化为扎实认知，避免碎片化。
 - Tags: #skill #guide
 
-(2026-04-03) [Harness engineering for coding agent users](202604/2026-04-03-harness-engineering-for-coding-agent-users.md)
-- 本文探讨面向编码代理的 Harness 工程，利用 Guides 和 Sensors 实现前馈引导与反馈自纠。该系统将人类经验显性化，提升 AI 代码生成质量，减轻审查负担并建立信任。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (18 entries)
+- [2026-04](202604/monthly-index.md) (19 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

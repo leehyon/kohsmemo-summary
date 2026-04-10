@@ -970,5 +970,15 @@
       "agent",
       "best-practice"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "OpenClaw 实战：一个人、一台 Mac、六个 AI Agent",
+    "url": "https://www.bestblogs.dev/en/article/02471f5f",
+    "timestamp": 1775809957,
+    "tags": [
+      "best-practice",
+      "openclaw"
+    ]
   }
 ]
