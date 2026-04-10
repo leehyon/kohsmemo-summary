@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-10) [拥抱 AI 这一年，我的工具、实践和思考](202604/2026-04-10-%E6%8B%A5%E6%8A%B1-ai-%E8%BF%99%E4%B8%80%E5%B9%B4%EF%BC%8C%E6%88%91%E7%9A%84%E5%B7%A5%E5%85%B7%E3%80%81%E5%AE%9E%E8%B7%B5%E5%92%8C%E6%80%9D%E8%80%83.md)
+- 基于作者万元投入 AI 一年的实践，本文分享了从工具链搭建、工程范式从 Prompt 演进至 Harness、到 Agent 驱动知识管理的经验，并探讨了 AI Native 形态与人机关系的思考。
+- Tags: #agent #best-practice
+
 (2026-04-10) [Token 经济学七问](202604/2026-04-10-token-%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%B8%83%E9%97%AE.md)
 - Token 正演变为 AI 经济的基础设施。受益于 Agent 需求爆发，全球 Token 消耗呈指数级增长，虽单位成本下降但总支出上升。未来需应对算法出海、跨境监管及法律主体等新挑战。
 - Tags: #view
@@ -39,11 +43,7 @@
 - 本文探讨面向编码代理的 Harness 工程，利用 Guides 和 Sensors 实现前馈引导与反馈自纠。该系统将人类经验显性化，提升 AI 代码生成质量，减轻审查负担并建立信任。
 - Tags: #agent
 
-(2026-04-03) [Your job isn't programming](202604/2026-04-03-your-job-isn%27t-programming.md)
-- 软件开发本质是设计和管理 abstraction 以控制 complexity。单纯技术手段无效，应从业务与数据中提炼抽象，通过重构修正错误，从而简化理解，降低系统难度。
-- Tags: #career #view
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (17 entries)
+- [2026-04](202604/monthly-index.md) (18 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

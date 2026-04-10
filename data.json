@@ -960,5 +960,15 @@
     "tags": [
       "view"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "拥抱 AI 这一年，我的工具、实践和思考",
+    "url": "https://www.bestblogs.dev/en/article/83fa2a78",
+    "timestamp": 1775808022,
+    "tags": [
+      "agent",
+      "best-practice"
+    ]
   }
 ]
