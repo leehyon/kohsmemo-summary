@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-10) [AI is driving rapid workplace changes, but uneven benefits](202604/2026-04-10-ai-is-driving-rapid-workplace-changes%2C-but-uneven-benefits.md)
+  - Tags: #agent #engineering
+  - Summary: 生成式 AI 正重塑工作本质，从工具转向协作伙伴。虽提升生产力，但存在分配不均及认知挑战。未来工作形态取决于技术构建与选择，人类判断力至关重要。
+
 - (2026-04-08) [从 Rule、Spec 到 Harness：AI Coding 的分阶段演进路径](202604/2026-04-08-%E4%BB%8E-rule%E3%80%81spec-%E5%88%B0-harness%EF%BC%9Aai-coding-%E7%9A%84%E5%88%86%E9%98%B6%E6%AE%B5%E6%BC%94%E8%BF%9B%E8%B7%AF%E5%BE%84.md)
   - Tags: #agent #engineering
   - Summary: AI Coding 落地难点不在于模型，而在于工程管控。需建立 Rule、Spec、Loop、Harness 四层架构，逐层收紧控制面，将 AI 从代码生成工具转变为工程边界内稳定工作的交付系统。

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-10) [AI is driving rapid workplace changes, but uneven benefits](202604/2026-04-10-ai-is-driving-rapid-workplace-changes%2C-but-uneven-benefits.md)
+- 生成式 AI 正重塑工作本质，从工具转向协作伙伴。虽提升生产力，但存在分配不均及认知挑战。未来工作形态取决于技术构建与选择，人类判断力至关重要。
+- Tags: #agent #engineering
+
 (2026-04-08) [从 Rule、Spec 到 Harness：AI Coding 的分阶段演进路径](202604/2026-04-08-%E4%BB%8E-rule%E3%80%81spec-%E5%88%B0-harness%EF%BC%9Aai-coding-%E7%9A%84%E5%88%86%E9%98%B6%E6%AE%B5%E6%BC%94%E8%BF%9B%E8%B7%AF%E5%BE%84.md)
 - AI Coding 落地难点不在于模型，而在于工程管控。需建立 Rule、Spec、Loop、Harness 四层架构，逐层收紧控制面，将 AI 从代码生成工具转变为工程边界内稳定工作的交付系统。
 - Tags: #agent #engineering
@@ -39,11 +43,7 @@
 - 本文构建基于第一性原理的 ML 心智模型，涵盖神经元几何、架构逻辑、优化机制、泛化原理及知识存储，并解析不同架构的组合规则。
 - Tags: #guide
 
-(2026-04-03) [Anatomy of the .claude/ Folder](202604/2026-04-03-anatomy-of-the-.claude-folder.md)
-- 文章解析  目录结构，通过 、 及扩展模块定制规则与权限，满足团队与个人需求，打造高效 AI 开发工具。
-- Tags: #agent #design #guide
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (14 entries)
+- [2026-04](202604/monthly-index.md) (15 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
