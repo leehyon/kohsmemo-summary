@@ -3,8 +3,12 @@
 
 ## Latest 10 Entries
 
+(2026-04-17) [How to walk through walls](202604/2026-04-17-how-to-walk-through-walls.md)
+- Hacker Mindset (黑客思维) 指看穿表象规则，利用底层机制打破限制。文章通过案例说明其在现实中的应用，强调通过动手实践培养此思维，将现实世界视为可被操纵的 playground (游乐场)。
+- Tags: #advice #life
+
 (2026-04-17) [Open-Source Agent That Teaches Claude Code Your Architecture](202604/2026-04-17-open-source-agent-that-teaches-claude-code-your-architecture.md)
-- 本文介绍 `domain-agents`，通过静态分析提取领域上下文，结合演进式架构解决 AI 缺乏架构感知的局限。该工具赋予 AI 领域理解力，平衡代码构建与长期维护。
+- 本文介绍 ，通过静态分析提取领域上下文，结合演进式架构解决 AI 缺乏架构感知的局限。该工具赋予 AI 领域理解力，平衡代码构建与长期维护。
 - Tags: #agent #best-practice
 
 (2026-04-17) [让 Claude Code 在你睡觉时持续运行：完整实战指南](202604/2026-04-17-%E8%AE%A9-claude-code-%E5%9C%A8%E4%BD%A0%E7%9D%A1%E8%A7%89%E6%97%B6%E6%8C%81%E7%BB%AD%E8%BF%90%E8%A1%8C%EF%BC%9A%E5%AE%8C%E6%95%B4%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.md)
@@ -39,11 +43,7 @@
 - 本文剖析顶级 AI Agent CLI 项目，阐述 Harness Engineering 范式。该范式利用分层启动、安全模型及上下文压缩等强工程设施约束模型，而非依赖智能，打造高可靠 AI Agent 蓝图。
 - Tags: #agent #harness #guide #engineering
 
-(2026-04-10) [AI is driving rapid workplace changes, but uneven benefits](202604/2026-04-10-ai-is-driving-rapid-workplace-changes%2C-but-uneven-benefits.md)
-- 生成式 AI 正重塑工作本质，从工具转向协作伙伴。虽提升生产力，但存在分配不均及认知挑战。未来工作形态取决于技术构建与选择，人类判断力至关重要。
-- Tags: #agent #engineering
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (24 entries)
+- [2026-04](202604/monthly-index.md) (25 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
