@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-17) [Do You Even Need a Database](2026-04-17-do-you-even-need-a-database.md)
+- 文章探讨了早期使用文件系统替代数据库的可行性。测试显示，内存映射等简单方案性能优异，SQLite 也足以支撑大流量。结论是应按需选择，无需过早引入数据库，简单文件方案往往已足够。
+- Tags: #engineering #why
+
 (2026-04-10) [OpenClaw 实战：一个人、一台 Mac、六个 AI Agent](2026-04-10-openclaw-%E5%AE%9E%E6%88%98%EF%BC%9A%E4%B8%80%E4%B8%AA%E4%BA%BA%E3%80%81%E4%B8%80%E5%8F%B0-mac%E3%80%81%E5%85%AD%E4%B8%AA-ai-agent.md)
 - 本文分享基于 OpenClaw 构建生产级 AI 系统的实战经验。通过解决上下文管理、记忆进化及多 Agent 协作三大难题，实现了系统的 7x24 稳定运行与自主迭代。
 - Tags: #best-practice #openclaw

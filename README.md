@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-17) [Do You Even Need a Database](202604/2026-04-17-do-you-even-need-a-database.md)
+- 文章探讨了早期使用文件系统替代数据库的可行性。测试显示，内存映射等简单方案性能优异，SQLite 也足以支撑大流量。结论是应按需选择，无需过早引入数据库，简单文件方案往往已足够。
+- Tags: #engineering #why
+
 (2026-04-10) [OpenClaw 实战：一个人、一台 Mac、六个 AI Agent](202604/2026-04-10-openclaw-%E5%AE%9E%E6%88%98%EF%BC%9A%E4%B8%80%E4%B8%AA%E4%BA%BA%E3%80%81%E4%B8%80%E5%8F%B0-mac%E3%80%81%E5%85%AD%E4%B8%AA-ai-agent.md)
 - 本文分享基于 OpenClaw 构建生产级 AI 系统的实战经验。通过解决上下文管理、记忆进化及多 Agent 协作三大难题，实现了系统的 7x24 稳定运行与自主迭代。
 - Tags: #best-practice #openclaw
@@ -39,11 +43,7 @@
 - 本文提出 AI 时代教育应转向“扩展版计算思维”，包含统计模型、抽象编程与学术写作三大能力。旨在培养个体定义问题、驾驭 AI 的底层素养，最终塑造提出真实问题的品味。
 - Tags: #life #education
 
-(2026-04-07) [在 AI 时代，我是如何深入学习一个技术领域的](202604/2026-04-07-%E5%9C%A8-ai-%E6%97%B6%E4%BB%A3%EF%BC%8C%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%E4%B8%80%E4%B8%AA%E6%8A%80%E6%9C%AF%E9%A2%86%E5%9F%9F%E7%9A%84.md)
-- 本文主张 AI 时代应坚持“输出倒逼输入”的深度学习。AI 是优化流程的工具而非思维替代者，负责信息清洗等工业化环节。通过工程化组织学习，人主导深度判断，将输入转化为扎实认知，避免碎片化。
-- Tags: #skill #guide
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (19 entries)
+- [2026-04](202604/monthly-index.md) (20 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
