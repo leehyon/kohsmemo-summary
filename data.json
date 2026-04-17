@@ -1000,5 +1000,16 @@
       "guide",
       "why"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "从 RAG 到知识编译",
+    "url": "https://finisky.github.io/llm-wiki/",
+    "timestamp": 1776391885,
+    "tags": [
+      "blog",
+      "llm",
+      "best-practice"
+    ]
   }
 ]

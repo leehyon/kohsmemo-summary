@@ -3,8 +3,12 @@
 
 ## Latest 10 Entries
 
+(2026-04-17) [从 RAG 到知识编译](202604/2026-04-17-%E4%BB%8E-rag-%E5%88%B0%E7%9F%A5%E8%AF%86%E7%BC%96%E8%AF%91.md)
+- 本文探讨从 RAG 向 LLM Wiki 范式的转变。类比“编译执行”，LLM Wiki 在入库时进行结构化处理，实现深度整合与自动化维护。其适用于深度研究，但也面临幻觉与成本挑战。
+- Tags: #blog #llm #best-practice
+
 (2026-04-17) [Things you didn't know about indexes](202604/2026-04-17-things-you-didn%27t-know-about-indexes.md)
-- 本文解析数据库索引的 B-tree 原理与性能代价，剖析了索引失效的常见原因及 `EXPLAIN` 诊断方法，并介绍了函数索引、部分索引及覆盖索引等进阶用法。
+- 本文解析数据库索引的 B-tree 原理与性能代价，剖析了索引失效的常见原因及  诊断方法，并介绍了函数索引、部分索引及覆盖索引等进阶用法。
 - Tags: #guide #why
 
 (2026-04-17) [Do You Even Need a Database](202604/2026-04-17-do-you-even-need-a-database.md)
@@ -39,11 +43,7 @@
 - 文章对比 Claude Code 与 OpenClaw 的上下文管理。Claude Code 利用 API 特性实现低成本压缩与状态恢复；OpenClaw 侧重通用兼容，当前成本高且缺乏深度优化。
 - Tags: #agent #openclaw #design
 
-(2026-04-07) [Garbage Collection: From First Principles to Modern Collectors in Java, Go and Python](202604/2026-04-07-garbage-collection-from-first-principles-to-modern-collectors-in-java%2C-go-and-python.md)
-- 本文解析 GC 理论演进，对比引用计数与追踪法，深入剖析 Go 语言基于三色标记与混合写屏障的并发实现，旨在最小化 STW 停顿。
-- Tags: #design #python #guide
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (21 entries)
+- [2026-04](202604/monthly-index.md) (22 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

@@ -1,7 +1,11 @@
 # 2026-04 Monthly Index
 
+(2026-04-17) [从 RAG 到知识编译](2026-04-17-%E4%BB%8E-rag-%E5%88%B0%E7%9F%A5%E8%AF%86%E7%BC%96%E8%AF%91.md)
+- 本文探讨从 RAG 向 LLM Wiki 范式的转变。类比“编译执行”，LLM Wiki 在入库时进行结构化处理，实现深度整合与自动化维护。其适用于深度研究，但也面临幻觉与成本挑战。
+- Tags: #blog #llm #best-practice
+
 (2026-04-17) [Things you didn't know about indexes](2026-04-17-things-you-didn%27t-know-about-indexes.md)
-- 本文解析数据库索引的 B-tree 原理与性能代价，剖析了索引失效的常见原因及 `EXPLAIN` 诊断方法，并介绍了函数索引、部分索引及覆盖索引等进阶用法。
+- 本文解析数据库索引的 B-tree 原理与性能代价，剖析了索引失效的常见原因及  诊断方法，并介绍了函数索引、部分索引及覆盖索引等进阶用法。
 - Tags: #guide #why
 
 (2026-04-17) [Do You Even Need a Database](2026-04-17-do-you-even-need-a-database.md)
