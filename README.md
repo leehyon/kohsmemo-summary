@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-17) [OpenHealth – Chat with Apple Health Data, Anywhere](202604/2026-04-17-openhealth-%E2%80%93-chat-with-apple-health-data%2C-anywhere.md)
+- OpenHealth 开源工具将 Apple Health 数据转为 LLM 可读格式。支持本地解析以保护隐私，提供 Web App 与 CLI。用户能利用真实数据获取个性化 AI 建议，打破地理限制。
+- Tags: #life #setup
+
 (2026-04-17) [The peril of laziness lost](202604/2026-04-17-the-peril-of-laziness-lost.md)
 - 文章探讨程序员“懒惰”美德在 LLM 时代的丧失。LLM 缺乏约束，易加剧虚假勤奋。主张人类应主导，将 LLM 作为辅助工具以构建简洁系统，而非替代思考。
 - Tags: #blog
@@ -39,11 +43,7 @@
 - 本文分享基于 OpenClaw 构建生产级 AI 系统的实战经验。通过解决上下文管理、记忆进化及多 Agent 协作三大难题，实现了系统的 7x24 稳定运行与自主迭代。
 - Tags: #best-practice #openclaw
 
-(2026-04-10) [拥抱 AI 这一年，我的工具、实践和思考](202604/2026-04-10-%E6%8B%A5%E6%8A%B1-ai-%E8%BF%99%E4%B8%80%E5%B9%B4%EF%BC%8C%E6%88%91%E7%9A%84%E5%B7%A5%E5%85%B7%E3%80%81%E5%AE%9E%E8%B7%B5%E5%92%8C%E6%80%9D%E8%80%83.md)
-- 基于作者万元投入 AI 一年的实践，本文分享了从工具链搭建、工程范式从 Prompt 演进至 Harness、到 Agent 驱动知识管理的经验，并探讨了 AI Native 形态与人机关系的思考。
-- Tags: #agent #best-practice
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (27 entries)
+- [2026-04](202604/monthly-index.md) (28 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

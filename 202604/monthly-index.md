@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-17) [OpenHealth – Chat with Apple Health Data, Anywhere](2026-04-17-openhealth-%E2%80%93-chat-with-apple-health-data%2C-anywhere.md)
+- OpenHealth 开源工具将 Apple Health 数据转为 LLM 可读格式。支持本地解析以保护隐私，提供 Web App 与 CLI。用户能利用真实数据获取个性化 AI 建议，打破地理限制。
+- Tags: #life #setup
+
 (2026-04-17) [The peril of laziness lost](2026-04-17-the-peril-of-laziness-lost.md)
 - 文章探讨程序员“懒惰”美德在 LLM 时代的丧失。LLM 缺乏约束，易加剧虚假勤奋。主张人类应主导，将 LLM 作为辅助工具以构建简洁系统，而非替代思考。
 - Tags: #blog
