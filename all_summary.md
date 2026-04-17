@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-17) [Don't default to doing nothing](202604/2026-04-17-don%27t-default-to-doing-nothing.md)
+  - Tags: #life
+  - Summary: 本文旨在探讨如何克服优柔寡断导致的“默认不作为”。通过设定默认行动和截止时间，利用可逆决策机制，借助现状偏误打破决策瘫痪，促使自己采取行动。
+
 - (2026-04-17) [How to walk through walls](202604/2026-04-17-how-to-walk-through-walls.md)
   - Tags: #advice #life
   - Summary: Hacker Mindset (黑客思维) 指看穿表象规则，利用底层机制打破限制。文章通过案例说明其在现实中的应用，强调通过动手实践培养此思维，将现实世界视为可被操纵的 playground (游乐场)。

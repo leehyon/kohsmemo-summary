@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-17) [Don't default to doing nothing](202604/2026-04-17-don%27t-default-to-doing-nothing.md)
+- 本文旨在探讨如何克服优柔寡断导致的“默认不作为”。通过设定默认行动和截止时间，利用可逆决策机制，借助现状偏误打破决策瘫痪，促使自己采取行动。
+- Tags: #life
+
 (2026-04-17) [How to walk through walls](202604/2026-04-17-how-to-walk-through-walls.md)
 - Hacker Mindset (黑客思维) 指看穿表象规则，利用底层机制打破限制。文章通过案例说明其在现实中的应用，强调通过动手实践培养此思维，将现实世界视为可被操纵的 playground (游乐场)。
 - Tags: #advice #life
@@ -39,11 +43,7 @@
 - Token 正演变为 AI 经济的基础设施。受益于 Agent 需求爆发，全球 Token 消耗呈指数级增长，虽单位成本下降但总支出上升。未来需应对算法出海、跨境监管及法律主体等新挑战。
 - Tags: #view
 
-(2026-04-10) [顶级开发团队设计的 Harness 工程项目源码什么样](202604/2026-04-10-%E9%A1%B6%E7%BA%A7%E5%BC%80%E5%8F%91%E5%9B%A2%E9%98%9F%E8%AE%BE%E8%AE%A1%E7%9A%84-harness-%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81%E4%BB%80%E4%B9%88%E6%A0%B7.md)
-- 本文剖析顶级 AI Agent CLI 项目，阐述 Harness Engineering 范式。该范式利用分层启动、安全模型及上下文压缩等强工程设施约束模型，而非依赖智能，打造高可靠 AI Agent 蓝图。
-- Tags: #agent #harness #guide #engineering
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (25 entries)
+- [2026-04](202604/monthly-index.md) (26 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
