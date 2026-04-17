@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-17) [Open-Source Agent That Teaches Claude Code Your Architecture](202604/2026-04-17-open-source-agent-that-teaches-claude-code-your-architecture.md)
+  - Tags: #agent #best-practice
+  - Summary: 本文介绍 `domain-agents`，通过静态分析提取领域上下文，结合演进式架构解决 AI 缺乏架构感知的局限。该工具赋予 AI 领域理解力，平衡代码构建与长期维护。
+
 - (2026-04-17) [让 Claude Code 在你睡觉时持续运行：完整实战指南](202604/2026-04-17-%E8%AE%A9-claude-code-%E5%9C%A8%E4%BD%A0%E7%9D%A1%E8%A7%89%E6%97%B6%E6%8C%81%E7%BB%AD%E8%BF%90%E8%A1%8C%EF%BC%9A%E5%AE%8C%E6%95%B4%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.md)
   - Tags: #agent #setup
   - Summary: 本指南详述如何配置 Claude Code 实现无人值守自动化编程。通过设定运行模式、Ralph Wiggum 循环、安全 Hook 及 Docker 隔离环境，使 AI 能够在夜间自动执行代码编写与修复。

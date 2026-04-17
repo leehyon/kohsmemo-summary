@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-17) [Open-Source Agent That Teaches Claude Code Your Architecture](202604/2026-04-17-open-source-agent-that-teaches-claude-code-your-architecture.md)
+- 本文介绍 `domain-agents`，通过静态分析提取领域上下文，结合演进式架构解决 AI 缺乏架构感知的局限。该工具赋予 AI 领域理解力，平衡代码构建与长期维护。
+- Tags: #agent #best-practice
+
 (2026-04-17) [让 Claude Code 在你睡觉时持续运行：完整实战指南](202604/2026-04-17-%E8%AE%A9-claude-code-%E5%9C%A8%E4%BD%A0%E7%9D%A1%E8%A7%89%E6%97%B6%E6%8C%81%E7%BB%AD%E8%BF%90%E8%A1%8C%EF%BC%9A%E5%AE%8C%E6%95%B4%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.md)
 - 本指南详述如何配置 Claude Code 实现无人值守自动化编程。通过设定运行模式、Ralph Wiggum 循环、安全 Hook 及 Docker 隔离环境，使 AI 能够在夜间自动执行代码编写与修复。
 - Tags: #agent #setup
@@ -39,11 +43,7 @@
 - 生成式 AI 正重塑工作本质，从工具转向协作伙伴。虽提升生产力，但存在分配不均及认知挑战。未来工作形态取决于技术构建与选择，人类判断力至关重要。
 - Tags: #agent #engineering
 
-(2026-04-08) [从 Rule、Spec 到 Harness：AI Coding 的分阶段演进路径](202604/2026-04-08-%E4%BB%8E-rule%E3%80%81spec-%E5%88%B0-harness%EF%BC%9Aai-coding-%E7%9A%84%E5%88%86%E9%98%B6%E6%AE%B5%E6%BC%94%E8%BF%9B%E8%B7%AF%E5%BE%84.md)
-- AI Coding 落地难点不在于模型，而在于工程管控。需建立 Rule、Spec、Loop、Harness 四层架构，逐层收紧控制面，将 AI 从代码生成工具转变为工程边界内稳定工作的交付系统。
-- Tags: #agent #engineering
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (23 entries)
+- [2026-04](202604/monthly-index.md) (24 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
