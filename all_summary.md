@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-17) [The peril of laziness lost](202604/2026-04-17-the-peril-of-laziness-lost.md)
+  - Tags: #blog
+  - Summary: 文章探讨程序员“懒惰”美德在 LLM 时代的丧失。LLM 缺乏约束，易加剧虚假勤奋。主张人类应主导，将 LLM 作为辅助工具以构建简洁系统，而非替代思考。
+
 - (2026-04-17) [Don't default to doing nothing](202604/2026-04-17-don%27t-default-to-doing-nothing.md)
   - Tags: #life
   - Summary: 本文旨在探讨如何克服优柔寡断导致的“默认不作为”。通过设定默认行动和截止时间，利用可逆决策机制，借助现状偏误打破决策瘫痪，促使自己采取行动。

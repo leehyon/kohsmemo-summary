@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-17) [The peril of laziness lost](202604/2026-04-17-the-peril-of-laziness-lost.md)
+- 文章探讨程序员“懒惰”美德在 LLM 时代的丧失。LLM 缺乏约束，易加剧虚假勤奋。主张人类应主导，将 LLM 作为辅助工具以构建简洁系统，而非替代思考。
+- Tags: #blog
+
 (2026-04-17) [Don't default to doing nothing](202604/2026-04-17-don%27t-default-to-doing-nothing.md)
 - 本文旨在探讨如何克服优柔寡断导致的“默认不作为”。通过设定默认行动和截止时间，利用可逆决策机制，借助现状偏误打破决策瘫痪，促使自己采取行动。
 - Tags: #life
@@ -39,11 +43,7 @@
 - 基于作者万元投入 AI 一年的实践，本文分享了从工具链搭建、工程范式从 Prompt 演进至 Harness、到 Agent 驱动知识管理的经验，并探讨了 AI Native 形态与人机关系的思考。
 - Tags: #agent #best-practice
 
-(2026-04-10) [Token 经济学七问](202604/2026-04-10-token-%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%B8%83%E9%97%AE.md)
-- Token 正演变为 AI 经济的基础设施。受益于 Agent 需求爆发，全球 Token 消耗呈指数级增长，虽单位成本下降但总支出上升。未来需应对算法出海、跨境监管及法律主体等新挑战。
-- Tags: #view
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (26 entries)
+- [2026-04](202604/monthly-index.md) (27 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
