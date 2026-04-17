@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-17) [How I run multiple $10K MRR companies on a $20/month tech stack](202604/2026-04-17-how-i-run-multiple-%2410k-mrr-companies-on-a-%2420-month-tech-stack.md)
+- 本文阐述利用 Go、SQLite 和廉价 VPS 构建极简技术栈，以月费 $20 运营高收入公司。通过本地 GPU 优化 AI 策略，实现高效、低依赖的独立开发模式。
+- Tags: #setup
+
 (2026-04-17) [OpenHealth – Chat with Apple Health Data, Anywhere](202604/2026-04-17-openhealth-%E2%80%93-chat-with-apple-health-data%2C-anywhere.md)
 - OpenHealth 开源工具将 Apple Health 数据转为 LLM 可读格式。支持本地解析以保护隐私，提供 Web App 与 CLI。用户能利用真实数据获取个性化 AI 建议，打破地理限制。
 - Tags: #life #setup
@@ -39,11 +43,7 @@
 - 文章探讨了早期使用文件系统替代数据库的可行性。测试显示，内存映射等简单方案性能优异，SQLite 也足以支撑大流量。结论是应按需选择，无需过早引入数据库，简单文件方案往往已足够。
 - Tags: #engineering #why
 
-(2026-04-10) [OpenClaw 实战：一个人、一台 Mac、六个 AI Agent](202604/2026-04-10-openclaw-%E5%AE%9E%E6%88%98%EF%BC%9A%E4%B8%80%E4%B8%AA%E4%BA%BA%E3%80%81%E4%B8%80%E5%8F%B0-mac%E3%80%81%E5%85%AD%E4%B8%AA-ai-agent.md)
-- 本文分享基于 OpenClaw 构建生产级 AI 系统的实战经验。通过解决上下文管理、记忆进化及多 Agent 协作三大难题，实现了系统的 7x24 稳定运行与自主迭代。
-- Tags: #best-practice #openclaw
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (28 entries)
+- [2026-04](202604/monthly-index.md) (29 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

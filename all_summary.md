@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-17) [How I run multiple $10K MRR companies on a $20/month tech stack](202604/2026-04-17-how-i-run-multiple-%2410k-mrr-companies-on-a-%2420-month-tech-stack.md)
+  - Tags: #setup
+  - Summary: 本文阐述利用 Go、SQLite 和廉价 VPS 构建极简技术栈，以月费 $20 运营高收入公司。通过本地 GPU 优化 AI 策略，实现高效、低依赖的独立开发模式。
+
 - (2026-04-17) [OpenHealth – Chat with Apple Health Data, Anywhere](202604/2026-04-17-openhealth-%E2%80%93-chat-with-apple-health-data%2C-anywhere.md)
   - Tags: #life #setup
   - Summary: OpenHealth 开源工具将 Apple Health 数据转为 LLM 可读格式。支持本地解析以保护隐私，提供 Web App 与 CLI。用户能利用真实数据获取个性化 AI 建议，打破地理限制。
