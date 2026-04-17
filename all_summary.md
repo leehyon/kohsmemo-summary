@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-17) [Things you didn't know about indexes](202604/2026-04-17-things-you-didn%27t-know-about-indexes.md)
+  - Tags: #guide #why
+  - Summary: 本文解析数据库索引的 B-tree 原理与性能代价，剖析了索引失效的常见原因及 `EXPLAIN` 诊断方法，并介绍了函数索引、部分索引及覆盖索引等进阶用法。
+
 - (2026-04-17) [Do You Even Need a Database](202604/2026-04-17-do-you-even-need-a-database.md)
   - Tags: #engineering #why
   - Summary: 文章探讨了早期使用文件系统替代数据库的可行性。测试显示，内存映射等简单方案性能优异，SQLite 也足以支撑大流量。结论是应按需选择，无需过早引入数据库，简单文件方案往往已足够。

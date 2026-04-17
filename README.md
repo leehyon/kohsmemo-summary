@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-17) [Things you didn't know about indexes](202604/2026-04-17-things-you-didn%27t-know-about-indexes.md)
+- 本文解析数据库索引的 B-tree 原理与性能代价，剖析了索引失效的常见原因及 `EXPLAIN` 诊断方法，并介绍了函数索引、部分索引及覆盖索引等进阶用法。
+- Tags: #guide #why
+
 (2026-04-17) [Do You Even Need a Database](202604/2026-04-17-do-you-even-need-a-database.md)
 - 文章探讨了早期使用文件系统替代数据库的可行性。测试显示，内存映射等简单方案性能优异，SQLite 也足以支撑大流量。结论是应按需选择，无需过早引入数据库，简单文件方案往往已足够。
 - Tags: #engineering #why
@@ -39,11 +43,7 @@
 - 本文解析 GC 理论演进，对比引用计数与追踪法，深入剖析 Go 语言基于三色标记与混合写屏障的并发实现，旨在最小化 STW 停顿。
 - Tags: #design #python #guide
 
-(2026-04-07) [教育的下一步 · 其二](202604/2026-04-07-%E6%95%99%E8%82%B2%E7%9A%84%E4%B8%8B%E4%B8%80%E6%AD%A5-%C2%B7-%E5%85%B6%E4%BA%8C.md)
-- 本文提出 AI 时代教育应转向“扩展版计算思维”，包含统计模型、抽象编程与学术写作三大能力。旨在培养个体定义问题、驾驭 AI 的底层素养，最终塑造提出真实问题的品味。
-- Tags: #life #education
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (20 entries)
+- [2026-04](202604/monthly-index.md) (21 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

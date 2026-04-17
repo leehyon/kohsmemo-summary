@@ -990,5 +990,15 @@
       "engineering",
       "why"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "Things you didn't know about indexes",
+    "url": "https://jon.chrt.dev/2026/04/15/things-you-didnt-know-about-indexes.html",
+    "timestamp": 1776390883,
+    "tags": [
+      "guide",
+      "why"
+    ]
   }
 ]
