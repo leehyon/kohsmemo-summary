@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-17) [让 Claude Code 在你睡觉时持续运行：完整实战指南](2026-04-17-%E8%AE%A9-claude-code-%E5%9C%A8%E4%BD%A0%E7%9D%A1%E8%A7%89%E6%97%B6%E6%8C%81%E7%BB%AD%E8%BF%90%E8%A1%8C%EF%BC%9A%E5%AE%8C%E6%95%B4%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.md)
+- 本指南详述如何配置 Claude Code 实现无人值守自动化编程。通过设定运行模式、Ralph Wiggum 循环、安全 Hook 及 Docker 隔离环境，使 AI 能够在夜间自动执行代码编写与修复。
+- Tags: #agent #setup
+
 (2026-04-17) [从 RAG 到知识编译](2026-04-17-%E4%BB%8E-rag-%E5%88%B0%E7%9F%A5%E8%AF%86%E7%BC%96%E8%AF%91.md)
 - 本文探讨从 RAG 向 LLM Wiki 范式的转变。类比“编译执行”，LLM Wiki 在入库时进行结构化处理，实现深度整合与自动化维护。其适用于深度研究，但也面临幻觉与成本挑战。
 - Tags: #blog #llm #best-practice

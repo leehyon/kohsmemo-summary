@@ -1011,5 +1011,15 @@
       "llm",
       "best-practice"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "让 Claude Code 在你睡觉时持续运行：完整实战指南",
+    "url": "https://blog.devtang.com/2026/04/15/claude-code-autonomous-guide-zh/",
+    "timestamp": 1776392187,
+    "tags": [
+      "agent",
+      "setup"
+    ]
   }
 ]
