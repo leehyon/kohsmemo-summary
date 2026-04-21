@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-21) [追求稳定是一种代价高昂的被动投机](202604/2026-04-21-%E8%BF%BD%E6%B1%82%E7%A8%B3%E5%AE%9A%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%A3%E4%BB%B7%E9%AB%98%E6%98%82%E7%9A%84%E8%A2%AB%E5%8A%A8%E6%8A%95%E6%9C%BA.md)
+- 本文认为“追求稳定”是昂贵的被动投机。无论是储蓄还是进体制，押注不变实为全仓买入旧秩序，牺牲了成长性。唯有拥抱波动与风险，才能获得长期收益与抗风险能力。
+- Tags: #life
+
 (2026-04-20) [命令行的艺术](202604/2026-04-20-%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E8%89%BA%E6%9C%AF.md)
 - 本文旨在阐述掌握 Bash 命令行对提升工程师生产力的重要性。内容涵盖基础操作、效率优化、数据处理及系统调试，并包含跨平台指南，助用户构建高效工作流。
 - Tags: #linux #setup
@@ -39,11 +43,7 @@
 - 本文探讨从 RAG 向 LLM Wiki 范式的转变。类比“编译执行”，LLM Wiki 在入库时进行结构化处理，实现深度整合与自动化维护。其适用于深度研究，但也面临幻觉与成本挑战。
 - Tags: #blog #llm #best-practice
 
-(2026-04-17) [Things you didn't know about indexes](202604/2026-04-17-things-you-didn%27t-know-about-indexes.md)
-- 本文解析数据库索引的 B-tree 原理与性能代价，剖析了索引失效的常见原因及  诊断方法，并介绍了函数索引、部分索引及覆盖索引等进阶用法。
-- Tags: #guide #why
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (30 entries)
+- [2026-04](202604/monthly-index.md) (31 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
