@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-22) [The AI engineering stack we built internally - on the platform we ship](2026-04-22-the-ai-engineering-stack-we-built-internally---on-the-platform-we-ship.md)
+- Cloudflare 利用 Access 、 AI Gateway 等自家产品构建 AI 堆栈。通过安全路由及自动审查，实现 93% R&D 采用率，大幅提升研发效能，使合并请求数翻倍。
+- Tags: #engineering #agent
+
 (2026-04-21) [追求稳定是一种代价高昂的被动投机](2026-04-21-%E8%BF%BD%E6%B1%82%E7%A8%B3%E5%AE%9A%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%A3%E4%BB%B7%E9%AB%98%E6%98%82%E7%9A%84%E8%A2%AB%E5%8A%A8%E6%8A%95%E6%9C%BA.md)
 - 本文认为“追求稳定”是昂贵的被动投机。无论是储蓄还是进体制，押注不变实为全仓买入旧秩序，牺牲了成长性。唯有拥抱波动与风险，才能获得长期收益与抗风险能力。
 - Tags: #life

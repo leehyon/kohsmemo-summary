@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-22) [The AI engineering stack we built internally - on the platform we ship](202604/2026-04-22-the-ai-engineering-stack-we-built-internally---on-the-platform-we-ship.md)
+- Cloudflare 利用 Access 、 AI Gateway 等自家产品构建 AI 堆栈。通过安全路由及自动审查，实现 93% R&D 采用率，大幅提升研发效能，使合并请求数翻倍。
+- Tags: #engineering #agent
+
 (2026-04-21) [追求稳定是一种代价高昂的被动投机](202604/2026-04-21-%E8%BF%BD%E6%B1%82%E7%A8%B3%E5%AE%9A%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%A3%E4%BB%B7%E9%AB%98%E6%98%82%E7%9A%84%E8%A2%AB%E5%8A%A8%E6%8A%95%E6%9C%BA.md)
 - 本文认为“追求稳定”是昂贵的被动投机。无论是储蓄还是进体制，押注不变实为全仓买入旧秩序，牺牲了成长性。唯有拥抱波动与风险，才能获得长期收益与抗风险能力。
 - Tags: #life
@@ -39,11 +43,7 @@
 - 本指南详述如何配置 Claude Code 实现无人值守自动化编程。通过设定运行模式、Ralph Wiggum 循环、安全 Hook 及 Docker 隔离环境，使 AI 能够在夜间自动执行代码编写与修复。
 - Tags: #agent #setup
 
-(2026-04-17) [从 RAG 到知识编译](202604/2026-04-17-%E4%BB%8E-rag-%E5%88%B0%E7%9F%A5%E8%AF%86%E7%BC%96%E8%AF%91.md)
-- 本文探讨从 RAG 向 LLM Wiki 范式的转变。类比“编译执行”，LLM Wiki 在入库时进行结构化处理，实现深度整合与自动化维护。其适用于深度研究，但也面临幻觉与成本挑战。
-- Tags: #blog #llm #best-practice
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (31 entries)
+- [2026-04](202604/monthly-index.md) (32 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
