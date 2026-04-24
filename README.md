@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-24) [Learnings from conducting ~1,000 interviews at Amazon](202604/2026-04-24-learnings-from-conducting-~1%2C000-interviews-at-amazon.md)
+- 本文强调行为面试至关重要，常因准备不足或表达差导致失败。企业通过故事评估候选人的契合度与职级。建议平衡准备时间，提升表达能力，视面试为工作试镜，展示真实自我。
+- Tags: #advice #career
+
 (2026-04-24) [Why I don't chain everything in JavaScript anymore](202604/2026-04-24-why-i-don%27t-chain-everything-in-javascript-anymore.md)
 - 文章指出 JavaScript 中过度使用方法链会增加认知负荷、降低调试效率并可能影响性能。建议在复杂场景下放弃长链，改用分步写法，明确中间变量，从而提升代码的可读性与可维护性。
 - Tags: #language
@@ -39,11 +43,7 @@
 - 本文阐述利用 Go、SQLite 和廉价 VPS 构建极简技术栈，以月费 $20 运营高收入公司。通过本地 GPU 优化 AI 策略，实现高效、低依赖的独立开发模式。
 - Tags: #setup
 
-(2026-04-17) [OpenHealth – Chat with Apple Health Data, Anywhere](202604/2026-04-17-openhealth-%E2%80%93-chat-with-apple-health-data%2C-anywhere.md)
-- OpenHealth 开源工具将 Apple Health 数据转为 LLM 可读格式。支持本地解析以保护隐私，提供 Web App 与 CLI。用户能利用真实数据获取个性化 AI 建议，打破地理限制。
-- Tags: #life #setup
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (37 entries)
+- [2026-04](202604/monthly-index.md) (38 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

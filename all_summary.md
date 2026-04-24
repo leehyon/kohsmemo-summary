@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-24) [Learnings from conducting ~1,000 interviews at Amazon](202604/2026-04-24-learnings-from-conducting-~1%2C000-interviews-at-amazon.md)
+  - Tags: #advice #career
+  - Summary: 本文强调行为面试至关重要，常因准备不足或表达差导致失败。企业通过故事评估候选人的契合度与职级。建议平衡准备时间，提升表达能力，视面试为工作试镜，展示真实自我。
+
 - (2026-04-24) [Why I don't chain everything in JavaScript anymore](202604/2026-04-24-why-i-don%27t-chain-everything-in-javascript-anymore.md)
   - Tags: #language
   - Summary: 文章指出 JavaScript 中过度使用方法链会增加认知负荷、降低调试效率并可能影响性能。建议在复杂场景下放弃长链，改用分步写法，明确中间变量，从而提升代码的可读性与可维护性。
