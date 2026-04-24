@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-24) [The Rime of the Ancient Maintainer](202604/2026-04-24-the-rime-of-the-ancient-maintainer.md)
+- 文章通过对比 Hero Developer 与 Maintainer，指出维护工作是抵抗熵增、防止系统崩溃的关键。它肯定遗留系统价值，将维护延伸至人生，呼吁重构西西弗斯神话，建立重视防御与延续的维护文化。
+- Tags: #view
+
 (2026-04-24) [What Async Promised and What it Delivered](202604/2026-04-24-what-async-promised-and-what-it-delivered.md)
 - 异步编程从 Callbacks 演变至 Async/Await，虽解决了并发与局部语法问题，却引发了函数着色、生态分裂与顺序陷阱等全局成本，促使部分语言探索轻量级线程等替代方案。
 - Tags: #language
@@ -39,11 +43,7 @@
 - 本文旨在探讨如何克服优柔寡断导致的“默认不作为”。通过设定默认行动和截止时间，利用可逆决策机制，借助现状偏误打破决策瘫痪，促使自己采取行动。
 - Tags: #life
 
-(2026-04-17) [How to walk through walls](202604/2026-04-17-how-to-walk-through-walls.md)
-- Hacker Mindset (黑客思维) 指看穿表象规则，利用底层机制打破限制。文章通过案例说明其在现实中的应用，强调通过动手实践培养此思维，将现实世界视为可被操纵的 playground (游乐场)。
-- Tags: #advice #life
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (34 entries)
+- [2026-04](202604/monthly-index.md) (35 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

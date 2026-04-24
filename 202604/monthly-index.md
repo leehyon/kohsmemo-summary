@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-24) [The Rime of the Ancient Maintainer](2026-04-24-the-rime-of-the-ancient-maintainer.md)
+- 文章通过对比 Hero Developer 与 Maintainer，指出维护工作是抵抗熵增、防止系统崩溃的关键。它肯定遗留系统价值，将维护延伸至人生，呼吁重构西西弗斯神话，建立重视防御与延续的维护文化。
+- Tags: #view
+
 (2026-04-24) [What Async Promised and What it Delivered](2026-04-24-what-async-promised-and-what-it-delivered.md)
 - 异步编程从 Callbacks 演变至 Async/Await，虽解决了并发与局部语法问题，却引发了函数着色、生态分裂与顺序陷阱等全局成本，促使部分语言探索轻量级线程等替代方案。
 - Tags: #language
