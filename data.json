@@ -1117,5 +1117,14 @@
       "view",
       "product"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "What Async Promised and What it Delivered",
+    "url": "https://causality.blog/essays/what-async-promised/",
+    "timestamp": 1776996812,
+    "tags": [
+      "language"
+    ]
   }
 ]

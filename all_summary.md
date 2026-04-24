@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-24) [What Async Promised and What it Delivered](202604/2026-04-24-what-async-promised-and-what-it-delivered.md)
+  - Tags: #language
+  - Summary: 异步编程从 Callbacks 演变至 Async/Await，虽解决了并发与局部语法问题，却引发了函数着色、生态分裂与顺序陷阱等全局成本，促使部分语言探索轻量级线程等替代方案。
+
 - (2026-04-24) [Features everyone should steal from npmx](202604/2026-04-24-features-everyone-should-steal-from-npmx.md)
   - Tags: #view #product
   - Summary: npmx.dev 是 npm 官方网的开源替代前端，填补了功能空白。它提供依赖分析、安全洞察、包对比及 DX 优化等特性，不仅提升了体验，更为构建包注册表网站提供了最佳实践。

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-24) [What Async Promised and What it Delivered](202604/2026-04-24-what-async-promised-and-what-it-delivered.md)
+- 异步编程从 Callbacks 演变至 Async/Await，虽解决了并发与局部语法问题，却引发了函数着色、生态分裂与顺序陷阱等全局成本，促使部分语言探索轻量级线程等替代方案。
+- Tags: #language
+
 (2026-04-24) [Features everyone should steal from npmx](202604/2026-04-24-features-everyone-should-steal-from-npmx.md)
 - npmx.dev 是 npm 官方网的开源替代前端，填补了功能空白。它提供依赖分析、安全洞察、包对比及 DX 优化等特性，不仅提升了体验，更为构建包注册表网站提供了最佳实践。
 - Tags: #view #product
@@ -39,11 +43,7 @@
 - Hacker Mindset (黑客思维) 指看穿表象规则，利用底层机制打破限制。文章通过案例说明其在现实中的应用，强调通过动手实践培养此思维，将现实世界视为可被操纵的 playground (游乐场)。
 - Tags: #advice #life
 
-(2026-04-17) [Open-Source Agent That Teaches Claude Code Your Architecture](202604/2026-04-17-open-source-agent-that-teaches-claude-code-your-architecture.md)
-- 本文介绍 ，通过静态分析提取领域上下文，结合演进式架构解决 AI 缺乏架构感知的局限。该工具赋予 AI 领域理解力，平衡代码构建与长期维护。
-- Tags: #agent #best-practice
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (33 entries)
+- [2026-04](202604/monthly-index.md) (34 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
