@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-24) [The paper computer](2026-04-24-the-paper-computer.md)
+- 文章探讨利用 AI 融合物理直观交互与数字便捷性。通过 AI 转录和软件专注模式，减少屏幕依赖，创造“纸质计算机”体验，以先进技术实现回归自然专注的生活方式。
+- Tags: #view
+
 (2026-04-24) [The Rime of the Ancient Maintainer](2026-04-24-the-rime-of-the-ancient-maintainer.md)
 - 文章通过对比 Hero Developer 与 Maintainer，指出维护工作是抵抗熵增、防止系统崩溃的关键。它肯定遗留系统价值，将维护延伸至人生，呼吁重构西西弗斯神话，建立重视防御与延续的维护文化。
 - Tags: #view
