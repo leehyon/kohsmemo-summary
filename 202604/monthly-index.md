@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-24) [Features everyone should steal from npmx](2026-04-24-features-everyone-should-steal-from-npmx.md)
+- npmx.dev 是 npm 官方网的开源替代前端，填补了功能空白。它提供依赖分析、安全洞察、包对比及 DX 优化等特性，不仅提升了体验，更为构建包注册表网站提供了最佳实践。
+- Tags: #view #product
+
 (2026-04-22) [The AI engineering stack we built internally - on the platform we ship](2026-04-22-the-ai-engineering-stack-we-built-internally---on-the-platform-we-ship.md)
 - Cloudflare 利用 Access 、 AI Gateway 等自家产品构建 AI 堆栈。通过安全路由及自动审查，实现 93% R&D 采用率，大幅提升研发效能，使合并请求数翻倍。
 - Tags: #engineering #agent
