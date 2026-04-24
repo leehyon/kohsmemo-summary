@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-24) [Friends Don't Let Friends Use Ollama](2026-04-24-friends-don%27t-let-friends-use-ollama.md)
+- 本文批判 Ollama 隐瞒技术来源、性能倒退、误导用户及存在隐私风险，呼吁回归 llama.cpp 或选用更诚信的替代方案。
+- Tags: #product
+
 (2026-04-24) [Learnings from conducting ~1,000 interviews at Amazon](2026-04-24-learnings-from-conducting-~1%2C000-interviews-at-amazon.md)
 - 本文强调行为面试至关重要，常因准备不足或表达差导致失败。企业通过故事评估候选人的契合度与职级。建议平衡准备时间，提升表达能力，视面试为工作试镜，展示真实自我。
 - Tags: #advice #career

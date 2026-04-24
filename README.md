@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-24) [Friends Don't Let Friends Use Ollama](202604/2026-04-24-friends-don%27t-let-friends-use-ollama.md)
+- 本文批判 Ollama 隐瞒技术来源、性能倒退、误导用户及存在隐私风险，呼吁回归 llama.cpp 或选用更诚信的替代方案。
+- Tags: #product
+
 (2026-04-24) [Learnings from conducting ~1,000 interviews at Amazon](202604/2026-04-24-learnings-from-conducting-~1%2C000-interviews-at-amazon.md)
 - 本文强调行为面试至关重要，常因准备不足或表达差导致失败。企业通过故事评估候选人的契合度与职级。建议平衡准备时间，提升表达能力，视面试为工作试镜，展示真实自我。
 - Tags: #advice #career
@@ -39,11 +43,7 @@
 - 本文旨在阐述掌握 Bash 命令行对提升工程师生产力的重要性。内容涵盖基础操作、效率优化、数据处理及系统调试，并包含跨平台指南，助用户构建高效工作流。
 - Tags: #linux #setup
 
-(2026-04-17) [How I run multiple $10K MRR companies on a $20/month tech stack](202604/2026-04-17-how-i-run-multiple-%2410k-mrr-companies-on-a-%2420-month-tech-stack.md)
-- 本文阐述利用 Go、SQLite 和廉价 VPS 构建极简技术栈，以月费 $20 运营高收入公司。通过本地 GPU 优化 AI 策略，实现高效、低依赖的独立开发模式。
-- Tags: #setup
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (38 entries)
+- [2026-04](202604/monthly-index.md) (39 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
