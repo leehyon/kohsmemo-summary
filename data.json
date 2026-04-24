@@ -1144,5 +1144,14 @@
     "tags": [
       "view"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "Why I don't chain everything in JavaScript anymore",
+    "url": "https://allthingssmitty.com/2026/04/20/why-i-dont-chain-everything-in-javascript-anymore/",
+    "timestamp": 1777001535,
+    "tags": [
+      "language"
+    ]
   }
 ]

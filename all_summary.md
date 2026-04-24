@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-24) [Why I don't chain everything in JavaScript anymore](202604/2026-04-24-why-i-don%27t-chain-everything-in-javascript-anymore.md)
+  - Tags: #language
+  - Summary: 文章指出 JavaScript 中过度使用方法链会增加认知负荷、降低调试效率并可能影响性能。建议在复杂场景下放弃长链，改用分步写法，明确中间变量，从而提升代码的可读性与可维护性。
+
 - (2026-04-24) [The paper computer](202604/2026-04-24-the-paper-computer.md)
   - Tags: #view
   - Summary: 文章探讨利用 AI 融合物理直观交互与数字便捷性。通过 AI 转录和软件专注模式，减少屏幕依赖，创造“纸质计算机”体验，以先进技术实现回归自然专注的生活方式。

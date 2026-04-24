@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-24) [Why I don't chain everything in JavaScript anymore](202604/2026-04-24-why-i-don%27t-chain-everything-in-javascript-anymore.md)
+- 文章指出 JavaScript 中过度使用方法链会增加认知负荷、降低调试效率并可能影响性能。建议在复杂场景下放弃长链，改用分步写法，明确中间变量，从而提升代码的可读性与可维护性。
+- Tags: #language
+
 (2026-04-24) [The paper computer](202604/2026-04-24-the-paper-computer.md)
 - 文章探讨利用 AI 融合物理直观交互与数字便捷性。通过 AI 转录和软件专注模式，减少屏幕依赖，创造“纸质计算机”体验，以先进技术实现回归自然专注的生活方式。
 - Tags: #view
@@ -39,11 +43,7 @@
 - OpenHealth 开源工具将 Apple Health 数据转为 LLM 可读格式。支持本地解析以保护隐私，提供 Web App 与 CLI。用户能利用真实数据获取个性化 AI 建议，打破地理限制。
 - Tags: #life #setup
 
-(2026-04-17) [The peril of laziness lost](202604/2026-04-17-the-peril-of-laziness-lost.md)
-- 文章探讨程序员“懒惰”美德在 LLM 时代的丧失。LLM 缺乏约束，易加剧虚假勤奋。主张人类应主导，将 LLM 作为辅助工具以构建简洁系统，而非替代思考。
-- Tags: #blog
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (36 entries)
+- [2026-04](202604/monthly-index.md) (37 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
