@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-27) [BestBlogs 2.0 内测开启：我想重新做一款更适合自己的阅读产品](202604/2026-04-27-bestblogs-2.0-%E5%86%85%E6%B5%8B%E5%BC%80%E5%90%AF%EF%BC%9A%E6%88%91%E6%83%B3%E9%87%8D%E6%96%B0%E5%81%9A%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84%E9%98%85%E8%AF%BB%E4%BA%A7%E5%93%81.md)
+- BestBlogs 2.0 转型为智能阅读工作流工具，旨在解决信息过载焦虑。通过内容筛选、个性化推荐和 AI 伴读，辅助用户高效决策与理解，实现读得更少、理解更快。
+- Tags: #engineering #reading
+
 (2026-04-27) [Gemini Robotics ER 1.6: Enhanced Embodied Reasoning](202604/2026-04-27-gemini-robotics-er-1.6-enhanced-embodied-reasoning.md)
 - Google DeepMind 发布 Gemini Robotics-ER 1.6，通过增强具身推理提升机器人任务精度。该模型具备指向及仪表读取等能力，且安全性更高，现已通过 API 开放。
 - Tags: #robotics #engineering
@@ -39,11 +43,7 @@
 - npmx.dev 是 npm 官方网的开源替代前端，填补了功能空白。它提供依赖分析、安全洞察、包对比及 DX 优化等特性，不仅提升了体验，更为构建包注册表网站提供了最佳实践。
 - Tags: #view #product
 
-(2026-04-22) [The AI engineering stack we built internally - on the platform we ship](202604/2026-04-22-the-ai-engineering-stack-we-built-internally---on-the-platform-we-ship.md)
-- Cloudflare 利用 Access 、 AI Gateway 等自家产品构建 AI 堆栈。通过安全路由及自动审查，实现 93% R&D 采用率，大幅提升研发效能，使合并请求数翻倍。
-- Tags: #engineering #agent
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (41 entries)
+- [2026-04](202604/monthly-index.md) (42 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

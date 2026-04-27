@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-04-27) [BestBlogs 2.0 内测开启：我想重新做一款更适合自己的阅读产品](202604/2026-04-27-bestblogs-2.0-%E5%86%85%E6%B5%8B%E5%BC%80%E5%90%AF%EF%BC%9A%E6%88%91%E6%83%B3%E9%87%8D%E6%96%B0%E5%81%9A%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84%E9%98%85%E8%AF%BB%E4%BA%A7%E5%93%81.md)
+  - Tags: #engineering #reading
+  - Summary: BestBlogs 2.0 转型为智能阅读工作流工具，旨在解决信息过载焦虑。通过内容筛选、个性化推荐和 AI 伴读，辅助用户高效决策与理解，实现读得更少、理解更快。
+
 - (2026-04-27) [Gemini Robotics ER 1.6: Enhanced Embodied Reasoning](202604/2026-04-27-gemini-robotics-er-1.6-enhanced-embodied-reasoning.md)
   - Tags: #robotics #engineering
   - Summary: Google DeepMind 发布 Gemini Robotics-ER 1.6，通过增强具身推理提升机器人任务精度。该模型具备指向及仪表读取等能力，且安全性更高，现已通过 API 开放。
