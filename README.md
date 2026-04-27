@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-27) [Building agents that reach production systems with MCP](202604/2026-04-27-building-agents-that-reach-production-systems-with-mcp.md)
+- 本文 阐述 了 利用 MCP 将 AI 智能 体 接入 生产 系统 的 最佳 实践 。 对比 了 连接 方式 ， 重点 介绍 了 构建 远程 服务器 、 优化 上下文 效率 及 与 Skills 协同 的 设计 模式 。
+- Tags: #agent #engineering
+
 (2026-04-24) [Friends Don't Let Friends Use Ollama](202604/2026-04-24-friends-don%27t-let-friends-use-ollama.md)
 - 本文批判 Ollama 隐瞒技术来源、性能倒退、误导用户及存在隐私风险，呼吁回归 llama.cpp 或选用更诚信的替代方案。
 - Tags: #product
@@ -39,11 +43,7 @@
 - 本文认为“追求稳定”是昂贵的被动投机。无论是储蓄还是进体制，押注不变实为全仓买入旧秩序，牺牲了成长性。唯有拥抱波动与风险，才能获得长期收益与抗风险能力。
 - Tags: #life
 
-(2026-04-20) [命令行的艺术](202604/2026-04-20-%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E8%89%BA%E6%9C%AF.md)
-- 本文旨在阐述掌握 Bash 命令行对提升工程师生产力的重要性。内容涵盖基础操作、效率优化、数据处理及系统调试，并包含跨平台指南，助用户构建高效工作流。
-- Tags: #linux #setup
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (39 entries)
+- [2026-04](202604/monthly-index.md) (40 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

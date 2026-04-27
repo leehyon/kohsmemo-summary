@@ -1172,5 +1172,15 @@
     "tags": [
       "product"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "Building agents that reach production systems with MCP",
+    "url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp",
+    "timestamp": 1777257333,
+    "tags": [
+      "agent",
+      "engineering"
+    ]
   }
 ]

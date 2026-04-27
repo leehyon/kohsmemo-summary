@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-27) [Building agents that reach production systems with MCP](2026-04-27-building-agents-that-reach-production-systems-with-mcp.md)
+- 本文 阐述 了 利用 MCP 将 AI 智能 体 接入 生产 系统 的 最佳 实践 。 对比 了 连接 方式 ， 重点 介绍 了 构建 远程 服务器 、 优化 上下文 效率 及 与 Skills 协同 的 设计 模式 。
+- Tags: #agent #engineering
+
 (2026-04-24) [Friends Don't Let Friends Use Ollama](2026-04-24-friends-don%27t-let-friends-use-ollama.md)
 - 本文批判 Ollama 隐瞒技术来源、性能倒退、误导用户及存在隐私风险，呼吁回归 llama.cpp 或选用更诚信的替代方案。
 - Tags: #product
