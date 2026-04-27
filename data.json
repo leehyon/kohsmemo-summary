@@ -1182,5 +1182,15 @@
       "agent",
       "engineering"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "Gemini Robotics ER 1.6: Enhanced Embodied Reasoning",
+    "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+    "timestamp": 1777258080,
+    "tags": [
+      "robotics",
+      "engineering"
+    ]
   }
 ]

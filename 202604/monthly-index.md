@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-27) [Gemini Robotics ER 1.6: Enhanced Embodied Reasoning](2026-04-27-gemini-robotics-er-1.6-enhanced-embodied-reasoning.md)
+- Google DeepMind 发布 Gemini Robotics-ER 1.6，通过增强具身推理提升机器人任务精度。该模型具备指向及仪表读取等能力，且安全性更高，现已通过 API 开放。
+- Tags: #robotics #engineering
+
 (2026-04-27) [Building agents that reach production systems with MCP](2026-04-27-building-agents-that-reach-production-systems-with-mcp.md)
 - 本文 阐述 了 利用 MCP 将 AI 智能 体 接入 生产 系统 的 最佳 实践 。 对比 了 连接 方式 ， 重点 介绍 了 构建 远程 服务器 、 优化 上下文 效率 及 与 Skills 协同 的 设计 模式 。
 - Tags: #agent #engineering

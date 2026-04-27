@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-27) [Gemini Robotics ER 1.6: Enhanced Embodied Reasoning](202604/2026-04-27-gemini-robotics-er-1.6-enhanced-embodied-reasoning.md)
+- Google DeepMind 发布 Gemini Robotics-ER 1.6，通过增强具身推理提升机器人任务精度。该模型具备指向及仪表读取等能力，且安全性更高，现已通过 API 开放。
+- Tags: #robotics #engineering
+
 (2026-04-27) [Building agents that reach production systems with MCP](202604/2026-04-27-building-agents-that-reach-production-systems-with-mcp.md)
 - 本文 阐述 了 利用 MCP 将 AI 智能 体 接入 生产 系统 的 最佳 实践 。 对比 了 连接 方式 ， 重点 介绍 了 构建 远程 服务器 、 优化 上下文 效率 及 与 Skills 协同 的 设计 模式 。
 - Tags: #agent #engineering
@@ -39,11 +43,7 @@
 - Cloudflare 利用 Access 、 AI Gateway 等自家产品构建 AI 堆栈。通过安全路由及自动审查，实现 93% R&D 采用率，大幅提升研发效能，使合并请求数翻倍。
 - Tags: #engineering #agent
 
-(2026-04-21) [追求稳定是一种代价高昂的被动投机](202604/2026-04-21-%E8%BF%BD%E6%B1%82%E7%A8%B3%E5%AE%9A%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%A3%E4%BB%B7%E9%AB%98%E6%98%82%E7%9A%84%E8%A2%AB%E5%8A%A8%E6%8A%95%E6%9C%BA.md)
-- 本文认为“追求稳定”是昂贵的被动投机。无论是储蓄还是进体制，押注不变实为全仓买入旧秩序，牺牲了成长性。唯有拥抱波动与风险，才能获得长期收益与抗风险能力。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (40 entries)
+- [2026-04](202604/monthly-index.md) (41 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
