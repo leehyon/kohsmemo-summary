@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-30) [顶层思维](202604/2026-04-30-%E9%A1%B6%E5%B1%82%E6%80%9D%E7%BB%B4.md)
+- BestBlogs.dev 支持 Email 登录，验证码有效期 10 分钟。新用户自动注册，继续操作即视为同意 Terms of Service 和 Privacy Policy。
+- Tags: #life #view
+
 (2026-04-30) [Agentic AI: How to Save on Tokens](202604/2026-04-30-agentic-ai-how-to-save-on-tokens.md)
 - 本文探讨生产环境 Agentic AI 的成本优化，提出复用 Token 、按需加载、模型路由及上下文清理等策略，旨在降低 Token 消耗并平衡性能与成本。
 - Tags: #best-practice #agent
@@ -39,11 +43,7 @@
 - 文章通过对比 Hero Developer 与 Maintainer，指出维护工作是抵抗熵增、防止系统崩溃的关键。它肯定遗留系统价值，将维护延伸至人生，呼吁重构西西弗斯神话，建立重视防御与延续的维护文化。
 - Tags: #view
 
-(2026-04-24) [What Async Promised and What it Delivered](202604/2026-04-24-what-async-promised-and-what-it-delivered.md)
-- 异步编程从 Callbacks 演变至 Async/Await，虽解决了并发与局部语法问题，却引发了函数着色、生态分裂与顺序陷阱等全局成本，促使部分语言探索轻量级线程等替代方案。
-- Tags: #language
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (43 entries)
+- [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

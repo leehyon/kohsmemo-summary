@@ -1,5 +1,9 @@
 # 2026-04 Monthly Index
 
+(2026-04-30) [顶层思维](2026-04-30-%E9%A1%B6%E5%B1%82%E6%80%9D%E7%BB%B4.md)
+- BestBlogs.dev 支持 Email 登录，验证码有效期 10 分钟。新用户自动注册，继续操作即视为同意 Terms of Service 和 Privacy Policy。
+- Tags: #life #view
+
 (2026-04-30) [Agentic AI: How to Save on Tokens](2026-04-30-agentic-ai-how-to-save-on-tokens.md)
 - 本文探讨生产环境 Agentic AI 的成本优化，提出复用 Token 、按需加载、模型路由及上下文清理等策略，旨在降低 Token 消耗并平衡性能与成本。
 - Tags: #best-practice #agent
