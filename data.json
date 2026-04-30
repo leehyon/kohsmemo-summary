@@ -1202,5 +1202,15 @@
       "engineering",
       "reading"
     ]
+  },
+  {
+    "month": "202604",
+    "title": "Agentic AI: How to Save on Tokens",
+    "url": "https://towardsdatascience.com/agentic-ai-how-to-save-on-tokens/",
+    "timestamp": 1777539517,
+    "tags": [
+      "best-practice",
+      "agent"
+    ]
   }
 ]

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-04-30) [Agentic AI: How to Save on Tokens](202604/2026-04-30-agentic-ai-how-to-save-on-tokens.md)
+- 本文探讨生产环境 Agentic AI 的成本优化，提出复用 Token 、按需加载、模型路由及上下文清理等策略，旨在降低 Token 消耗并平衡性能与成本。
+- Tags: #best-practice #agent
+
 (2026-04-27) [BestBlogs 2.0 内测开启：我想重新做一款更适合自己的阅读产品](202604/2026-04-27-bestblogs-2.0-%E5%86%85%E6%B5%8B%E5%BC%80%E5%90%AF%EF%BC%9A%E6%88%91%E6%83%B3%E9%87%8D%E6%96%B0%E5%81%9A%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84%E9%98%85%E8%AF%BB%E4%BA%A7%E5%93%81.md)
 - BestBlogs 2.0 转型为智能阅读工作流工具，旨在解决信息过载焦虑。通过内容筛选、个性化推荐和 AI 伴读，辅助用户高效决策与理解，实现读得更少、理解更快。
 - Tags: #engineering #reading
@@ -39,11 +43,7 @@
 - 异步编程从 Callbacks 演变至 Async/Await，虽解决了并发与局部语法问题，却引发了函数着色、生态分裂与顺序陷阱等全局成本，促使部分语言探索轻量级线程等替代方案。
 - Tags: #language
 
-(2026-04-24) [Features everyone should steal from npmx](202604/2026-04-24-features-everyone-should-steal-from-npmx.md)
-- npmx.dev 是 npm 官方网的开源替代前端，填补了功能空白。它提供依赖分析、安全洞察、包对比及 DX 优化等特性，不仅提升了体验，更为构建包注册表网站提供了最佳实践。
-- Tags: #view #product
-
 ## Monthly Archive
 
-- [2026-04](202604/monthly-index.md) (42 entries)
+- [2026-04](202604/monthly-index.md) (43 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
