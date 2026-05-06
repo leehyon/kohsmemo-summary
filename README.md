@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-06) [AI 让每个人都成了开发者，就像相机让每个人都成了摄影师”](202605/2026-05-06-ai-%E8%AE%A9%E6%AF%8F%E4%B8%AA%E4%BA%BA%E9%83%BD%E6%88%90%E4%BA%86%E5%BC%80%E5%8F%91%E8%80%85%EF%BC%8C%E5%B0%B1%E5%83%8F%E7%9B%B8%E6%9C%BA%E8%AE%A9%E6%AF%8F%E4%B8%AA%E4%BA%BA%E9%83%BD%E6%88%90%E4%BA%86%E6%91%84%E5%BD%B1%E5%B8%88%E2%80%9D.md)
+- 文章通过相机类比指出，AI 虽降低门槛，但非专业者的“氛围编码”低效。专业开发者应从写代码转向系统设计与架构决策，AI 替代“体力活”，保留的“思想力”与审美才是核心。
+- Tags: #life #view #engineering
+
 (2026-04-30) [顶层思维](202604/2026-04-30-%E9%A1%B6%E5%B1%82%E6%80%9D%E7%BB%B4.md)
 - BestBlogs.dev 支持 Email 登录，验证码有效期 10 分钟。新用户自动注册，继续操作即视为同意 Terms of Service 和 Privacy Policy。
 - Tags: #life #view
@@ -39,11 +43,8 @@
 - 文章探讨利用 AI 融合物理直观交互与数字便捷性。通过 AI 转录和软件专注模式，减少屏幕依赖，创造“纸质计算机”体验，以先进技术实现回归自然专注的生活方式。
 - Tags: #view
 
-(2026-04-24) [The Rime of the Ancient Maintainer](202604/2026-04-24-the-rime-of-the-ancient-maintainer.md)
-- 文章通过对比 Hero Developer 与 Maintainer，指出维护工作是抵抗熵增、防止系统崩溃的关键。它肯定遗留系统价值，将维护延伸至人生，呼吁重构西西弗斯神话，建立重视防御与延续的维护文化。
-- Tags: #view
-
 ## Monthly Archive
 
+- [2026-05](202605/monthly-index.md) (1 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
