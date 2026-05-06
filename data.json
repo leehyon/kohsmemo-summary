@@ -1233,5 +1233,17 @@
       "view",
       "engineering"
     ]
+  },
+  {
+    "month": "202605",
+    "title": "一个新的 AI 记忆层概念：哈勃半径",
+    "url": "https://1q43.blog/post/12336/",
+    "timestamp": 1778060291,
+    "tags": [
+      "agent",
+      "design",
+      "life",
+      "setup"
+    ]
   }
 ]
