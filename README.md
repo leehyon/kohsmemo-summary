@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-11) [在 AI 时代，如何从 0 接手一个项目？](202605/2026-05-11-%E5%9C%A8-ai-%E6%97%B6%E4%BB%A3%EF%BC%8C%E5%A6%82%E4%BD%95%E4%BB%8E-0-%E6%8E%A5%E6%89%8B%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%EF%BC%9F.md)
+- 文章强调 AI 时代坚持实事求是，以软件工程和业务逻辑为核心，AI 仅作辅助。提出接手项目的务实四步法，并针对神经多样性及心理障碍群体提供生存策略。
+- Tags: #setup #guide
+
 (2026-05-11) [如何利用 AI 理解新项目、接手新项目？](202605/2026-05-11-%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8-ai-%E7%90%86%E8%A7%A3%E6%96%B0%E9%A1%B9%E7%9B%AE%E3%80%81%E6%8E%A5%E6%89%8B%E6%96%B0%E9%A1%B9%E7%9B%AE%EF%BC%9F.md)
 - AI 时代程序员需转向项目维护。文章提出四步策略：先剖析数据库结构，再梳理 API 列表，接着研读配置文件，最后结合变量追踪与 AI 辅助深入源码，以高效理解项目全貌。
 - Tags: #guide
@@ -39,12 +43,8 @@
 - 本文批判 Ollama 隐瞒技术来源、性能倒退、误导用户及存在隐私风险，呼吁回归 llama.cpp 或选用更诚信的替代方案。
 - Tags: #product
 
-(2026-04-24) [Learnings from conducting ~1,000 interviews at Amazon](202604/2026-04-24-learnings-from-conducting-~1%2C000-interviews-at-amazon.md)
-- 本文强调行为面试至关重要，常因准备不足或表达差导致失败。企业通过故事评估候选人的契合度与职级。建议平衡准备时间，提升表达能力，视面试为工作试镜，展示真实自我。
-- Tags: #advice #career
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (3 entries)
+- [2026-05](202605/monthly-index.md) (4 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
