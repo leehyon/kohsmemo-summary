@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-11) [如何利用 AI 理解新项目、接手新项目？](202605/2026-05-11-%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8-ai-%E7%90%86%E8%A7%A3%E6%96%B0%E9%A1%B9%E7%9B%AE%E3%80%81%E6%8E%A5%E6%89%8B%E6%96%B0%E9%A1%B9%E7%9B%AE%EF%BC%9F.md)
+- AI 时代程序员需转向项目维护。文章提出四步策略：先剖析数据库结构，再梳理 API 列表，接着研读配置文件，最后结合变量追踪与 AI 辅助深入源码，以高效理解项目全貌。
+- Tags: #guide
+
 (2026-05-06) [一个新的 AI 记忆层概念：哈勃半径](202605/2026-05-06-%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84-ai-%E8%AE%B0%E5%BF%86%E5%B1%82%E6%A6%82%E5%BF%B5%EF%BC%9A%E5%93%88%E5%8B%83%E5%8D%8A%E5%BE%84.md)
 - 文章提出个人 AI Agent 三层记忆架构，核心是“哈勃半径”。它整合用户长期订阅但未读的信息源，建立私有“可观测宇宙”，填补个性化事实与公共搜索的空白，使 AI 理解用户的信息视野与上下文权重。
 - Tags: #agent #design #life #setup
@@ -39,12 +43,8 @@
 - 本文强调行为面试至关重要，常因准备不足或表达差导致失败。企业通过故事评估候选人的契合度与职级。建议平衡准备时间，提升表达能力，视面试为工作试镜，展示真实自我。
 - Tags: #advice #career
 
-(2026-04-24) [Why I don't chain everything in JavaScript anymore](202604/2026-04-24-why-i-don%27t-chain-everything-in-javascript-anymore.md)
-- 文章指出 JavaScript 中过度使用方法链会增加认知负荷、降低调试效率并可能影响性能。建议在复杂场景下放弃长链，改用分步写法，明确中间变量，从而提升代码的可读性与可维护性。
-- Tags: #language
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (2 entries)
+- [2026-05](202605/monthly-index.md) (3 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
