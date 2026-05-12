@@ -1264,5 +1264,16 @@
       "setup",
       "guide"
     ]
+  },
+  {
+    "month": "202605",
+    "title": "AI 编程实践",
+    "url": "https://wklken.me/posts/2026/05/11/ai-programming-practice.html",
+    "timestamp": 1778549295,
+    "tags": [
+      "best-practice",
+      "agent",
+      "skill"
+    ]
   }
 ]

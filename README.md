@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-12) [AI 编程实践](202605/2026-05-12-ai-%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5.md)
+- 文章旨在通过绑定核心工具、Git 管理配置及构建分层技能体系，打造标准化的 AI 编程“数字分身”工作流，在提升生产力的同时严控交付质量。
+- Tags: #best-practice #agent #skill
+
 (2026-05-11) [在 AI 时代，如何从 0 接手一个项目？](202605/2026-05-11-%E5%9C%A8-ai-%E6%97%B6%E4%BB%A3%EF%BC%8C%E5%A6%82%E4%BD%95%E4%BB%8E-0-%E6%8E%A5%E6%89%8B%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%EF%BC%9F.md)
 - 文章强调 AI 时代坚持实事求是，以软件工程和业务逻辑为核心，AI 仅作辅助。提出接手项目的务实四步法，并针对神经多样性及心理障碍群体提供生存策略。
 - Tags: #setup #guide
@@ -39,12 +43,8 @@
 - 本文 阐述 了 利用 MCP 将 AI 智能 体 接入 生产 系统 的 最佳 实践 。 对比 了 连接 方式 ， 重点 介绍 了 构建 远程 服务器 、 优化 上下文 效率 及 与 Skills 协同 的 设计 模式 。
 - Tags: #agent #engineering
 
-(2026-04-24) [Friends Don't Let Friends Use Ollama](202604/2026-04-24-friends-don%27t-let-friends-use-ollama.md)
-- 本文批判 Ollama 隐瞒技术来源、性能倒退、误导用户及存在隐私风险，呼吁回归 llama.cpp 或选用更诚信的替代方案。
-- Tags: #product
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (4 entries)
+- [2026-05](202605/monthly-index.md) (5 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
