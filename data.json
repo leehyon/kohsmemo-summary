@@ -1275,5 +1275,16 @@
       "agent",
       "skill"
     ]
+  },
+  {
+    "month": "202605",
+    "title": "用 LLM 管理安全开发规范",
+    "url": "http://lichuanyang.top/posts/88001/",
+    "timestamp": 1778549591,
+    "tags": [
+      "engineering",
+      "agent",
+      "setup"
+    ]
   }
 ]
