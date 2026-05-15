@@ -1,5 +1,9 @@
 # 2026-05 Monthly Index
 
+(2026-05-15) [I Left Port 22 Open for 54 Days: An SSH Honeypot Study](2026-05-15-i-left-port-22-open-for-54-days-an-ssh-honeypot-study.md)
+- 试图访问 "I left port 22 open..." 文章时遭遇 403 错误。因网站启用安全服务拦截，需通过 CAPTCHA 验证身份。当前无法获取文章正文，仅处于安全验证状态。
+- Tags: #reading
+
 (2026-05-12) [用 LLM 管理安全开发规范](2026-05-12-%E7%94%A8-llm-%E7%AE%A1%E7%90%86%E5%AE%89%E5%85%A8%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83.md)
 - 本文介绍基于 llm-wiki 理念，利用 LLM 构建三层知识系统。通过将分散文档“编译”结构化，解决检索维护难题。该方案降低了维护成本，提升了问答精准度，实现了知识库的可持续发展。
 - Tags: #engineering #agent #setup

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-15) [I Left Port 22 Open for 54 Days: An SSH Honeypot Study](202605/2026-05-15-i-left-port-22-open-for-54-days-an-ssh-honeypot-study.md)
+- 试图访问 "I left port 22 open..." 文章时遭遇 403 错误。因网站启用安全服务拦截，需通过 CAPTCHA 验证身份。当前无法获取文章正文，仅处于安全验证状态。
+- Tags: #reading
+
 (2026-05-12) [用 LLM 管理安全开发规范](202605/2026-05-12-%E7%94%A8-llm-%E7%AE%A1%E7%90%86%E5%AE%89%E5%85%A8%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83.md)
 - 本文介绍基于 llm-wiki 理念，利用 LLM 构建三层知识系统。通过将分散文档“编译”结构化，解决检索维护难题。该方案降低了维护成本，提升了问答精准度，实现了知识库的可持续发展。
 - Tags: #engineering #agent #setup
@@ -39,12 +43,8 @@
 - BestBlogs 2.0 转型为智能阅读工作流工具，旨在解决信息过载焦虑。通过内容筛选、个性化推荐和 AI 伴读，辅助用户高效决策与理解，实现读得更少、理解更快。
 - Tags: #engineering #reading
 
-(2026-04-27) [Gemini Robotics ER 1.6: Enhanced Embodied Reasoning](202604/2026-04-27-gemini-robotics-er-1.6-enhanced-embodied-reasoning.md)
-- Google DeepMind 发布 Gemini Robotics-ER 1.6，通过增强具身推理提升机器人任务精度。该模型具备指向及仪表读取等能力，且安全性更高，现已通过 API 开放。
-- Tags: #robotics #engineering
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (6 entries)
+- [2026-05](202605/monthly-index.md) (7 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
