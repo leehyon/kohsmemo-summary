@@ -6,7 +6,7 @@
 
 - (2026-05-15) [I Left Port 22 Open for 54 Days: An SSH Honeypot Study](202605/2026-05-15-i-left-port-22-open-for-54-days-an-ssh-honeypot-study.md)
   - Tags: #reading
-  - Summary: 试图访问 "I left port 22 open..." 文章时遭遇 403 错误。因网站启用安全服务拦截，需通过 CAPTCHA 验证身份。当前无法获取文章正文，仅处于安全验证状态。
+  - Summary: 基于 SSH 蜜罐实验，揭示公网服务面临持续自动化扫描与爆破攻击，多数为低级脚本，少数为高阶攻击者；同时指出弱口令与加密节点为主要目标，并强调基础安全防护的重要性。
 
 - (2026-05-12) [用 LLM 管理安全开发规范](202605/2026-05-12-%E7%94%A8-llm-%E7%AE%A1%E7%90%86%E5%AE%89%E5%85%A8%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83.md)
   - Tags: #engineering #agent #setup
