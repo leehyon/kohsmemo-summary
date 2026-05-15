@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-15) ["People who don't use AI will be left behind"](202605/2026-05-15-people-who-don%27t-use-ai-will-be-left-behind.md)
+- 文章驳斥“不用 AI 会落后”的观点，指出依赖 AI 将导致认知与学习能力退化。作者认为真正的落后者是 AI 依赖者，呼吁人类自我超越，掌握 AI 无法替代的技能。
+- Tags: #life
+
 (2026-05-15) [I Left Port 22 Open for 54 Days: An SSH Honeypot Study](202605/2026-05-15-i-left-port-22-open-for-54-days-an-ssh-honeypot-study.md)
 - 试图访问 "I left port 22 open..." 文章时遭遇 403 错误。因网站启用安全服务拦截，需通过 CAPTCHA 验证身份。当前无法获取文章正文，仅处于安全验证状态。
 - Tags: #reading
@@ -39,12 +43,8 @@
 - 本文探讨生产环境 Agentic AI 的成本优化，提出复用 Token 、按需加载、模型路由及上下文清理等策略，旨在降低 Token 消耗并平衡性能与成本。
 - Tags: #best-practice #agent
 
-(2026-04-27) [BestBlogs 2.0 内测开启：我想重新做一款更适合自己的阅读产品](202604/2026-04-27-bestblogs-2.0-%E5%86%85%E6%B5%8B%E5%BC%80%E5%90%AF%EF%BC%9A%E6%88%91%E6%83%B3%E9%87%8D%E6%96%B0%E5%81%9A%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84%E9%98%85%E8%AF%BB%E4%BA%A7%E5%93%81.md)
-- BestBlogs 2.0 转型为智能阅读工作流工具，旨在解决信息过载焦虑。通过内容筛选、个性化推荐和 AI 伴读，辅助用户高效决策与理解，实现读得更少、理解更快。
-- Tags: #engineering #reading
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (7 entries)
+- [2026-05](202605/monthly-index.md) (8 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
