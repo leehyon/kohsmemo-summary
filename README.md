@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-18) [The 20 Software Engineering Laws](202605/2026-05-18-the-20-software-engineering-laws.md)
+- 软件开发是人、时间与系统的博弈。本文总结了系统设计、组织架构、时间估算及团队管理的核心定律，揭示了协作与项目本质，帮助工程师预判问题并理解现状。
+- Tags: #best-practice #engineering
+
 (2026-05-18) [把 LLM 当成“人”，才是 Agent 工程进阶的起点](202605/2026-05-18-%E6%8A%8A-llm-%E5%BD%93%E6%88%90%E2%80%9C%E4%BA%BA%E2%80%9D%EF%BC%8C%E6%89%8D%E6%98%AF-agent-%E5%B7%A5%E7%A8%8B%E8%BF%9B%E9%98%B6%E7%9A%84%E8%B5%B7%E7%82%B9.md)
 - 本文主张 LLM Agent 进阶关键在于将 LLM 视为具备人类认知特征的合作伙伴。通过模拟人类记忆与视觉感知，结合原生工具与闭环反馈，以拟人化设计替代机械控制，构建健壮高效的 Agent 系统。
 - Tags: #agent
@@ -39,12 +43,8 @@
 - 文章通过相机类比指出，AI 虽降低门槛，但非专业者的“氛围编码”低效。专业开发者应从写代码转向系统设计与架构决策，AI 替代“体力活”，保留的“思想力”与审美才是核心。
 - Tags: #life #view #engineering
 
-(2026-04-30) [顶层思维](202604/2026-04-30-%E9%A1%B6%E5%B1%82%E6%80%9D%E7%BB%B4.md)
-- BestBlogs.dev 支持 Email 登录，验证码有效期 10 分钟。新用户自动注册，继续操作即视为同意 Terms of Service 和 Privacy Policy。
-- Tags: #life #view
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (9 entries)
+- [2026-05](202605/monthly-index.md) (10 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

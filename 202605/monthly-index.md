@@ -1,5 +1,9 @@
 # 2026-05 Monthly Index
 
+(2026-05-18) [The 20 Software Engineering Laws](2026-05-18-the-20-software-engineering-laws.md)
+- 软件开发是人、时间与系统的博弈。本文总结了系统设计、组织架构、时间估算及团队管理的核心定律，揭示了协作与项目本质，帮助工程师预判问题并理解现状。
+- Tags: #best-practice #engineering
+
 (2026-05-18) [把 LLM 当成“人”，才是 Agent 工程进阶的起点](2026-05-18-%E6%8A%8A-llm-%E5%BD%93%E6%88%90%E2%80%9C%E4%BA%BA%E2%80%9D%EF%BC%8C%E6%89%8D%E6%98%AF-agent-%E5%B7%A5%E7%A8%8B%E8%BF%9B%E9%98%B6%E7%9A%84%E8%B5%B7%E7%82%B9.md)
 - 本文主张 LLM Agent 进阶关键在于将 LLM 视为具备人类认知特征的合作伙伴。通过模拟人类记忆与视觉感知，结合原生工具与闭环反馈，以拟人化设计替代机械控制，构建健壮高效的 Agent 系统。
 - Tags: #agent
