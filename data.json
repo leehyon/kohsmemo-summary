@@ -1304,5 +1304,14 @@
     "tags": [
       "life"
     ]
+  },
+  {
+    "month": "202605",
+    "title": "把 LLM 当成“人”，才是 Agent 工程进阶的起点",
+    "url": "https://blog.hikarilan.life/thinking/3499/treating-llms-as-humans/",
+    "timestamp": 1779069238,
+    "tags": [
+      "agent"
+    ]
   }
 ]

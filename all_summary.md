@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-05-18) [把 LLM 当成“人”，才是 Agent 工程进阶的起点](202605/2026-05-18-%E6%8A%8A-llm-%E5%BD%93%E6%88%90%E2%80%9C%E4%BA%BA%E2%80%9D%EF%BC%8C%E6%89%8D%E6%98%AF-agent-%E5%B7%A5%E7%A8%8B%E8%BF%9B%E9%98%B6%E7%9A%84%E8%B5%B7%E7%82%B9.md)
+  - Tags: #agent
+  - Summary: 本文主张 LLM Agent 进阶关键在于将 LLM 视为具备人类认知特征的合作伙伴。通过模拟人类记忆与视觉感知，结合原生工具与闭环反馈，以拟人化设计替代机械控制，构建健壮高效的 Agent 系统。
+
 - (2026-05-15) ["People who don't use AI will be left behind"](202605/2026-05-15-people-who-don%27t-use-ai-will-be-left-behind.md)
   - Tags: #life
   - Summary: 文章驳斥“不用 AI 会落后”的观点，指出依赖 AI 将导致认知与学习能力退化。作者认为真正的落后者是 AI 依赖者，呼吁人类自我超越，掌握 AI 无法替代的技能。

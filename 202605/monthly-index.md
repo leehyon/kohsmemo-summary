@@ -1,11 +1,15 @@
 # 2026-05 Monthly Index
 
+(2026-05-18) [把 LLM 当成“人”，才是 Agent 工程进阶的起点](2026-05-18-%E6%8A%8A-llm-%E5%BD%93%E6%88%90%E2%80%9C%E4%BA%BA%E2%80%9D%EF%BC%8C%E6%89%8D%E6%98%AF-agent-%E5%B7%A5%E7%A8%8B%E8%BF%9B%E9%98%B6%E7%9A%84%E8%B5%B7%E7%82%B9.md)
+- 本文主张 LLM Agent 进阶关键在于将 LLM 视为具备人类认知特征的合作伙伴。通过模拟人类记忆与视觉感知，结合原生工具与闭环反馈，以拟人化设计替代机械控制，构建健壮高效的 Agent 系统。
+- Tags: #agent
+
 (2026-05-15) ["People who don't use AI will be left behind"](2026-05-15-people-who-don%27t-use-ai-will-be-left-behind.md)
 - 文章驳斥“不用 AI 会落后”的观点，指出依赖 AI 将导致认知与学习能力退化。作者认为真正的落后者是 AI 依赖者，呼吁人类自我超越，掌握 AI 无法替代的技能。
 - Tags: #life
 
 (2026-05-15) [I Left Port 22 Open for 54 Days: An SSH Honeypot Study](2026-05-15-i-left-port-22-open-for-54-days-an-ssh-honeypot-study.md)
-- 试图访问 "I left port 22 open..." 文章时遭遇 403 错误。因网站启用安全服务拦截，需通过 CAPTCHA 验证身份。当前无法获取文章正文，仅处于安全验证状态。
+- 基于 SSH 蜜罐实验，揭示公网服务面临持续自动化扫描与爆破攻击，多数为低级脚本，少数为高阶攻击者；同时指出弱口令与加密节点为主要目标，并强调基础安全防护的重要性。
 - Tags: #reading
 
 (2026-05-12) [用 LLM 管理安全开发规范](2026-05-12-%E7%94%A8-llm-%E7%AE%A1%E7%90%86%E5%AE%89%E5%85%A8%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83.md)
