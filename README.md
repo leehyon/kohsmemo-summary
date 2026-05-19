@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-19) [My GitHub Graveyard has 27 dead projects. Here is the brutal truth about why](202605/2026-05-19-my-github-graveyard-has-27-dead-projects.-here-is-the-brutal-truth-about-why.md)
+- 文章分析了开发者项目常因技术执念、过度设计、功能蔓延和发布恐惧而失败，提出 "48 小时法则"，主张通过限制时间，强制快速交付可用原型，从而打破开发死循环。
+- Tags: #lesson #project
+
 (2026-05-18) [The 20 Software Engineering Laws](202605/2026-05-18-the-20-software-engineering-laws.md)
 - 软件开发是人、时间与系统的博弈。本文总结了系统设计、组织架构、时间估算及团队管理的核心定律，揭示了协作与项目本质，帮助工程师预判问题并理解现状。
 - Tags: #best-practice #engineering
@@ -39,12 +43,8 @@
 - 文章提出个人 AI Agent 三层记忆架构，核心是“哈勃半径”。它整合用户长期订阅但未读的信息源，建立私有“可观测宇宙”，填补个性化事实与公共搜索的空白，使 AI 理解用户的信息视野与上下文权重。
 - Tags: #agent #design #life #setup
 
-(2026-05-06) [AI 让每个人都成了开发者，就像相机让每个人都成了摄影师”](202605/2026-05-06-ai-%E8%AE%A9%E6%AF%8F%E4%B8%AA%E4%BA%BA%E9%83%BD%E6%88%90%E4%BA%86%E5%BC%80%E5%8F%91%E8%80%85%EF%BC%8C%E5%B0%B1%E5%83%8F%E7%9B%B8%E6%9C%BA%E8%AE%A9%E6%AF%8F%E4%B8%AA%E4%BA%BA%E9%83%BD%E6%88%90%E4%BA%86%E6%91%84%E5%BD%B1%E5%B8%88%E2%80%9D.md)
-- 文章通过相机类比指出，AI 虽降低门槛，但非专业者的“氛围编码”低效。专业开发者应从写代码转向系统设计与架构决策，AI 替代“体力活”，保留的“思想力”与审美才是核心。
-- Tags: #life #view #engineering
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (10 entries)
+- [2026-05](202605/monthly-index.md) (11 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

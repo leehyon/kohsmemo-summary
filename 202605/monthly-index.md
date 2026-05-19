@@ -1,5 +1,9 @@
 # 2026-05 Monthly Index
 
+(2026-05-19) [My GitHub Graveyard has 27 dead projects. Here is the brutal truth about why](2026-05-19-my-github-graveyard-has-27-dead-projects.-here-is-the-brutal-truth-about-why.md)
+- 文章分析了开发者项目常因技术执念、过度设计、功能蔓延和发布恐惧而失败，提出 "48 小时法则"，主张通过限制时间，强制快速交付可用原型，从而打破开发死循环。
+- Tags: #lesson #project
+
 (2026-05-18) [The 20 Software Engineering Laws](2026-05-18-the-20-software-engineering-laws.md)
 - 软件开发是人、时间与系统的博弈。本文总结了系统设计、组织架构、时间估算及团队管理的核心定律，揭示了协作与项目本质，帮助工程师预判问题并理解现状。
 - Tags: #best-practice #engineering
