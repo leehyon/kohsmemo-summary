@@ -1,5 +1,8 @@
 # 2026-05 Monthly Index
 
+(2026-05-20) [Why senior developers fail to communicate their expertise](2026-05-20-why-senior-developers-fail-to-communicate-their-expertise.md)
+- 文章指出开发与业务的冲突源于复杂性与不确定性的错位。建议重构沟通，并提出 AI 时代将系统解耦为 Speed 和 Scale 版本，让高级开发转型为“编辑”以兼顾效率与稳定。
+
 (2026-05-19) [My GitHub Graveyard has 27 dead projects. Here is the brutal truth about why](2026-05-19-my-github-graveyard-has-27-dead-projects.-here-is-the-brutal-truth-about-why.md)
 - 文章分析了开发者项目常因技术执念、过度设计、功能蔓延和发布恐惧而失败，提出 "48 小时法则"，主张通过限制时间，强制快速交付可用原型，从而打破开发死循环。
 - Tags: #lesson #project

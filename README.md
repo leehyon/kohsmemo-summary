@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-05-20) [Why senior developers fail to communicate their expertise](202605/2026-05-20-why-senior-developers-fail-to-communicate-their-expertise.md)
+- 文章指出开发与业务的冲突源于复杂性与不确定性的错位。建议重构沟通，并提出 AI 时代将系统解耦为 Speed 和 Scale 版本，让高级开发转型为“编辑”以兼顾效率与稳定。
+
 (2026-05-19) [My GitHub Graveyard has 27 dead projects. Here is the brutal truth about why](202605/2026-05-19-my-github-graveyard-has-27-dead-projects.-here-is-the-brutal-truth-about-why.md)
 - 文章分析了开发者项目常因技术执念、过度设计、功能蔓延和发布恐惧而失败，提出 "48 小时法则"，主张通过限制时间，强制快速交付可用原型，从而打破开发死循环。
 - Tags: #lesson #project
@@ -39,12 +42,8 @@
 - AI 时代程序员需转向项目维护。文章提出四步策略：先剖析数据库结构，再梳理 API 列表，接着研读配置文件，最后结合变量追踪与 AI 辅助深入源码，以高效理解项目全貌。
 - Tags: #guide
 
-(2026-05-06) [一个新的 AI 记忆层概念：哈勃半径](202605/2026-05-06-%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84-ai-%E8%AE%B0%E5%BF%86%E5%B1%82%E6%A6%82%E5%BF%B5%EF%BC%9A%E5%93%88%E5%8B%83%E5%8D%8A%E5%BE%84.md)
-- 文章提出个人 AI Agent 三层记忆架构，核心是“哈勃半径”。它整合用户长期订阅但未读的信息源，建立私有“可观测宇宙”，填补个性化事实与公共搜索的空白，使 AI 理解用户的信息视野与上下文权重。
-- Tags: #agent #design #life #setup
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (11 entries)
+- [2026-05](202605/monthly-index.md) (12 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
