@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-21) [我们免费写的字，平台拿去卖给了谁](202605/2026-05-21-%E6%88%91%E4%BB%AC%E5%85%8D%E8%B4%B9%E5%86%99%E7%9A%84%E5%AD%97%EF%BC%8C%E5%B9%B3%E5%8F%B0%E6%8B%BF%E5%8E%BB%E5%8D%96%E7%BB%99%E4%BA%86%E8%B0%81.md)
+- 文章探讨 AI 时代平台利用新协议无偿攫取创作者价值。指出平台通过“数字封建主义”将创作者边缘化，导致权力异化与分配失衡，呼吁反思这种剥削性的数字生产关系。
+- Tags: #view
+
 (2026-05-20) [Why senior developers fail to communicate their expertise](202605/2026-05-20-why-senior-developers-fail-to-communicate-their-expertise.md)
 - 文章指出开发与业务的冲突源于复杂性与不确定性的错位。建议重构沟通，并提出 AI 时代将系统解耦为 Speed 和 Scale 版本，让高级开发转型为“编辑”以兼顾效率与稳定。
 
@@ -38,12 +42,8 @@
 - 文章强调 AI 时代坚持实事求是，以软件工程和业务逻辑为核心，AI 仅作辅助。提出接手项目的务实四步法，并针对神经多样性及心理障碍群体提供生存策略。
 - Tags: #setup #guide
 
-(2026-05-11) [如何利用 AI 理解新项目、接手新项目？](202605/2026-05-11-%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8-ai-%E7%90%86%E8%A7%A3%E6%96%B0%E9%A1%B9%E7%9B%AE%E3%80%81%E6%8E%A5%E6%89%8B%E6%96%B0%E9%A1%B9%E7%9B%AE%EF%BC%9F.md)
-- AI 时代程序员需转向项目维护。文章提出四步策略：先剖析数据库结构，再梳理 API 列表，接着研读配置文件，最后结合变量追踪与 AI 辅助深入源码，以高效理解项目全貌。
-- Tags: #guide
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (12 entries)
+- [2026-05](202605/monthly-index.md) (13 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

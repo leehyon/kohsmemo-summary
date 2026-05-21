@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-05-21) [我们免费写的字，平台拿去卖给了谁](202605/2026-05-21-%E6%88%91%E4%BB%AC%E5%85%8D%E8%B4%B9%E5%86%99%E7%9A%84%E5%AD%97%EF%BC%8C%E5%B9%B3%E5%8F%B0%E6%8B%BF%E5%8E%BB%E5%8D%96%E7%BB%99%E4%BA%86%E8%B0%81.md)
+  - Tags: #view
+  - Summary: 文章探讨 AI 时代平台利用新协议无偿攫取创作者价值。指出平台通过“数字封建主义”将创作者边缘化，导致权力异化与分配失衡，呼吁反思这种剥削性的数字生产关系。
+
 - (2026-05-20) [Why senior developers fail to communicate their expertise](202605/2026-05-20-why-senior-developers-fail-to-communicate-their-expertise.md)
   - Summary: 文章指出开发与业务的冲突源于复杂性与不确定性的错位。建议重构沟通，并提出 AI 时代将系统解耦为 Speed 和 Scale 版本，让高级开发转型为“编辑”以兼顾效率与稳定。
 
