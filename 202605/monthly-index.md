@@ -1,5 +1,9 @@
 # 2026-05 Monthly Index
 
+(2026-05-21) [AI 编码胜率榜：Go 与 Rust 完胜 C++](2026-05-21-ai-%E7%BC%96%E7%A0%81%E8%83%9C%E7%8E%87%E6%A6%9C%EF%BC%9Ago-%E4%B8%8E-rust-%E5%AE%8C%E8%83%9C-c%2B%2B.md)
+- 基于 ProgramBench 研究，Claude 工程能力优于 GPT，Go 和 Rust 因现代工程特征比 C++ 更适合 AI 编程，未来将进入“人类架构师 + AI 劳工”时代。
+- Tags: #news #engineering
+
 (2026-05-21) [进化的SKILL库 · SUMSEC ](2026-05-21-%E8%BF%9B%E5%8C%96%E7%9A%84skill%E5%BA%93-%C2%B7-sumsec.md)
 - 本文探讨如何将 AI 经验转化为个人资产。通过 SumSec-Skills 利用 Git 结构化定义 Skill，实现技能的自我进化与跨平台复用，从而摆脱对特定工具的依赖。
 - Tags: #skill #best-practice #design

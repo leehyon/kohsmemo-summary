@@ -1360,5 +1360,15 @@
       "best-practice",
       "design"
     ]
+  },
+  {
+    "month": "202605",
+    "title": "AI 编码胜率榜：Go 与 Rust 完胜 C++",
+    "url": "https://tonybai.com/2026/05/20/ai-coding-win-rate-rankings-go-and-rust-vs-cpp/",
+    "timestamp": 1779329736,
+    "tags": [
+      "news",
+      "engineering"
+    ]
   }
 ]
