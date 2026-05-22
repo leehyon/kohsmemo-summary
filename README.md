@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-22) [Passwords suck. Can passkeys replace them?](202605/2026-05-22-passwords-suck.-can-passkeys-replace-them.md)
+- 文章揭示传统密码的致命缺陷，提倡推广基于 WebAuthn 的 Passkeys。其利用公私钥机制有效防御钓鱼与泄露，取代旧有验证方式，并呼吁采取激进策略以全面提升数字安全。
+- Tags: #guide
+
 (2026-05-21) [AI 编码胜率榜：Go 与 Rust 完胜 C++](202605/2026-05-21-ai-%E7%BC%96%E7%A0%81%E8%83%9C%E7%8E%87%E6%A6%9C%EF%BC%9Ago-%E4%B8%8E-rust-%E5%AE%8C%E8%83%9C-c%2B%2B.md)
 - 基于 ProgramBench 研究，Claude 工程能力优于 GPT，Go 和 Rust 因现代工程特征比 C++ 更适合 AI 编程，未来将进入“人类架构师 + AI 劳工”时代。
 - Tags: #news #engineering
@@ -38,12 +42,8 @@
 - 基于 SSH 蜜罐实验，揭示公网服务面临持续自动化扫描与爆破攻击，多数为低级脚本，少数为高阶攻击者；同时指出弱口令与加密节点为主要目标，并强调基础安全防护的重要性。
 - Tags: #reading
 
-(2026-05-12) [用 LLM 管理安全开发规范](202605/2026-05-12-%E7%94%A8-llm-%E7%AE%A1%E7%90%86%E5%AE%89%E5%85%A8%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83.md)
-- 本文介绍基于 llm-wiki 理念，利用 LLM 构建三层知识系统。通过将分散文档“编译”结构化，解决检索维护难题。该方案降低了维护成本，提升了问答精准度，实现了知识库的可持续发展。
-- Tags: #engineering #agent #setup
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (15 entries)
+- [2026-05](202605/monthly-index.md) (16 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

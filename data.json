@@ -1370,5 +1370,14 @@
       "news",
       "engineering"
     ]
+  },
+  {
+    "month": "202605",
+    "title": "Passwords suck. Can passkeys replace them?",
+    "url": "https://kerkour.com/passkeys",
+    "timestamp": 1779419576,
+    "tags": [
+      "guide"
+    ]
   }
 ]
