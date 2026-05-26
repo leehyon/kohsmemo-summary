@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-05-26) [4 First Principles of Token Economics in 2026](202605/2026-05-26-4-first-principles-of-token-economics-in-2026.md)
+  - Tags: #agent #advice
+  - Summary: AI 补贴终结，算力稀缺引发配给与提价。用户需掌握 Token 经济学，优化会话与上下文管理，提升算力回报率，以专业成本意识应对资源受限环境。
+
 - (2026-05-22) [Passwords suck. Can passkeys replace them?](202605/2026-05-22-passwords-suck.-can-passkeys-replace-them.md)
   - Tags: #guide
   - Summary: 文章揭示传统密码的致命缺陷，提倡推广基于 WebAuthn 的 Passkeys。其利用公私钥机制有效防御钓鱼与泄露，取代旧有验证方式，并呼吁采取激进策略以全面提升数字安全。

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-26) [4 First Principles of Token Economics in 2026](202605/2026-05-26-4-first-principles-of-token-economics-in-2026.md)
+- AI 补贴终结，算力稀缺引发配给与提价。用户需掌握 Token 经济学，优化会话与上下文管理，提升算力回报率，以专业成本意识应对资源受限环境。
+- Tags: #agent #advice
+
 (2026-05-22) [Passwords suck. Can passkeys replace them?](202605/2026-05-22-passwords-suck.-can-passkeys-replace-them.md)
 - 文章揭示传统密码的致命缺陷，提倡推广基于 WebAuthn 的 Passkeys。其利用公私钥机制有效防御钓鱼与泄露，取代旧有验证方式，并呼吁采取激进策略以全面提升数字安全。
 - Tags: #guide
@@ -38,12 +42,8 @@
 - 文章驳斥“不用 AI 会落后”的观点，指出依赖 AI 将导致认知与学习能力退化。作者认为真正的落后者是 AI 依赖者，呼吁人类自我超越，掌握 AI 无法替代的技能。
 - Tags: #life
 
-(2026-05-15) [I Left Port 22 Open for 54 Days: An SSH Honeypot Study](202605/2026-05-15-i-left-port-22-open-for-54-days-an-ssh-honeypot-study.md)
-- 基于 SSH 蜜罐实验，揭示公网服务面临持续自动化扫描与爆破攻击，多数为低级脚本，少数为高阶攻击者；同时指出弱口令与加密节点为主要目标，并强调基础安全防护的重要性。
-- Tags: #reading
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (16 entries)
+- [2026-05](202605/monthly-index.md) (17 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
