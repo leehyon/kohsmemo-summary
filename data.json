@@ -1389,5 +1389,15 @@
       "agent",
       "advice"
     ]
+  },
+  {
+    "month": "202605",
+    "title": "Learn agentic AI in Python with 10 small exercises",
+    "url": "https://belderbos.dev/blog/learn-agentic-ai-python-10-step-journey/",
+    "timestamp": 1779789440,
+    "tags": [
+      "agent",
+      "education"
+    ]
   }
 ]

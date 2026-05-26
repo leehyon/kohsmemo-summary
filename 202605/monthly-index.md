@@ -1,5 +1,9 @@
 # 2026-05 Monthly Index
 
+(2026-05-26) [Learn agentic AI in Python with 10 small exercises](2026-05-26-learn-agentic-ai-in-python-with-10-small-exercises.md)
+- 本文强调深入理解 Agentic AI 底层逻辑，通过 10 个练习从零构建具备状态管理、工具调用及人工干预机制的生产级 Agent。
+- Tags: #agent #education
+
 (2026-05-26) [4 First Principles of Token Economics in 2026](2026-05-26-4-first-principles-of-token-economics-in-2026.md)
 - AI 补贴终结，算力稀缺引发配给与提价。用户需掌握 Token 经济学，优化会话与上下文管理，提升算力回报率，以专业成本意识应对资源受限环境。
 - Tags: #agent #advice
