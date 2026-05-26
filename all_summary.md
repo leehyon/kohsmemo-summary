@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-05-26) [AI fatigue is real and nobody talks about it](202605/2026-05-26-ai-fatigue-is-real-and-nobody-talks-about-it.md)
+  - Tags: #agent #view
+  - Summary: 文章探讨“AI 疲劳”现象，指出 AI 提升效率却引发深层认知倦怠。建议通过边界管理、接受不完美及区分思考时段，建立可持续人机协作模式，以应对焦虑并保护认知资源。
+
 - (2026-05-26) [Beyond SOLID: Embracing CUPID for Modern Software](202605/2026-05-26-beyond-solid-embracing-cupid-for-modern-software.md)
   - Tags: #design #engineering
   - Summary: 文章提出用 CUPID 属性替代 SOLID 原则，以适应现代开发。CUPID 强调组合性、可预测性等行为表现，旨在提升开发者体验与代码可维护性，构建更易理解的软件系统。

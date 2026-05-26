@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-26) [AI fatigue is real and nobody talks about it](202605/2026-05-26-ai-fatigue-is-real-and-nobody-talks-about-it.md)
+- 文章探讨“AI 疲劳”现象，指出 AI 提升效率却引发深层认知倦怠。建议通过边界管理、接受不完美及区分思考时段，建立可持续人机协作模式，以应对焦虑并保护认知资源。
+- Tags: #agent #view
+
 (2026-05-26) [Beyond SOLID: Embracing CUPID for Modern Software](202605/2026-05-26-beyond-solid-embracing-cupid-for-modern-software.md)
 - 文章提出用 CUPID 属性替代 SOLID 原则，以适应现代开发。CUPID 强调组合性、可预测性等行为表现，旨在提升开发者体验与代码可维护性，构建更易理解的软件系统。
 - Tags: #design #engineering
@@ -38,12 +42,8 @@
 - 文章分析了开发者项目常因技术执念、过度设计、功能蔓延和发布恐惧而失败，提出 "48 小时法则"，主张通过限制时间，强制快速交付可用原型，从而打破开发死循环。
 - Tags: #lesson #project
 
-(2026-05-18) [The 20 Software Engineering Laws](202605/2026-05-18-the-20-software-engineering-laws.md)
-- 软件开发是人、时间与系统的博弈。本文总结了系统设计、组织架构、时间估算及团队管理的核心定律，揭示了协作与项目本质，帮助工程师预判问题并理解现状。
-- Tags: #best-practice #engineering
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (19 entries)
+- [2026-05](202605/monthly-index.md) (20 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
