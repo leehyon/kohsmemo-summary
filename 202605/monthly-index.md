@@ -1,5 +1,9 @@
 # 2026-05 Monthly Index
 
+(2026-05-26) [Beyond SOLID: Embracing CUPID for Modern Software](2026-05-26-beyond-solid-embracing-cupid-for-modern-software.md)
+- 文章提出用 CUPID 属性替代 SOLID 原则，以适应现代开发。CUPID 强调组合性、可预测性等行为表现，旨在提升开发者体验与代码可维护性，构建更易理解的软件系统。
+- Tags: #design #engineering
+
 (2026-05-26) [Learn agentic AI in Python with 10 small exercises](2026-05-26-learn-agentic-ai-in-python-with-10-small-exercises.md)
 - 本文强调深入理解 Agentic AI 底层逻辑，通过 10 个练习从零构建具备状态管理、工具调用及人工干预机制的生产级 Agent。
 - Tags: #agent #education

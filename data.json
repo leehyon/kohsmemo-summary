@@ -1399,5 +1399,15 @@
       "agent",
       "education"
     ]
+  },
+  {
+    "month": "202605",
+    "title": "Beyond SOLID: Embracing CUPID for Modern Software",
+    "url": "https://dzone.com/articles/beyond-solid-embracing-cupid-for-modern-software",
+    "timestamp": 1779789785,
+    "tags": [
+      "design",
+      "engineering"
+    ]
   }
 ]
