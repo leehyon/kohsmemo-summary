@@ -493,7 +493,7 @@ def call_openai_api(prompt: str, content: str) -> str:
 def summarize_text(text: str) -> str:
     prompt: str = """
 结构化总结本文，提炼核心主题、关键信息与逻辑脉络，分点呈现且层次清晰；
-输出为简体中文，中英字符间保留空格，直接展示总结内容，无任何前缀、标题及冗余表述。
+输出为简体中文，中英字符间要有空格，直接展示总结内容，无任何前缀、标题及冗余表述。
 """
     return call_openai_api(prompt, text)
 
@@ -502,7 +502,7 @@ def summarize_text(text: str) -> str:
 def one_sentence_summary(text: str) -> str:
     prompt: str = (
         "以下是对一篇长文的列表形式总结。"
-        "请基于此输出对该文章的简短总结，长度不超过100个字。总是使用简体中文输出，中英字符间需要有空格。"
+        "请基于此输出对该文章的简短总结，长度不超过 100 个字。总是使用简体中文输出，中英字符间需要有空格。"
     )
     return call_openai_api(prompt, text)
 
