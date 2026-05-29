@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-05-29) [It's time to talk about my writerdeck](202605/2026-05-29-it%27s-time-to-talk-about-my-writerdeck.md)
+  - Tags: #writing #home
+  - Summary: 作者将闲置笔记本改造为 writerdeck，通过 Debian 纯 tty 环境、neovim、tmux 和 syncthing 隔离网络干扰，实现高效专注的写作体验，强调技术的有意选择。
+
 - (2026-05-27) [第一性原理读书笔记](202605/2026-05-27-%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
   - Tags: #blog #reading
   - Summary: 第一性原理强调寻找事物底层基本事实，通过识别假设、追问到底、重新构建来解决问题，并应用于学习、锻炼、育儿、商业及 AI 时代，核心是培养定义问题的能力。

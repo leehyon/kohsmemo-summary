@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-29) [It's time to talk about my writerdeck](202605/2026-05-29-it%27s-time-to-talk-about-my-writerdeck.md)
+- 作者将闲置笔记本改造为 writerdeck，通过 Debian 纯 tty 环境、neovim、tmux 和 syncthing 隔离网络干扰，实现高效专注的写作体验，强调技术的有意选择。
+- Tags: #writing #home
+
 (2026-05-27) [第一性原理读书笔记](202605/2026-05-27-%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
 - 第一性原理强调寻找事物底层基本事实，通过识别假设、追问到底、重新构建来解决问题，并应用于学习、锻炼、育儿、商业及 AI 时代，核心是培养定义问题的能力。
 - Tags: #blog #reading
@@ -39,11 +43,8 @@
 - 文章探讨 AI 时代平台利用新协议无偿攫取创作者价值。指出平台通过“数字封建主义”将创作者边缘化，导致权力异化与分配失衡，呼吁反思这种剥削性的数字生产关系。
 - Tags: #view
 
-(2026-05-20) [Why senior developers fail to communicate their expertise](202605/2026-05-20-why-senior-developers-fail-to-communicate-their-expertise.md)
-- 文章指出开发与业务的冲突源于复杂性与不确定性的错位。建议重构沟通，并提出 AI 时代将系统解耦为 Speed 和 Scale 版本，让高级开发转型为“编辑”以兼顾效率与稳定。
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (21 entries)
+- [2026-05](202605/monthly-index.md) (22 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
