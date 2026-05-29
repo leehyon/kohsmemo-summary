@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-05-29) [Harness 的尽头不是缰绳，是镜子](202605/2026-05-29-harness-%E7%9A%84%E5%B0%BD%E5%A4%B4%E4%B8%8D%E6%98%AF%E7%BC%B0%E7%BB%B3%EF%BC%8C%E6%98%AF%E9%95%9C%E5%AD%90.md)
+  - Tags: #agent #view #engineering
+  - Summary: AI是镜子，迫使我们把隐性知识显形。文章分析了意图、执行、判断三层的显形过程及判断层的困境（Goodhart定律、不可能三角），提出三块石碑工程方案，并指出人的价值在于带疤痕的判断。
+
 - (2026-05-29) [The Math That Explains Why Bell Curves Are Everywhere](202605/2026-05-29-the-math-that-explains-why-bell-curves-are-everywhere.md)
   - Tags: #reading
   - Summary: 钟形曲线普遍存在源于中心极限定理：独立大样本均值趋近正态分布。从抛硬币到身高、成绩，该定理由 de Moivre 发现、Laplace 形式化，是现代统计推断的基础。

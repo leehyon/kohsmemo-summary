@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-29) [Harness 的尽头不是缰绳，是镜子](202605/2026-05-29-harness-%E7%9A%84%E5%B0%BD%E5%A4%B4%E4%B8%8D%E6%98%AF%E7%BC%B0%E7%BB%B3%EF%BC%8C%E6%98%AF%E9%95%9C%E5%AD%90.md)
+- AI是镜子，迫使我们把隐性知识显形。文章分析了意图、执行、判断三层的显形过程及判断层的困境（Goodhart定律、不可能三角），提出三块石碑工程方案，并指出人的价值在于带疤痕的判断。
+- Tags: #agent #view #engineering
+
 (2026-05-29) [The Math That Explains Why Bell Curves Are Everywhere](202605/2026-05-29-the-math-that-explains-why-bell-curves-are-everywhere.md)
 - 钟形曲线普遍存在源于中心极限定理：独立大样本均值趋近正态分布。从抛硬币到身高、成绩，该定理由 de Moivre 发现、Laplace 形式化，是现代统计推断的基础。
 - Tags: #reading
@@ -39,12 +43,8 @@
 - AI 补贴终结，算力稀缺引发配给与提价。用户需掌握 Token 经济学，优化会话与上下文管理，提升算力回报率，以专业成本意识应对资源受限环境。
 - Tags: #agent #advice
 
-(2026-05-22) [Passwords suck. Can passkeys replace them?](202605/2026-05-22-passwords-suck.-can-passkeys-replace-them.md)
-- 文章揭示传统密码的致命缺陷，提倡推广基于 WebAuthn 的 Passkeys。其利用公私钥机制有效防御钓鱼与泄露，取代旧有验证方式，并呼吁采取激进策略以全面提升数字安全。
-- Tags: #guide
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (25 entries)
+- [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
