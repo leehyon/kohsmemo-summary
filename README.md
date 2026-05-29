@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-29) [The Math That Explains Why Bell Curves Are Everywhere](202605/2026-05-29-the-math-that-explains-why-bell-curves-are-everywhere.md)
+- 钟形曲线普遍存在源于中心极限定理：独立大样本均值趋近正态分布。从抛硬币到身高、成绩，该定理由 de Moivre 发现、Laplace 形式化，是现代统计推断的基础。
+- Tags: #reading
+
 (2026-05-29) [How to one-on-one](202605/2026-05-29-how-to-one-on-one.md)
 - 有效一对一会谈应聚焦职业成长、辅导、反馈、人际连接和澄清，避免状态更新。准备共享议程，运行中多提问、关注人、留安全空间。避免反模式。高质量一对一是领导力的体现。
 - Tags: #advice #career
@@ -39,12 +43,8 @@
 - 文章揭示传统密码的致命缺陷，提倡推广基于 WebAuthn 的 Passkeys。其利用公私钥机制有效防御钓鱼与泄露，取代旧有验证方式，并呼吁采取激进策略以全面提升数字安全。
 - Tags: #guide
 
-(2026-05-21) [AI 编码胜率榜：Go 与 Rust 完胜 C++](202605/2026-05-21-ai-%E7%BC%96%E7%A0%81%E8%83%9C%E7%8E%87%E6%A6%9C%EF%BC%9Ago-%E4%B8%8E-rust-%E5%AE%8C%E8%83%9C-c%2B%2B.md)
-- 基于 ProgramBench 研究，Claude 工程能力优于 GPT，Go 和 Rust 因现代工程特征比 C++ 更适合 AI 编程，未来将进入“人类架构师 + AI 劳工”时代。
-- Tags: #news #engineering
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (24 entries)
+- [2026-05](202605/monthly-index.md) (25 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

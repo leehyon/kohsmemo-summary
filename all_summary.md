@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-05-29) [The Math That Explains Why Bell Curves Are Everywhere](202605/2026-05-29-the-math-that-explains-why-bell-curves-are-everywhere.md)
+  - Tags: #reading
+  - Summary: 钟形曲线普遍存在源于中心极限定理：独立大样本均值趋近正态分布。从抛硬币到身高、成绩，该定理由 de Moivre 发现、Laplace 形式化，是现代统计推断的基础。
+
 - (2026-05-29) [How to one-on-one](202605/2026-05-29-how-to-one-on-one.md)
   - Tags: #advice #career
   - Summary: 有效一对一会谈应聚焦职业成长、辅导、反馈、人际连接和澄清，避免状态更新。准备共享议程，运行中多提问、关注人、留安全空间。避免反模式。高质量一对一是领导力的体现。
