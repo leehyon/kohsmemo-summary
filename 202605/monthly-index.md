@@ -1,5 +1,9 @@
 # 2026-05 Monthly Index
 
+(2026-05-29) [How to one-on-one](2026-05-29-how-to-one-on-one.md)
+- 有效一对一会谈应聚焦职业成长、辅导、反馈、人际连接和澄清，避免状态更新。准备共享议程，运行中多提问、关注人、留安全空间。避免反模式。高质量一对一是领导力的体现。
+- Tags: #advice #career
+
 (2026-05-29) [How to Stay Resilient in a Difficult Job](2026-05-29-how-to-stay-resilient-in-a-difficult-job.md)
 - 韧性不是硬撑，而是通过设定框架、稳定身体、聚焦可控之事、保持个人标准、寻找支持、保护情感边界和保持未来视野，在困难中保护能量与自我。
 - Tags: #advice #view
