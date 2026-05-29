@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-05-29) [How to Stay Resilient in a Difficult Job](202605/2026-05-29-how-to-stay-resilient-in-a-difficult-job.md)
+  - Tags: #advice #view
+  - Summary: 韧性不是硬撑，而是通过设定框架、稳定身体、聚焦可控之事、保持个人标准、寻找支持、保护情感边界和保持未来视野，在困难中保护能量与自我。
+
 - (2026-05-29) [It's time to talk about my writerdeck](202605/2026-05-29-it%27s-time-to-talk-about-my-writerdeck.md)
   - Tags: #writing #home
   - Summary: 作者将闲置笔记本改造为 writerdeck，通过 Debian 纯 tty 环境、neovim、tmux 和 syncthing 隔离网络干扰，实现高效专注的写作体验，强调技术的有意选择。

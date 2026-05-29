@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-05-29) [How to Stay Resilient in a Difficult Job](202605/2026-05-29-how-to-stay-resilient-in-a-difficult-job.md)
+- 韧性不是硬撑，而是通过设定框架、稳定身体、聚焦可控之事、保持个人标准、寻找支持、保护情感边界和保持未来视野，在困难中保护能量与自我。
+- Tags: #advice #view
+
 (2026-05-29) [It's time to talk about my writerdeck](202605/2026-05-29-it%27s-time-to-talk-about-my-writerdeck.md)
 - 作者将闲置笔记本改造为 writerdeck，通过 Debian 纯 tty 环境、neovim、tmux 和 syncthing 隔离网络干扰，实现高效专注的写作体验，强调技术的有意选择。
 - Tags: #writing #home
@@ -39,12 +43,8 @@
 - 本文探讨如何将 AI 经验转化为个人资产。通过 SumSec-Skills 利用 Git 结构化定义 Skill，实现技能的自我进化与跨平台复用，从而摆脱对特定工具的依赖。
 - Tags: #skill #best-practice #design
 
-(2026-05-21) [我们免费写的字，平台拿去卖给了谁](202605/2026-05-21-%E6%88%91%E4%BB%AC%E5%85%8D%E8%B4%B9%E5%86%99%E7%9A%84%E5%AD%97%EF%BC%8C%E5%B9%B3%E5%8F%B0%E6%8B%BF%E5%8E%BB%E5%8D%96%E7%BB%99%E4%BA%86%E8%B0%81.md)
-- 文章探讨 AI 时代平台利用新协议无偿攫取创作者价值。指出平台通过“数字封建主义”将创作者边缘化，导致权力异化与分配失衡，呼吁反思这种剥削性的数字生产关系。
-- Tags: #view
-
 ## Monthly Archive
 
-- [2026-05](202605/monthly-index.md) (22 entries)
+- [2026-05](202605/monthly-index.md) (23 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
