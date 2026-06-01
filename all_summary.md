@@ -1,8 +1,12 @@
 # All Summary
 
+- (2026-06-01) [写代码快 10 倍，不等于研发快 10 倍！Google 揭秘 AI 系统级瓶颈](202606/2026-06-01-%E5%86%99%E4%BB%A3%E7%A0%81%E5%BF%AB-10-%E5%80%8D%EF%BC%8C%E4%B8%8D%E7%AD%89%E4%BA%8E%E7%A0%94%E5%8F%91%E5%BF%AB-10-%E5%80%8D%EF%BC%81google-%E6%8F%AD%E7%A7%98-ai-%E7%B3%BB%E7%BB%9F%E7%BA%A7%E7%93%B6%E9%A2%88.md)
+  - Tags: #agent #engineering #view
+  - Summary: AI 大幅提升代码生成速度不等于研发速度提升，因软件工程是复杂的社会技术系统。代码量飙升会引发审查、测试、依赖等瓶颈。破局需精准备测试、极致解耦、保护人类注意力，培养系统级思维工程师。
+
 - (2026-05-29) [Harness 的尽头不是缰绳，是镜子](202605/2026-05-29-harness-%E7%9A%84%E5%B0%BD%E5%A4%B4%E4%B8%8D%E6%98%AF%E7%BC%B0%E7%BB%B3%EF%BC%8C%E6%98%AF%E9%95%9C%E5%AD%90.md)
   - Tags: #agent #view #engineering
-  - Summary: AI 是镜子，迫使我们把隐性知识显形。文章分析了意图、执行、判断三层的显形过程及判断层的困境（Goodhart 定律、不可能三角），提出三块石碑工程方案，并指出人的价值在于带疤痕的判断。
+  - Summary: AI是镜子，迫使我们把隐性知识显形。文章分析了意图、执行、判断三层的显形过程及判断层的困境（Goodhart定律、不可能三角），提出三块石碑工程方案，并指出人的价值在于带疤痕的判断。
 
 - (2026-05-29) [The Math That Explains Why Bell Curves Are Everywhere](202605/2026-05-29-the-math-that-explains-why-bell-curves-are-everywhere.md)
   - Tags: #reading

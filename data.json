@@ -1479,5 +1479,16 @@
       "view",
       "engineering"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "写代码快 10 倍，不等于研发快 10 倍！Google 揭秘 AI 系统级瓶颈",
+    "url": "https://tonybai.com/2026/06/01/coding-10x-faster-isnt-10x-development-speed-google-ai-bottleneck/",
+    "timestamp": 1780292028,
+    "tags": [
+      "agent",
+      "engineering",
+      "view"
+    ]
   }
 ]
