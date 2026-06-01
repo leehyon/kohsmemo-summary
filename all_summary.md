@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-01) [The Pulse: Forward deployed engineering heats up again](202606/2026-06-01-the-pulse-forward-deployed-engineering-heats-up-again.md)
+  - Tags: #career
+  - Summary: 前向部署工程师（FDE）需求升温，角色转向 AI 集成顾问，工作重心为集成与客户沟通。Google 简化招聘，OpenAI 及 Anthropic 外包独立公司。对初级工程师是机会，资深工程师兴趣较低。需求预计持续增长。
+
 - (2026-06-01) [写代码快 10 倍，不等于研发快 10 倍！Google 揭秘 AI 系统级瓶颈](202606/2026-06-01-%E5%86%99%E4%BB%A3%E7%A0%81%E5%BF%AB-10-%E5%80%8D%EF%BC%8C%E4%B8%8D%E7%AD%89%E4%BA%8E%E7%A0%94%E5%8F%91%E5%BF%AB-10-%E5%80%8D%EF%BC%81google-%E6%8F%AD%E7%A7%98-ai-%E7%B3%BB%E7%BB%9F%E7%BA%A7%E7%93%B6%E9%A2%88.md)
   - Tags: #agent #engineering #view
   - Summary: AI 大幅提升代码生成速度不等于研发速度提升，因软件工程是复杂的社会技术系统。代码量飙升会引发审查、测试、依赖等瓶颈。破局需精准备测试、极致解耦、保护人类注意力，培养系统级思维工程师。

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-01) [The Pulse: Forward deployed engineering heats up again](202606/2026-06-01-the-pulse-forward-deployed-engineering-heats-up-again.md)
+- 前向部署工程师（FDE）需求升温，角色转向 AI 集成顾问，工作重心为集成与客户沟通。Google 简化招聘，OpenAI 及 Anthropic 外包独立公司。对初级工程师是机会，资深工程师兴趣较低。需求预计持续增长。
+- Tags: #career
+
 (2026-06-01) [写代码快 10 倍，不等于研发快 10 倍！Google 揭秘 AI 系统级瓶颈](202606/2026-06-01-%E5%86%99%E4%BB%A3%E7%A0%81%E5%BF%AB-10-%E5%80%8D%EF%BC%8C%E4%B8%8D%E7%AD%89%E4%BA%8E%E7%A0%94%E5%8F%91%E5%BF%AB-10-%E5%80%8D%EF%BC%81google-%E6%8F%AD%E7%A7%98-ai-%E7%B3%BB%E7%BB%9F%E7%BA%A7%E7%93%B6%E9%A2%88.md)
 - AI 大幅提升代码生成速度不等于研发速度提升，因软件工程是复杂的社会技术系统。代码量飙升会引发审查、测试、依赖等瓶颈。破局需精准备测试、极致解耦、保护人类注意力，培养系统级思维工程师。
 - Tags: #agent #engineering #view
@@ -39,13 +43,9 @@
 - 文章提出用 CUPID 属性替代 SOLID 原则，以适应现代开发。CUPID 强调组合性、可预测性等行为表现，旨在提升开发者体验与代码可维护性，构建更易理解的软件系统。
 - Tags: #design #engineering
 
-(2026-05-26) [Learn agentic AI in Python with 10 small exercises](202605/2026-05-26-learn-agentic-ai-in-python-with-10-small-exercises.md)
-- 本文强调深入理解 Agentic AI 底层逻辑，通过 10 个练习从零构建具备状态管理、工具调用及人工干预机制的生产级 Agent。
-- Tags: #agent #education
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (1 entries)
+- [2026-06](202606/monthly-index.md) (2 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
