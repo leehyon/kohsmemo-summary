@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-03) [How to listen to understand](202606/2026-06-03-how-to-listen-to-understand.md)
+- 倾听的核心是从等待回应转向理解对方。通过善用沉默、避免急于建议，反馈对方话语背后的价值观与希望，以此建立深层连接与信任，修复社会纽带。
+- Tags: #life
+
 (2026-06-01) [The Pulse: Forward deployed engineering heats up again](202606/2026-06-01-the-pulse-forward-deployed-engineering-heats-up-again.md)
 - 前向部署工程师（FDE）需求升温，角色转向 AI 集成顾问，工作重心为集成与客户沟通。Google 简化招聘，OpenAI 及 Anthropic 外包独立公司。对初级工程师是机会，资深工程师兴趣较低。需求预计持续增长。
 - Tags: #career
@@ -39,13 +43,9 @@
 - 文章探讨“AI 疲劳”现象，指出 AI 提升效率却引发深层认知倦怠。建议通过边界管理、接受不完美及区分思考时段，建立可持续人机协作模式，以应对焦虑并保护认知资源。
 - Tags: #agent #view
 
-(2026-05-26) [Beyond SOLID: Embracing CUPID for Modern Software](202605/2026-05-26-beyond-solid-embracing-cupid-for-modern-software.md)
-- 文章提出用 CUPID 属性替代 SOLID 原则，以适应现代开发。CUPID 强调组合性、可预测性等行为表现，旨在提升开发者体验与代码可维护性，构建更易理解的软件系统。
-- Tags: #design #engineering
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (2 entries)
+- [2026-06](202606/monthly-index.md) (3 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

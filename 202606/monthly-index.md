@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-03) [How to listen to understand](2026-06-03-how-to-listen-to-understand.md)
+- 倾听的核心是从等待回应转向理解对方。通过善用沉默、避免急于建议，反馈对方话语背后的价值观与希望，以此建立深层连接与信任，修复社会纽带。
+- Tags: #life
+
 (2026-06-01) [The Pulse: Forward deployed engineering heats up again](2026-06-01-the-pulse-forward-deployed-engineering-heats-up-again.md)
 - 前向部署工程师（FDE）需求升温，角色转向 AI 集成顾问，工作重心为集成与客户沟通。Google 简化招聘，OpenAI 及 Anthropic 外包独立公司。对初级工程师是机会，资深工程师兴趣较低。需求预计持续增长。
 - Tags: #career
