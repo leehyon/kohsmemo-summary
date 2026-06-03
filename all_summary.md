@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-03) [The holes that kill you are the ones you never tested](202606/2026-06-03-the-holes-that-kill-you-are-the-ones-you-never-tested.md)
+  - Tags: #engineering
+  - Summary: 瑞士奶酪模型易误导人只关注层数，但真正风险来自未验证的盲区和冗余失效。安全关键在于主动测试每个防御层，避免未经验证的假设和可用性剧院。
+
 - (2026-06-03) [AI Engineering for Developers](202606/2026-06-03-ai-engineering-for-developers.md)
   - Tags: #engineering
   - Summary: AI 工程将预训练模型集成到产品，技术栈分三层。适应 LLM 按成本排序：提示工程、RAG、微调。模型选择需多模型路由。规划设检查点，注意非确定性、成本与维护。评估用程序化指标和 LLM 评判。

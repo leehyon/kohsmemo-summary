@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-03) [The holes that kill you are the ones you never tested](202606/2026-06-03-the-holes-that-kill-you-are-the-ones-you-never-tested.md)
+- 瑞士奶酪模型易误导人只关注层数，但真正风险来自未验证的盲区和冗余失效。安全关键在于主动测试每个防御层，避免未经验证的假设和可用性剧院。
+- Tags: #engineering
+
 (2026-06-03) [AI Engineering for Developers](202606/2026-06-03-ai-engineering-for-developers.md)
 - AI 工程将预训练模型集成到产品，技术栈分三层。适应 LLM 按成本排序：提示工程、RAG、微调。模型选择需多模型路由。规划设检查点，注意非确定性、成本与维护。评估用程序化指标和 LLM 评判。
 - Tags: #engineering
@@ -39,13 +43,9 @@
 - 韧性不是硬撑，而是通过设定框架、稳定身体、聚焦可控之事、保持个人标准、寻找支持、保护情感边界和保持未来视野，在困难中保护能量与自我。
 - Tags: #advice #view
 
-(2026-05-29) [It's time to talk about my writerdeck](202605/2026-05-29-it%27s-time-to-talk-about-my-writerdeck.md)
-- 作者将闲置笔记本改造为 writerdeck，通过 Debian 纯 tty 环境、neovim、tmux 和 syncthing 隔离网络干扰，实现高效专注的写作体验，强调技术的有意选择。
-- Tags: #writing #home
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (5 entries)
+- [2026-06](202606/monthly-index.md) (6 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
