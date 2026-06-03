@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-03) [Staff archetypes](202606/2026-06-03-staff-archetypes.md)
+- Staff-plus 工程师有四种角色原型：Tech Lead、Architect、Solver、Right Hand。选择需根据个人能量来源和公司环境，职业生涯可尝试多种。
+- Tags: #engineering #career
+
 (2026-06-03) [The modern formatting addiction in writing](202606/2026-06-03-the-modern-formatting-addiction-in-writing.md)
 - 文章探讨写作中过度格式化现象，分析其成因包括质量验证、思维链辅助及虚张声势，建议先使用格式理清思路，最终转化为连贯段落并适度回归格式。
 - Tags: #writing
@@ -39,13 +43,9 @@
 - 倾听的核心是从等待回应转向理解对方。通过善用沉默、避免急于建议，反馈对方话语背后的价值观与希望，以此建立深层连接与信任，修复社会纽带。
 - Tags: #life
 
-(2026-06-01) [The Pulse: Forward deployed engineering heats up again](202606/2026-06-01-the-pulse-forward-deployed-engineering-heats-up-again.md)
-- 前向部署工程师（FDE）需求升温，角色转向 AI 集成顾问，工作重心为集成与客户沟通。Google 简化招聘，OpenAI 及 Anthropic 外包独立公司。对初级工程师是机会，资深工程师兴趣较低。需求预计持续增长。
-- Tags: #career
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (11 entries)
+- [2026-06](202606/monthly-index.md) (12 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

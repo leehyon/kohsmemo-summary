@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-03) [Staff archetypes](2026-06-03-staff-archetypes.md)
+- Staff-plus 工程师有四种角色原型：Tech Lead、Architect、Solver、Right Hand。选择需根据个人能量来源和公司环境，职业生涯可尝试多种。
+- Tags: #engineering #career
+
 (2026-06-03) [The modern formatting addiction in writing](2026-06-03-the-modern-formatting-addiction-in-writing.md)
 - 文章探讨写作中过度格式化现象，分析其成因包括质量验证、思维链辅助及虚张声势，建议先使用格式理清思路，最终转化为连贯段落并适度回归格式。
 - Tags: #writing
