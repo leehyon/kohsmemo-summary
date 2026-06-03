@@ -1518,5 +1518,14 @@
       "agent",
       "engineering"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "AI Engineering for Developers",
+    "url": "https://www.lucavall.in/blog/ai-engineering-for-developers",
+    "timestamp": 1780463776,
+    "tags": [
+      "engineering"
+    ]
   }
 ]

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-03) [AI Engineering for Developers](202606/2026-06-03-ai-engineering-for-developers.md)
+- AI 工程将预训练模型集成到产品，技术栈分三层。适应 LLM 按成本排序：提示工程、RAG、微调。模型选择需多模型路由。规划设检查点，注意非确定性、成本与维护。评估用程序化指标和 LLM 评判。
+- Tags: #engineering
+
 (2026-06-03) [A harness for every task: dynamic workflows in Claude Code](202606/2026-06-03-a-harness-for-every-task-dynamic-workflows-in-claude-code.md)
 - Claude Code 动态工作流由 Opus 驱动，为任务即时编写定制 harness，使用子代理和多种模式（如分类、扇出、对抗验证）解决长任务故障，适用于迁移、研究、验证等复杂场景。
 - Tags: #agent #engineering
@@ -39,13 +43,9 @@
 - 作者将闲置笔记本改造为 writerdeck，通过 Debian 纯 tty 环境、neovim、tmux 和 syncthing 隔离网络干扰，实现高效专注的写作体验，强调技术的有意选择。
 - Tags: #writing #home
 
-(2026-05-27) [第一性原理读书笔记](202605/2026-05-27-%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
-- 第一性原理强调寻找事物底层基本事实，通过识别假设、追问到底、重新构建来解决问题，并应用于学习、锻炼、育儿、商业及 AI 时代，核心是培养定义问题的能力。
-- Tags: #blog #reading
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (4 entries)
+- [2026-06](202606/monthly-index.md) (5 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

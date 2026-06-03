@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-03) [AI Engineering for Developers](2026-06-03-ai-engineering-for-developers.md)
+- AI 工程将预训练模型集成到产品，技术栈分三层。适应 LLM 按成本排序：提示工程、RAG、微调。模型选择需多模型路由。规划设检查点，注意非确定性、成本与维护。评估用程序化指标和 LLM 评判。
+- Tags: #engineering
+
 (2026-06-03) [A harness for every task: dynamic workflows in Claude Code](2026-06-03-a-harness-for-every-task-dynamic-workflows-in-claude-code.md)
 - Claude Code 动态工作流由 Opus 驱动，为任务即时编写定制 harness，使用子代理和多种模式（如分类、扇出、对抗验证）解决长任务故障，适用于迁移、研究、验证等复杂场景。
 - Tags: #agent #engineering
