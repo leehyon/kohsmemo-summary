@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-03) [Gathering Structures](202606/2026-06-03-gathering-structures.md)
+  - Tags: #life
+  - Summary: 作者 Maggie Appleton 基于十五年经验，分享降低组织者压力、提升参与者体验的聚会结构与原则，包括七分钟演示、非正式轮流主持、鱼缸讨论等，强调从小简单开始。
+
 - (2026-06-03) [先写 Skill 再执行](202606/2026-06-03-%E5%85%88%E5%86%99-skill-%E5%86%8D%E6%89%A7%E8%A1%8C.md)
   - Tags: #agent #skill #advice
   - Summary: 用好 AI 的关键是先外化再执行，通过撰写 Skill 文档积累经验教训，实现知识复用，让 AI 越用越聪明。

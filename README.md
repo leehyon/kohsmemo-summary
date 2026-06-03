@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-03) [Gathering Structures](202606/2026-06-03-gathering-structures.md)
+- 作者 Maggie Appleton 基于十五年经验，分享降低组织者压力、提升参与者体验的聚会结构与原则，包括七分钟演示、非正式轮流主持、鱼缸讨论等，强调从小简单开始。
+- Tags: #life
+
 (2026-06-03) [先写 Skill 再执行](202606/2026-06-03-%E5%85%88%E5%86%99-skill-%E5%86%8D%E6%89%A7%E8%A1%8C.md)
 - 用好 AI 的关键是先外化再执行，通过撰写 Skill 文档积累经验教训，实现知识复用，让 AI 越用越聪明。
 - Tags: #agent #skill #advice
@@ -39,13 +43,9 @@
 - AI 大幅提升代码生成速度不等于研发速度提升，因软件工程是复杂的社会技术系统。代码量飙升会引发审查、测试、依赖等瓶颈。破局需精准备测试、极致解耦、保护人类注意力，培养系统级思维工程师。
 - Tags: #agent #engineering #view
 
-(2026-05-29) [Harness 的尽头不是缰绳，是镜子](202605/2026-05-29-harness-%E7%9A%84%E5%B0%BD%E5%A4%B4%E4%B8%8D%E6%98%AF%E7%BC%B0%E7%BB%B3%EF%BC%8C%E6%98%AF%E9%95%9C%E5%AD%90.md)
-- AI是镜子，迫使我们把隐性知识显形。文章分析了意图、执行、判断三层的显形过程及判断层的困境（Goodhart定律、不可能三角），提出三块石碑工程方案，并指出人的价值在于带疤痕的判断。
-- Tags: #agent #view #engineering
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (9 entries)
+- [2026-06](202606/monthly-index.md) (10 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
