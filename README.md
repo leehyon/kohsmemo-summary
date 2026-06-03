@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-03) [How I use LLMs as a staff engineer in 2026](202606/2026-06-03-how-i-use-llms-as-a-staff-engineer-in-2026.md)
+- 2026 年员工工程师使用 LLM 方式巨变：agent 更可靠，用于生成 PR、调查 bug 和测试，但仍需人工审查。核心是转移工作但不过度，平衡关键。
+- Tags: #llm #guide
+
 (2026-06-03) [Agent Skills](202606/2026-06-03-agent-skills.md)
 - 该项目通过可执行的工作流技能文件，为 AI 编码代理注入高级工程规范，防止其走捷径。关键原则包括过程优于散文、反理性化表格、验证不可协商等，确保代理完成规格、测试、评审等关键步骤，而非默认只追求“完成”。
 - Tags: #agent
@@ -39,13 +43,9 @@
 - AI 工程将预训练模型集成到产品，技术栈分三层。适应 LLM 按成本排序：提示工程、RAG、微调。模型选择需多模型路由。规划设检查点，注意非确定性、成本与维护。评估用程序化指标和 LLM 评判。
 - Tags: #engineering
 
-(2026-06-03) [A harness for every task: dynamic workflows in Claude Code](202606/2026-06-03-a-harness-for-every-task-dynamic-workflows-in-claude-code.md)
-- Claude Code 动态工作流由 Opus 驱动，为任务即时编写定制 harness，使用子代理和多种模式（如分类、扇出、对抗验证）解决长任务故障，适用于迁移、研究、验证等复杂场景。
-- Tags: #agent #engineering
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (13 entries)
+- [2026-06](202606/monthly-index.md) (14 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

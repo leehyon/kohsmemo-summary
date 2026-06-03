@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-03) [How I use LLMs as a staff engineer in 2026](202606/2026-06-03-how-i-use-llms-as-a-staff-engineer-in-2026.md)
+  - Tags: #llm #guide
+  - Summary: 2026 年员工工程师使用 LLM 方式巨变：agent 更可靠，用于生成 PR、调查 bug 和测试，但仍需人工审查。核心是转移工作但不过度，平衡关键。
+
 - (2026-06-03) [Agent Skills](202606/2026-06-03-agent-skills.md)
   - Tags: #agent
   - Summary: 该项目通过可执行的工作流技能文件，为 AI 编码代理注入高级工程规范，防止其走捷径。关键原则包括过程优于散文、反理性化表格、验证不可协商等，确保代理完成规格、测试、评审等关键步骤，而非默认只追求“完成”。
