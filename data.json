@@ -1555,5 +1555,16 @@
     "tags": [
       "education"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "先写 Skill 再执行",
+    "url": "https://yage.ai/skill-first.html",
+    "timestamp": 1780464654,
+    "tags": [
+      "agent",
+      "skill",
+      "advice"
+    ]
   }
 ]

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-03) [先写 Skill 再执行](202606/2026-06-03-%E5%85%88%E5%86%99-skill-%E5%86%8D%E6%89%A7%E8%A1%8C.md)
+- 用好 AI 的关键是先外化再执行，通过撰写 Skill 文档积累经验教训，实现知识复用，让 AI 越用越聪明。
+- Tags: #agent #skill #advice
+
 (2026-06-03) [统计十讲](202606/2026-06-03-%E7%BB%9F%E8%AE%A1%E5%8D%81%E8%AE%B2.md)
 - 本文批判传统统计教育弊端，提出以模型比较和概念理解为框架的改进方案，并介绍自撰的“统计十讲”系列。该系列围绕“数据 = 模型 + 误差”纲领，强调概念理解与场景桥接，帮助学后仍感困惑的读者。
 - Tags: #education
@@ -39,13 +43,9 @@
 - AI是镜子，迫使我们把隐性知识显形。文章分析了意图、执行、判断三层的显形过程及判断层的困境（Goodhart定律、不可能三角），提出三块石碑工程方案，并指出人的价值在于带疤痕的判断。
 - Tags: #agent #view #engineering
 
-(2026-05-29) [The Math That Explains Why Bell Curves Are Everywhere](202605/2026-05-29-the-math-that-explains-why-bell-curves-are-everywhere.md)
-- 钟形曲线普遍存在源于中心极限定理：独立大样本均值趋近正态分布。从抛硬币到身高、成绩，该定理由 de Moivre 发现、Laplace 形式化，是现代统计推断的基础。
-- Tags: #reading
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (8 entries)
+- [2026-06](202606/monthly-index.md) (9 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
