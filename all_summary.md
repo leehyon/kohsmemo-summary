@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-03) [Agent Skills](202606/2026-06-03-agent-skills.md)
+  - Tags: #agent
+  - Summary: 该项目通过可执行的工作流技能文件，为 AI 编码代理注入高级工程规范，防止其走捷径。关键原则包括过程优于散文、反理性化表格、验证不可协商等，确保代理完成规格、测试、评审等关键步骤，而非默认只追求“完成”。
+
 - (2026-06-03) [Staff archetypes](202606/2026-06-03-staff-archetypes.md)
   - Tags: #engineering #career
   - Summary: Staff-plus 工程师有四种角色原型：Tech Lead、Architect、Solver、Right Hand。选择需根据个人能量来源和公司环境，职业生涯可尝试多种。

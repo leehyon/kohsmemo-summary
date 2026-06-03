@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-03) [Agent Skills](202606/2026-06-03-agent-skills.md)
+- 该项目通过可执行的工作流技能文件，为 AI 编码代理注入高级工程规范，防止其走捷径。关键原则包括过程优于散文、反理性化表格、验证不可协商等，确保代理完成规格、测试、评审等关键步骤，而非默认只追求“完成”。
+- Tags: #agent
+
 (2026-06-03) [Staff archetypes](202606/2026-06-03-staff-archetypes.md)
 - Staff-plus 工程师有四种角色原型：Tech Lead、Architect、Solver、Right Hand。选择需根据个人能量来源和公司环境，职业生涯可尝试多种。
 - Tags: #engineering #career
@@ -39,13 +43,9 @@
 - Claude Code 动态工作流由 Opus 驱动，为任务即时编写定制 harness，使用子代理和多种模式（如分类、扇出、对抗验证）解决长任务故障，适用于迁移、研究、验证等复杂场景。
 - Tags: #agent #engineering
 
-(2026-06-03) [How to listen to understand](202606/2026-06-03-how-to-listen-to-understand.md)
-- 倾听的核心是从等待回应转向理解对方。通过善用沉默、避免急于建议，反馈对方话语背后的价值观与希望，以此建立深层连接与信任，修复社会纽带。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (12 entries)
+- [2026-06](202606/monthly-index.md) (13 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
