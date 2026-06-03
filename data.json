@@ -1536,5 +1536,15 @@
     "tags": [
       "engineering"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "Build agents, not pipelines",
+    "url": "https://www.seangoedecke.com/build-agents-not-pipelines/",
+    "timestamp": 1780464128,
+    "tags": [
+      "agent",
+      "llm"
+    ]
   }
 ]

@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-03) [Build agents, not pipelines](2026-06-03-build-agents%2C-not-pipelines.md)
+- 在 LLM 应用中，应优先使用 agent 而非 pipeline，因为 agent 更灵活智能，适合复杂任务；pipeline 虽可预测但有局限。建议混合使用：pipeline 筛选，agent 深入分析。有疑问时用 agent。
+- Tags: #agent #llm
+
 (2026-06-03) [The holes that kill you are the ones you never tested](2026-06-03-the-holes-that-kill-you-are-the-ones-you-never-tested.md)
 - 瑞士奶酪模型易误导人只关注层数，但真正风险来自未验证的盲区和冗余失效。安全关键在于主动测试每个防御层，避免未经验证的假设和可用性剧院。
 - Tags: #engineering
