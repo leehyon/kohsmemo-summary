@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-03) [A harness for every task: dynamic workflows in Claude Code](202606/2026-06-03-a-harness-for-every-task-dynamic-workflows-in-claude-code.md)
+- Claude Code 动态工作流由 Opus 驱动，为任务即时编写定制 harness，使用子代理和多种模式（如分类、扇出、对抗验证）解决长任务故障，适用于迁移、研究、验证等复杂场景。
+- Tags: #agent #engineering
+
 (2026-06-03) [How to listen to understand](202606/2026-06-03-how-to-listen-to-understand.md)
 - 倾听的核心是从等待回应转向理解对方。通过善用沉默、避免急于建议，反馈对方话语背后的价值观与希望，以此建立深层连接与信任，修复社会纽带。
 - Tags: #life
@@ -39,13 +43,9 @@
 - 第一性原理强调寻找事物底层基本事实，通过识别假设、追问到底、重新构建来解决问题，并应用于学习、锻炼、育儿、商业及 AI 时代，核心是培养定义问题的能力。
 - Tags: #blog #reading
 
-(2026-05-26) [AI fatigue is real and nobody talks about it](202605/2026-05-26-ai-fatigue-is-real-and-nobody-talks-about-it.md)
-- 文章探讨“AI 疲劳”现象，指出 AI 提升效率却引发深层认知倦怠。建议通过边界管理、接受不完美及区分思考时段，建立可持续人机协作模式，以应对焦虑并保护认知资源。
-- Tags: #agent #view
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (3 entries)
+- [2026-06](202606/monthly-index.md) (4 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-03) [A harness for every task: dynamic workflows in Claude Code](2026-06-03-a-harness-for-every-task-dynamic-workflows-in-claude-code.md)
+- Claude Code 动态工作流由 Opus 驱动，为任务即时编写定制 harness，使用子代理和多种模式（如分类、扇出、对抗验证）解决长任务故障，适用于迁移、研究、验证等复杂场景。
+- Tags: #agent #engineering
+
 (2026-06-03) [How to listen to understand](2026-06-03-how-to-listen-to-understand.md)
 - 倾听的核心是从等待回应转向理解对方。通过善用沉默、避免急于建议，反馈对方话语背后的价值观与希望，以此建立深层连接与信任，修复社会纽带。
 - Tags: #life

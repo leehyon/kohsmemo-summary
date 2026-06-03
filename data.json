@@ -1508,5 +1508,15 @@
     "tags": [
       "life"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "A harness for every task: dynamic workflows in Claude Code",
+    "url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
+    "timestamp": 1780451364,
+    "tags": [
+      "agent",
+      "engineering"
+    ]
   }
 ]
