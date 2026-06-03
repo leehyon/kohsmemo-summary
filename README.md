@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-03) [The Orchestration Tax](202606/2026-06-03-the-orchestration-tax.md)
+- 人类是 AI 代理系统的串行瓶颈（GIL），启动代理易但审核合并成本高。正确的代理数量受限于注意力，效率取决于围绕判断力设计流程，而非增加代理数量。
+- Tags: #view #agent
+
 (2026-06-03) [How I use LLMs as a staff engineer in 2026](202606/2026-06-03-how-i-use-llms-as-a-staff-engineer-in-2026.md)
 - 2026 年员工工程师使用 LLM 方式巨变：agent 更可靠，用于生成 PR、调查 bug 和测试，但仍需人工审查。核心是转移工作但不过度，平衡关键。
 - Tags: #llm #guide
@@ -39,13 +43,9 @@
 - 瑞士奶酪模型易误导人只关注层数，但真正风险来自未验证的盲区和冗余失效。安全关键在于主动测试每个防御层，避免未经验证的假设和可用性剧院。
 - Tags: #engineering
 
-(2026-06-03) [AI Engineering for Developers](202606/2026-06-03-ai-engineering-for-developers.md)
-- AI 工程将预训练模型集成到产品，技术栈分三层。适应 LLM 按成本排序：提示工程、RAG、微调。模型选择需多模型路由。规划设检查点，注意非确定性、成本与维护。评估用程序化指标和 LLM 评判。
-- Tags: #engineering
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (14 entries)
+- [2026-06](202606/monthly-index.md) (15 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-03) [The Orchestration Tax](202606/2026-06-03-the-orchestration-tax.md)
+  - Tags: #view #agent
+  - Summary: 人类是 AI 代理系统的串行瓶颈（GIL），启动代理易但审核合并成本高。正确的代理数量受限于注意力，效率取决于围绕判断力设计流程，而非增加代理数量。
+
 - (2026-06-03) [How I use LLMs as a staff engineer in 2026](202606/2026-06-03-how-i-use-llms-as-a-staff-engineer-in-2026.md)
   - Tags: #llm #guide
   - Summary: 2026 年员工工程师使用 LLM 方式巨变：agent 更可靠，用于生成 PR、调查 bug 和测试，但仍需人工审查。核心是转移工作但不过度，平衡关键。

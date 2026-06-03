@@ -1613,5 +1613,15 @@
       "llm",
       "guide"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "The Orchestration Tax",
+    "url": "https://addyosmani.com/blog/orchestration-tax/",
+    "timestamp": 1780466297,
+    "tags": [
+      "view",
+      "agent"
+    ]
   }
 ]
