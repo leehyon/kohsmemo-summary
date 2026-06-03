@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-03) [The modern formatting addiction in writing](202606/2026-06-03-the-modern-formatting-addiction-in-writing.md)
+  - Tags: #writing
+  - Summary: 文章探讨写作中过度格式化现象，分析其成因包括质量验证、思维链辅助及虚张声势，建议先使用格式理清思路，最终转化为连贯段落并适度回归格式。
+
 - (2026-06-03) [Gathering Structures](202606/2026-06-03-gathering-structures.md)
   - Tags: #life
   - Summary: 作者 Maggie Appleton 基于十五年经验，分享降低组织者压力、提升参与者体验的聚会结构与原则，包括七分钟演示、非正式轮流主持、鱼缸讨论等，强调从小简单开始。
