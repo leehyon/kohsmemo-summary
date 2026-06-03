@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-03) [统计十讲](202606/2026-06-03-%E7%BB%9F%E8%AE%A1%E5%8D%81%E8%AE%B2.md)
+  - Tags: #education
+  - Summary: 本文批判传统统计教育弊端，提出以模型比较和概念理解为框架的改进方案，并介绍自撰的“统计十讲”系列。该系列围绕“数据 = 模型 + 误差”纲领，强调概念理解与场景桥接，帮助学后仍感困惑的读者。
+
 - (2026-06-03) [Build agents, not pipelines](202606/2026-06-03-build-agents%2C-not-pipelines.md)
   - Tags: #agent #llm
   - Summary: 在 LLM 应用中，应优先使用 agent 而非 pipeline，因为 agent 更灵活智能，适合复杂任务；pipeline 虽可预测但有局限。建议混合使用：pipeline 筛选，agent 深入分析。有疑问时用 agent。

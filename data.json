@@ -1546,5 +1546,14 @@
       "agent",
       "llm"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "统计十讲",
+    "url": "https://roriri.one/2026/05/29/stat-10-lec",
+    "timestamp": 1780464495,
+    "tags": [
+      "education"
+    ]
   }
 ]

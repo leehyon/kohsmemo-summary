@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-03) [统计十讲](202606/2026-06-03-%E7%BB%9F%E8%AE%A1%E5%8D%81%E8%AE%B2.md)
+- 本文批判传统统计教育弊端，提出以模型比较和概念理解为框架的改进方案，并介绍自撰的“统计十讲”系列。该系列围绕“数据 = 模型 + 误差”纲领，强调概念理解与场景桥接，帮助学后仍感困惑的读者。
+- Tags: #education
+
 (2026-06-03) [Build agents, not pipelines](202606/2026-06-03-build-agents%2C-not-pipelines.md)
 - 在 LLM 应用中，应优先使用 agent 而非 pipeline，因为 agent 更灵活智能，适合复杂任务；pipeline 虽可预测但有局限。建议混合使用：pipeline 筛选，agent 深入分析。有疑问时用 agent。
 - Tags: #agent #llm
@@ -39,13 +43,9 @@
 - 钟形曲线普遍存在源于中心极限定理：独立大样本均值趋近正态分布。从抛硬币到身高、成绩，该定理由 de Moivre 发现、Laplace 形式化，是现代统计推断的基础。
 - Tags: #reading
 
-(2026-05-29) [How to one-on-one](202605/2026-05-29-how-to-one-on-one.md)
-- 有效一对一会谈应聚焦职业成长、辅导、反馈、人际连接和澄清，避免状态更新。准备共享议程，运行中多提问、关注人、留安全空间。避免反模式。高质量一对一是领导力的体现。
-- Tags: #advice #career
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (7 entries)
+- [2026-06](202606/monthly-index.md) (8 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
