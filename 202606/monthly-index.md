@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-04) [为何写作](2026-06-04-%E4%B8%BA%E4%BD%95%E5%86%99%E4%BD%9C.md)
+- 写作（如博客）的关键价值在于记录、思考、交流与表达，AI 无法替代这些功能：它既不能唤起回忆，也无法代替深度的思考，更无法满足人真实的表达欲望。
+- Tags: #writing
+
 (2026-06-04) [Running an AI-native engineering org](2026-06-04-running-an-ai-native-engineering-org.md)
 - AI 原生组织运作转向 JIT 规划、AI 优先查询、信任但验证的审查与角色模糊团队。推行 dogfood 与扁平管理，以入职速度与 PR 周期衡量。从最嘈杂流程开始改变。
 - Tags: #engineering

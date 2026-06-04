@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-04) [为何写作](202606/2026-06-04-%E4%B8%BA%E4%BD%95%E5%86%99%E4%BD%9C.md)
+- 写作（如博客）的关键价值在于记录、思考、交流与表达，AI 无法替代这些功能：它既不能唤起回忆，也无法代替深度的思考，更无法满足人真实的表达欲望。
+- Tags: #writing
+
 (2026-06-04) [Running an AI-native engineering org](202606/2026-06-04-running-an-ai-native-engineering-org.md)
 - AI 原生组织运作转向 JIT 规划、AI 优先查询、信任但验证的审查与角色模糊团队。推行 dogfood 与扁平管理，以入职速度与 PR 周期衡量。从最嘈杂流程开始改变。
 - Tags: #engineering
@@ -39,13 +43,9 @@
 - 本文批判传统统计教育弊端，提出以模型比较和概念理解为框架的改进方案，并介绍自撰的“统计十讲”系列。该系列围绕“数据 = 模型 + 误差”纲领，强调概念理解与场景桥接，帮助学后仍感困惑的读者。
 - Tags: #education
 
-(2026-06-03) [Build agents, not pipelines](202606/2026-06-03-build-agents%2C-not-pipelines.md)
-- 在 LLM 应用中，应优先使用 agent 而非 pipeline，因为 agent 更灵活智能，适合复杂任务；pipeline 虽可预测但有局限。建议混合使用：pipeline 筛选，agent 深入分析。有疑问时用 agent。
-- Tags: #agent #llm
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (16 entries)
+- [2026-06](202606/monthly-index.md) (17 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
