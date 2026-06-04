@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-04) [Running an AI-native engineering org](202606/2026-06-04-running-an-ai-native-engineering-org.md)
+  - Tags: #engineering
+  - Summary: AI 原生组织运作转向 JIT 规划、AI 优先查询、信任但验证的审查与角色模糊团队。推行 dogfood 与扁平管理，以入职速度与 PR 周期衡量。从最嘈杂流程开始改变。
+
 - (2026-06-03) [The Orchestration Tax](202606/2026-06-03-the-orchestration-tax.md)
   - Tags: #view #agent
   - Summary: 人类是 AI 代理系统的串行瓶颈（GIL），启动代理易但审核合并成本高。正确的代理数量受限于注意力，效率取决于围绕判断力设计流程，而非增加代理数量。

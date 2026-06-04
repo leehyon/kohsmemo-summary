@@ -1623,5 +1623,14 @@
       "view",
       "agent"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "Running an AI-native engineering org",
+    "url": "https://claude.com/blog/running-an-ai-native-engineering-org",
+    "timestamp": 1780536434,
+    "tags": [
+      "engineering"
+    ]
   }
 ]
