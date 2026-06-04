@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-04) [The Maintainer's Dilemma](202606/2026-06-04-the-maintainer%27s-dilemma.md)
+- 开源维护者面临贡献积压与 AI 工具介入的困境：AI 生成重复 PR 增加负担，而审查需隐性知识。作者尝试让 AI 处理量、人类做判断，但平衡点因项目而异，“保护分支”的意义正被重塑。
+- Tags: #view
+
 (2026-06-04) [为何写作](202606/2026-06-04-%E4%B8%BA%E4%BD%95%E5%86%99%E4%BD%9C.md)
 - 写作（如博客）的关键价值在于记录、思考、交流与表达，AI 无法替代这些功能：它既不能唤起回忆，也无法代替深度的思考，更无法满足人真实的表达欲望。
 - Tags: #writing
@@ -39,13 +43,9 @@
 - 用好 AI 的关键是先外化再执行，通过撰写 Skill 文档积累经验教训，实现知识复用，让 AI 越用越聪明。
 - Tags: #agent #skill #advice
 
-(2026-06-03) [统计十讲](202606/2026-06-03-%E7%BB%9F%E8%AE%A1%E5%8D%81%E8%AE%B2.md)
-- 本文批判传统统计教育弊端，提出以模型比较和概念理解为框架的改进方案，并介绍自撰的“统计十讲”系列。该系列围绕“数据 = 模型 + 误差”纲领，强调概念理解与场景桥接，帮助学后仍感困惑的读者。
-- Tags: #education
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (17 entries)
+- [2026-06](202606/monthly-index.md) (18 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
