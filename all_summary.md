@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-05) [Vibe Coding Is Not Engineering](202606/2026-06-05-vibe-coding-is-not-engineering.md)
+  - Tags: #agent #engineering
+  - Summary: vibe coding 生成可运行代码但忽略工程决策，如不变量、身份唯一性等。关键矛盾：LLM 无法替代代码生成前的系统建模与风险识别。结论：vibe coding 只适合 demo，生产必须依赖工程。
+
 - (2026-06-04) [The Maintainer's Dilemma](202606/2026-06-04-the-maintainer%27s-dilemma.md)
   - Tags: #view
   - Summary: 开源维护者面临贡献积压与 AI 工具介入的困境：AI 生成重复 PR 增加负担，而审查需隐性知识。作者尝试让 AI 处理量、人类做判断，但平衡点因项目而异，“保护分支”的意义正被重塑。

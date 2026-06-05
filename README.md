@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-05) [Vibe Coding Is Not Engineering](202606/2026-06-05-vibe-coding-is-not-engineering.md)
+- vibe coding 生成可运行代码但忽略工程决策，如不变量、身份唯一性等。关键矛盾：LLM 无法替代代码生成前的系统建模与风险识别。结论：vibe coding 只适合 demo，生产必须依赖工程。
+- Tags: #agent #engineering
+
 (2026-06-04) [The Maintainer's Dilemma](202606/2026-06-04-the-maintainer%27s-dilemma.md)
 - 开源维护者面临贡献积压与 AI 工具介入的困境：AI 生成重复 PR 增加负担，而审查需隐性知识。作者尝试让 AI 处理量、人类做判断，但平衡点因项目而异，“保护分支”的意义正被重塑。
 - Tags: #view
@@ -39,13 +43,9 @@
 - 作者 Maggie Appleton 基于十五年经验，分享降低组织者压力、提升参与者体验的聚会结构与原则，包括七分钟演示、非正式轮流主持、鱼缸讨论等，强调从小简单开始。
 - Tags: #life
 
-(2026-06-03) [先写 Skill 再执行](202606/2026-06-03-%E5%85%88%E5%86%99-skill-%E5%86%8D%E6%89%A7%E8%A1%8C.md)
-- 用好 AI 的关键是先外化再执行，通过撰写 Skill 文档积累经验教训，实现知识复用，让 AI 越用越聪明。
-- Tags: #agent #skill #advice
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (18 entries)
+- [2026-06](202606/monthly-index.md) (19 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
