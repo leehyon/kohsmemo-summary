@@ -25,13 +25,6 @@ try:
 except ImportError:  # pragma: no cover - fallback when optional dependency missing
     requests = None  # type: ignore[assignment]
 
-# Optional: lets us snapshot URLs in the Wayback Machine. Workflow continues if
-# missing; we simply skip archival when summarizing new bookmarks.
-try:
-    from waybackpy import WaybackMachineSaveAPI
-except ImportError:  # pragma: no cover - fallback when optional dependency missing
-    WaybackMachineSaveAPI = None  # type: ignore[assignment]
-
 # -- configurations begin --
 MEMO_REPO_NAME: str = "kohsmemo"
 SUMMARY_REPO_NAME: str = "kohsmemo-summary"
@@ -266,10 +259,17 @@ def build_summary_file(
 
 @log_execution_time
 def submit_to_wayback_machine(url: str):
-    if WaybackMachineSaveAPI is None:
+    """Best-effort Wayback Machine submission.
+
+    The previous implementation delegated to ``waybackpy.WaybackMachineSaveAPI``,
+    whose ``save()`` performs unbounded HTTPS GETs and sleeps between retries
+    with no caller-controllable timeout — a single slow response would block
+    the whole CI run for many minutes. We call the SavePageNow endpoint
+    directly with an explicit timeout and treat any failure as non-fatal.
+    """
+    if requests is None:
         logging.info(
-            "WaybackMachineSaveAPI not available; skipping submission for %s.",
-            url,
+            "requests not available; skipping Wayback submission for %s.", url
         )
         return
 
@@ -277,13 +277,39 @@ def submit_to_wayback_machine(url: str):
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
     )
+    # waybackpy's save() retries up to 8 times with 5-10s sleeps; we want at
+    # most one fast attempt — a longer blocking pattern defeats the purpose
+    # of a best-effort side effect.
+    save_url = "https://web.archive.org/save/" + url
     try:
-        save_api = WaybackMachineSaveAPI(url, user_agent)
-        wayback_url = save_api.save()
+        response = requests.get(
+            save_url,
+            headers={"User-Agent": user_agent},
+            timeout=(HTTP_CONNECT_TIMEOUT_SECONDS, 15),
+            allow_redirects=True,
+        )
+    except requests.RequestException as error:
+        logging.warning(
+            "submit to wayback machine failed (network), skipping, url=%s", url
+        )
+        logging.debug("Wayback network error: %s", error)
+        return
+
+    if response.status_code != 200:
+        logging.info(
+            "Wayback submission returned HTTP %d, skipping, url=%s",
+            response.status_code,
+            url,
+        )
+        return
+
+    content_location = response.headers.get("Content-Location", "")
+    match = re.search(r"(/web/\d{14}/.*)", content_location)
+    if match:
+        wayback_url = "https://web.archive.org" + match.group(1)
         logging.info("Wayback Saved: %s", wayback_url)
-    except Exception as error:  # noqa: BLE001 - allow any failure without raising
-        logging.warning("submit to wayback machine failed, skipping, url=%s", url)
-        logging.exception(error)
+    else:
+        logging.info("Wayback submission accepted but no archive URL found, url=%s", url)
 
 
 def normalize_http_url(url: str) -> str:
