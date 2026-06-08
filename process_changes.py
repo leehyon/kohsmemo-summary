@@ -557,7 +557,22 @@ def get_text_content(url: str) -> str:
 
 
 @log_execution_time
-def call_openai_api(prompt: str, content: str) -> str:
+def call_openai_api_json(prompt: str, content: str) -> dict:
+    """Call OpenAI chat completions in strict JSON mode.
+
+    The response body is parsed as JSON and returned as a dict. Any failure
+    to parse (LLM returned prose around the JSON, truncated, or a non-object
+    payload) is treated as a hard `LLMError` — we do not retry, because
+    re-running with the same input usually produces the same style of
+    output. The expectation is that strict prompting + OpenAI's
+    `response_format={"type": "json_object"}` mode is enough to keep
+    parse failures rare; if they ever become common we can switch to a
+    one-shot retry (Phase B follow-up).
+
+    Status-code handling matches the prior `call_openai_api`:
+    429 → `LLMRateLimitError` (soft-fail in caller); other non-200 and
+    any missing/malformed `choices` → `LLMError` (hard-fail).
+    """
     if requests is None:
         raise ConfigError("requests package not available; cannot call OpenAI API.")
 
@@ -578,6 +593,10 @@ def call_openai_api(prompt: str, content: str) -> str:
             {"role": "system", "content": prompt},
             {"role": "user", "content": content},
         ],
+        # OpenAI's native JSON mode: when set, the model is constrained to
+        # emit a JSON object. The system prompt must instruct the model to
+        # produce JSON; we do that in `summarize_to_json` below.
+        "response_format": {"type": "json_object"},
     }
     api_endpoint: str = os.environ.get(
         "OPENAI_API_ENDPOINT", "https://api.openai.com/v1/chat/completions"
@@ -598,9 +617,6 @@ def call_openai_api(prompt: str, content: str) -> str:
         error_msg = f"OpenAI API request failed with status {response.status_code}"
         logging.error(error_msg)
         logging.error("Error response: %s", response_json)
-        # 429 may resolve on its own; treat as rate-limit (subclass of LLMError
-        # so callers can distinguish if needed). Everything else is a hard
-        # misconfiguration / auth / bad-model problem.
         if response.status_code == 429:
             raise LLMRateLimitError(error_msg)
         raise LLMError(error_msg)
@@ -611,25 +627,77 @@ def call_openai_api(prompt: str, content: str) -> str:
         logging.error("Full response: %s", response_json)
         raise LLMError(error_msg)
 
-    return response_json["choices"][0]["message"]["content"]
+    raw_content: str = response_json["choices"][0]["message"]["content"]
+    try:
+        parsed = json.loads(raw_content)
+    except (TypeError, ValueError) as err:
+        # LLM did not return a valid JSON object. Strict mode contract: this
+        # is a hard failure, no fallback to regex extraction.
+        snippet = raw_content[:200] if isinstance(raw_content, str) else str(raw_content)
+        logging.error("OpenAI response is not valid JSON: %s", snippet)
+        raise LLMError(
+            f"OpenAI response is not valid JSON: {err}"
+        )
+
+    if not isinstance(parsed, dict):
+        logging.error(
+            "OpenAI JSON response is not an object: type=%s value=%s",
+            type(parsed).__name__,
+            str(parsed)[:200],
+        )
+        raise LLMError(
+            f"OpenAI JSON response is not an object (got {type(parsed).__name__})"
+        )
+
+    return parsed
 
 
-@log_execution_time
-def summarize_text(text: str) -> str:
-    prompt: str = """
-结构化总结本文，提炼核心主题、关键信息与逻辑脉络，分点呈现且层次清晰；
-输出为简体中文，中英字符间要有空格，直接展示总结内容，无任何前缀、标题及冗余表述。
+@dataclass
+class SummaryAndTldr:
+    """Result of a single combined summarization call (Phase B)."""
+
+    summary: str
+    tldr: str
+
+
+# The combined prompt. It must instruct the model to return a JSON object so
+# that OpenAI's `response_format={"type": "json_object"}` mode is satisfied.
+# The two former prompts (summarize_text, one_sentence_summary) are fused:
+# the model now emits both fields in one round-trip.
+_SUMMARIZE_JSON_PROMPT: str = """
+你的任务是对一篇文章同时产出「结构化总结」与「TL;DR」两个字段，并以严格的 JSON 对象形式返回，不允许任何额外文本、解释、Markdown 代码块或前后缀。
+
+字段约定：
+- "summary"：结构化总结本文，提炼核心主题、关键信息与逻辑脉络，分点呈现且层次清晰。
+- "tldr"：对该文章的简短总结，长度不超过 100 个字。
+
+风格要求：
+- 输出为简体中文，中英字符间要有空格。
+- 直接展示总结内容，无任何前缀、标题及冗余表述。
+- 仅输出一个 JSON 对象，键名固定为 "summary" 与 "tldr"。
 """
-    return call_openai_api(prompt, text)
 
 
 @log_execution_time
-def one_sentence_summary(text: str) -> str:
-    prompt: str = (
-        "以下是对一篇长文的列表形式总结。"
-        "请基于此输出对该文章的简短总结，长度不超过 100 个字。总是使用简体中文输出，中英字符间需要有空格。"
-    )
-    return call_openai_api(prompt, text)
+def summarize_to_json(text: str) -> SummaryAndTldr:
+    """One-shot summarization: returns both the structured summary and the
+    TL;DR in a single OpenAI call. Replaces the two-call sequence
+    `summarize_text` + `one_sentence_summary`."""
+    parsed = call_openai_api_json(_SUMMARIZE_JSON_PROMPT, text)
+    summary = parsed.get("summary")
+    tldr = parsed.get("tldr")
+    if not isinstance(summary, str) or not isinstance(tldr, str):
+        missing = [
+            k for k, v in (("summary", summary), ("tldr", tldr)) if not isinstance(v, str)
+        ]
+        raise LLMError(
+            f"OpenAI JSON response is missing/typed-wrong fields: {missing}"
+        )
+    if not summary.strip() or not tldr.strip():
+        raise LLMError(
+            "OpenAI JSON response contains empty summary or tldr"
+        )
+    return SummaryAndTldr(summary=summary, tldr=tldr)
 
 
 def extract_tldr_from_markdown(file_path: str) -> str:
@@ -1000,13 +1068,17 @@ def _build_failed_ingestion_result(
 
 def ingest_bookmark(title: str, url: str, tags: List[str]) -> IngestionResult:
     """Ingest a single bookmark. Catches soft-fail exceptions (content fetch
-    / LLM rate-limit) and returns a stub IngestionResult; hard-fail exceptions
-    (ConfigError, LLMError other than rate-limit) propagate to the caller."""
+    / LLM rate-limit) and returns a stub IngestionResult; hard-fail
+    exceptions (ConfigError, LLMError other than rate-limit, including
+    strict-JSON parse failures) propagate to the caller.
+
+    Phase B: one LLM round-trip replaces the prior 2-call sequence
+    `summarize_text` + `one_sentence_summary`.
+    """
     submit_to_wayback_machine(url)
     try:
         text_content: str = get_text_content(url)
-        summary: str = summarize_text(text_content)
-        one_sentence: str = one_sentence_summary(summary)
+        combined = summarize_to_json(text_content)
     except (ContentUnavailableError, FetchTransientError, LLMRateLimitError) as err:
         logging.warning(
             "Soft-fail ingesting %s (%s): %s",
@@ -1017,8 +1089,12 @@ def ingest_bookmark(title: str, url: str, tags: List[str]) -> IngestionResult:
         return _build_failed_ingestion_result(
             title, url, tags, reason=f"{type(err).__name__}: {err}"
         )
-    # ConfigError, LLMError (non-rate-limit), and anything unexpected will
-    # propagate. The caller is expected to let those abort the run.
+    # ConfigError, LLMError (including parse failures from strict JSON mode),
+    # and anything unexpected will propagate. The caller is expected to let
+    # those abort the run.
+
+    summary: str = combined.summary
+    one_sentence: str = combined.tldr
 
     timestamp = int(datetime.now(timezone.utc).timestamp())
     month = datetime.fromtimestamp(timestamp, tz=timezone.utc).strftime("%Y%m")
