@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [Smart core, thin interfaces](202606/2026-06-08-smart-core%2C-thin-interfaces.md)
+- 本文提出“智能核心，薄接口”架构：将业务逻辑集中在核心模块，用轻量接口处理不同参与者的交互，从而降低耦合、提高可维护性。
+- Tags: #engineering
+
 (2026-06-08) [The Life Well-Lived, part 2](202606/2026-06-08-the-life-well-lived%2C-part-2.md)
 - 物质进步让工作、爱情、知识与美更易获得，但近年文化趋势导致这些价值下降；个体应主动选择，创造有意义的生活。
 - Tags: #life
@@ -39,13 +43,9 @@
 - 作者坚持博客 15 年，为避免“游戏引擎陷阱”而开始，享受写作、理清思路、记录项目等。技术栈从 PHP 到静态生成器演变，内容从简短更新变为精心文章，动机不依赖外部反馈。
 - Tags: #writing #view
 
-(2026-06-08) [Good Refactoring vs Bad Refactoring](202606/2026-06-08-good-refactoring-vs-bad-refactoring.md)
-- 好重构需增量进行、匹配现有风格、避免过度抽象；坏重构包括引入不一致、不理解代码、过度合并等。应保持代码可理解、可维护，提前测试并相互监督。
-- Tags: #engineering #design
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (34 entries)
+- [2026-06](202606/monthly-index.md) (35 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

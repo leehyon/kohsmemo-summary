@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-08) [Smart core, thin interfaces](2026-06-08-smart-core%2C-thin-interfaces.md)
+- 本文提出“智能核心，薄接口”架构：将业务逻辑集中在核心模块，用轻量接口处理不同参与者的交互，从而降低耦合、提高可维护性。
+- Tags: #engineering
+
 (2026-06-08) [The Life Well-Lived, part 2](2026-06-08-the-life-well-lived%2C-part-2.md)
 - 物质进步让工作、爱情、知识与美更易获得，但近年文化趋势导致这些价值下降；个体应主动选择，创造有意义的生活。
 - Tags: #life

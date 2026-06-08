@@ -1808,5 +1808,14 @@
     "tags": [
       "life"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "Smart core, thin interfaces",
+    "url": "https://swizec.com/blog/smart-core-thin-interfaces/",
+    "timestamp": 1780912396,
+    "tags": [
+      "engineering"
+    ]
   }
 ]
