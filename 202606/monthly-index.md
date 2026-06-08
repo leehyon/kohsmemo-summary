@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-08) [Prompts are technical debt too](2026-06-08-prompts-are-technical-debt-too.md)
+- 提示词是技术债务且更危险：模型更新后悄然失效。建议用第三方工具并最小化定制，AGENTS.md 只写事实，避免行为引导。
+- Tags: #agent #view
+
 (2026-06-08) [Cognitive Surrender](2026-06-08-cognitive-surrender.md)
 - 认知投降是工程师无批判接受 AI 输出，导致理解债务。文章揭示其危害并提供策略：保持独立判断，让 AI 辅助而非替代思考。
 - Tags: #engineering #view

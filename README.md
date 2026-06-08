@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [Prompts are technical debt too](202606/2026-06-08-prompts-are-technical-debt-too.md)
+- 提示词是技术债务且更危险：模型更新后悄然失效。建议用第三方工具并最小化定制，AGENTS.md 只写事实，避免行为引导。
+- Tags: #agent #view
+
 (2026-06-08) [Cognitive Surrender](202606/2026-06-08-cognitive-surrender.md)
 - 认知投降是工程师无批判接受 AI 输出，导致理解债务。文章揭示其危害并提供策略：保持独立判断，让 AI 辅助而非替代思考。
 - Tags: #engineering #view
@@ -39,13 +43,9 @@
 - 文章总结构建 GenAI 产品的常见模式与挑战：从基础模式（Direct Prompting、Evals、Embeddings）到知识扩展（Fine Tuning、RAG），再到 RAG 增强（混合检索、查询重写、重排序、护栏），强调模式是经验总结而非标准答案。
 - Tags: #agent #design
 
-(2026-06-08) [Implementers, Solvers, and Finders](202606/2026-06-08-implementers%2C-solvers%2C-and-finders.md)
-- 文章以自主权为核心，提出 Implementers、Solvers、Finders 三类角色替代传统头衔，强调程序员不必转管理即可获得职业自主权，并给出成长路径与公司识别方法。
-- Tags: #view
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (32 entries)
+- [2026-06](202606/monthly-index.md) (33 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

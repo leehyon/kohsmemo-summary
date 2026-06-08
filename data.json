@@ -1789,5 +1789,15 @@
       "engineering",
       "view"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "Prompts are technical debt too",
+    "url": "https://www.seangoedecke.com/prompts-are-technical-debt-too/",
+    "timestamp": 1780909712,
+    "tags": [
+      "agent",
+      "view"
+    ]
   }
 ]
