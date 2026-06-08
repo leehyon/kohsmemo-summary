@@ -31,10 +31,6 @@
 - 文章总结构建 GenAI 产品的常见模式与挑战：从基础模式（Direct Prompting、Evals、Embeddings）到知识扩展（Fine Tuning、RAG），再到 RAG 增强（混合检索、查询重写、重排序、护栏），强调模式是经验总结而非标准答案。
 - Tags: #agent #design
 
-(2026-06-08) [There’s no emotion we ought to think harder about than anger](202606/2026-06-08-there%E2%80%99s-no-emotion-we-ought-to-think-harder-about-than-anger.md)
-- 由于未提供列表形式总结，无法生成简短总结。请提供文章列表。
-- Tags: #life
-
 (2026-06-08) [Implementers, Solvers, and Finders](202606/2026-06-08-implementers%2C-solvers%2C-and-finders.md)
 - 文章以自主权为核心，提出 Implementers、Solvers、Finders 三类角色替代传统头衔，强调程序员不必转管理即可获得职业自主权，并给出成长路径与公司识别方法。
 - Tags: #view
@@ -43,9 +39,13 @@
 - 文章介绍低成本小机器狗（约 200 元）的软硬件集成经验，分析机器人空间感知瓶颈与 VLA 动作表示演进，对比 Tesla、Figure 等公司路线，并给出软件工程师入行建议。核心难点在能耗、数据及 Sim2Real 差距。
 - Tags: #agent #robotics
 
+(2026-06-08) [AI 软件工程范式革命的思考](202606/2026-06-08-ai-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%8C%83%E5%BC%8F%E9%9D%A9%E5%91%BD%E7%9A%84%E6%80%9D%E8%80%83.md)
+- 大模型带来“能源换智能”的可能，但需二阶控制论与确定性裁判应对不确定性。落地策略是闭环优先，关键难点是隐性知识蒸馏。人的角色从编码者转为边界守卫与产线设计师。
+- Tags: #agent #engineering
+
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (31 entries)
+- [2026-06](202606/monthly-index.md) (30 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
