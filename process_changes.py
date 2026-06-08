@@ -68,6 +68,12 @@ MEMO_REPO_NAME: str = "kohsmemo"
 SUMMARY_REPO_NAME: str = "kohsmemo-summary"
 MAX_CONTENT_LENGTH: int = 32 * 1024  # 32KB
 MIN_CONTENT_LENGTH: int = 200  # Minimum content length to consider valid
+# Soft-fail threshold: Jina responses below this many characters look like
+# a paywall / cookie wall / 403 page rather than a real article. The LLM
+# has nothing to summarize, so we skip (no data.json entry, no summary
+# .md) rather than producing a degenerate summary. Real long-form
+# articles are almost always > 1000 chars.
+SOFT_FAIL_CONTENT_LENGTH: int = 1000
 MAX_RETRIES: int = 3  # Maximum retry attempts for fetching content
 NO_SUMMARY_TAG: str = "#nosummary"
 TOMBSTONE_TAG: str = "tombstone"  # marker tag (without '#') that triggers summary deletion
@@ -589,6 +595,23 @@ def get_text_content(url: str) -> str:
                 # as transient: a later CI run may succeed.
                 raise FetchTransientError(
                     f"All {MAX_RETRIES} retry attempts failed. Last error: {error_msg}"
+                )
+
+            # Soft-fail when Jina returns suspiciously little content (e.g. a
+            # paywall stub, cookie wall, or 403 interstitial). The previous
+            # MIN_CONTENT_LENGTH=200 check was too permissive — an essay
+            # that is 289 chars long "succeeds" but the LLM has nothing
+            # useful to summarize. Real long-form articles are almost
+            # always > 1000 chars; below that, we treat it as a fetch
+            # problem and skip (caller will log + return None, no
+            # data.json entry, no summary .md). No retry: if the mirror
+            # only sent 289 chars once, it will likely do so again.
+            if len(content) < SOFT_FAIL_CONTENT_LENGTH:
+                raise FetchTransientError(
+                    f"Content too short for summarization "
+                    f"({len(content)} chars, soft-fail threshold {SOFT_FAIL_CONTENT_LENGTH}): "
+                    f"likely a paywall, cookie wall, or error page. "
+                    f"Skipping — a future run may succeed."
                 )
 
             if len(content) > MAX_CONTENT_LENGTH:
