@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-08) [There’s no emotion we ought to think harder about than anger](202606/2026-06-08-there%E2%80%99s-no-emotion-we-ought-to-think-harder-about-than-anger.md)
+  - Tags: #life
+  - Summary: 由于未提供列表形式总结，无法生成简短总结。请提供文章列表。
+
 - (2026-06-08) [Implementers, Solvers, and Finders](202606/2026-06-08-implementers%2C-solvers%2C-and-finders.md)
   - Tags: #view
   - Summary: 文章以自主权为核心，提出 Implementers、Solvers、Finders 三类角色替代传统头衔，强调程序员不必转管理即可获得职业自主权，并给出成长路径与公司识别方法。
