@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-08) [Implementers, Solvers, and Finders](202606/2026-06-08-implementers%2C-solvers%2C-and-finders.md)
+  - Tags: #view
+  - Summary: 文章以自主权为核心，提出 Implementers、Solvers、Finders 三类角色替代传统头衔，强调程序员不必转管理即可获得职业自主权，并给出成长路径与公司识别方法。
+
 - (2026-06-08) [你不知道的具身智能：从小机器狗到 Optimus](202606/2026-06-08-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%EF%BC%9A%E4%BB%8E%E5%B0%8F%E6%9C%BA%E5%99%A8%E7%8B%97%E5%88%B0-optimus.md)
   - Tags: #agent #robotics
   - Summary: 文章介绍低成本小机器狗（约 200 元）的软硬件集成经验，分析机器人空间感知瓶颈与 VLA 动作表示演进，对比 Tesla、Figure 等公司路线，并给出软件工程师入行建议。核心难点在能耗、数据及 Sim2Real 差距。

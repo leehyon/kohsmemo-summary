@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [Implementers, Solvers, and Finders](202606/2026-06-08-implementers%2C-solvers%2C-and-finders.md)
+- 文章以自主权为核心，提出 Implementers、Solvers、Finders 三类角色替代传统头衔，强调程序员不必转管理即可获得职业自主权，并给出成长路径与公司识别方法。
+- Tags: #view
+
 (2026-06-08) [你不知道的具身智能：从小机器狗到 Optimus](202606/2026-06-08-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%EF%BC%9A%E4%BB%8E%E5%B0%8F%E6%9C%BA%E5%99%A8%E7%8B%97%E5%88%B0-optimus.md)
 - 文章介绍低成本小机器狗（约 200 元）的软硬件集成经验，分析机器人空间感知瓶颈与 VLA 动作表示演进，对比 Tesla、Figure 等公司路线，并给出软件工程师入行建议。核心难点在能耗、数据及 Sim2Real 差距。
 - Tags: #agent #robotics
@@ -39,13 +43,9 @@
 - 2026 年员工工程师使用 LLM 方式巨变：agent 更可靠，用于生成 PR、调查 bug 和测试，但仍需人工审查。核心是转移工作但不过度，平衡关键。
 - Tags: #llm #guide
 
-(2026-06-03) [Agent Skills](202606/2026-06-03-agent-skills.md)
-- 该项目通过可执行的工作流技能文件，为 AI 编码代理注入高级工程规范，防止其走捷径。关键原则包括过程优于散文、反理性化表格、验证不可协商等，确保代理完成规格、测试、评审等关键步骤，而非默认只追求“完成”。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (22 entries)
+- [2026-06](202606/monthly-index.md) (23 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
