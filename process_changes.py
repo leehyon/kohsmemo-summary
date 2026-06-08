@@ -249,15 +249,118 @@ def extract_tags_from_line(line: str) -> List[str]:
     return tags
 
 
-def build_url_tag_lookup(bookmark_lines: Iterable[str]) -> Dict[str, List[str]]:
-    lookup: Dict[str, List[str]] = {}
+# Phase C: a single source of truth for parsing a kohsmemo README bookmark
+# line. The 3 former parsers (build_url_tag_lookup, _extract_urls_with_tombstone,
+# find_next_bookmark_to_process) all matched the same pattern, so we centralize
+# the regex here.
+_BOOKMARK_LINE_RE = re.compile(r"-\s*\[(.*?)\]\((.*?)\)")
+
+
+@dataclass
+class BookmarkEntry:
+    """One URL discovered in the source README, after collapsing all
+    duplicate rows.
+
+    Attributes:
+        title: Title from the first row that mentions this URL.
+        url: The URL itself.
+        tags: Union of all tags across all rows mentioning this URL, with
+            `#nosummary` filtered out. Order is stable: tags appear in
+            the order they were first seen across the README.
+        has_tombstone: True if any of the rows carries `#tombstone`.
+        has_nosummary: True if any of the rows carries `#nosummary`.
+        row_count: How many README rows share this URL. Most entries are
+            1; >1 means the same URL was added more than once (with
+            possibly different tags).
+    """
+
+    title: str
+    url: str
+    tags: List[str]
+    has_tombstone: bool
+    has_nosummary: bool
+    row_count: int
+
+
+def parse_readme_to_entries(
+    bookmark_lines: Iterable[str],
+) -> List[BookmarkEntry]:
+    """Parse the kohsmemo README into a list of BookmarkEntry, one per
+    unique URL, preserving the README's first-seen order.
+
+    Phase C: replaces the 3 places that used to scan the README each
+    with their own regex and dedup logic.
+    """
+    nosummary_lower = NO_SUMMARY_TAG.lstrip("#").lower()
+
+    def _raw_tags(line: str) -> List[str]:
+        closing = line.find(")")
+        if closing == -1:
+            return []
+        trailing = line[closing + 1 :]
+        return re.findall(r"#([^\s#]+)", trailing)
+
+    # First pass: collect raw + filtered rows in source order, grouped by URL.
+    rows_by_url: Dict[str, List[Tuple[str, List[str], List[str]]]] = {}
+    first_seen_index: Dict[str, int] = {}
     for line in bookmark_lines:
-        match = re.search(r"-\s*\[(.*?)\]\((.*?)\)", line)
+        match = _BOOKMARK_LINE_RE.search(line)
         if not match:
             continue
+        title = match.group(1).strip()
         url = match.group(2).strip()
-        lookup[url] = extract_tags_from_line(line)
-    return lookup
+        raw_tags = _raw_tags(line)
+        filtered_tags = extract_tags_from_line(line)
+        if url not in rows_by_url:
+            first_seen_index[url] = len(rows_by_url)
+            rows_by_url[url] = []
+        rows_by_url[url].append((title, filtered_tags, raw_tags))
+
+    # Second pass: collapse to BookmarkEntry with union semantics.
+    entries: List[BookmarkEntry] = []
+    for url, rows in rows_by_url.items():
+        # Tags: union in first-seen order, dedup case-insensitively while
+        # preserving the first occurrence's original casing. #tombstone is
+        # still in filtered_tags (extract_tags_from_line does NOT strip it);
+        # #nosummary is not.
+        seen_lower: Set[str] = set()
+        merged_tags: List[str] = []
+        has_tombstone = False
+        has_nosummary = False
+        for _title, filtered_tags, raw_tags in rows:
+            for t in filtered_tags:
+                tl = t.lower()
+                if tl not in seen_lower:
+                    seen_lower.add(tl)
+                    merged_tags.append(t)
+            if any(rt.lower() == nosummary_lower for rt in raw_tags):
+                has_nosummary = True
+            if any(rt.lower() == TOMBSTONE_TAG for rt in raw_tags):
+                has_tombstone = True
+
+        # Use the first row's title. In practice the title is the same
+        # across all rows for a given URL; the README is not edited in a
+        # way that retitles a link.
+        entries.append(
+            BookmarkEntry(
+                title=rows[0][0],
+                url=url,
+                tags=merged_tags,
+                has_tombstone=has_tombstone,
+                has_nosummary=has_nosummary,
+                row_count=len(rows),
+            )
+        )
+
+    # Restore README source order
+    entries.sort(key=lambda e: first_seen_index[e.url])
+    return entries
+
+
+def build_url_tag_lookup(bookmark_lines: Iterable[str]) -> Dict[str, List[str]]:
+    """Backward-compatible URL → tags lookup, now built from the unified
+    BookmarkEntry list (Phase C). Returns the union of tags for each URL."""
+    return {e.url: e.tags for e in parse_readme_to_entries(bookmark_lines)}
 
 
 def slugify(text: str) -> str:
@@ -953,29 +1056,26 @@ def process_bookmark_file():
 def _extract_urls_with_tombstone(
     bookmark_lines: Iterable[str],
 ) -> Set[str]:
-    """Return the set of URLs marked with #tombstone in the kohsmemo README."""
-    tombstoned: Set[str] = set()
-    for line in bookmark_lines:
-        match = re.search(r"-\s*\[(.*?)\]\((.*?)\)", line)
-        if not match:
-            continue
-        url = match.group(2).strip()
-        tags_lower = [t.lower() for t in extract_tags_from_line(line)]
-        if TOMBSTONE_TAG in tags_lower:
-            tombstoned.add(url)
-    return tombstoned
+    """Return the set of URLs marked with #tombstone in the kohsmemo README.
+
+    Phase C: built from the unified BookmarkEntry list.
+    """
+    return {e.url for e in parse_readme_to_entries(bookmark_lines) if e.has_tombstone}
 
 
 def find_tombstoned_bookmarks(
     bookmark_lines: Iterable[str],
     summarized_bookmarks: Iterable[SummarizedBookmark],
 ) -> List[SummarizedBookmark]:
-    """Return summary entries whose source URL is marked #tombstone."""
-    summarized_list = list(summarized_bookmarks)
+    """Return summary entries whose source URL is marked #tombstone.
+
+    Phase C: uses the unified BookmarkEntry list to look up the tombstoned
+    URL set. The caller passes `summarized_bookmarks` for the cross-check.
+    """
     tombstoned_urls = _extract_urls_with_tombstone(bookmark_lines)
     if not tombstoned_urls:
         return []
-    return [b for b in summarized_list if b.url in tombstoned_urls]
+    return [b for b in summarized_bookmarks if b.url in tombstoned_urls]
 
 
 def remove_bookmark(bookmark: SummarizedBookmark, dry_run: bool = False) -> None:
@@ -1003,35 +1103,23 @@ def remove_bookmark(bookmark: SummarizedBookmark, dry_run: bool = False) -> None
 def find_next_bookmark_to_process(
     bookmark_lines: Iterable[str], summarized_urls: Iterable[str]
 ) -> Optional[Tuple[str, str, List[str]]]:
+    """Return (title, url, tags) for the first bookmark in the README that
+    hasn't been summarized yet, ignoring rows with #nosummary.
+
+    Phase C: scans the unified BookmarkEntry list (deduplicated, in README
+    order) and returns the first one not in `summarized_urls` whose entry
+    is not marked #nosummary.
+    """
     summarized_url_set = set(summarized_urls)
-    seen_urls: Set[str] = set()
-
-    for line in bookmark_lines:
-        match: Optional[re.Match[str]] = re.search(r"-\s*\[(.*?)\]\((.*?)\)", line)
-        if not match:
+    for entry in parse_readme_to_entries(bookmark_lines):
+        if entry.url in summarized_url_set:
             continue
-
-        title, url = match.groups()
-
-        # Skip duplicate occurrences within the README itself
-        if url in seen_urls:
-            logging.debug("Skipping duplicate URL in README: %s", url)
-            continue
-        seen_urls.add(url)
-
-        # Skip URLs already summarized in data.json
-        if url in summarized_url_set:
-            continue
-
-        if NO_SUMMARY_TAG in line:
+        if entry.has_nosummary:
             logging.debug(
-                "Skipping bookmark with %s tag: %s", NO_SUMMARY_TAG, match.group(1)
+                "Skipping bookmark with %s tag: %s", NO_SUMMARY_TAG, entry.title
             )
             continue
-
-        tags = extract_tags_from_line(line)
-        return title, url, tags
-
+        return entry.title, entry.url, entry.tags
     return None
 
 
