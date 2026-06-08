@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-08) [You should keep a developer’s journal](202606/2026-06-08-you-should-keep-a-developer%E2%80%99s-journal.md)
+  - Tags: #writing #blog
+  - Summary: 开发者日志通过规划、记录、反思，提升编码效率与个人成长。本文解释了其价值并提供了实用技巧。
+
 - (2026-06-08) [Smart core, thin interfaces](202606/2026-06-08-smart-core%2C-thin-interfaces.md)
   - Tags: #engineering
   - Summary: 本文提出“智能核心，薄接口”架构：将业务逻辑集中在核心模块，用轻量接口处理不同参与者的交互，从而降低耦合、提高可维护性。

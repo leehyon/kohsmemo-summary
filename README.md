@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [You should keep a developer’s journal](202606/2026-06-08-you-should-keep-a-developer%E2%80%99s-journal.md)
+- 开发者日志通过规划、记录、反思，提升编码效率与个人成长。本文解释了其价值并提供了实用技巧。
+- Tags: #writing #blog
+
 (2026-06-08) [Smart core, thin interfaces](202606/2026-06-08-smart-core%2C-thin-interfaces.md)
 - 本文提出“智能核心，薄接口”架构：将业务逻辑集中在核心模块，用轻量接口处理不同参与者的交互，从而降低耦合、提高可维护性。
 - Tags: #engineering
@@ -39,13 +43,9 @@
 - 设计思维工作坊中，简单是关键：它打开洞察之门、促进参与、防止孤立、鼓励创意并保持能量。简单并非降低质量，反而实现“少即是多”的创新效果。
 - Tags: #career #view
 
-(2026-06-08) [Jonas Hietala: Why I still blog after 15 years](202606/2026-06-08-jonas-hietala-why-i-still-blog-after-15-years.md)
-- 作者坚持博客 15 年，为避免“游戏引擎陷阱”而开始，享受写作、理清思路、记录项目等。技术栈从 PHP 到静态生成器演变，内容从简短更新变为精心文章，动机不依赖外部反馈。
-- Tags: #writing #view
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (35 entries)
+- [2026-06](202606/monthly-index.md) (36 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
