@@ -25,6 +25,44 @@ try:
 except ImportError:  # pragma: no cover - fallback when optional dependency missing
     requests = None  # type: ignore[assignment]
 
+# -- exception hierarchy begin --
+# Phase A: replaces the ad-hoc `raise Exception(...)` pattern that previously
+# let any failure (404, 5xx, missing API key) kill the whole CI run with the
+# same generic traceback. Callers (`ingest_bookmark` / `process_changes`) now
+# branch on the subclass to decide soft-fail-with-stub vs hard-fail.
+class IngestionError(Exception):
+    """Base class for all bookmark-ingestion failures."""
+
+
+class ContentUnavailableError(IngestionError):
+    """Origin / mirror reports the resource no longer exists (404, 410, or a
+    persistent non-retryable 4xx). Soft-fail: write a stub summary, mark the
+    entry failed, continue the run."""
+
+
+class FetchTransientError(IngestionError):
+    """Network / HTTP failure that may resolve on retry (5xx, 429 from
+    upstream mirror). After retries are exhausted the caller treats this as
+    soft-fail with a stub."""
+
+
+class LLMError(IngestionError):
+    """OpenAI request failed in a way that means the setup or model is broken
+    (4xx other than 429, missing `choices`, etc.). Hard-fail: surface to CI."""
+
+
+class LLMRateLimitError(LLMError):
+    """Specifically 429 from the LLM provider. Retried; if it persists,
+    treated as soft-fail with stub so a temporary quota blip doesn't kill
+    the whole pipeline."""
+
+
+class ConfigError(IngestionError):
+    """Local environment is broken (e.g. OPENAI_API_KEY missing). Hard-fail
+    with a clear message — retrying won't help and the run is meaningless
+    without the missing input."""
+# -- exception hierarchy end --
+
 # -- configurations begin --
 MEMO_REPO_NAME: str = "kohsmemo"
 SUMMARY_REPO_NAME: str = "kohsmemo-summary"
@@ -66,6 +104,12 @@ class SummarizedBookmark:
     url: str
     timestamp: int  # unix timestamp
     tags: List[str] = field(default_factory=list)
+    # Phase A: True for entries where ingestion failed (404 / persistent 5xx /
+    # network). The summary .md file is a stub, but the entry is still recorded
+    # in data.json so a future run can retry. Defaults to False for backward
+    # compatibility with existing data.json files (asdict will not include
+    # `failed` in old entries — see `load_summarized_bookmarks`).
+    failed: bool = False
 
 
 @dataclass
@@ -74,6 +118,9 @@ class IngestionResult:
     summary_markdown: str
     summary_path: Path
     one_sentence: str
+    # When True, summary_markdown is a stub and the caller should mark the
+    # bookmark failed but still proceed (soft-fail path).
+    failed: bool = False
 
 
 CURRENT_MONTH: str = datetime.now(timezone.utc).strftime("%Y%m")
@@ -141,6 +188,10 @@ def load_summarized_bookmarks() -> List[SummarizedBookmark]:
     bookmarks: List[SummarizedBookmark] = []
     for entry in raw_entries:
         tags = entry.get("tags") or []
+        # `failed` is a Phase A addition; older data.json files won't have it.
+        # The dataclass default is False, so we don't need to special-case
+        # missing keys — but we accept the key explicitly for forward
+        # compatibility with files written by this version.
         bookmarks.append(
             SummarizedBookmark(
                 month=entry["month"],
@@ -148,6 +199,7 @@ def load_summarized_bookmarks() -> List[SummarizedBookmark]:
                 url=entry["url"],
                 timestamp=entry["timestamp"],
                 tags=tags,
+                failed=entry.get("failed", False),
             )
         )
     return bookmarks
@@ -242,18 +294,42 @@ def build_summary_file(
     one_sentence: str,
     tags: List[str],
     month: str,
+    failed: bool = False,
+    failure_reason: str = "",
 ) -> str:
     tag_line = ""
     if tags:
         tag_line = f"- Tags: {format_tags(tags)}\n"
 
+    if failed:
+        # Soft-fail stub. Same file shape as a real summary so that
+        # `extract_tldr_from_markdown` (which regexes "## TL;DR" / "## Summary")
+        # doesn't choke on it. The body explains the failure and points the
+        # reader at the source URL.
+        tldr = (
+            f"无法生成摘要：{failure_reason}。可在稍后重跑 CI 时再试。"
+            if failure_reason
+            else "无法生成摘要：上游内容暂时不可用。稍后重跑 CI 时会再试。"
+        )
+        body = (
+            "本条目由 Phase A 软失败路径生成。\n\n"
+            f"- 原因：{failure_reason or '上游内容暂时不可用'}\n"
+            "- 处理：已写入 data.json（`failed: true`），下次 CI 触发时若该 URL\n"
+            "  仍出现在源 README 中，将按原流程重新尝试。\n"
+        )
+        header_status = " [ingestion failed]"
+    else:
+        tldr = one_sentence
+        body = summary
+        header_status = ""
+
     return (
-        f"# {title}\n"
+        f"# {title}{header_status}\n"
         f"- URL: {url}\n"
         f"- Added: {CURRENT_DATE_AND_TIME}\n"
         f"{tag_line}\n"
-        f"## TL;DR\n{one_sentence}\n\n"
-        f"## Summary\n{summary}\n"
+        f"## TL;DR\n{tldr}\n\n"
+        f"## Summary\n{body}\n"
     )
 
 
@@ -375,7 +451,9 @@ def get_text_content(url: str) -> str:
         logging.warning("Preflight check failed for %s: %s", url, preflight_error)
     elif status_code is not None:
         if status_code in (404, 410):
-            raise Exception(f"Origin URL not found (HTTP {status_code}): {url}")
+            raise ContentUnavailableError(
+                f"Origin URL not found (HTTP {status_code}): {url}"
+            )
         if status_code >= 400 and status_code not in (401, 403, 429):
             logging.warning(
                 "Origin URL returned HTTP %d for %s; content fetch may fail.",
@@ -410,7 +488,14 @@ def get_text_content(url: str) -> str:
                     logging.info("Retrying in %d seconds...", wait_time)
                     time.sleep(wait_time)
                     continue
-                raise Exception(
+                # Retries exhausted. 5xx/429 → transient; everything else
+                # means the resource is gone or unreachable in a way that
+                # retrying won't fix.
+                if status in (429, 500, 502, 503, 504):
+                    raise FetchTransientError(
+                        f"All {MAX_RETRIES} retry attempts failed. Last error: {error_msg}"
+                    )
+                raise ContentUnavailableError(
                     f"All {MAX_RETRIES} retry attempts failed. Last error: {error_msg}"
                 )
 
@@ -435,7 +520,9 @@ def get_text_content(url: str) -> str:
                     logging.info("Retrying in %d seconds...", wait_time)
                     time.sleep(wait_time)
                     continue
-                raise Exception(
+                # Short / connection-error content from a mirror is treated
+                # as transient: a later CI run may succeed.
+                raise FetchTransientError(
                     f"All {MAX_RETRIES} retry attempts failed. Last error: {error_msg}"
                 )
 
@@ -464,7 +551,7 @@ def get_text_content(url: str) -> str:
                 logging.info("Retrying in %d seconds...", wait_time)
                 time.sleep(wait_time)
             else:
-                raise Exception(
+                raise FetchTransientError(
                     f"All {MAX_RETRIES} retry attempts failed. Last error: {error}"
                 ) from error
 
@@ -472,11 +559,17 @@ def get_text_content(url: str) -> str:
 @log_execution_time
 def call_openai_api(prompt: str, content: str) -> str:
     if requests is None:
-        raise RuntimeError("requests package not available; cannot call OpenAI API.")
+        raise ConfigError("requests package not available; cannot call OpenAI API.")
+
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        raise ConfigError(
+            "OPENAI_API_KEY is not set. Export it before running the pipeline."
+        )
 
     model: str = os.environ.get("OPENAI_API_MODEL", "gpt-4o-mini")
     headers: dict = {
-        "Authorization": f"Bearer {os.environ['OPENAI_API_KEY']}",
+        "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
     }
     data: dict = {
@@ -505,13 +598,18 @@ def call_openai_api(prompt: str, content: str) -> str:
         error_msg = f"OpenAI API request failed with status {response.status_code}"
         logging.error(error_msg)
         logging.error("Error response: %s", response_json)
-        raise Exception(error_msg)
+        # 429 may resolve on its own; treat as rate-limit (subclass of LLMError
+        # so callers can distinguish if needed). Everything else is a hard
+        # misconfiguration / auth / bad-model problem.
+        if response.status_code == 429:
+            raise LLMRateLimitError(error_msg)
+        raise LLMError(error_msg)
 
     if "choices" not in response_json:
         error_msg = "Response does not contain 'choices' field"
         logging.error(error_msg)
         logging.error("Full response: %s", response_json)
-        raise Exception(error_msg)
+        raise LLMError(error_msg)
 
     return response_json["choices"][0]["message"]["content"]
 
@@ -869,11 +967,58 @@ def find_next_bookmark_to_process(
     return None
 
 
+def _build_failed_ingestion_result(
+    title: str, url: str, tags: List[str], reason: str
+) -> IngestionResult:
+    """Build a stub IngestionResult for soft-fail (content fetch / LLM
+    transient errors). Same shape as a real result so the caller can append
+    it to ``summarized_bookmarks`` and write the stub .md file. Sets
+    ``IngestionResult.failed = True`` and marks the embedded bookmark with
+    ``failed = True``."""
+    timestamp = int(datetime.now(timezone.utc).timestamp())
+    month = datetime.fromtimestamp(timestamp, tz=timezone.utc).strftime("%Y%m")
+    summary_file_content = build_summary_file(
+        title, url, "", "", tags, month, failed=True, failure_reason=reason
+    )
+    summary_path = get_summary_file_path(title, timestamp=timestamp, month=month)
+    bookmark = SummarizedBookmark(
+        month=month,
+        title=title,
+        url=url,
+        timestamp=timestamp,
+        tags=tags,
+        failed=True,
+    )
+    return IngestionResult(
+        bookmark=bookmark,
+        summary_markdown=summary_file_content,
+        summary_path=summary_path,
+        one_sentence="",
+        failed=True,
+    )
+
+
 def ingest_bookmark(title: str, url: str, tags: List[str]) -> IngestionResult:
+    """Ingest a single bookmark. Catches soft-fail exceptions (content fetch
+    / LLM rate-limit) and returns a stub IngestionResult; hard-fail exceptions
+    (ConfigError, LLMError other than rate-limit) propagate to the caller."""
     submit_to_wayback_machine(url)
-    text_content: str = get_text_content(url)
-    summary: str = summarize_text(text_content)
-    one_sentence: str = one_sentence_summary(summary)
+    try:
+        text_content: str = get_text_content(url)
+        summary: str = summarize_text(text_content)
+        one_sentence: str = one_sentence_summary(summary)
+    except (ContentUnavailableError, FetchTransientError, LLMRateLimitError) as err:
+        logging.warning(
+            "Soft-fail ingesting %s (%s): %s",
+            url,
+            type(err).__name__,
+            err,
+        )
+        return _build_failed_ingestion_result(
+            title, url, tags, reason=f"{type(err).__name__}: {err}"
+        )
+    # ConfigError, LLMError (non-rate-limit), and anything unexpected will
+    # propagate. The caller is expected to let those abort the run.
 
     timestamp = int(datetime.now(timezone.utc).timestamp())
     month = datetime.fromtimestamp(timestamp, tz=timezone.utc).strftime("%Y%m")
@@ -980,16 +1125,37 @@ def process_changes(backfill: bool = False, dry_run: bool = False) -> None:
                 )
             else:
                 logging.info("Processing new bookmark: %s", title)
-                ingestion_result = ingest_bookmark(title, url, tags)
+                # Hard-fail (ConfigError, LLMError other than rate-limit) must
+                # abort the run — there is no point in writing a stub for a
+                # permanent configuration problem. Soft-fail exceptions are
+                # caught inside `ingest_bookmark` and turned into a stub
+                # IngestionResult, so they don't reach this point.
+                try:
+                    ingestion_result = ingest_bookmark(title, url, tags)
+                except (ConfigError, LLMError) as err:
+                    logging.error(
+                        "Hard-fail ingesting %s (%s): %s",
+                        url,
+                        type(err).__name__,
+                        err,
+                    )
+                    logging.error(
+                        "Aborting the run before writing derived files; "
+                        "data.json / indexes will not be touched."
+                    )
+                    return
                 summarized_bookmarks.append(ingestion_result.bookmark)
                 write_text_file(
                     ingestion_result.summary_path,
                     ingestion_result.summary_markdown,
                     dry_run=False,
                 )
-                overrides[bookmark_identity(ingestion_result.bookmark)] = (
-                    ingestion_result.one_sentence
-                )
+                if not ingestion_result.failed:
+                    # Only override the TL;DR for successful ingests. Failed
+                    # entries keep the stub TL;DR that's already in the file.
+                    overrides[bookmark_identity(ingestion_result.bookmark)] = (
+                        ingestion_result.one_sentence
+                    )
         else:
             logging.info("No new bookmarks to process.")
 
