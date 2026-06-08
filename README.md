@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [和产品一起成长 - 从 AI 猫娘到 Prowl 终端](202606/2026-06-08-%E5%92%8C%E4%BA%A7%E5%93%81%E4%B8%80%E8%B5%B7%E6%88%90%E9%95%BF---%E4%BB%8E-ai-%E7%8C%AB%E5%A8%98%E5%88%B0-prowl-%E7%BB%88%E7%AB%AF.md)
+- 作者分享了从单 agent 到多 agent 团队再到定制终端 Prowl 的演进，展示了工具随需求成长，工作习惯从专注转向碎片化持续调度，包含猫娘团队、身份映射、辩论机制及 Prowl 终端。
+- Tags: #agent #product
+
 (2026-06-05) [Vibe Coding Is Not Engineering](202606/2026-06-05-vibe-coding-is-not-engineering.md)
 - vibe coding 生成可运行代码但忽略工程决策，如不变量、身份唯一性等。关键矛盾：LLM 无法替代代码生成前的系统建模与风险识别。结论：vibe coding 只适合 demo，生产必须依赖工程。
 - Tags: #agent #engineering
@@ -39,13 +43,9 @@
 - 文章探讨写作中过度格式化现象，分析其成因包括质量验证、思维链辅助及虚张声势，建议先使用格式理清思路，最终转化为连贯段落并适度回归格式。
 - Tags: #writing
 
-(2026-06-03) [Gathering Structures](202606/2026-06-03-gathering-structures.md)
-- 作者 Maggie Appleton 基于十五年经验，分享降低组织者压力、提升参与者体验的聚会结构与原则，包括七分钟演示、非正式轮流主持、鱼缸讨论等，强调从小简单开始。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (19 entries)
+- [2026-06](202606/monthly-index.md) (20 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

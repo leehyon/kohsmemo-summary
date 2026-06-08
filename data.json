@@ -1660,5 +1660,15 @@
       "agent",
       "engineering"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "和产品一起成长 - 从 AI 猫娘到 Prowl 终端",
+    "url": "https://onevcat.com/2026/06/develop-with-ai/",
+    "timestamp": 1780884595,
+    "tags": [
+      "agent",
+      "product"
+    ]
   }
 ]
