@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [你不知道的具身智能：从小机器狗到 Optimus](202606/2026-06-08-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%EF%BC%9A%E4%BB%8E%E5%B0%8F%E6%9C%BA%E5%99%A8%E7%8B%97%E5%88%B0-optimus.md)
+- 文章介绍低成本小机器狗（约 200 元）的软硬件集成经验，分析机器人空间感知瓶颈与 VLA 动作表示演进，对比 Tesla、Figure 等公司路线，并给出软件工程师入行建议。核心难点在能耗、数据及 Sim2Real 差距。
+- Tags: #agent #robotics
+
 (2026-06-08) [AI 软件工程范式革命的思考](202606/2026-06-08-ai-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%8C%83%E5%BC%8F%E9%9D%A9%E5%91%BD%E7%9A%84%E6%80%9D%E8%80%83.md)
 - 大模型带来“能源换智能”的可能，但需二阶控制论与确定性裁判应对不确定性。落地策略是闭环优先，关键难点是隐性知识蒸馏。人的角色从编码者转为边界守卫与产线设计师。
 - Tags: #agent #engineering
@@ -39,13 +43,9 @@
 - 该项目通过可执行的工作流技能文件，为 AI 编码代理注入高级工程规范，防止其走捷径。关键原则包括过程优于散文、反理性化表格、验证不可协商等，确保代理完成规格、测试、评审等关键步骤，而非默认只追求“完成”。
 - Tags: #agent
 
-(2026-06-03) [Staff archetypes](202606/2026-06-03-staff-archetypes.md)
-- Staff-plus 工程师有四种角色原型：Tech Lead、Architect、Solver、Right Hand。选择需根据个人能量来源和公司环境，职业生涯可尝试多种。
-- Tags: #engineering #career
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (21 entries)
+- [2026-06](202606/monthly-index.md) (22 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
