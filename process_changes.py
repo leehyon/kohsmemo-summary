@@ -767,11 +767,43 @@ _SUMMARIZE_JSON_PROMPT: str = """
 - "tldr"：对该文章的简短总结，长度不超过 100 个字，可作为 TL;DR 段落独立成行。
 
 风格要求：
-- 输出为简体中文，中英字符间要有空格。
+- 输出为简体中文，中文字符与英文字母 / 阿拉伯数字之间必须有空格（包括"中文 + 英文"、"中文 + 数字"、"英文 + 中文"、"数字 + 中文"四个方向）。
+- 数字内部、标点旁不插空格：例如"3.14"、"10MB"、"2026"、"5、"、"abc."、"100%" 内部都不应出现空格。
 - 段落与小节之间用空行分隔，bullet 之间不空行。
 - 直接展示总结内容，无任何前缀、标题（除上面规定的 **xxx** section header）及冗余表述。
 - 仅输出一个 JSON 对象，键名固定为 "summary" 与 "tldr"，value 是字符串。
 """
+
+
+def _apply_cjk_spacing(s: str) -> str:
+    """Insert a single space between a CJK character and an adjacent
+    ASCII letter / digit, in either direction. Idempotent (running it
+    twice is the same as once). Leaves internal punctuation, decimal
+    points, and percentages alone.
+
+    Why we need this: even with explicit prompt instructions, the LLM
+    occasionally emits strings like "LLM的能力" (no space between "LLM"
+    and "的") or "3个要点" (no space between "3" and "个"). The user
+    preference is strict: every CJK ↔ alnum boundary must have a space.
+
+    Implementation note: we use a NUL placeholder for the inserted
+    boundary, then collapse "<placeholder> " / " <placeholder>" /
+    "<placeholder>" to a single space. This way we don't touch existing
+    indentation or the bullet list blank-line spacing the prompt
+    requires — only the spaces we just added get de-duplicated.
+    """
+    placeholder = "\x00"
+    s = re.sub(rf"([\u4e00-\u9fff\u3400-\u4dbf])([A-Za-z0-9])",
+               rf"\1{placeholder}\2", s)
+    s = re.sub(rf"([A-Za-z0-9])([\u4e00-\u9fff\u3400-\u4dbf])",
+               rf"\1{placeholder}\2", s)
+    # If the model already put a space in the right place, we'd have
+    # "<placeholder><space>" or "<space><placeholder>"; collapse all
+    # such forms to a single space.
+    s = s.replace(f"{placeholder} ", " ")
+    s = s.replace(f" {placeholder}", " ")
+    s = s.replace(placeholder, " ")
+    return s
 
 
 @log_execution_time
@@ -793,6 +825,10 @@ def summarize_to_json(text: str) -> SummaryAndTldr:
         raise LLMError(
             "OpenAI JSON response contains empty summary or tldr"
         )
+    # Post-process: enforce CJK ↔ alnum spacing regardless of what the
+    # LLM did. Idempotent.
+    summary = _apply_cjk_spacing(summary)
+    tldr = _apply_cjk_spacing(tldr)
     return SummaryAndTldr(summary=summary, tldr=tldr)
 
 
