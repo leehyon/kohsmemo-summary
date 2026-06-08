@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [The big ideas behind retrieval augmented generation](202606/2026-06-08-the-big-ideas-behind-retrieval-augmented-generation.md)
+- 检索增强生成（RAG）引入外部私有数据，使大语言模型回答更准确且避免幻觉。相比昂贵训练和微调，RAG通过语义搜索和分块策略低成本实现，架构包含系统提示、上下文和用户输入。
+- Tags: #rag #llm
+
 (2026-06-08) [Emerging Patterns in Building GenAI Products](202606/2026-06-08-emerging-patterns-in-building-genai-products.md)
 - 文章总结构建 GenAI 产品的常见模式与挑战：从基础模式（Direct Prompting、Evals、Embeddings）到知识扩展（Fine Tuning、RAG），再到 RAG 增强（混合检索、查询重写、重排序、护栏），强调模式是经验总结而非标准答案。
 - Tags: #agent #design
@@ -39,13 +43,9 @@
 - 写作（如博客）的关键价值在于记录、思考、交流与表达，AI 无法替代这些功能：它既不能唤起回忆，也无法代替深度的思考，更无法满足人真实的表达欲望。
 - Tags: #writing
 
-(2026-06-04) [Running an AI-native engineering org](202606/2026-06-04-running-an-ai-native-engineering-org.md)
-- AI 原生组织运作转向 JIT 规划、AI 优先查询、信任但验证的审查与角色模糊团队。推行 dogfood 与扁平管理，以入职速度与 PR 周期衡量。从最嘈杂流程开始改变。
-- Tags: #engineering
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (25 entries)
+- [2026-06](202606/monthly-index.md) (26 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

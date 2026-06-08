@@ -1718,5 +1718,15 @@
       "agent",
       "design"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "The big ideas behind retrieval augmented generation",
+    "url": "https://www.elastic.co/blog/retrieval-augmented-generation-explained",
+    "timestamp": 1780887466,
+    "tags": [
+      "rag",
+      "llm"
+    ]
   }
 ]

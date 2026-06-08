@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-08) [The big ideas behind retrieval augmented generation](2026-06-08-the-big-ideas-behind-retrieval-augmented-generation.md)
+- 检索增强生成（RAG）引入外部私有数据，使大语言模型回答更准确且避免幻觉。相比昂贵训练和微调，RAG通过语义搜索和分块策略低成本实现，架构包含系统提示、上下文和用户输入。
+- Tags: #rag #llm
+
 (2026-06-08) [Emerging Patterns in Building GenAI Products](2026-06-08-emerging-patterns-in-building-genai-products.md)
 - 文章总结构建 GenAI 产品的常见模式与挑战：从基础模式（Direct Prompting、Evals、Embeddings）到知识扩展（Fine Tuning、RAG），再到 RAG 增强（混合检索、查询重写、重排序、护栏），强调模式是经验总结而非标准答案。
 - Tags: #agent #design
