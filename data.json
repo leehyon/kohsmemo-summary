@@ -1768,5 +1768,16 @@
       "engineering",
       "physics"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "Move Fast and Abandon Things",
+    "url": "https://engineersneedart.com/blog/movefast/movefast.html",
+    "timestamp": 1780896826,
+    "tags": [
+      "engineering",
+      "design",
+      "blog"
+    ]
   }
 ]

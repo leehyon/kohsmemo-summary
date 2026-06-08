@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-08) [Move Fast and Abandon Things](2026-06-08-move-fast-and-abandon-things.md)
+- 通过快速原型验证游戏创意，果断放弃无前景项目，并从过程中积累经验与可复用代码。作者将未完成游戏整理发布至 GitHub，作为对过去的纪念与启示。
+- Tags: #engineering #design #blog
+
 (2026-06-08) [On the Nature of Time](2026-06-08-on-the-nature-of-time.md)
 - 时间本质是计算规则的逐步应用，不可约性导致线性进展；观察者的计算有限性产生时间体验与热力学第二定律；超图重写产生时空，多分支形成量子力学；鲁利阿德整体存在但只能逐步探索，赋予过程意义。
 - Tags: #engineering #physics

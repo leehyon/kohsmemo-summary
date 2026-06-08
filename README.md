@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [Move Fast and Abandon Things](202606/2026-06-08-move-fast-and-abandon-things.md)
+- 通过快速原型验证游戏创意，果断放弃无前景项目，并从过程中积累经验与可复用代码。作者将未完成游戏整理发布至 GitHub，作为对过去的纪念与启示。
+- Tags: #engineering #design #blog
+
 (2026-06-08) [On the Nature of Time](202606/2026-06-08-on-the-nature-of-time.md)
 - 时间本质是计算规则的逐步应用，不可约性导致线性进展；观察者的计算有限性产生时间体验与热力学第二定律；超图重写产生时空，多分支形成量子力学；鲁利阿德整体存在但只能逐步探索，赋予过程意义。
 - Tags: #engineering #physics
@@ -39,13 +43,9 @@
 - 文章介绍低成本小机器狗（约 200 元）的软硬件集成经验，分析机器人空间感知瓶颈与 VLA 动作表示演进，对比 Tesla、Figure 等公司路线，并给出软件工程师入行建议。核心难点在能耗、数据及 Sim2Real 差距。
 - Tags: #agent #robotics
 
-(2026-06-08) [AI 软件工程范式革命的思考](202606/2026-06-08-ai-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%8C%83%E5%BC%8F%E9%9D%A9%E5%91%BD%E7%9A%84%E6%80%9D%E8%80%83.md)
-- 大模型带来“能源换智能”的可能，但需二阶控制论与确定性裁判应对不确定性。落地策略是闭环优先，关键难点是隐性知识蒸馏。人的角色从编码者转为边界守卫与产线设计师。
-- Tags: #agent #engineering
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (30 entries)
+- [2026-06](202606/monthly-index.md) (31 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
