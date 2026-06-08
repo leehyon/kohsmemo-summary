@@ -1708,5 +1708,15 @@
     "tags": [
       "life"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "Emerging Patterns in Building GenAI Products",
+    "url": "https://martinfowler.com/articles/gen-ai-patterns/",
+    "timestamp": 1780886967,
+    "tags": [
+      "agent",
+      "design"
+    ]
   }
 ]

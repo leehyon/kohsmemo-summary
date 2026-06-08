@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-08) [Emerging Patterns in Building GenAI Products](2026-06-08-emerging-patterns-in-building-genai-products.md)
+- 文章总结构建 GenAI 产品的常见模式与挑战：从基础模式（Direct Prompting、Evals、Embeddings）到知识扩展（Fine Tuning、RAG），再到 RAG 增强（混合检索、查询重写、重排序、护栏），强调模式是经验总结而非标准答案。
+- Tags: #agent #design
+
 (2026-06-08) [There’s no emotion we ought to think harder about than anger](2026-06-08-there%E2%80%99s-no-emotion-we-ought-to-think-harder-about-than-anger.md)
 - 由于未提供列表形式总结，无法生成简短总结。请提供文章列表。
 - Tags: #life
