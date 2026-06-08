@@ -14,8 +14,8 @@
     "url": "https://linderud.dev/blog/personal-infrastructure-setup-2026/",
     "timestamp": 1772437820,
     "tags": [
-      "home",
-      "setup"
+      "setup",
+      "home"
     ]
   },
   {
@@ -1778,6 +1778,16 @@
     "tags": [
       "view",
       "vibe-coding"
+    ]
+  },
+  {
+    "month": "202606",
+    "title": "Cognitive Surrender",
+    "url": "https://addyosmani.com/blog/cognitive-surrender/",
+    "timestamp": 1780909670,
+    "tags": [
+      "engineering",
+      "view"
     ]
   }
 ]

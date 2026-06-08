@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-08) [Cognitive Surrender](2026-06-08-cognitive-surrender.md)
+- 认知投降是工程师无批判接受 AI 输出，导致理解债务。文章揭示其危害并提供策略：保持独立判断，让 AI 辅助而非替代思考。
+- Tags: #engineering #view
+
 (2026-06-08) [Most vibe-coded tools are not for you](2026-06-08-most-vibe-coded-tools-are-not-for-you.md)
 - AI 驱动的“氛围编码”导致低质量工具泛滥，它们缺失触及范围、社交性和完成度，根源在于缺乏工艺、关怀与意图，作者呼吁创造有意义作品。
 - Tags: #view #vibe-coding

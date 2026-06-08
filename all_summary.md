@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-08) [Cognitive Surrender](202606/2026-06-08-cognitive-surrender.md)
+  - Tags: #engineering #view
+  - Summary: 认知投降是工程师无批判接受 AI 输出，导致理解债务。文章揭示其危害并提供策略：保持独立判断，让 AI 辅助而非替代思考。
+
 - (2026-06-08) [Most vibe-coded tools are not for you](202606/2026-06-08-most-vibe-coded-tools-are-not-for-you.md)
   - Tags: #view #vibe-coding
   - Summary: AI 驱动的“氛围编码”导致低质量工具泛滥，它们缺失触及范围、社交性和完成度，根源在于缺乏工艺、关怀与意图，作者呼吁创造有意义作品。
@@ -722,7 +726,7 @@
   - Summary: 囤积已解决问题的知识与代码，结合 AI 编码助手，通过重新组合创造新解决方案，大幅提高开发效率。
 
 - (2026-03-02) [Personal Infrastructure Setup 2026](202603/2026-03-02-personal-infrastructure-setup-2026.md)
-  - Tags: #home #setup
+  - Tags: #setup #home
   - Summary: 作者分享其 2026 年个人基础设施架构，使用 Incus 容器化和 OpenTofu 基础设施即代码，通过 Wireguard 和 Nginx 暴露服务，实现自托管邮件、博客等服务。
 
 - (2026-03-02) [Just Write](202603/2026-03-02-just-write.md)
