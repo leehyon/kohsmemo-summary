@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [Good Refactoring vs Bad Refactoring](202606/2026-06-08-good-refactoring-vs-bad-refactoring.md)
+- 好重构需增量进行、匹配现有风格、避免过度抽象；坏重构包括引入不一致、不理解代码、过度合并等。应保持代码可理解、可维护，提前测试并相互监督。
+- Tags: #engineering #design
+
 (2026-06-08) [The big ideas behind retrieval augmented generation](202606/2026-06-08-the-big-ideas-behind-retrieval-augmented-generation.md)
 - 检索增强生成（RAG）引入外部私有数据，使大语言模型回答更准确且避免幻觉。相比昂贵训练和微调，RAG通过语义搜索和分块策略低成本实现，架构包含系统提示、上下文和用户输入。
 - Tags: #rag #llm
@@ -39,13 +43,9 @@
 - 开源维护者面临贡献积压与 AI 工具介入的困境：AI 生成重复 PR 增加负担，而审查需隐性知识。作者尝试让 AI 处理量、人类做判断，但平衡点因项目而异，“保护分支”的意义正被重塑。
 - Tags: #view
 
-(2026-06-04) [为何写作](202606/2026-06-04-%E4%B8%BA%E4%BD%95%E5%86%99%E4%BD%9C.md)
-- 写作（如博客）的关键价值在于记录、思考、交流与表达，AI 无法替代这些功能：它既不能唤起回忆，也无法代替深度的思考，更无法满足人真实的表达欲望。
-- Tags: #writing
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (26 entries)
+- [2026-06](202606/monthly-index.md) (27 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-08) [Good Refactoring vs Bad Refactoring](202606/2026-06-08-good-refactoring-vs-bad-refactoring.md)
+  - Tags: #engineering #design
+  - Summary: 好重构需增量进行、匹配现有风格、避免过度抽象；坏重构包括引入不一致、不理解代码、过度合并等。应保持代码可理解、可维护，提前测试并相互监督。
+
 - (2026-06-08) [The big ideas behind retrieval augmented generation](202606/2026-06-08-the-big-ideas-behind-retrieval-augmented-generation.md)
   - Tags: #rag #llm
   - Summary: 检索增强生成（RAG）引入外部私有数据，使大语言模型回答更准确且避免幻觉。相比昂贵训练和微调，RAG通过语义搜索和分块策略低成本实现，架构包含系统提示、上下文和用户输入。
