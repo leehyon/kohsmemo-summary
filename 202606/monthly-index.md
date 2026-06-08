@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-08) [Most vibe-coded tools are not for you](2026-06-08-most-vibe-coded-tools-are-not-for-you.md)
+- AI 驱动的“氛围编码”导致低质量工具泛滥，它们缺失触及范围、社交性和完成度，根源在于缺乏工艺、关怀与意图，作者呼吁创造有意义作品。
+- Tags: #view #vibe-coding
+
 (2026-06-08) [Default blind](2026-06-08-default-blind.md)
 - “默认盲”指软件业务中因缺乏自动观察而对状态无知，对比实体店。观察是 OODA 循环第一步，易被忽视导致迷失方向。组织需识别定向者、主动学习业务并设定团队期望。
 - Tags: #life
