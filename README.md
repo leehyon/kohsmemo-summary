@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [AI 软件工程范式革命的思考](202606/2026-06-08-ai-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%8C%83%E5%BC%8F%E9%9D%A9%E5%91%BD%E7%9A%84%E6%80%9D%E8%80%83.md)
+- 大模型带来“能源换智能”的可能，但需二阶控制论与确定性裁判应对不确定性。落地策略是闭环优先，关键难点是隐性知识蒸馏。人的角色从编码者转为边界守卫与产线设计师。
+- Tags: #agent #engineering
+
 (2026-06-08) [和产品一起成长 - 从 AI 猫娘到 Prowl 终端](202606/2026-06-08-%E5%92%8C%E4%BA%A7%E5%93%81%E4%B8%80%E8%B5%B7%E6%88%90%E9%95%BF---%E4%BB%8E-ai-%E7%8C%AB%E5%A8%98%E5%88%B0-prowl-%E7%BB%88%E7%AB%AF.md)
 - 作者分享了从单 agent 到多 agent 团队再到定制终端 Prowl 的演进，展示了工具随需求成长，工作习惯从专注转向碎片化持续调度，包含猫娘团队、身份映射、辩论机制及 Prowl 终端。
 - Tags: #agent #product
@@ -39,13 +43,9 @@
 - Staff-plus 工程师有四种角色原型：Tech Lead、Architect、Solver、Right Hand。选择需根据个人能量来源和公司环境，职业生涯可尝试多种。
 - Tags: #engineering #career
 
-(2026-06-03) [The modern formatting addiction in writing](202606/2026-06-03-the-modern-formatting-addiction-in-writing.md)
-- 文章探讨写作中过度格式化现象，分析其成因包括质量验证、思维链辅助及虚张声势，建议先使用格式理清思路，最终转化为连贯段落并适度回归格式。
-- Tags: #writing
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (20 entries)
+- [2026-06](202606/monthly-index.md) (21 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

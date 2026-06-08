@@ -1670,5 +1670,15 @@
       "agent",
       "product"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "AI 软件工程范式革命的思考",
+    "url": "https://cloud.tencent.com/developer/article/2680831",
+    "timestamp": 1780884954,
+    "tags": [
+      "agent",
+      "engineering"
+    ]
   }
 ]
