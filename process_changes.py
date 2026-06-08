@@ -104,12 +104,6 @@ class SummarizedBookmark:
     url: str
     timestamp: int  # unix timestamp
     tags: List[str] = field(default_factory=list)
-    # Phase A: True for entries where ingestion failed (404 / persistent 5xx /
-    # network). The summary .md file is a stub, but the entry is still recorded
-    # in data.json so a future run can retry. Defaults to False for backward
-    # compatibility with existing data.json files (asdict will not include
-    # `failed` in old entries — see `load_summarized_bookmarks`).
-    failed: bool = False
 
 
 @dataclass
@@ -118,9 +112,6 @@ class IngestionResult:
     summary_markdown: str
     summary_path: Path
     one_sentence: str
-    # When True, summary_markdown is a stub and the caller should mark the
-    # bookmark failed but still proceed (soft-fail path).
-    failed: bool = False
 
 
 CURRENT_MONTH: str = datetime.now(timezone.utc).strftime("%Y%m")
@@ -188,10 +179,6 @@ def load_summarized_bookmarks() -> List[SummarizedBookmark]:
     bookmarks: List[SummarizedBookmark] = []
     for entry in raw_entries:
         tags = entry.get("tags") or []
-        # `failed` is a Phase A addition; older data.json files won't have it.
-        # The dataclass default is False, so we don't need to special-case
-        # missing keys — but we accept the key explicitly for forward
-        # compatibility with files written by this version.
         bookmarks.append(
             SummarizedBookmark(
                 month=entry["month"],
@@ -199,7 +186,6 @@ def load_summarized_bookmarks() -> List[SummarizedBookmark]:
                 url=entry["url"],
                 timestamp=entry["timestamp"],
                 tags=tags,
-                failed=entry.get("failed", False),
             )
         )
     return bookmarks
@@ -397,42 +383,18 @@ def build_summary_file(
     one_sentence: str,
     tags: List[str],
     month: str,
-    failed: bool = False,
-    failure_reason: str = "",
 ) -> str:
     tag_line = ""
     if tags:
         tag_line = f"- Tags: {format_tags(tags)}\n"
 
-    if failed:
-        # Soft-fail stub. Same file shape as a real summary so that
-        # `extract_tldr_from_markdown` (which regexes "## TL;DR" / "## Summary")
-        # doesn't choke on it. The body explains the failure and points the
-        # reader at the source URL.
-        tldr = (
-            f"无法生成摘要：{failure_reason}。可在稍后重跑 CI 时再试。"
-            if failure_reason
-            else "无法生成摘要：上游内容暂时不可用。稍后重跑 CI 时会再试。"
-        )
-        body = (
-            "本条目由 Phase A 软失败路径生成。\n\n"
-            f"- 原因：{failure_reason or '上游内容暂时不可用'}\n"
-            "- 处理：已写入 data.json（`failed: true`），下次 CI 触发时若该 URL\n"
-            "  仍出现在源 README 中，将按原流程重新尝试。\n"
-        )
-        header_status = " [ingestion failed]"
-    else:
-        tldr = one_sentence
-        body = summary
-        header_status = ""
-
     return (
-        f"# {title}{header_status}\n"
+        f"# {title}\n"
         f"- URL: {url}\n"
         f"- Added: {CURRENT_DATE_AND_TIME}\n"
         f"{tag_line}\n"
-        f"## TL;DR\n{tldr}\n\n"
-        f"## Summary\n{body}\n"
+        f"## TL;DR\n{one_sentence}\n\n"
+        f"## Summary\n{summary}\n"
     )
 
 
@@ -1123,45 +1085,21 @@ def find_next_bookmark_to_process(
     return None
 
 
-def _build_failed_ingestion_result(
-    title: str, url: str, tags: List[str], reason: str
-) -> IngestionResult:
-    """Build a stub IngestionResult for soft-fail (content fetch / LLM
-    transient errors). Same shape as a real result so the caller can append
-    it to ``summarized_bookmarks`` and write the stub .md file. Sets
-    ``IngestionResult.failed = True`` and marks the embedded bookmark with
-    ``failed = True``."""
-    timestamp = int(datetime.now(timezone.utc).timestamp())
-    month = datetime.fromtimestamp(timestamp, tz=timezone.utc).strftime("%Y%m")
-    summary_file_content = build_summary_file(
-        title, url, "", "", tags, month, failed=True, failure_reason=reason
-    )
-    summary_path = get_summary_file_path(title, timestamp=timestamp, month=month)
-    bookmark = SummarizedBookmark(
-        month=month,
-        title=title,
-        url=url,
-        timestamp=timestamp,
-        tags=tags,
-        failed=True,
-    )
-    return IngestionResult(
-        bookmark=bookmark,
-        summary_markdown=summary_file_content,
-        summary_path=summary_path,
-        one_sentence="",
-        failed=True,
-    )
+def ingest_bookmark(title: str, url: str, tags: List[str]) -> Optional[IngestionResult]:
+    """Ingest a single bookmark.
 
+    Returns:
+        - An IngestionResult on success (caller writes the .md file and
+          appends the bookmark to the in-memory list).
+        - ``None`` on soft-fail (ContentUnavailableError, FetchTransientError,
+          LLMRateLimitError). The caller is expected to log and skip —
+          the URL is NOT written to data.json, and no stub .md is
+          produced. A future CI run that re-fetches the same URL will
+          retry from scratch.
 
-def ingest_bookmark(title: str, url: str, tags: List[str]) -> IngestionResult:
-    """Ingest a single bookmark. Catches soft-fail exceptions (content fetch
-    / LLM rate-limit) and returns a stub IngestionResult; hard-fail
-    exceptions (ConfigError, LLMError other than rate-limit, including
-    strict-JSON parse failures) propagate to the caller.
-
-    Phase B: one LLM round-trip replaces the prior 2-call sequence
-    `summarize_text` + `one_sentence_summary`.
+    Hard-fail exceptions (ConfigError, LLMError other than rate-limit,
+    including strict-JSON parse failures) propagate to the caller, which
+    aborts the run before any writes.
     """
     submit_to_wayback_machine(url)
     try:
@@ -1169,14 +1107,14 @@ def ingest_bookmark(title: str, url: str, tags: List[str]) -> IngestionResult:
         combined = summarize_to_json(text_content)
     except (ContentUnavailableError, FetchTransientError, LLMRateLimitError) as err:
         logging.warning(
-            "Soft-fail ingesting %s (%s): %s",
+            "Soft-fail ingesting %s (%s): %s. "
+            "Skipping — no stub summary, no data.json entry; "
+            "a future run that re-fetches this URL will retry.",
             url,
             type(err).__name__,
             err,
         )
-        return _build_failed_ingestion_result(
-            title, url, tags, reason=f"{type(err).__name__}: {err}"
-        )
+        return None
     # ConfigError, LLMError (including parse failures from strict JSON mode),
     # and anything unexpected will propagate. The caller is expected to let
     # those abort the run.
@@ -1290,10 +1228,12 @@ def process_changes(backfill: bool = False, dry_run: bool = False) -> None:
             else:
                 logging.info("Processing new bookmark: %s", title)
                 # Hard-fail (ConfigError, LLMError other than rate-limit) must
-                # abort the run — there is no point in writing a stub for a
-                # permanent configuration problem. Soft-fail exceptions are
-                # caught inside `ingest_bookmark` and turned into a stub
-                # IngestionResult, so they don't reach this point.
+                # abort the run — there is no point in continuing with a
+                # broken setup. Soft-fail (ContentUnavailableError,
+                # FetchTransientError, LLMRateLimitError) is caught inside
+                # `ingest_bookmark` and turned into a None return; we log
+                # and move on without writing the URL to data.json or
+                # producing a stub .md file.
                 try:
                     ingestion_result = ingest_bookmark(title, url, tags)
                 except (ConfigError, LLMError) as err:
@@ -1308,15 +1248,20 @@ def process_changes(backfill: bool = False, dry_run: bool = False) -> None:
                         "data.json / indexes will not be touched."
                     )
                     return
-                summarized_bookmarks.append(ingestion_result.bookmark)
-                write_text_file(
-                    ingestion_result.summary_path,
-                    ingestion_result.summary_markdown,
-                    dry_run=False,
-                )
-                if not ingestion_result.failed:
-                    # Only override the TL;DR for successful ingests. Failed
-                    # entries keep the stub TL;DR that's already in the file.
+                if ingestion_result is not None:
+                    # Soft-fail returns None; the warning was already
+                    # logged in ingest_bookmark. The negative branch
+                    # (None) falls through to the outer `if next_bookmark`
+                    # ending without writing the summary, without
+                    # appending to summarized_bookmarks, and without
+                    # adding a TL;DR override. A future CI run will
+                    # re-attempt this URL from scratch.
+                    summarized_bookmarks.append(ingestion_result.bookmark)
+                    write_text_file(
+                        ingestion_result.summary_path,
+                        ingestion_result.summary_markdown,
+                        dry_run=False,
+                    )
                     overrides[bookmark_identity(ingestion_result.bookmark)] = (
                         ingestion_result.one_sentence
                     )
