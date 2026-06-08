@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-08) [Jonas Hietala: Why I still blog after 15 years](202606/2026-06-08-jonas-hietala-why-i-still-blog-after-15-years.md)
+  - Tags: #writing #view
+  - Summary: 作者坚持博客 15 年，为避免“游戏引擎陷阱”而开始，享受写作、理清思路、记录项目等。技术栈从 PHP 到静态生成器演变，内容从简短更新变为精心文章，动机不依赖外部反馈。
+
 - (2026-06-08) [Good Refactoring vs Bad Refactoring](202606/2026-06-08-good-refactoring-vs-bad-refactoring.md)
   - Tags: #engineering #design
   - Summary: 好重构需增量进行、匹配现有风格、避免过度抽象；坏重构包括引入不一致、不理解代码、过度合并等。应保持代码可理解、可维护，提前测试并相互监督。

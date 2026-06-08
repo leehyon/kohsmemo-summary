@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [Jonas Hietala: Why I still blog after 15 years](202606/2026-06-08-jonas-hietala-why-i-still-blog-after-15-years.md)
+- 作者坚持博客 15 年，为避免“游戏引擎陷阱”而开始，享受写作、理清思路、记录项目等。技术栈从 PHP 到静态生成器演变，内容从简短更新变为精心文章，动机不依赖外部反馈。
+- Tags: #writing #view
+
 (2026-06-08) [Good Refactoring vs Bad Refactoring](202606/2026-06-08-good-refactoring-vs-bad-refactoring.md)
 - 好重构需增量进行、匹配现有风格、避免过度抽象；坏重构包括引入不一致、不理解代码、过度合并等。应保持代码可理解、可维护，提前测试并相互监督。
 - Tags: #engineering #design
@@ -39,13 +43,9 @@
 - vibe coding 生成可运行代码但忽略工程决策，如不变量、身份唯一性等。关键矛盾：LLM 无法替代代码生成前的系统建模与风险识别。结论：vibe coding 只适合 demo，生产必须依赖工程。
 - Tags: #agent #engineering
 
-(2026-06-04) [The Maintainer's Dilemma](202606/2026-06-04-the-maintainer%27s-dilemma.md)
-- 开源维护者面临贡献积压与 AI 工具介入的困境：AI 生成重复 PR 增加负担，而审查需隐性知识。作者尝试让 AI 处理量、人类做判断，但平衡点因项目而异，“保护分支”的意义正被重塑。
-- Tags: #view
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (27 entries)
+- [2026-06](202606/monthly-index.md) (28 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
