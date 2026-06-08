@@ -774,16 +774,6 @@ def _extract_urls_with_tombstone(
     return tombstoned
 
 
-def _extract_all_urls(bookmark_lines: Iterable[str]) -> Set[str]:
-    """Return the set of every URL currently present in the kohsmemo README."""
-    urls: Set[str] = set()
-    for line in bookmark_lines:
-        match = re.search(r"-\s*\[(.*?)\]\((.*?)\)", line)
-        if match:
-            urls.add(match.group(2).strip())
-    return urls
-
-
 def find_tombstoned_bookmarks(
     bookmark_lines: Iterable[str],
     summarized_bookmarks: Iterable[SummarizedBookmark],
@@ -794,16 +784,6 @@ def find_tombstoned_bookmarks(
     if not tombstoned_urls:
         return []
     return [b for b in summarized_list if b.url in tombstoned_urls]
-
-
-def find_removed_bookmarks(
-    bookmark_lines: Iterable[str],
-    summarized_bookmarks: Iterable[SummarizedBookmark],
-) -> List[SummarizedBookmark]:
-    """Return summary entries whose source URL no longer exists in the README."""
-    summarized_list = list(summarized_bookmarks)
-    current_urls = _extract_all_urls(bookmark_lines)
-    return [b for b in summarized_list if b.url not in current_urls]
 
 
 def remove_bookmark(bookmark: SummarizedBookmark, dry_run: bool = False) -> None:
@@ -916,29 +896,23 @@ def process_changes(backfill: bool = False, dry_run: bool = False) -> None:
             "Backfill mode enabled; rebuilding summaries/indexes from existing data only."
         )
     else:
+        # Only #tombstone triggers deletion. Direct URL removal in the
+        # source README is intentionally NOT handled here — workflow_dispatch
+        # re-runs would otherwise delete summaries for URLs that still exist
+        # in the user's local working copy but were never part of the
+        # triggering commit.
         tombstoned = find_tombstoned_bookmarks(
             bookmark_lines, summarized_bookmarks
         )
-        directly_removed = find_removed_bookmarks(
-            bookmark_lines, summarized_bookmarks
-        )
         # Stable order by timestamp (oldest first) for predictable logging.
-        to_remove = sorted(
-            tombstoned + directly_removed, key=lambda b: b.timestamp
-        )
+        to_remove = sorted(tombstoned, key=lambda b: b.timestamp)
         if to_remove:
             logging.info("Removing %d bookmark(s) from summary:", len(to_remove))
             for bookmark in to_remove:
-                reason = (
-                    "tombstoned in source"
-                    if bookmark in tombstoned
-                    else "source URL removed"
-                )
                 logging.info(
-                    "  - %s (%s) [%s] -> %s",
+                    "  - %s (%s) [tombstoned in source] -> %s",
                     bookmark.title,
                     bookmark.url,
-                    reason,
                     get_summary_file_path(
                         title=bookmark.title,
                         timestamp=bookmark.timestamp,
