@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [On the Nature of Time](202606/2026-06-08-on-the-nature-of-time.md)
+- 时间本质是计算规则的逐步应用，不可约性导致线性进展；观察者的计算有限性产生时间体验与热力学第二定律；超图重写产生时空，多分支形成量子力学；鲁利阿德整体存在但只能逐步探索，赋予过程意义。
+- Tags: #engineering #physics
+
 (2026-06-08) [The Magic of Simplicity: Energizing Design Thinking Workshops](202606/2026-06-08-the-magic-of-simplicity-energizing-design-thinking-workshops.md)
 - 设计思维工作坊中，简单是关键：它打开洞察之门、促进参与、防止孤立、鼓励创意并保持能量。简单并非降低质量，反而实现“少即是多”的创新效果。
 - Tags: #career #view
@@ -39,13 +43,9 @@
 - 大模型带来“能源换智能”的可能，但需二阶控制论与确定性裁判应对不确定性。落地策略是闭环优先，关键难点是隐性知识蒸馏。人的角色从编码者转为边界守卫与产线设计师。
 - Tags: #agent #engineering
 
-(2026-06-08) [和产品一起成长 - 从 AI 猫娘到 Prowl 终端](202606/2026-06-08-%E5%92%8C%E4%BA%A7%E5%93%81%E4%B8%80%E8%B5%B7%E6%88%90%E9%95%BF---%E4%BB%8E-ai-%E7%8C%AB%E5%A8%98%E5%88%B0-prowl-%E7%BB%88%E7%AB%AF.md)
-- 作者分享了从单 agent 到多 agent 团队再到定制终端 Prowl 的演进，展示了工具随需求成长，工作习惯从专注转向碎片化持续调度，包含猫娘团队、身份映射、辩论机制及 Prowl 终端。
-- Tags: #agent #product
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (29 entries)
+- [2026-06](202606/monthly-index.md) (30 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
