@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-08) [Default blind](2026-06-08-default-blind.md)
+- “默认盲”指软件业务中因缺乏自动观察而对状态无知，对比实体店。观察是 OODA 循环第一步，易被忽视导致迷失方向。组织需识别定向者、主动学习业务并设定团队期望。
+- Tags: #life
+
 (2026-06-08) [Move Fast and Abandon Things](2026-06-08-move-fast-and-abandon-things.md)
 - 通过快速原型验证游戏创意，果断放弃无前景项目，并从过程中积累经验与可复用代码。作者将未完成游戏整理发布至 GitHub，作为对过去的纪念与启示。
 - Tags: #engineering #design #blog

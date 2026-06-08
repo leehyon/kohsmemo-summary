@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [Default blind](202606/2026-06-08-default-blind.md)
+- “默认盲”指软件业务中因缺乏自动观察而对状态无知，对比实体店。观察是 OODA 循环第一步，易被忽视导致迷失方向。组织需识别定向者、主动学习业务并设定团队期望。
+- Tags: #life
+
 (2026-06-08) [Move Fast and Abandon Things](202606/2026-06-08-move-fast-and-abandon-things.md)
 - 通过快速原型验证游戏创意，果断放弃无前景项目，并从过程中积累经验与可复用代码。作者将未完成游戏整理发布至 GitHub，作为对过去的纪念与启示。
 - Tags: #engineering #design #blog
@@ -39,13 +43,9 @@
 - 文章以自主权为核心，提出 Implementers、Solvers、Finders 三类角色替代传统头衔，强调程序员不必转管理即可获得职业自主权，并给出成长路径与公司识别方法。
 - Tags: #view
 
-(2026-06-08) [你不知道的具身智能：从小机器狗到 Optimus](202606/2026-06-08-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%EF%BC%9A%E4%BB%8E%E5%B0%8F%E6%9C%BA%E5%99%A8%E7%8B%97%E5%88%B0-optimus.md)
-- 文章介绍低成本小机器狗（约 200 元）的软硬件集成经验，分析机器人空间感知瓶颈与 VLA 动作表示演进，对比 Tesla、Figure 等公司路线，并给出软件工程师入行建议。核心难点在能耗、数据及 Sim2Real 差距。
-- Tags: #agent #robotics
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (31 entries)
+- [2026-06](202606/monthly-index.md) (32 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
