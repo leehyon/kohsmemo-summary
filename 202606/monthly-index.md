@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-08) [The Magic of Simplicity: Energizing Design Thinking Workshops](2026-06-08-the-magic-of-simplicity-energizing-design-thinking-workshops.md)
+- 设计思维工作坊中，简单是关键：它打开洞察之门、促进参与、防止孤立、鼓励创意并保持能量。简单并非降低质量，反而实现“少即是多”的创新效果。
+- Tags: #career #view
+
 (2026-06-08) [Jonas Hietala: Why I still blog after 15 years](2026-06-08-jonas-hietala-why-i-still-blog-after-15-years.md)
 - 作者坚持博客 15 年，为避免“游戏引擎陷阱”而开始，享受写作、理清思路、记录项目等。技术栈从 PHP 到静态生成器演变，内容从简短更新变为精心文章，动机不依赖外部反馈。
 - Tags: #writing #view

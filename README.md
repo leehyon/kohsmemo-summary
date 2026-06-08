@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [The Magic of Simplicity: Energizing Design Thinking Workshops](202606/2026-06-08-the-magic-of-simplicity-energizing-design-thinking-workshops.md)
+- 设计思维工作坊中，简单是关键：它打开洞察之门、促进参与、防止孤立、鼓励创意并保持能量。简单并非降低质量，反而实现“少即是多”的创新效果。
+- Tags: #career #view
+
 (2026-06-08) [Jonas Hietala: Why I still blog after 15 years](202606/2026-06-08-jonas-hietala-why-i-still-blog-after-15-years.md)
 - 作者坚持博客 15 年，为避免“游戏引擎陷阱”而开始，享受写作、理清思路、记录项目等。技术栈从 PHP 到静态生成器演变，内容从简短更新变为精心文章，动机不依赖外部反馈。
 - Tags: #writing #view
@@ -39,13 +43,9 @@
 - 作者分享了从单 agent 到多 agent 团队再到定制终端 Prowl 的演进，展示了工具随需求成长，工作习惯从专注转向碎片化持续调度，包含猫娘团队、身份映射、辩论机制及 Prowl 终端。
 - Tags: #agent #product
 
-(2026-06-05) [Vibe Coding Is Not Engineering](202606/2026-06-05-vibe-coding-is-not-engineering.md)
-- vibe coding 生成可运行代码但忽略工程决策，如不变量、身份唯一性等。关键矛盾：LLM 无法替代代码生成前的系统建模与风险识别。结论：vibe coding 只适合 demo，生产必须依赖工程。
-- Tags: #agent #engineering
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (28 entries)
+- [2026-06](202606/monthly-index.md) (29 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
