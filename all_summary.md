@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-08) [The Life Well-Lived, part 2](202606/2026-06-08-the-life-well-lived%2C-part-2.md)
+  - Tags: #life
+  - Summary: 物质进步让工作、爱情、知识与美更易获得，但近年文化趋势导致这些价值下降；个体应主动选择，创造有意义的生活。
+
 - (2026-06-08) [Prompts are technical debt too](202606/2026-06-08-prompts-are-technical-debt-too.md)
   - Tags: #agent #view
   - Summary: 提示词是技术债务且更危险：模型更新后悄然失效。建议用第三方工具并最小化定制，AGENTS.md 只写事实，避免行为引导。

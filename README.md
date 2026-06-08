@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-08) [The Life Well-Lived, part 2](202606/2026-06-08-the-life-well-lived%2C-part-2.md)
+- 物质进步让工作、爱情、知识与美更易获得，但近年文化趋势导致这些价值下降；个体应主动选择，创造有意义的生活。
+- Tags: #life
+
 (2026-06-08) [Prompts are technical debt too](202606/2026-06-08-prompts-are-technical-debt-too.md)
 - 提示词是技术债务且更危险：模型更新后悄然失效。建议用第三方工具并最小化定制，AGENTS.md 只写事实，避免行为引导。
 - Tags: #agent #view
@@ -39,13 +43,9 @@
 - 好重构需增量进行、匹配现有风格、避免过度抽象；坏重构包括引入不一致、不理解代码、过度合并等。应保持代码可理解、可维护，提前测试并相互监督。
 - Tags: #engineering #design
 
-(2026-06-08) [Emerging Patterns in Building GenAI Products](202606/2026-06-08-emerging-patterns-in-building-genai-products.md)
-- 文章总结构建 GenAI 产品的常见模式与挑战：从基础模式（Direct Prompting、Evals、Embeddings）到知识扩展（Fine Tuning、RAG），再到 RAG 增强（混合检索、查询重写、重排序、护栏），强调模式是经验总结而非标准答案。
-- Tags: #agent #design
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (33 entries)
+- [2026-06](202606/monthly-index.md) (34 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
