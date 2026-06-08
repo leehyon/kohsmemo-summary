@@ -39,6 +39,7 @@ MAX_CONTENT_LENGTH: int = 32 * 1024  # 32KB
 MIN_CONTENT_LENGTH: int = 200  # Minimum content length to consider valid
 MAX_RETRIES: int = 3  # Maximum retry attempts for fetching content
 NO_SUMMARY_TAG: str = "#nosummary"
+TOMBSTONE_TAG: str = "tombstone"  # marker tag (without '#') that triggers summary deletion
 HTTP_CONNECT_TIMEOUT_SECONDS: int = 5
 HTTP_READ_TIMEOUT_SECONDS: int = 30
 # -- configurations end --
@@ -757,6 +758,76 @@ def process_bookmark_file():
     )
 
 
+def _extract_urls_with_tombstone(
+    bookmark_lines: Iterable[str],
+) -> Set[str]:
+    """Return the set of URLs marked with #tombstone in the kohsmemo README."""
+    tombstoned: Set[str] = set()
+    for line in bookmark_lines:
+        match = re.search(r"-\s*\[(.*?)\]\((.*?)\)", line)
+        if not match:
+            continue
+        url = match.group(2).strip()
+        tags_lower = [t.lower() for t in extract_tags_from_line(line)]
+        if TOMBSTONE_TAG in tags_lower:
+            tombstoned.add(url)
+    return tombstoned
+
+
+def _extract_all_urls(bookmark_lines: Iterable[str]) -> Set[str]:
+    """Return the set of every URL currently present in the kohsmemo README."""
+    urls: Set[str] = set()
+    for line in bookmark_lines:
+        match = re.search(r"-\s*\[(.*?)\]\((.*?)\)", line)
+        if match:
+            urls.add(match.group(2).strip())
+    return urls
+
+
+def find_tombstoned_bookmarks(
+    bookmark_lines: Iterable[str],
+    summarized_bookmarks: Iterable[SummarizedBookmark],
+) -> List[SummarizedBookmark]:
+    """Return summary entries whose source URL is marked #tombstone."""
+    summarized_list = list(summarized_bookmarks)
+    tombstoned_urls = _extract_urls_with_tombstone(bookmark_lines)
+    if not tombstoned_urls:
+        return []
+    return [b for b in summarized_list if b.url in tombstoned_urls]
+
+
+def find_removed_bookmarks(
+    bookmark_lines: Iterable[str],
+    summarized_bookmarks: Iterable[SummarizedBookmark],
+) -> List[SummarizedBookmark]:
+    """Return summary entries whose source URL no longer exists in the README."""
+    summarized_list = list(summarized_bookmarks)
+    current_urls = _extract_all_urls(bookmark_lines)
+    return [b for b in summarized_list if b.url not in current_urls]
+
+
+def remove_bookmark(bookmark: SummarizedBookmark, dry_run: bool = False) -> None:
+    """Delete the .md summary file for a bookmark from disk."""
+    summary_path = get_summary_file_path(
+        title=bookmark.title,
+        timestamp=bookmark.timestamp,
+        month=bookmark.month,
+        in_readme_md=False,
+    )
+    if not summary_path.exists():
+        logging.info(
+            "Summary file already absent for %s (%s); nothing to remove.",
+            bookmark.title,
+            summary_path,
+        )
+        return
+    if dry_run:
+        logging.info("Dry-run: would remove %s", summary_path)
+        return
+    summary_path.unlink()
+    logging.info("Removed %s", summary_path)
+
+
 def find_next_bookmark_to_process(
     bookmark_lines: Iterable[str], summarized_urls: Iterable[str]
 ) -> Optional[Tuple[str, str, List[str]]]:
@@ -834,48 +905,96 @@ def process_changes(backfill: bool = False, dry_run: bool = False) -> None:
     overrides: Dict[Tuple[str, str, int], str] = {}
 
     ingestion_result: Optional[IngestionResult] = None
-    # Backfill rebuilds derived files from stored bookmarks only. Dry-run keeps the
-    # entire pipeline side-effect-free, so both branches skip ingesting fresh content.
+
+    # --- Removal pass: tombstoned + directly-removed links ---
+    # Runs even in dry-run (we log "would remove" but never unlink) and even
+    # when `requests` is missing (no ingest possible, but cleanup is safe).
+    # Backfill is the only mode that skips this branch — it must not mutate
+    # the source-of-truth on disk.
     if backfill:
         logging.info(
             "Backfill mode enabled; rebuilding summaries/indexes from existing data only."
         )
-    elif dry_run:
-        logging.info(
-            "Dry-run mode enabled; simulating pipeline without fetching new bookmarks or writing files."
+    else:
+        tombstoned = find_tombstoned_bookmarks(
+            bookmark_lines, summarized_bookmarks
         )
-    elif requests is None:
-        logging.warning(
-            "requests dependency missing; cannot ingest new bookmarks. "
-            "Run with --backfill or install optional dependencies."
+        directly_removed = find_removed_bookmarks(
+            bookmark_lines, summarized_bookmarks
         )
+        # Stable order by timestamp (oldest first) for predictable logging.
+        to_remove = sorted(
+            tombstoned + directly_removed, key=lambda b: b.timestamp
+        )
+        if to_remove:
+            logging.info("Removing %d bookmark(s) from summary:", len(to_remove))
+            for bookmark in to_remove:
+                reason = (
+                    "tombstoned in source"
+                    if bookmark in tombstoned
+                    else "source URL removed"
+                )
+                logging.info(
+                    "  - %s (%s) [%s] -> %s",
+                    bookmark.title,
+                    bookmark.url,
+                    reason,
+                    get_summary_file_path(
+                        title=bookmark.title,
+                        timestamp=bookmark.timestamp,
+                        month=bookmark.month,
+                    ),
+                )
+                remove_bookmark(bookmark, dry_run=dry_run)
+            remove_urls = {b.url for b in to_remove}
+            summarized_bookmarks = [
+                b for b in summarized_bookmarks if b.url not in remove_urls
+            ]
+            summarized_urls = [b.url for b in summarized_bookmarks]
+        else:
+            logging.info("No bookmarks to remove.")
+
+    # --- Ingest pass: at most one new bookmark per run ---
+    # Requires `requests` and a non-dry-run. Dry-run mode intentionally skips
+    # network calls and writes; backfill explicitly skips ingest by definition.
+    can_ingest = (not backfill) and (not dry_run) and (requests is not None)
+    if not can_ingest:
+        if dry_run and not backfill:
+            logging.info(
+                "Dry-run mode enabled; skipping network calls and writes."
+            )
+        elif requests is None and not backfill:
+            logging.warning(
+                "requests dependency missing; cannot ingest new bookmarks. "
+                "Run with --backfill or install optional dependencies."
+            )
     else:
         next_bookmark = find_next_bookmark_to_process(bookmark_lines, summarized_urls)
 
         if next_bookmark:
             title, url, tags = next_bookmark
-            logging.info("Processing new bookmark: %s", title)
-            ingestion_result = ingest_bookmark(title, url, tags)
-            summarized_bookmarks.append(ingestion_result.bookmark)
-
-            if dry_run:
+            if TOMBSTONE_TAG in [t.lower() for t in tags]:
                 logging.info(
-                    "Dry-run: skipping writes for %s",
-                    ingestion_result.summary_path,
+                    "Skipping tombstoned URL (would otherwise be ingested): %s",
+                    url,
                 )
             else:
+                logging.info("Processing new bookmark: %s", title)
+                ingestion_result = ingest_bookmark(title, url, tags)
+                summarized_bookmarks.append(ingestion_result.bookmark)
                 write_text_file(
                     ingestion_result.summary_path,
                     ingestion_result.summary_markdown,
                     dry_run=False,
                 )
-
-            overrides[bookmark_identity(ingestion_result.bookmark)] = (
-                ingestion_result.one_sentence
-            )
+                overrides[bookmark_identity(ingestion_result.bookmark)] = (
+                    ingestion_result.one_sentence
+                )
         else:
             logging.info("No new bookmarks to process.")
 
+    # --- Rebuild derived files (data.json, indexes, READMEs) ---
+    # `dry_run=True` makes all writers log "would write" without touching disk.
     save_summarized_bookmarks(summarized_bookmarks, dry_run=dry_run)
 
     grouped = group_bookmarks_by_month(summarized_bookmarks)
