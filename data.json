@@ -1721,16 +1721,6 @@
   },
   {
     "month": "202606",
-    "title": "The big ideas behind retrieval augmented generation",
-    "url": "https://www.elastic.co/blog/retrieval-augmented-generation-explained",
-    "timestamp": 1780887466,
-    "tags": [
-      "rag",
-      "llm"
-    ]
-  },
-  {
-    "month": "202606",
     "title": "Good Refactoring vs Bad Refactoring",
     "url": "https://www.builder.io/blog/good-vs-bad-refactoring",
     "timestamp": 1780887671,

@@ -27,10 +27,6 @@
 - 好重构需增量进行、匹配现有风格、避免过度抽象；坏重构包括引入不一致、不理解代码、过度合并等。应保持代码可理解、可维护，提前测试并相互监督。
 - Tags: #engineering #design
 
-(2026-06-08) [The big ideas behind retrieval augmented generation](202606/2026-06-08-the-big-ideas-behind-retrieval-augmented-generation.md)
-- 检索增强生成（RAG）引入外部私有数据，使大语言模型回答更准确且避免幻觉。相比昂贵训练和微调，RAG通过语义搜索和分块策略低成本实现，架构包含系统提示、上下文和用户输入。
-- Tags: #rag #llm
-
 (2026-06-08) [Emerging Patterns in Building GenAI Products](202606/2026-06-08-emerging-patterns-in-building-genai-products.md)
 - 文章总结构建 GenAI 产品的常见模式与挑战：从基础模式（Direct Prompting、Evals、Embeddings）到知识扩展（Fine Tuning、RAG），再到 RAG 增强（混合检索、查询重写、重排序、护栏），强调模式是经验总结而非标准答案。
 - Tags: #agent #design
@@ -43,9 +39,13 @@
 - 文章以自主权为核心，提出 Implementers、Solvers、Finders 三类角色替代传统头衔，强调程序员不必转管理即可获得职业自主权，并给出成长路径与公司识别方法。
 - Tags: #view
 
+(2026-06-08) [你不知道的具身智能：从小机器狗到 Optimus](202606/2026-06-08-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%EF%BC%9A%E4%BB%8E%E5%B0%8F%E6%9C%BA%E5%99%A8%E7%8B%97%E5%88%B0-optimus.md)
+- 文章介绍低成本小机器狗（约 200 元）的软硬件集成经验，分析机器人空间感知瓶颈与 VLA 动作表示演进，对比 Tesla、Figure 等公司路线，并给出软件工程师入行建议。核心难点在能耗、数据及 Sim2Real 差距。
+- Tags: #agent #robotics
+
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (32 entries)
+- [2026-06](202606/monthly-index.md) (31 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
