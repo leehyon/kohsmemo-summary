@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-09) [我的日记：记录、分析、画像与种子](202606/2026-06-09-%E6%88%91%E7%9A%84%E6%97%A5%E8%AE%B0%EF%BC%9A%E8%AE%B0%E5%BD%95%E3%80%81%E5%88%86%E6%9E%90%E3%80%81%E7%94%BB%E5%83%8F%E4%B8%8E%E7%A7%8D%E5%AD%90.md)
+- 作者分享了一套通过“无模板日记 + AI 分析”实现自我认知与创作素材储备的系统，核心是降低记录压力、外包复盘、自动生成画像与选题种子，让持续复盘变得轻松可行。
+- Tags: #life
+
 (2026-06-08) [You should keep a developer’s journal](202606/2026-06-08-you-should-keep-a-developer%E2%80%99s-journal.md)
 - 开发者日志通过规划、记录、反思，提升编码效率与个人成长。本文解释了其价值并提供了实用技巧。
 - Tags: #writing #blog
@@ -39,13 +43,9 @@
 - 时间本质是计算规则的逐步应用，不可约性导致线性进展；观察者的计算有限性产生时间体验与热力学第二定律；超图重写产生时空，多分支形成量子力学；鲁利阿德整体存在但只能逐步探索，赋予过程意义。
 - Tags: #engineering #physics
 
-(2026-06-08) [The Magic of Simplicity: Energizing Design Thinking Workshops](202606/2026-06-08-the-magic-of-simplicity-energizing-design-thinking-workshops.md)
-- 设计思维工作坊中，简单是关键：它打开洞察之门、促进参与、防止孤立、鼓励创意并保持能量。简单并非降低质量，反而实现“少即是多”的创新效果。
-- Tags: #career #view
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (36 entries)
+- [2026-06](202606/monthly-index.md) (37 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
