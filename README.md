@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-10) [别让 AI 替你捣乱-致零软件工程经验新人的指南](202606/2026-06-10-%E5%88%AB%E8%AE%A9-ai-%E6%9B%BF%E4%BD%A0%E6%8D%A3%E4%B9%B1-%E8%87%B4%E9%9B%B6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E7%BB%8F%E9%AA%8C%E6%96%B0%E4%BA%BA%E7%9A%84%E6%8C%87%E5%8D%97.md)
+- 本文为零软件工程经验的新人提供指南，强调在开源贡献中应合理使用 AI 辅助，遵循规范流程，自己 Review 代码，并注意社区礼仪，避免成为噪音来源。
+- Tags: #best-practice #guide
+
 (2026-06-09) [我的日记：记录、分析、画像与种子](202606/2026-06-09-%E6%88%91%E7%9A%84%E6%97%A5%E8%AE%B0%EF%BC%9A%E8%AE%B0%E5%BD%95%E3%80%81%E5%88%86%E6%9E%90%E3%80%81%E7%94%BB%E5%83%8F%E4%B8%8E%E7%A7%8D%E5%AD%90.md)
 - 作者分享了一套通过“无模板日记 + AI 分析”实现自我认知与创作素材储备的系统，核心是降低记录压力、外包复盘、自动生成画像与选题种子，让持续复盘变得轻松可行。
 - Tags: #life
@@ -39,13 +43,9 @@
 - 通过快速原型验证游戏创意，果断放弃无前景项目，并从过程中积累经验与可复用代码。作者将未完成游戏整理发布至 GitHub，作为对过去的纪念与启示。
 - Tags: #engineering #design #blog
 
-(2026-06-08) [On the Nature of Time](202606/2026-06-08-on-the-nature-of-time.md)
-- 时间本质是计算规则的逐步应用，不可约性导致线性进展；观察者的计算有限性产生时间体验与热力学第二定律；超图重写产生时空，多分支形成量子力学；鲁利阿德整体存在但只能逐步探索，赋予过程意义。
-- Tags: #engineering #physics
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (37 entries)
+- [2026-06](202606/monthly-index.md) (38 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

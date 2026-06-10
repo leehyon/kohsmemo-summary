@@ -1836,5 +1836,15 @@
     "tags": [
       "life"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "别让 AI 替你捣乱-致零软件工程经验新人的指南",
+    "url": "https://xingwangzhe.fun/posts/zero-se-newcomer-guide/",
+    "timestamp": 1781054367,
+    "tags": [
+      "best-practice",
+      "guide"
+    ]
   }
 ]
