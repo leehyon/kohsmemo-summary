@@ -210,7 +210,8 @@
     "url": "https://www.seangoedecke.com/will-my-job-still-exist/",
     "timestamp": 1773366786,
     "tags": [
-      "career"
+      "career",
+      "engineering"
     ]
   },
   {
@@ -1857,5 +1858,12 @@
       "skill",
       "best-practice"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "Stop talking about work – do work together instead",
+    "url": "https://www.atlassian.com/blog/productivity/gsd-sessions-for-productive-team-meetings",
+    "timestamp": 1781057369,
+    "tags": []
   }
 ]

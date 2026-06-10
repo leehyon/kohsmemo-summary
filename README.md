@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-06-10) [Stop talking about work – do work together instead](202606/2026-06-10-stop-talking-about-work-%E2%80%93-do-work-together-instead.md)
+- GSD Sessions 是替代低效会议的 1-2 小时协作时段，通过突发性沟通模式提升团队进度、创新和连接。实验显示解决阻塞能力提升 39%，焦虑完全消失。
+
 (2026-06-10) [构建 Claude Code 的经验：我们如何使用 Skills](202606/2026-06-10-%E6%9E%84%E5%BB%BA-claude-code-%E7%9A%84%E7%BB%8F%E9%AA%8C%EF%BC%9A%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-skills.md)
 - 本文总结了 Anthropic 在 Claude Code 中使用 Skills 的经验，包括 9 种技能类型（如库参考、验证、自动化）及编写技巧（如建立 Gotchas、渐进式披露、避免过度约束），强调通过文件夹结构提供精准上下文，并持续迭代优化。
 - Tags: #agent #skill #best-practice
@@ -39,13 +42,9 @@
 - AI 驱动的“氛围编码”导致低质量工具泛滥，它们缺失触及范围、社交性和完成度，根源在于缺乏工艺、关怀与意图，作者呼吁创造有意义作品。
 - Tags: #view #vibe-coding
 
-(2026-06-08) [Default blind](202606/2026-06-08-default-blind.md)
-- “默认盲”指软件业务中因缺乏自动观察而对状态无知，对比实体店。观察是 OODA 循环第一步，易被忽视导致迷失方向。组织需识别定向者、主动学习业务并设定团队期望。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (39 entries)
+- [2026-06](202606/monthly-index.md) (40 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

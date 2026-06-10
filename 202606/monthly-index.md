@@ -1,5 +1,8 @@
 # 2026-06 Monthly Index
 
+(2026-06-10) [Stop talking about work – do work together instead](2026-06-10-stop-talking-about-work-%E2%80%93-do-work-together-instead.md)
+- GSD Sessions 是替代低效会议的 1-2 小时协作时段，通过突发性沟通模式提升团队进度、创新和连接。实验显示解决阻塞能力提升 39%，焦虑完全消失。
+
 (2026-06-10) [构建 Claude Code 的经验：我们如何使用 Skills](2026-06-10-%E6%9E%84%E5%BB%BA-claude-code-%E7%9A%84%E7%BB%8F%E9%AA%8C%EF%BC%9A%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-skills.md)
 - 本文总结了 Anthropic 在 Claude Code 中使用 Skills 的经验，包括 9 种技能类型（如库参考、验证、自动化）及编写技巧（如建立 Gotchas、渐进式披露、避免过度约束），强调通过文件夹结构提供精准上下文，并持续迭代优化。
 - Tags: #agent #skill #best-practice
