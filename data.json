@@ -1846,5 +1846,16 @@
       "best-practice",
       "guide"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "构建 Claude Code 的经验：我们如何使用 Skills",
+    "url": "https://transcrab.onev.cat/a/2026/03/lessons-from-building-claude-code-how-we-use-skills/",
+    "timestamp": 1781057233,
+    "tags": [
+      "agent",
+      "skill",
+      "best-practice"
+    ]
   }
 ]

@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-10) [构建 Claude Code 的经验：我们如何使用 Skills](202606/2026-06-10-%E6%9E%84%E5%BB%BA-claude-code-%E7%9A%84%E7%BB%8F%E9%AA%8C%EF%BC%9A%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-skills.md)
+  - Tags: #agent #skill #best-practice
+  - Summary: 本文总结了 Anthropic 在 Claude Code 中使用 Skills 的经验，包括 9 种技能类型（如库参考、验证、自动化）及编写技巧（如建立 Gotchas、渐进式披露、避免过度约束），强调通过文件夹结构提供精准上下文，并持续迭代优化。
+
 - (2026-06-10) [别让 AI 替你捣乱-致零软件工程经验新人的指南](202606/2026-06-10-%E5%88%AB%E8%AE%A9-ai-%E6%9B%BF%E4%BD%A0%E6%8D%A3%E4%B9%B1-%E8%87%B4%E9%9B%B6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E7%BB%8F%E9%AA%8C%E6%96%B0%E4%BA%BA%E7%9A%84%E6%8C%87%E5%8D%97.md)
   - Tags: #best-practice #guide
   - Summary: 本文为零软件工程经验的新人提供指南，强调在开源贡献中应合理使用 AI 辅助，遵循规范流程，自己 Review 代码，并注意社区礼仪，避免成为噪音来源。
