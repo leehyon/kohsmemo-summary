@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-12) [Doing nothing at work](202606/2026-06-12-doing-nothing-at-work.md)
+- 工程师应主动减少工作量，保持 80% 利用率，以便抓住高影响、时间敏感的机会。避免无回报的胶水工作和时间掠夺者，只在高回报时全力投入。
+- Tags: #career
+
 (2026-06-12) [Loop Engineering](202606/2026-06-12-loop-engineering.md)
 - 循环工程是用系统自动提示代理代替手动提示。设计包含自动化、工作树、技能、插件、子代理和持久状态的循环，可提升效率但需警惕验证、理解和认知风险。
 - Tags: #engineering
@@ -38,13 +42,9 @@
 - 本文提出“智能核心，薄接口”架构：将业务逻辑集中在核心模块，用轻量接口处理不同参与者的交互，从而降低耦合、提高可维护性。
 - Tags: #engineering
 
-(2026-06-08) [The Life Well-Lived, part 2](202606/2026-06-08-the-life-well-lived%2C-part-2.md)
-- 物质进步让工作、爱情、知识与美更易获得，但近年文化趋势导致这些价值下降；个体应主动选择，创造有意义的生活。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (43 entries)
+- [2026-06](202606/monthly-index.md) (44 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

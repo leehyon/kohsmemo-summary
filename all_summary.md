@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-12) [Doing nothing at work](202606/2026-06-12-doing-nothing-at-work.md)
+  - Tags: #career
+  - Summary: 工程师应主动减少工作量，保持 80% 利用率，以便抓住高影响、时间敏感的机会。避免无回报的胶水工作和时间掠夺者，只在高回报时全力投入。
+
 - (2026-06-12) [Loop Engineering](202606/2026-06-12-loop-engineering.md)
   - Tags: #engineering
   - Summary: 循环工程是用系统自动提示代理代替手动提示。设计包含自动化、工作树、技能、插件、子代理和持久状态的循环，可提升效率但需警惕验证、理解和认知风险。
