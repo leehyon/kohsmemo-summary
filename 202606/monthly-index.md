@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-12) [How LLMs Actually Work](2026-06-12-how-llms-actually-work.md)
+- 本文从分词到下一个 token 预测，逐层拆解 transformer 架构的核心组件，并解释 RoPE、GQA、MoE 等现代改进，帮助理解 LLM 工作原理。
+- Tags: #llm #guide #math
+
 (2026-06-12) [Doing nothing at work](2026-06-12-doing-nothing-at-work.md)
 - 工程师应主动减少工作量，保持 80% 利用率，以便抓住高影响、时间敏感的机会。避免无回报的胶水工作和时间掠夺者，只在高回报时全力投入。
 - Tags: #career

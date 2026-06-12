@@ -1904,5 +1904,16 @@
     "tags": [
       "career"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "How LLMs Actually Work",
+    "url": "https://0xkato.xyz/how-llms-actually-work/",
+    "timestamp": 1781234699,
+    "tags": [
+      "llm",
+      "guide",
+      "math"
+    ]
   }
 ]
