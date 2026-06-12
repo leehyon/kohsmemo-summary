@@ -1865,5 +1865,15 @@
     "url": "https://www.atlassian.com/blog/productivity/gsd-sessions-for-productive-team-meetings",
     "timestamp": 1781057369,
     "tags": []
+  },
+  {
+    "month": "202606",
+    "title": "The Software Development Lifecycle Is Dead",
+    "url": "https://boristane.com/blog/the-software-development-lifecycle-is-dead/",
+    "timestamp": 1781231705,
+    "tags": [
+      "engineering",
+      "view"
+    ]
   }
 ]

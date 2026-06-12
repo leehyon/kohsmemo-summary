@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-12) [The Software Development Lifecycle Is Dead](2026-06-12-the-software-development-lifecycle-is-dead.md)
+- AI agent 没有加速 SDLC，而是使其崩溃。传统阶段合并为意图-构建-观察循环。上下文工程和可观测性闭环成为核心，大多数行业尚未适应。
+- Tags: #engineering #view
+
 (2026-06-10) [Stop talking about work – do work together instead](2026-06-10-stop-talking-about-work-%E2%80%93-do-work-together-instead.md)
 - GSD Sessions 是替代低效会议的 1-2 小时协作时段，通过突发性沟通模式提升团队进度、创新和连接。实验显示解决阻塞能力提升 39%，焦虑完全消失。
 

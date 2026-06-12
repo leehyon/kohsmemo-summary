@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-12) [The Software Development Lifecycle Is Dead](202606/2026-06-12-the-software-development-lifecycle-is-dead.md)
+- AI agent 没有加速 SDLC，而是使其崩溃。传统阶段合并为意图-构建-观察循环。上下文工程和可观测性闭环成为核心，大多数行业尚未适应。
+- Tags: #engineering #view
+
 (2026-06-10) [Stop talking about work – do work together instead](202606/2026-06-10-stop-talking-about-work-%E2%80%93-do-work-together-instead.md)
 - GSD Sessions 是替代低效会议的 1-2 小时协作时段，通过突发性沟通模式提升团队进度、创新和连接。实验显示解决阻塞能力提升 39%，焦虑完全消失。
 
@@ -38,13 +42,9 @@
 - 认知投降是工程师无批判接受 AI 输出，导致理解债务。文章揭示其危害并提供策略：保持独立判断，让 AI 辅助而非替代思考。
 - Tags: #engineering #view
 
-(2026-06-08) [Most vibe-coded tools are not for you](202606/2026-06-08-most-vibe-coded-tools-are-not-for-you.md)
-- AI 驱动的“氛围编码”导致低质量工具泛滥，它们缺失触及范围、社交性和完成度，根源在于缺乏工艺、关怀与意图，作者呼吁创造有意义作品。
-- Tags: #view #vibe-coding
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (40 entries)
+- [2026-06](202606/monthly-index.md) (41 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
