@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-12) [Loop Engineering](202606/2026-06-12-loop-engineering.md)
+  - Tags: #engineering
+  - Summary: 循环工程是用系统自动提示代理代替手动提示。设计包含自动化、工作树、技能、插件、子代理和持久状态的循环，可提升效率但需警惕验证、理解和认知风险。
+
 - (2026-06-12) [Working with product managers](202606/2026-06-12-working-with-product-managers.md)
   - Tags: #engineering #product #career
   - Summary: 工程师与产品经理合作的关键是建立信任：理解对方立场、确保技术正确、尊重政治判断，并接受部分合作不顺利的现实。

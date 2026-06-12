@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-12) [Loop Engineering](202606/2026-06-12-loop-engineering.md)
+- 循环工程是用系统自动提示代理代替手动提示。设计包含自动化、工作树、技能、插件、子代理和持久状态的循环，可提升效率但需警惕验证、理解和认知风险。
+- Tags: #engineering
+
 (2026-06-12) [Working with product managers](202606/2026-06-12-working-with-product-managers.md)
 - 工程师与产品经理合作的关键是建立信任：理解对方立场、确保技术正确、尊重政治判断，并接受部分合作不顺利的现实。
 - Tags: #engineering #product #career
@@ -38,13 +42,9 @@
 - 物质进步让工作、爱情、知识与美更易获得，但近年文化趋势导致这些价值下降；个体应主动选择，创造有意义的生活。
 - Tags: #life
 
-(2026-06-08) [Prompts are technical debt too](202606/2026-06-08-prompts-are-technical-debt-too.md)
-- 提示词是技术债务且更危险：模型更新后悄然失效。建议用第三方工具并最小化定制，AGENTS.md 只写事实，避免行为引导。
-- Tags: #agent #view
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (42 entries)
+- [2026-06](202606/monthly-index.md) (43 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
