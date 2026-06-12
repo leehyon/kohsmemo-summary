@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-12) [Working with product managers](2026-06-12-working-with-product-managers.md)
+- 工程师与产品经理合作的关键是建立信任：理解对方立场、确保技术正确、尊重政治判断，并接受部分合作不顺利的现实。
+- Tags: #engineering #product #career
+
 (2026-06-12) [The Software Development Lifecycle Is Dead](2026-06-12-the-software-development-lifecycle-is-dead.md)
 - AI agent 没有加速 SDLC，而是使其崩溃。传统阶段合并为意图-构建-观察循环。上下文工程和可观测性闭环成为核心，大多数行业尚未适应。
 - Tags: #engineering #view

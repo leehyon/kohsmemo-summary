@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-12) [Working with product managers](202606/2026-06-12-working-with-product-managers.md)
+- 工程师与产品经理合作的关键是建立信任：理解对方立场、确保技术正确、尊重政治判断，并接受部分合作不顺利的现实。
+- Tags: #engineering #product #career
+
 (2026-06-12) [The Software Development Lifecycle Is Dead](202606/2026-06-12-the-software-development-lifecycle-is-dead.md)
 - AI agent 没有加速 SDLC，而是使其崩溃。传统阶段合并为意图-构建-观察循环。上下文工程和可观测性闭环成为核心，大多数行业尚未适应。
 - Tags: #engineering #view
@@ -38,13 +42,9 @@
 - 提示词是技术债务且更危险：模型更新后悄然失效。建议用第三方工具并最小化定制，AGENTS.md 只写事实，避免行为引导。
 - Tags: #agent #view
 
-(2026-06-08) [Cognitive Surrender](202606/2026-06-08-cognitive-surrender.md)
-- 认知投降是工程师无批判接受 AI 输出，导致理解债务。文章揭示其危害并提供策略：保持独立判断，让 AI 辅助而非替代思考。
-- Tags: #engineering #view
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (41 entries)
+- [2026-06](202606/monthly-index.md) (42 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
