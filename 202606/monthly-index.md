@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-15) [We All Hate Meetings](2026-06-15-we-all-hate-meetings.md)
+- Paul English 指出，糟糕的会议浪费时间和士气，通过缩小规模、提前准备、聚焦决策、授权员工等策略，可将会议转化为竞争优势。
+- Tags: #efficiency
+
 (2026-06-12) [How LLMs Actually Work](2026-06-12-how-llms-actually-work.md)
 - 本文从分词到下一个 token 预测，逐层拆解 transformer 架构的核心组件，并解释 RoPE、GQA、MoE 等现代改进，帮助理解 LLM 工作原理。
 - Tags: #llm #guide #math

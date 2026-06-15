@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-15) [We All Hate Meetings](202606/2026-06-15-we-all-hate-meetings.md)
+- Paul English 指出，糟糕的会议浪费时间和士气，通过缩小规模、提前准备、聚焦决策、授权员工等策略，可将会议转化为竞争优势。
+- Tags: #efficiency
+
 (2026-06-12) [How LLMs Actually Work](202606/2026-06-12-how-llms-actually-work.md)
 - 本文从分词到下一个 token 预测，逐层拆解 transformer 架构的核心组件，并解释 RoPE、GQA、MoE 等现代改进，帮助理解 LLM 工作原理。
 - Tags: #llm #guide #math
@@ -38,13 +42,9 @@
 - 作者分享了一套通过“无模板日记 + AI 分析”实现自我认知与创作素材储备的系统，核心是降低记录压力、外包复盘、自动生成画像与选题种子，让持续复盘变得轻松可行。
 - Tags: #life
 
-(2026-06-08) [You should keep a developer’s journal](202606/2026-06-08-you-should-keep-a-developer%E2%80%99s-journal.md)
-- 开发者日志通过规划、记录、反思，提升编码效率与个人成长。本文解释了其价值并提供了实用技巧。
-- Tags: #writing #blog
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (45 entries)
+- [2026-06](202606/monthly-index.md) (46 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
