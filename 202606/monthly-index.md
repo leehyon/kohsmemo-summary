@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-16) [AI Agent时代，普通人的避坑指南！](2026-06-16-ai-agent%E6%97%B6%E4%BB%A3%EF%BC%8C%E6%99%AE%E9%80%9A%E4%BA%BA%E7%9A%84%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97%EF%BC%81.md)
+- AI Agent 时代要从提问转向工程化，避免宏大叙事等七大坑，保持人类参与，迭代优化流程，拓展信息边界。
+- Tags: #engineering #agent #view
+
 (2026-06-15) [We All Hate Meetings](2026-06-15-we-all-hate-meetings.md)
 - Paul English 指出，糟糕的会议浪费时间和士气，通过缩小规模、提前准备、聚焦决策、授权员工等策略，可将会议转化为竞争优势。
 - Tags: #efficiency

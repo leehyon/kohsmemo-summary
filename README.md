@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-16) [AI Agent时代，普通人的避坑指南！](202606/2026-06-16-ai-agent%E6%97%B6%E4%BB%A3%EF%BC%8C%E6%99%AE%E9%80%9A%E4%BA%BA%E7%9A%84%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97%EF%BC%81.md)
+- AI Agent 时代要从提问转向工程化，避免宏大叙事等七大坑，保持人类参与，迭代优化流程，拓展信息边界。
+- Tags: #engineering #agent #view
+
 (2026-06-15) [We All Hate Meetings](202606/2026-06-15-we-all-hate-meetings.md)
 - Paul English 指出，糟糕的会议浪费时间和士气，通过缩小规模、提前准备、聚焦决策、授权员工等策略，可将会议转化为竞争优势。
 - Tags: #efficiency
@@ -38,13 +42,9 @@
 - 本文为零软件工程经验的新人提供指南，强调在开源贡献中应合理使用 AI 辅助，遵循规范流程，自己 Review 代码，并注意社区礼仪，避免成为噪音来源。
 - Tags: #best-practice #guide
 
-(2026-06-09) [我的日记：记录、分析、画像与种子](202606/2026-06-09-%E6%88%91%E7%9A%84%E6%97%A5%E8%AE%B0%EF%BC%9A%E8%AE%B0%E5%BD%95%E3%80%81%E5%88%86%E6%9E%90%E3%80%81%E7%94%BB%E5%83%8F%E4%B8%8E%E7%A7%8D%E5%AD%90.md)
-- 作者分享了一套通过“无模板日记 + AI 分析”实现自我认知与创作素材储备的系统，核心是降低记录压力、外包复盘、自动生成画像与选题种子，让持续复盘变得轻松可行。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (46 entries)
+- [2026-06](202606/monthly-index.md) (47 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
