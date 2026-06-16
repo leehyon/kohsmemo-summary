@@ -1935,5 +1935,14 @@
       "agent",
       "view"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "Agentic Code Review",
+    "url": "https://addyosmani.com/blog/agentic-code-review/",
+    "timestamp": 1781590032,
+    "tags": [
+      "agent"
+    ]
   }
 ]

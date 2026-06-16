@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-16) [Agentic Code Review](202606/2026-06-16-agentic-code-review.md)
+  - Tags: #agent
+  - Summary: AI 提高了代码产出，但审查成为新瓶颈。按风险分层、使用多个 AI 审查器、要求证据、保持 PR 小型化，人类仍需对高风险变更负责。
+
 - (2026-06-16) [AI Agent时代，普通人的避坑指南！](202606/2026-06-16-ai-agent%E6%97%B6%E4%BB%A3%EF%BC%8C%E6%99%AE%E9%80%9A%E4%BA%BA%E7%9A%84%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97%EF%BC%81.md)
   - Tags: #engineering #agent #view
   - Summary: AI Agent 时代要从提问转向工程化，避免宏大叙事等七大坑，保持人类参与，迭代优化流程，拓展信息边界。

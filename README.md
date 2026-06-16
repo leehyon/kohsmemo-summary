@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-16) [Agentic Code Review](202606/2026-06-16-agentic-code-review.md)
+- AI 提高了代码产出，但审查成为新瓶颈。按风险分层、使用多个 AI 审查器、要求证据、保持 PR 小型化，人类仍需对高风险变更负责。
+- Tags: #agent
+
 (2026-06-16) [AI Agent时代，普通人的避坑指南！](202606/2026-06-16-ai-agent%E6%97%B6%E4%BB%A3%EF%BC%8C%E6%99%AE%E9%80%9A%E4%BA%BA%E7%9A%84%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97%EF%BC%81.md)
 - AI Agent 时代要从提问转向工程化，避免宏大叙事等七大坑，保持人类参与，迭代优化流程，拓展信息边界。
 - Tags: #engineering #agent #view
@@ -38,13 +42,9 @@
 - 本文总结了 Anthropic 在 Claude Code 中使用 Skills 的经验，包括 9 种技能类型（如库参考、验证、自动化）及编写技巧（如建立 Gotchas、渐进式披露、避免过度约束），强调通过文件夹结构提供精准上下文，并持续迭代优化。
 - Tags: #agent #skill #best-practice
 
-(2026-06-10) [别让 AI 替你捣乱-致零软件工程经验新人的指南](202606/2026-06-10-%E5%88%AB%E8%AE%A9-ai-%E6%9B%BF%E4%BD%A0%E6%8D%A3%E4%B9%B1-%E8%87%B4%E9%9B%B6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E7%BB%8F%E9%AA%8C%E6%96%B0%E4%BA%BA%E7%9A%84%E6%8C%87%E5%8D%97.md)
-- 本文为零软件工程经验的新人提供指南，强调在开源贡献中应合理使用 AI 辅助，遵循规范流程，自己 Review 代码，并注意社区礼仪，避免成为噪音来源。
-- Tags: #best-practice #guide
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (47 entries)
+- [2026-06](202606/monthly-index.md) (48 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
