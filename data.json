@@ -1944,5 +1944,14 @@
     "tags": [
       "agent"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "Building Reliable Agentic AI Systems",
+    "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+    "timestamp": 1781674620,
+    "tags": [
+      "agent"
+    ]
   }
 ]

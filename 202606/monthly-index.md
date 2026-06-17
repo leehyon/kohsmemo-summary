@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-17) [Building Reliable Agentic AI Systems](2026-06-17-building-reliable-agentic-ai-systems.md)
+- Bayer 的 PRINCE 系统利用 Agentic RAG 与多智能体编排，将临床前数据检索从手动搜索转变为智能问答与任务执行，通过上下文工程与反思机制实现高可靠性。
+- Tags: #agent
+
 (2026-06-16) [Agentic Code Review](2026-06-16-agentic-code-review.md)
 - AI 提高了代码产出，但审查成为新瓶颈。按风险分层、使用多个 AI 审查器、要求证据、保持 PR 小型化，人类仍需对高风险变更负责。
 - Tags: #agent
