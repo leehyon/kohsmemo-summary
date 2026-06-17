@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-17) [关于 Vibe Coding 如何提升代码效率和质量的技巧之 Skill](2026-06-17-%E5%85%B3%E4%BA%8E-vibe-coding-%E5%A6%82%E4%BD%95%E6%8F%90%E5%8D%87%E4%BB%A3%E7%A0%81%E6%95%88%E7%8E%87%E5%92%8C%E8%B4%A8%E9%87%8F%E7%9A%84%E6%8A%80%E5%B7%A7%E4%B9%8B-skill.md)
+- 本文教你如何编写个性化 skill 规则文档，通过显化工程判断、按需加载、强制执行，使 AI 稳定生产可靠代码。核心：skill 与 CLAUDE.md 分工、按职责拆分、三条灵魂规则（穷举边界、自审、重构决策）及持续更新。
+- Tags: #agent #skill
+
 (2026-06-17) [Building Reliable Agentic AI Systems](2026-06-17-building-reliable-agentic-ai-systems.md)
 - Bayer 的 PRINCE 系统利用 Agentic RAG 与多智能体编排，将临床前数据检索从手动搜索转变为智能问答与任务执行，通过上下文工程与反思机制实现高可靠性。
 - Tags: #agent
