@@ -1963,5 +1963,15 @@
       "agent",
       "skill"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "The Art of Loop Engineering",
+    "url": "https://www.langchain.com/blog/the-art-of-loop-engineering",
+    "timestamp": 1781745411,
+    "tags": [
+      "agent",
+      "engineering"
+    ]
   }
 ]

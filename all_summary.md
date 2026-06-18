@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-18) [The Art of Loop Engineering](202606/2026-06-18-the-art-of-loop-engineering.md)
+  - Tags: #agent #engineering
+  - Summary: 本文介绍了 AI agent 的四种循环工程：基础 agent 循环、验证循环、事件驱动循环和爬山循环，并说明如何通过 LangChain 工具构建可靠、可扩展的 agent 系统。
+
 - (2026-06-17) [关于 Vibe Coding 如何提升代码效率和质量的技巧之 Skill](202606/2026-06-17-%E5%85%B3%E4%BA%8E-vibe-coding-%E5%A6%82%E4%BD%95%E6%8F%90%E5%8D%87%E4%BB%A3%E7%A0%81%E6%95%88%E7%8E%87%E5%92%8C%E8%B4%A8%E9%87%8F%E7%9A%84%E6%8A%80%E5%B7%A7%E4%B9%8B-skill.md)
   - Tags: #agent #skill
   - Summary: 本文教你如何编写个性化 skill 规则文档，通过显化工程判断、按需加载、强制执行，使 AI 稳定生产可靠代码。核心：skill 与 CLAUDE.md 分工、按职责拆分、三条灵魂规则（穷举边界、自审、重构决策）及持续更新。
