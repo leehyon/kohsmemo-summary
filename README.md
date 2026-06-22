@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-22) [多智能体系统](202606/2026-06-22-%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F.md)
+- 本文系统介绍了从单智能体 ReAct 到多智能体多种架构模式（LangGraph 与 LangChain 定义），对比了性能与适用场景，并探讨了分布式智能体的协议与挑战。
+- Tags: #agent
+
 (2026-06-18) [The Art of Loop Engineering](202606/2026-06-18-the-art-of-loop-engineering.md)
 - 本文介绍了 AI agent 的四种循环工程：基础 agent 循环、验证循环、事件驱动循环和爬山循环，并说明如何通过 LangChain 工具构建可靠、可扩展的 agent 系统。
 - Tags: #agent #engineering
@@ -39,13 +43,9 @@
 - 循环工程是用系统自动提示代理代替手动提示。设计包含自动化、工作树、技能、插件、子代理和持久状态的循环，可提升效率但需警惕验证、理解和认知风险。
 - Tags: #engineering
 
-(2026-06-12) [Working with product managers](202606/2026-06-12-working-with-product-managers.md)
-- 工程师与产品经理合作的关键是建立信任：理解对方立场、确保技术正确、尊重政治判断，并接受部分合作不顺利的现实。
-- Tags: #engineering #product #career
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (51 entries)
+- [2026-06](202606/monthly-index.md) (52 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

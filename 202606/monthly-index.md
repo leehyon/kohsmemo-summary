@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-22) [多智能体系统](2026-06-22-%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F.md)
+- 本文系统介绍了从单智能体 ReAct 到多智能体多种架构模式（LangGraph 与 LangChain 定义），对比了性能与适用场景，并探讨了分布式智能体的协议与挑战。
+- Tags: #agent
+
 (2026-06-18) [The Art of Loop Engineering](2026-06-18-the-art-of-loop-engineering.md)
 - 本文介绍了 AI agent 的四种循环工程：基础 agent 循环、验证循环、事件驱动循环和爬山循环，并说明如何通过 LangChain 工具构建可靠、可扩展的 agent 系统。
 - Tags: #agent #engineering

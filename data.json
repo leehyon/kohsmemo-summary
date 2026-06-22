@@ -1973,5 +1973,14 @@
       "agent",
       "engineering"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "多智能体系统",
+    "url": "https://leovan.me/cn/2026/06/multi-agent-system/",
+    "timestamp": 1782094255,
+    "tags": [
+      "agent"
+    ]
   }
 ]
