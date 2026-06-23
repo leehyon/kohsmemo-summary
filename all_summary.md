@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-23) [On Long Term Software Development](202606/2026-06-23-on-long-term-software-development.md)
+  - Tags: #design
+  - Summary: 本文总结了长期软件开发的核心原则：限制依赖、保持代码简单、大量测试、详尽文档、稳定团队和考虑开源。这些看似老生常谈，但来自资深开发者的强烈强调值得深思。
+
 - (2026-06-23) [你不知道的 AI Coding：非技术人的上手、场景与实战](202606/2026-06-23-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-ai-coding%EF%BC%9A%E9%9D%9E%E6%8A%80%E6%9C%AF%E4%BA%BA%E7%9A%84%E4%B8%8A%E6%89%8B%E3%80%81%E5%9C%BA%E6%99%AF%E4%B8%8E%E5%AE%9E%E6%88%98.md)
   - Tags: #agent #guide
   - Summary: 非技术人也能上手 Claude Code：从命令行、需求描述、项目规则到验收技巧，配合 Waza、Kami 等工具，让 AI 成为高效助手。

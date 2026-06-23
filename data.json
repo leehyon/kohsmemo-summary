@@ -2032,5 +2032,14 @@
       "agent",
       "guide"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "On Long Term Software Development",
+    "url": "https://berthub.eu/articles/posts/on-long-term-software-development/",
+    "timestamp": 1782209452,
+    "tags": [
+      "design"
+    ]
   }
 ]

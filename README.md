@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-23) [On Long Term Software Development](202606/2026-06-23-on-long-term-software-development.md)
+- 本文总结了长期软件开发的核心原则：限制依赖、保持代码简单、大量测试、详尽文档、稳定团队和考虑开源。这些看似老生常谈，但来自资深开发者的强烈强调值得深思。
+- Tags: #design
+
 (2026-06-23) [你不知道的 AI Coding：非技术人的上手、场景与实战](202606/2026-06-23-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-ai-coding%EF%BC%9A%E9%9D%9E%E6%8A%80%E6%9C%AF%E4%BA%BA%E7%9A%84%E4%B8%8A%E6%89%8B%E3%80%81%E5%9C%BA%E6%99%AF%E4%B8%8E%E5%AE%9E%E6%88%98.md)
 - 非技术人也能上手 Claude Code：从命令行、需求描述、项目规则到验收技巧，配合 Waza、Kami 等工具，让 AI 成为高效助手。
 - Tags: #agent #guide
@@ -39,13 +43,9 @@
 - Bayer 的 PRINCE 系统利用 Agentic RAG 与多智能体编排，将临床前数据检索从手动搜索转变为智能问答与任务执行，通过上下文工程与反思机制实现高可靠性。
 - Tags: #agent
 
-(2026-06-16) [Agentic Code Review](202606/2026-06-16-agentic-code-review.md)
-- AI 提高了代码产出，但审查成为新瓶颈。按风险分层、使用多个 AI 审查器、要求证据、保持 PR 小型化，人类仍需对高风险变更负责。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (57 entries)
+- [2026-06](202606/monthly-index.md) (58 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
