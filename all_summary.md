@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-23) [你不知道的 AI Coding：非技术人的上手、场景与实战](202606/2026-06-23-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-ai-coding%EF%BC%9A%E9%9D%9E%E6%8A%80%E6%9C%AF%E4%BA%BA%E7%9A%84%E4%B8%8A%E6%89%8B%E3%80%81%E5%9C%BA%E6%99%AF%E4%B8%8E%E5%AE%9E%E6%88%98.md)
+  - Tags: #agent #guide
+  - Summary: 非技术人也能上手 Claude Code：从命令行、需求描述、项目规则到验收技巧，配合 Waza、Kami 等工具，让 AI 成为高效助手。
+
 - (2026-06-23) [Node-js 新手需要知道什么](202606/2026-06-23-node-js-%E6%96%B0%E6%89%8B%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E4%BB%80%E4%B9%88.md)
   - Tags: #guide
   - Summary: Node.js 新手入门需掌握官方教程、常用框架（Next.js/NestJS）、ORM、Zod 和 PM2，并善用 GitHub 现有方案，避免重复造轮子。

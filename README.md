@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-23) [你不知道的 AI Coding：非技术人的上手、场景与实战](202606/2026-06-23-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-ai-coding%EF%BC%9A%E9%9D%9E%E6%8A%80%E6%9C%AF%E4%BA%BA%E7%9A%84%E4%B8%8A%E6%89%8B%E3%80%81%E5%9C%BA%E6%99%AF%E4%B8%8E%E5%AE%9E%E6%88%98.md)
+- 非技术人也能上手 Claude Code：从命令行、需求描述、项目规则到验收技巧，配合 Waza、Kami 等工具，让 AI 成为高效助手。
+- Tags: #agent #guide
+
 (2026-06-23) [Node-js 新手需要知道什么](202606/2026-06-23-node-js-%E6%96%B0%E6%89%8B%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E4%BB%80%E4%B9%88.md)
 - Node.js 新手入门需掌握官方教程、常用框架（Next.js/NestJS）、ORM、Zod 和 PM2，并善用 GitHub 现有方案，避免重复造轮子。
 - Tags: #guide
@@ -39,13 +43,9 @@
 - AI 提高了代码产出，但审查成为新瓶颈。按风险分层、使用多个 AI 审查器、要求证据、保持 PR 小型化，人类仍需对高风险变更负责。
 - Tags: #agent
 
-(2026-06-16) [AI Agent时代，普通人的避坑指南！](202606/2026-06-16-ai-agent%E6%97%B6%E4%BB%A3%EF%BC%8C%E6%99%AE%E9%80%9A%E4%BA%BA%E7%9A%84%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97%EF%BC%81.md)
-- AI Agent 时代要从提问转向工程化，避免宏大叙事等七大坑，保持人类参与，迭代优化流程，拓展信息边界。
-- Tags: #engineering #agent #view
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (56 entries)
+- [2026-06](202606/monthly-index.md) (57 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
