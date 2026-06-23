@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-23) [Node-js 新手需要知道什么](202606/2026-06-23-node-js-%E6%96%B0%E6%89%8B%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E4%BB%80%E4%B9%88.md)
+- Node.js 新手入门需掌握官方教程、常用框架（Next.js/NestJS）、ORM、Zod 和 PM2，并善用 GitHub 现有方案，避免重复造轮子。
+- Tags: #guide
+
 (2026-06-23) [Notes on the Industry Job Search](202606/2026-06-23-notes-on-the-industry-job-search.md)
 - 作者分享博士求职经历，详述时间线、面试类型、准备方法和谈判技巧，强调系统准备和情感管理的重要性，并提供实用建议。
 - Tags: #career #advice
@@ -39,13 +43,9 @@
 - AI Agent 时代要从提问转向工程化，避免宏大叙事等七大坑，保持人类参与，迭代优化流程，拓展信息边界。
 - Tags: #engineering #agent #view
 
-(2026-06-15) [We All Hate Meetings](202606/2026-06-15-we-all-hate-meetings.md)
-- Paul English 指出，糟糕的会议浪费时间和士气，通过缩小规模、提前准备、聚焦决策、授权员工等策略，可将会议转化为竞争优势。
-- Tags: #efficiency
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (55 entries)
+- [2026-06](202606/monthly-index.md) (56 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

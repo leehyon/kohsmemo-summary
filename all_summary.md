@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-23) [Node-js 新手需要知道什么](202606/2026-06-23-node-js-%E6%96%B0%E6%89%8B%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E4%BB%80%E4%B9%88.md)
+  - Tags: #guide
+  - Summary: Node.js 新手入门需掌握官方教程、常用框架（Next.js/NestJS）、ORM、Zod 和 PM2，并善用 GitHub 现有方案，避免重复造轮子。
+
 - (2026-06-23) [Notes on the Industry Job Search](202606/2026-06-23-notes-on-the-industry-job-search.md)
   - Tags: #career #advice
   - Summary: 作者分享博士求职经历，详述时间线、面试类型、准备方法和谈判技巧，强调系统准备和情感管理的重要性，并提供实用建议。
@@ -45,7 +49,7 @@
   - Summary: 本文从分词到下一个 token 预测，逐层拆解 transformer 架构的核心组件，并解释 RoPE、GQA、MoE 等现代改进，帮助理解 LLM 工作原理。
 
 - (2026-06-12) [Doing nothing at work](202606/2026-06-12-doing-nothing-at-work.md)
-  - Tags: #career
+  - Tags: #career #engineering
   - Summary: 工程师应主动减少工作量，保持 80% 利用率，以便抓住高影响、时间敏感的机会。避免无回报的胶水工作和时间掠夺者，只在高回报时全力投入。
 
 - (2026-06-12) [Loop Engineering](202606/2026-06-12-loop-engineering.md)

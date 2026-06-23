@@ -1902,7 +1902,8 @@
     "url": "https://www.seangoedecke.com/doing-nothing-at-work/",
     "timestamp": 1781233704,
     "tags": [
-      "career"
+      "career",
+      "engineering"
     ]
   },
   {
@@ -2011,6 +2012,15 @@
     "tags": [
       "career",
       "advice"
+    ]
+  },
+  {
+    "month": "202606",
+    "title": "Node-js 新手需要知道什么",
+    "url": "https://www.ccgxk.com/front-end/781.html",
+    "timestamp": 1782203208,
+    "tags": [
+      "guide"
     ]
   }
 ]
