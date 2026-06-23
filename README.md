@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-23) [Notes on the Industry Job Search](202606/2026-06-23-notes-on-the-industry-job-search.md)
+- 作者分享博士求职经历，详述时间线、面试类型、准备方法和谈判技巧，强调系统准备和情感管理的重要性，并提供实用建议。
+- Tags: #career #advice
+
 (2026-06-23) [如何写好设计文档](202606/2026-06-23-%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3.md)
 - 本文以 Go 官方设计文档为范本，提炼结构模板、7 条核心原则与文本风格，指导写出清晰有力的技术设计文档。
 - Tags: #design #writing
@@ -39,13 +43,9 @@
 - Paul English 指出，糟糕的会议浪费时间和士气，通过缩小规模、提前准备、聚焦决策、授权员工等策略，可将会议转化为竞争优势。
 - Tags: #efficiency
 
-(2026-06-12) [How LLMs Actually Work](202606/2026-06-12-how-llms-actually-work.md)
-- 本文从分词到下一个 token 预测，逐层拆解 transformer 架构的核心组件，并解释 RoPE、GQA、MoE 等现代改进，帮助理解 LLM 工作原理。
-- Tags: #llm #guide #math
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (54 entries)
+- [2026-06](202606/monthly-index.md) (55 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

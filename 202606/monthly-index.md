@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-23) [Notes on the Industry Job Search](2026-06-23-notes-on-the-industry-job-search.md)
+- 作者分享博士求职经历，详述时间线、面试类型、准备方法和谈判技巧，强调系统准备和情感管理的重要性，并提供实用建议。
+- Tags: #career #advice
+
 (2026-06-23) [如何写好设计文档](2026-06-23-%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3.md)
 - 本文以 Go 官方设计文档为范本，提炼结构模板、7 条核心原则与文本风格，指导写出清晰有力的技术设计文档。
 - Tags: #design #writing
