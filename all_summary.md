@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-23) [如何写好设计文档](202606/2026-06-23-%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3.md)
+  - Tags: #design #writing
+  - Summary: 本文以 Go 官方设计文档为范本，提炼结构模板、7 条核心原则与文本风格，指导写出清晰有力的技术设计文档。
+
 - (2026-06-22) [我的 Logseq 使用实践](202606/2026-06-22-%E6%88%91%E7%9A%84-logseq-%E4%BD%BF%E7%94%A8%E5%AE%9E%E8%B7%B5.md)
   - Tags: #writing #setup
   - Summary: 本文总结 Logseq 使用实践，涵盖同步、笔记方法、工作流构建，强调方法论比工具重要，建议从 Journal 入门，用 Query 进阶，定期回顾并输出文章。

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-23) [如何写好设计文档](202606/2026-06-23-%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3.md)
+- 本文以 Go 官方设计文档为范本，提炼结构模板、7 条核心原则与文本风格，指导写出清晰有力的技术设计文档。
+- Tags: #design #writing
+
 (2026-06-22) [我的 Logseq 使用实践](202606/2026-06-22-%E6%88%91%E7%9A%84-logseq-%E4%BD%BF%E7%94%A8%E5%AE%9E%E8%B7%B5.md)
 - 本文总结 Logseq 使用实践，涵盖同步、笔记方法、工作流构建，强调方法论比工具重要，建议从 Journal 入门，用 Query 进阶，定期回顾并输出文章。
 - Tags: #writing #setup
@@ -39,13 +43,9 @@
 - 本文从分词到下一个 token 预测，逐层拆解 transformer 架构的核心组件，并解释 RoPE、GQA、MoE 等现代改进，帮助理解 LLM 工作原理。
 - Tags: #llm #guide #math
 
-(2026-06-12) [Doing nothing at work](202606/2026-06-12-doing-nothing-at-work.md)
-- 工程师应主动减少工作量，保持 80% 利用率，以便抓住高影响、时间敏感的机会。避免无回报的胶水工作和时间掠夺者，只在高回报时全力投入。
-- Tags: #career
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (53 entries)
+- [2026-06](202606/monthly-index.md) (54 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
