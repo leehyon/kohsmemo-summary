@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-23) [拯救呼吸大作战](202606/2026-06-23-%E6%8B%AF%E6%95%91%E5%91%BC%E5%90%B8%E5%A4%A7%E4%BD%9C%E6%88%98.md)
+  - Tags: #life
+  - Summary: 作者分享通气鼻贴与鼻内扩张器的亲身体验，认为鼻贴效果最好但各有缺点，建议轮流使用以改善呼吸。
+
 - (2026-06-23) [On Long Term Software Development](202606/2026-06-23-on-long-term-software-development.md)
   - Tags: #design
   - Summary: 本文总结了长期软件开发的核心原则：限制依赖、保持代码简单、大量测试、详尽文档、稳定团队和考虑开源。这些看似老生常谈，但来自资深开发者的强烈强调值得深思。

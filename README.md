@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-23) [拯救呼吸大作战](202606/2026-06-23-%E6%8B%AF%E6%95%91%E5%91%BC%E5%90%B8%E5%A4%A7%E4%BD%9C%E6%88%98.md)
+- 作者分享通气鼻贴与鼻内扩张器的亲身体验，认为鼻贴效果最好但各有缺点，建议轮流使用以改善呼吸。
+- Tags: #life
+
 (2026-06-23) [On Long Term Software Development](202606/2026-06-23-on-long-term-software-development.md)
 - 本文总结了长期软件开发的核心原则：限制依赖、保持代码简单、大量测试、详尽文档、稳定团队和考虑开源。这些看似老生常谈，但来自资深开发者的强烈强调值得深思。
 - Tags: #design
@@ -39,13 +43,9 @@
 - 本文教你如何编写个性化 skill 规则文档，通过显化工程判断、按需加载、强制执行，使 AI 稳定生产可靠代码。核心：skill 与 CLAUDE.md 分工、按职责拆分、三条灵魂规则（穷举边界、自审、重构决策）及持续更新。
 - Tags: #agent #skill
 
-(2026-06-17) [Building Reliable Agentic AI Systems](202606/2026-06-17-building-reliable-agentic-ai-systems.md)
-- Bayer 的 PRINCE 系统利用 Agentic RAG 与多智能体编排，将临床前数据检索从手动搜索转变为智能问答与任务执行，通过上下文工程与反思机制实现高可靠性。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (58 entries)
+- [2026-06](202606/monthly-index.md) (59 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
