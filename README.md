@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-24) [node_modules 为什么总是这么大](202606/2026-06-24-node_modules-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%80%BB%E6%98%AF%E8%BF%99%E4%B9%88%E5%A4%A7.md)
+- node_modules 体积大的根源是开发环境重复存储，而非业务代码。使用 pnpm 通过全局 store 共享依赖，可显著节省磁盘空间并提升依赖管理严格性。
+- Tags: #guide #web
+
 (2026-06-23) [拯救呼吸大作战](202606/2026-06-23-%E6%8B%AF%E6%95%91%E5%91%BC%E5%90%B8%E5%A4%A7%E4%BD%9C%E6%88%98.md)
 - 作者分享通气鼻贴与鼻内扩张器的亲身体验，认为鼻贴效果最好但各有缺点，建议轮流使用以改善呼吸。
 - Tags: #life
@@ -39,13 +43,9 @@
 - 本文介绍了 AI agent 的四种循环工程：基础 agent 循环、验证循环、事件驱动循环和爬山循环，并说明如何通过 LangChain 工具构建可靠、可扩展的 agent 系统。
 - Tags: #agent #engineering
 
-(2026-06-17) [关于 Vibe Coding 如何提升代码效率和质量的技巧之 Skill](202606/2026-06-17-%E5%85%B3%E4%BA%8E-vibe-coding-%E5%A6%82%E4%BD%95%E6%8F%90%E5%8D%87%E4%BB%A3%E7%A0%81%E6%95%88%E7%8E%87%E5%92%8C%E8%B4%A8%E9%87%8F%E7%9A%84%E6%8A%80%E5%B7%A7%E4%B9%8B-skill.md)
-- 本文教你如何编写个性化 skill 规则文档，通过显化工程判断、按需加载、强制执行，使 AI 稳定生产可靠代码。核心：skill 与 CLAUDE.md 分工、按职责拆分、三条灵魂规则（穷举边界、自审、重构决策）及持续更新。
-- Tags: #agent #skill
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (59 entries)
+- [2026-06](202606/monthly-index.md) (60 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

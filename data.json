@@ -2050,5 +2050,15 @@
     "tags": [
       "life"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "node_modules 为什么总是这么大",
+    "url": "https://wocai.de/post/2026/06/reduce-node-modules-size-with-pnpm/",
+    "timestamp": 1782265991,
+    "tags": [
+      "guide",
+      "web"
+    ]
   }
 ]
