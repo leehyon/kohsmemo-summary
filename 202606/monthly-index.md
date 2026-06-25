@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-25) [Riding Technology Waves](2026-06-25-riding-technology-waves.md)
+- 评估科技浪潮时，需冷静问四个关键问题：是否重要、如何运作、有何新功能、是否影响业务。避免懒惰忽视或恐惧跟风，错过时要立即承认并追赶。
+- Tags: #engineering
+
 (2026-06-25) [我的 AI Coding Guide](2026-06-25-%E6%88%91%E7%9A%84-ai-coding-guide.md)
 - 使用 AI Agent 编程需转型为管理者：定义目标、审查结果，将执行交给 Agent，验证交给工具链。核心原则包括精力管理、工程管理、快速反馈和保持代码简单可控。
 - Tags: #agent #guide
