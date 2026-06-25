@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-25) [我的 AI Coding Guide](202606/2026-06-25-%E6%88%91%E7%9A%84-ai-coding-guide.md)
+  - Tags: #agent #guide
+  - Summary: 使用 AI Agent 编程需转型为管理者：定义目标、审查结果，将执行交给 Agent，验证交给工具链。核心原则包括精力管理、工程管理、快速反馈和保持代码简单可控。
+
 - (2026-06-24) [node_modules 为什么总是这么大](202606/2026-06-24-node_modules-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%80%BB%E6%98%AF%E8%BF%99%E4%B9%88%E5%A4%A7.md)
   - Tags: #guide #web
   - Summary: node_modules 体积大的根源是开发环境重复存储，而非业务代码。使用 pnpm 通过全局 store 共享依赖，可显著节省磁盘空间并提升依赖管理严格性。
