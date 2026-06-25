@@ -2079,5 +2079,15 @@
     "tags": [
       "engineering"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "The Coming Loop",
+    "url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+    "timestamp": 1782380174,
+    "tags": [
+      "agent",
+      "engineering"
+    ]
   }
 ]

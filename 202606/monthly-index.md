@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-25) [The Coming Loop](2026-06-25-the-coming-loop.md)
+- 编码代理的“循环”模式通过外部协调器持续迭代任务，虽提高效率但导致代码质量下降、人类理解丧失，且无法完全退出。未来需在拥抱循环的同时保留人类判断与良好工程原则。
+- Tags: #agent #engineering
+
 (2026-06-25) [Riding Technology Waves](2026-06-25-riding-technology-waves.md)
 - 评估科技浪潮时，需冷静问四个关键问题：是否重要、如何运作、有何新功能、是否影响业务。避免懒惰忽视或恐惧跟风，错过时要立即承认并追赶。
 - Tags: #engineering

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-25) [The Coming Loop](202606/2026-06-25-the-coming-loop.md)
+- 编码代理的“循环”模式通过外部协调器持续迭代任务，虽提高效率但导致代码质量下降、人类理解丧失，且无法完全退出。未来需在拥抱循环的同时保留人类判断与良好工程原则。
+- Tags: #agent #engineering
+
 (2026-06-25) [Riding Technology Waves](202606/2026-06-25-riding-technology-waves.md)
 - 评估科技浪潮时，需冷静问四个关键问题：是否重要、如何运作、有何新功能、是否影响业务。避免懒惰忽视或恐惧跟风，错过时要立即承认并追赶。
 - Tags: #engineering
@@ -39,13 +43,9 @@
 - 本文以 Go 官方设计文档为范本，提炼结构模板、7 条核心原则与文本风格，指导写出清晰有力的技术设计文档。
 - Tags: #design #writing
 
-(2026-06-22) [我的 Logseq 使用实践](202606/2026-06-22-%E6%88%91%E7%9A%84-logseq-%E4%BD%BF%E7%94%A8%E5%AE%9E%E8%B7%B5.md)
-- 本文总结 Logseq 使用实践，涵盖同步、笔记方法、工作流构建，强调方法论比工具重要，建议从 Journal 入门，用 Query 进阶，定期回顾并输出文章。
-- Tags: #writing #setup
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (62 entries)
+- [2026-06](202606/monthly-index.md) (63 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
