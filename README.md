@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-26) [Open Decision-Making](202606/2026-06-26-open-decision-making.md)
+- 开放式决策通过广泛收集意见、促进共识来产生高质量决策，强调集体智慧、管理克制和透明沟通，避免独断与秘密决策。
+- Tags: #view #guide
+
 (2026-06-25) [The Coming Loop](202606/2026-06-25-the-coming-loop.md)
 - 编码代理的“循环”模式通过外部协调器持续迭代任务，虽提高效率但导致代码质量下降、人类理解丧失，且无法完全退出。未来需在拥抱循环的同时保留人类判断与良好工程原则。
 - Tags: #agent #engineering
@@ -39,13 +43,9 @@
 - 作者分享博士求职经历，详述时间线、面试类型、准备方法和谈判技巧，强调系统准备和情感管理的重要性，并提供实用建议。
 - Tags: #career #advice
 
-(2026-06-23) [如何写好设计文档](202606/2026-06-23-%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3.md)
-- 本文以 Go 官方设计文档为范本，提炼结构模板、7 条核心原则与文本风格，指导写出清晰有力的技术设计文档。
-- Tags: #design #writing
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (63 entries)
+- [2026-06](202606/monthly-index.md) (64 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

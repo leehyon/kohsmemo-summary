@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-26) [Open Decision-Making](2026-06-26-open-decision-making.md)
+- 开放式决策通过广泛收集意见、促进共识来产生高质量决策，强调集体智慧、管理克制和透明沟通，避免独断与秘密决策。
+- Tags: #view #guide
+
 (2026-06-25) [The Coming Loop](2026-06-25-the-coming-loop.md)
 - 编码代理的“循环”模式通过外部协调器持续迭代任务，虽提高效率但导致代码质量下降、人类理解丧失，且无法完全退出。未来需在拥抱循环的同时保留人类判断与良好工程原则。
 - Tags: #agent #engineering

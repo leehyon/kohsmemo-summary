@@ -2089,5 +2089,15 @@
       "agent",
       "engineering"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "Open Decision-Making",
+    "url": "https://web.stanford.edu/~ouster/cgi-bin/decisions.php",
+    "timestamp": 1782438446,
+    "tags": [
+      "view",
+      "guide"
+    ]
   }
 ]
