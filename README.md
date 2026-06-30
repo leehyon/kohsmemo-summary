@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-30) [Just Talk To It - the no-bs Way of Agentic Engineering](202606/2026-06-30-just-talk-to-it---the-no-bs-way-of-agentic-engineering.md)
+- 作者主张直接与 AI 编码代理对话（Just Talk to It），推荐 codex CLI，反对复杂框架，强调通过自然语言、截图、并行代理和迭代而非规范驱动来高效开发软件。
+- Tags: #agent #workflow
+
 (2026-06-30) [How I program with LLMs](202606/2026-06-30-how-i-program-with-llms.md)
 - 作者分享使用 LLM 编程的经验，强调 chat-driven programming 需以 exam-style 提问，利用廉价重做和更小包结构提升效果，并介绍了 sketch.dev 工具。
 - Tags: #llm
@@ -39,13 +43,9 @@
 - 作者分享通气鼻贴与鼻内扩张器的亲身体验，认为鼻贴效果最好但各有缺点，建议轮流使用以改善呼吸。
 - Tags: #life
 
-(2026-06-23) [On Long Term Software Development](202606/2026-06-23-on-long-term-software-development.md)
-- 本文总结了长期软件开发的核心原则：限制依赖、保持代码简单、大量测试、详尽文档、稳定团队和考虑开源。这些看似老生常谈，但来自资深开发者的强烈强调值得深思。
-- Tags: #design
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (67 entries)
+- [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

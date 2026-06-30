@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-30) [Just Talk To It - the no-bs Way of Agentic Engineering](202606/2026-06-30-just-talk-to-it---the-no-bs-way-of-agentic-engineering.md)
+  - Tags: #agent #workflow
+  - Summary: 作者主张直接与 AI 编码代理对话（Just Talk to It），推荐 codex CLI，反对复杂框架，强调通过自然语言、截图、并行代理和迭代而非规范驱动来高效开发软件。
+
 - (2026-06-30) [How I program with LLMs](202606/2026-06-30-how-i-program-with-llms.md)
   - Tags: #llm
   - Summary: 作者分享使用 LLM 编程的经验，强调 chat-driven programming 需以 exam-style 提问，利用廉价重做和更小包结构提升效果，并介绍了 sketch.dev 工具。

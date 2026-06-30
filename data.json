@@ -2129,5 +2129,15 @@
     "tags": [
       "llm"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "Just Talk To It - the no-bs Way of Agentic Engineering",
+    "url": "https://steipete.me/posts/just-talk-to-it",
+    "timestamp": 1782803018,
+    "tags": [
+      "agent",
+      "workflow"
+    ]
   }
 ]
