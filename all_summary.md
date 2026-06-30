@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-30) [The control layer is the product, not the model](202606/2026-06-30-the-control-layer-is-the-product%2C-not-the-model.md)
+  - Tags: #agent
+  - Summary: AI 产品的核心是控制层（路由、验证、状态等），而非模型。通过状态机、类型边界、评估器和结构化生成，将不可预测的模型嵌入可预测的工作流。
+
 - (2026-06-26) [Open Decision-Making](202606/2026-06-26-open-decision-making.md)
   - Tags: #view #guide
   - Summary: 开放式决策通过广泛收集意见、促进共识来产生高质量决策，强调集体智慧、管理克制和透明沟通，避免独断与秘密决策。

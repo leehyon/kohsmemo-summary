@@ -2099,5 +2099,14 @@
       "view",
       "guide"
     ]
+  },
+  {
+    "month": "202606",
+    "title": "The control layer is the product, not the model",
+    "url": "https://belderbos.dev/blog/control-layer-is-the-product/",
+    "timestamp": 1782784751,
+    "tags": [
+      "agent"
+    ]
   }
 ]
