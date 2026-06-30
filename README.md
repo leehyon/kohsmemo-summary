@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-30) [My Current AI Dev Workflow](202606/2026-06-30-my-current-ai-dev-workflow.md)
+- 作者推荐 Ghostty + Claude Code + 最小工具链，强调主动规划、上下文管理和测试，认为“少即是多”能最大化 AI 开发生产力。
+- Tags: #workflow #agent
+
 (2026-06-30) [The control layer is the product, not the model](202606/2026-06-30-the-control-layer-is-the-product%2C-not-the-model.md)
 - AI 产品的核心是控制层（路由、验证、状态等），而非模型。通过状态机、类型边界、评估器和结构化生成，将不可预测的模型嵌入可预测的工作流。
 - Tags: #agent
@@ -39,13 +43,9 @@
 - 非技术人也能上手 Claude Code：从命令行、需求描述、项目规则到验收技巧，配合 Waza、Kami 等工具，让 AI 成为高效助手。
 - Tags: #agent #guide
 
-(2026-06-23) [Node-js 新手需要知道什么](202606/2026-06-23-node-js-%E6%96%B0%E6%89%8B%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E4%BB%80%E4%B9%88.md)
-- Node.js 新手入门需掌握官方教程、常用框架（Next.js/NestJS）、ORM、Zod 和 PM2，并善用 GitHub 现有方案，避免重复造轮子。
-- Tags: #guide
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (65 entries)
+- [2026-06](202606/monthly-index.md) (66 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)

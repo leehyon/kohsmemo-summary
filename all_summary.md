@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-30) [My Current AI Dev Workflow](202606/2026-06-30-my-current-ai-dev-workflow.md)
+  - Tags: #workflow #agent
+  - Summary: 作者推荐 Ghostty + Claude Code + 最小工具链，强调主动规划、上下文管理和测试，认为“少即是多”能最大化 AI 开发生产力。
+
 - (2026-06-30) [The control layer is the product, not the model](202606/2026-06-30-the-control-layer-is-the-product%2C-not-the-model.md)
   - Tags: #agent
   - Summary: AI 产品的核心是控制层（路由、验证、状态等），而非模型。通过状态机、类型边界、评估器和结构化生成，将不可预测的模型嵌入可预测的工作流。
