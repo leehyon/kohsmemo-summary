@@ -1,5 +1,9 @@
 # 2026-06 Monthly Index
 
+(2026-06-30) [How I program with LLMs](2026-06-30-how-i-program-with-llms.md)
+- 作者分享使用 LLM 编程的经验，强调 chat-driven programming 需以 exam-style 提问，利用廉价重做和更小包结构提升效果，并介绍了 sketch.dev 工具。
+- Tags: #llm
+
 (2026-06-30) [My Current AI Dev Workflow](2026-06-30-my-current-ai-dev-workflow.md)
 - 作者推荐 Ghostty + Claude Code + 最小工具链，强调主动规划、上下文管理和测试，认为“少即是多”能最大化 AI 开发生产力。
 - Tags: #workflow #agent

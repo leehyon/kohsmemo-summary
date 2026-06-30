@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-06-30) [How I program with LLMs](202606/2026-06-30-how-i-program-with-llms.md)
+  - Tags: #llm
+  - Summary: 作者分享使用 LLM 编程的经验，强调 chat-driven programming 需以 exam-style 提问，利用廉价重做和更小包结构提升效果，并介绍了 sketch.dev 工具。
+
 - (2026-06-30) [My Current AI Dev Workflow](202606/2026-06-30-my-current-ai-dev-workflow.md)
   - Tags: #workflow #agent
   - Summary: 作者推荐 Ghostty + Claude Code + 最小工具链，强调主动规划、上下文管理和测试，认为“少即是多”能最大化 AI 开发生产力。
@@ -749,7 +753,7 @@
   - Summary: 谷歌工程师经验表明，技术成功关键在于软技能：专注用户问题、协作精神、行动导向、清晰表达和人脉建设。职业生涯是长期复利，需保持好奇谦逊，记住工作始终是关于人的。
 
 - (2026-03-13) [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](202603/2026-03-13-understanding-spec-driven-development-kiro%2C-spec-kit%2C-and-tessl.md)
-  - Tags: #dev
+  - Tags: #workflow #vibe-coding #dev
   - Summary: 规范驱动开发 (SDD) 强调先编写规范再编码，分为三个层次。现有工具支持不同工作流，但仍面临灵活性不足、审查负担重等问题，需从历史教训中学习。
 
 - (2026-03-13) [To get better at technical writing, lower your expectations](202603/2026-03-13-to-get-better-at-technical-writing%2C-lower-your-expectations.md)

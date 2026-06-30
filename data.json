@@ -284,6 +284,8 @@
     "url": "https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html",
     "timestamp": 1773369391,
     "tags": [
+      "workflow",
+      "vibe-coding",
       "dev"
     ]
   },
@@ -2117,6 +2119,15 @@
     "tags": [
       "workflow",
       "agent"
+    ]
+  },
+  {
+    "month": "202606",
+    "title": "How I program with LLMs",
+    "url": "https://crawshaw.io/blog/programming-with-llms",
+    "timestamp": 1782802960,
+    "tags": [
+      "llm"
     ]
   }
 ]

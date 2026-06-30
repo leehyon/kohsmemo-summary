@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-06-30) [How I program with LLMs](202606/2026-06-30-how-i-program-with-llms.md)
+- 作者分享使用 LLM 编程的经验，强调 chat-driven programming 需以 exam-style 提问，利用廉价重做和更小包结构提升效果，并介绍了 sketch.dev 工具。
+- Tags: #llm
+
 (2026-06-30) [My Current AI Dev Workflow](202606/2026-06-30-my-current-ai-dev-workflow.md)
 - 作者推荐 Ghostty + Claude Code + 最小工具链，强调主动规划、上下文管理和测试，认为“少即是多”能最大化 AI 开发生产力。
 - Tags: #workflow #agent
@@ -39,13 +43,9 @@
 - 本文总结了长期软件开发的核心原则：限制依赖、保持代码简单、大量测试、详尽文档、稳定团队和考虑开源。这些看似老生常谈，但来自资深开发者的强烈强调值得深思。
 - Tags: #design
 
-(2026-06-23) [你不知道的 AI Coding：非技术人的上手、场景与实战](202606/2026-06-23-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-ai-coding%EF%BC%9A%E9%9D%9E%E6%8A%80%E6%9C%AF%E4%BA%BA%E7%9A%84%E4%B8%8A%E6%89%8B%E3%80%81%E5%9C%BA%E6%99%AF%E4%B8%8E%E5%AE%9E%E6%88%98.md)
-- 非技术人也能上手 Claude Code：从命令行、需求描述、项目规则到验收技巧，配合 Waza、Kami 等工具，让 AI 成为高效助手。
-- Tags: #agent #guide
-
 ## Monthly Archive
 
-- [2026-06](202606/monthly-index.md) (66 entries)
+- [2026-06](202606/monthly-index.md) (67 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
 - [2026-03](202603/monthly-index.md) (82 entries)
