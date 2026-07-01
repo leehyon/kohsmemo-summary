@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-01) [你不知道的 Agent：原理、架构与工程实践](202607/2026-07-01-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-agent%EF%BC%9A%E5%8E%9F%E7%90%86%E3%80%81%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5.md)
+- 本文系统梳理 Agent 工程实践，强调 Harness、上下文工程、工具设计等因素比模型本身更关键，并提供 OpenClaw 落地案例和反模式总结。
+- Tags: #agent #design
+
 (2026-06-30) [Just Talk To It - the no-bs Way of Agentic Engineering](202606/2026-06-30-just-talk-to-it---the-no-bs-way-of-agentic-engineering.md)
 - 作者主张直接与 AI 编码代理对话（Just Talk to It），推荐 codex CLI，反对复杂框架，强调通过自然语言、截图、并行代理和迭代而非规范驱动来高效开发软件。
 - Tags: #agent #workflow
@@ -39,12 +43,9 @@
 - node_modules 体积大的根源是开发环境重复存储，而非业务代码。使用 pnpm 通过全局 store 共享依赖，可显著节省磁盘空间并提升依赖管理严格性。
 - Tags: #guide #web
 
-(2026-06-23) [拯救呼吸大作战](202606/2026-06-23-%E6%8B%AF%E6%95%91%E5%91%BC%E5%90%B8%E5%A4%A7%E4%BD%9C%E6%88%98.md)
-- 作者分享通气鼻贴与鼻内扩张器的亲身体验，认为鼻贴效果最好但各有缺点，建议轮流使用以改善呼吸。
-- Tags: #life
-
 ## Monthly Archive
 
+- [2026-07](202607/monthly-index.md) (1 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
