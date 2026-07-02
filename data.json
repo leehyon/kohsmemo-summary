@@ -2159,5 +2159,15 @@
       "home",
       "setup"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "Setting Up and Using the Pi Coding Agent",
+    "url": "https://deepakness.com/blog/pi-agent-setup/",
+    "timestamp": 1782973227,
+    "tags": [
+      "agent",
+      "setup"
+    ]
   }
 ]

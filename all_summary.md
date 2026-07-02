@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-02) [Setting Up and Using the Pi Coding Agent](202607/2026-07-02-setting-up-and-using-the-pi-coding-agent.md)
+  - Tags: #agent #setup
+  - Summary: Pi 是一个开源终端编码代理，核心最小化，通过扩展按需添加功能。作者用它做侧项目，搭配 DeepSeek 等模型，速度飞快且成本极低。本文详细介绍了安装、配置、包管理及使用技巧。
+
 - (2026-07-02) [I built a private ChatGPT for my family](202607/2026-07-02-i-built-a-private-chatgpt-for-my-family.md)
   - Tags: #home #setup
   - Summary: 作者用 ZimaBoard 2 和 RTX 5060 Ti 搭建了本地私有 ChatGPT，基于家庭文档库，通过 Open WebUI 提供类 ChatGPT 界面，并自定义系统提示词以符合家庭价值观，实现隐私、可控的家庭 AI 助手。
