@@ -2149,5 +2149,15 @@
       "agent",
       "design"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "I built a private ChatGPT for my family",
+    "url": "https://fulghum.io/family-chatgpt",
+    "timestamp": 1782973178,
+    "tags": [
+      "home",
+      "setup"
+    ]
   }
 ]

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-02) [I built a private ChatGPT for my family](202607/2026-07-02-i-built-a-private-chatgpt-for-my-family.md)
+- 作者用 ZimaBoard 2 和 RTX 5060 Ti 搭建了本地私有 ChatGPT，基于家庭文档库，通过 Open WebUI 提供类 ChatGPT 界面，并自定义系统提示词以符合家庭价值观，实现隐私、可控的家庭 AI 助手。
+- Tags: #home #setup
+
 (2026-07-01) [你不知道的 Agent：原理、架构与工程实践](202607/2026-07-01-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-agent%EF%BC%9A%E5%8E%9F%E7%90%86%E3%80%81%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5.md)
 - 本文系统梳理 Agent 工程实践，强调 Harness、上下文工程、工具设计等因素比模型本身更关键，并提供 OpenClaw 落地案例和反模式总结。
 - Tags: #agent #design
@@ -39,13 +43,9 @@
 - 使用 AI Agent 编程需转型为管理者：定义目标、审查结果，将执行交给 Agent，验证交给工具链。核心原则包括精力管理、工程管理、快速反馈和保持代码简单可控。
 - Tags: #agent #guide
 
-(2026-06-24) [node_modules 为什么总是这么大](202606/2026-06-24-node_modules-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%80%BB%E6%98%AF%E8%BF%99%E4%B9%88%E5%A4%A7.md)
-- node_modules 体积大的根源是开发环境重复存储，而非业务代码。使用 pnpm 通过全局 store 共享依赖，可显著节省磁盘空间并提升依赖管理严格性。
-- Tags: #guide #web
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (1 entries)
+- [2026-07](202607/monthly-index.md) (2 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
