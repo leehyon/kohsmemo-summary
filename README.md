@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-03) [Design Patterns Suck](202607/2026-07-03-design-patterns-suck.md)
+- 设计模式是语言缺陷的变通方案，多数模式在高级语言中消失；其唯一价值是沟通术语，不应作为设计教条。
+- Tags: #design
+
 (2026-07-03) [时间带来的安全](202607/2026-07-03-%E6%97%B6%E9%97%B4%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%AE%89%E5%85%A8.md)
 - TOTP 通过将 HOTP 的计数器替换为时间，利用 HMAC 单向函数生成每 30 秒自动刷新的动态密码，实现零操作的安全验证。其安全性依赖于密钥保密和限流机制，但需防范钓鱼和种子泄露等系统级风险。
 - Tags: #algorithm
@@ -39,13 +43,9 @@
 - 作者推荐 Ghostty + Claude Code + 最小工具链，强调主动规划、上下文管理和测试，认为“少即是多”能最大化 AI 开发生产力。
 - Tags: #workflow #agent
 
-(2026-06-30) [The control layer is the product, not the model](202606/2026-06-30-the-control-layer-is-the-product%2C-not-the-model.md)
-- AI 产品的核心是控制层（路由、验证、状态等），而非模型。通过状态机、类型边界、评估器和结构化生成，将不可预测的模型嵌入可预测的工作流。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (6 entries)
+- [2026-07](202607/monthly-index.md) (7 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
