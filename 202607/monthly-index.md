@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-03) [Everything I know about good API design](2026-07-03-everything-i-know-about-good-api-design.md)
+- 本文系统性地总结了 API 设计的关键原则：以不破坏用户空间为核心，平衡熟悉度与灵活性；强调产品价值的重要性，并提供实用建议如幂等性、速率限制、游标分页等。
+- Tags: #design
+
 (2026-07-03) [Design Patterns Suck](2026-07-03-design-patterns-suck.md)
 - 设计模式是语言缺陷的变通方案，多数模式在高级语言中消失；其唯一价值是沟通术语，不应作为设计教条。
 - Tags: #design

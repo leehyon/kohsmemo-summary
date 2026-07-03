@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-03) [Everything I know about good API design](202607/2026-07-03-everything-i-know-about-good-api-design.md)
+- 本文系统性地总结了 API 设计的关键原则：以不破坏用户空间为核心，平衡熟悉度与灵活性；强调产品价值的重要性，并提供实用建议如幂等性、速率限制、游标分页等。
+- Tags: #design
+
 (2026-07-03) [Design Patterns Suck](202607/2026-07-03-design-patterns-suck.md)
 - 设计模式是语言缺陷的变通方案，多数模式在高级语言中消失；其唯一价值是沟通术语，不应作为设计教条。
 - Tags: #design
@@ -39,13 +43,9 @@
 - 作者分享使用 LLM 编程的经验，强调 chat-driven programming 需以 exam-style 提问，利用廉价重做和更小包结构提升效果，并介绍了 sketch.dev 工具。
 - Tags: #llm
 
-(2026-06-30) [My Current AI Dev Workflow](202606/2026-06-30-my-current-ai-dev-workflow.md)
-- 作者推荐 Ghostty + Claude Code + 最小工具链，强调主动规划、上下文管理和测试，认为“少即是多”能最大化 AI 开发生产力。
-- Tags: #workflow #agent
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (7 entries)
+- [2026-07](202607/monthly-index.md) (8 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

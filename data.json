@@ -2206,5 +2206,14 @@
     "tags": [
       "design"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "Everything I know about good API design",
+    "url": "https://www.seangoedecke.com/good-api-design/",
+    "timestamp": 1783046649,
+    "tags": [
+      "design"
+    ]
   }
 ]
