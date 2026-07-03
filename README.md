@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-03) [Why I Stopped Arguing With People](202607/2026-07-03-why-i-stopped-arguing-with-people.md)
+- 作者停止争论，因为发现争论往往以 ego 为中心且无效。他转而利用认知差异创造价值，仅在他人请求时提供帮助，并专注自我提升。核心转变是：从追求正确转向追求成长。
+- Tags: #life #view
+
 (2026-07-03) [Everything I know about good API design](202607/2026-07-03-everything-i-know-about-good-api-design.md)
 - 本文系统性地总结了 API 设计的关键原则：以不破坏用户空间为核心，平衡熟悉度与灵活性；强调产品价值的重要性，并提供实用建议如幂等性、速率限制、游标分页等。
 - Tags: #design
@@ -39,13 +43,9 @@
 - 作者主张直接与 AI 编码代理对话（Just Talk to It），推荐 codex CLI，反对复杂框架，强调通过自然语言、截图、并行代理和迭代而非规范驱动来高效开发软件。
 - Tags: #agent #workflow
 
-(2026-06-30) [How I program with LLMs](202606/2026-06-30-how-i-program-with-llms.md)
-- 作者分享使用 LLM 编程的经验，强调 chat-driven programming 需以 exam-style 提问，利用廉价重做和更小包结构提升效果，并介绍了 sketch.dev 工具。
-- Tags: #llm
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (8 entries)
+- [2026-07](202607/monthly-index.md) (9 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

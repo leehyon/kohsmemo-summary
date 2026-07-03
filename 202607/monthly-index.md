@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-03) [Why I Stopped Arguing With People](2026-07-03-why-i-stopped-arguing-with-people.md)
+- 作者停止争论，因为发现争论往往以 ego 为中心且无效。他转而利用认知差异创造价值，仅在他人请求时提供帮助，并专注自我提升。核心转变是：从追求正确转向追求成长。
+- Tags: #life #view
+
 (2026-07-03) [Everything I know about good API design](2026-07-03-everything-i-know-about-good-api-design.md)
 - 本文系统性地总结了 API 设计的关键原则：以不破坏用户空间为核心，平衡熟悉度与灵活性；强调产品价值的重要性，并提供实用建议如幂等性、速率限制、游标分页等。
 - Tags: #design
