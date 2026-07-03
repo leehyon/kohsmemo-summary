@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-03) [用交易平台风控设置改掉逆市加仓这个坏习惯](202607/2026-07-03-%E7%94%A8%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E9%A3%8E%E6%8E%A7%E8%AE%BE%E7%BD%AE%E6%94%B9%E6%8E%89%E9%80%86%E5%B8%82%E5%8A%A0%E4%BB%93%E8%BF%99%E4%B8%AA%E5%9D%8F%E4%B9%A0%E6%83%AF.md)
+- 用平台风控（自动止损、日亏损/盈利线、合约限制、锁盘）替代意志力，从装置上禁止逆市加仓等坏习惯，先做到 20 天亏损单零加仓，再谈稳定盈利。
+- Tags: #trade
+
 (2026-07-03) [十幾年的 Evernote 筆記沒白寫，AI Agent 第二大腦](202607/2026-07-03-%E5%8D%81%E5%B9%BE%E5%B9%B4%E7%9A%84-evernote-%E7%AD%86%E8%A8%98%E6%B2%92%E7%99%BD%E5%AF%AB%EF%BC%8Cai-agent-%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%85%A6.md)
 - AI 时代知识工作者不必再亲自操作软件，而应专注于判断与品味。旧笔记成为训练 AI 的宝贵资产，工具选择标准变为“AI 能否驱动”。人保留手动环节以维持控制，未来学习是人与 AI 分工进化。
 - Tags: #agent #writing
@@ -39,13 +43,9 @@
 - 开放式决策通过广泛收集意见、促进共识来产生高质量决策，强调集体智慧、管理克制和透明沟通，避免独断与秘密决策。
 - Tags: #view #guide
 
-(2026-06-25) [The Coming Loop](202606/2026-06-25-the-coming-loop.md)
-- 编码代理的“循环”模式通过外部协调器持续迭代任务，虽提高效率但导致代码质量下降、人类理解丧失，且无法完全退出。未来需在拥抱循环的同时保留人类判断与良好工程原则。
-- Tags: #agent #engineering
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (4 entries)
+- [2026-07](202607/monthly-index.md) (5 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
