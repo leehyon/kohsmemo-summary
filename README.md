@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-03) [十幾年的 Evernote 筆記沒白寫，AI Agent 第二大腦](202607/2026-07-03-%E5%8D%81%E5%B9%BE%E5%B9%B4%E7%9A%84-evernote-%E7%AD%86%E8%A8%98%E6%B2%92%E7%99%BD%E5%AF%AB%EF%BC%8Cai-agent-%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%85%A6.md)
+- AI 时代知识工作者不必再亲自操作软件，而应专注于判断与品味。旧笔记成为训练 AI 的宝贵资产，工具选择标准变为“AI 能否驱动”。人保留手动环节以维持控制，未来学习是人与 AI 分工进化。
+- Tags: #agent #writing
+
 (2026-07-02) [Setting Up and Using the Pi Coding Agent](202607/2026-07-02-setting-up-and-using-the-pi-coding-agent.md)
 - Pi 是一个开源终端编码代理，核心最小化，通过扩展按需添加功能。作者用它做侧项目，搭配 DeepSeek 等模型，速度飞快且成本极低。本文详细介绍了安装、配置、包管理及使用技巧。
 - Tags: #agent #setup
@@ -39,13 +43,9 @@
 - 编码代理的“循环”模式通过外部协调器持续迭代任务，虽提高效率但导致代码质量下降、人类理解丧失，且无法完全退出。未来需在拥抱循环的同时保留人类判断与良好工程原则。
 - Tags: #agent #engineering
 
-(2026-06-25) [Riding Technology Waves](202606/2026-06-25-riding-technology-waves.md)
-- 评估科技浪潮时，需冷静问四个关键问题：是否重要、如何运作、有何新功能、是否影响业务。避免懒惰忽视或恐惧跟风，错过时要立即承认并追赶。
-- Tags: #engineering
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (3 entries)
+- [2026-07](202607/monthly-index.md) (4 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
