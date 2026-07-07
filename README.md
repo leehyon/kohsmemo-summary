@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-07) [From “Reasoning” Thinking to “Agentic” Thinking](202607/2026-07-07-from-%E2%80%9Creasoning%E2%80%9D-thinking-to-%E2%80%9Cagentic%E2%80%9D-thinking.md)
+- 大模型训练正从"推理式思考"转向"智能体式思考"，核心是模型在真实环境中通过行动与反馈持续优化，Harness Engineering 成为关键竞争力。
+- Tags: #agent #design
+
 (2026-07-07) [Vibe Coding 时代的角色与架构](202607/2026-07-07-vibe-coding-%E6%97%B6%E4%BB%A3%E7%9A%84%E8%A7%92%E8%89%B2%E4%B8%8E%E6%9E%B6%E6%9E%84.md)
 - Vibe Coding 无法替代人类在产品研发中的核心作用。文章指出，快速代码输出会加速架构腐化，只有通过严谨的流程和人类对问题的深刻理解，才能维持工程可持续性。人类的价值在于提出好问题、把控方向。
 - Tags: #agent #vibe-coding
@@ -39,13 +43,9 @@
 - AI 时代知识工作者不必再亲自操作软件，而应专注于判断与品味。旧笔记成为训练 AI 的宝贵资产，工具选择标准变为“AI 能否驱动”。人保留手动环节以维持控制，未来学习是人与 AI 分工进化。
 - Tags: #agent #writing
 
-(2026-07-02) [Setting Up and Using the Pi Coding Agent](202607/2026-07-02-setting-up-and-using-the-pi-coding-agent.md)
-- Pi 是一个开源终端编码代理，核心最小化，通过扩展按需添加功能。作者用它做侧项目，搭配 DeepSeek 等模型，速度飞快且成本极低。本文详细介绍了安装、配置、包管理及使用技巧。
-- Tags: #agent #setup
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (12 entries)
+- [2026-07](202607/monthly-index.md) (13 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
