@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-07) [Everything I know about running LLMs locally](202607/2026-07-07-everything-i-know-about-running-llms-locally.md)
+- 用 ~$50k 的 4× RTX PRO 6000（384GB VRAM）搭配二手 EPYC 主机和独立 PCIe 交换机，实现本地 SOTA 大模型高性能推理，P2P 带宽达 27.5 GB/s，并分享了硬件选型、BIOS 调优和软件配置的完整方案。
+- Tags: #setup
+
 (2026-07-07) [当编程变得不再有趣](202607/2026-07-07-%E5%BD%93%E7%BC%96%E7%A8%8B%E5%8F%98%E5%BE%97%E4%B8%8D%E5%86%8D%E6%9C%89%E8%B6%A3.md)
 - AI 的高效让作者感到编程乐趣消失，但反思后认识到创作不只编程，决策与设计仍属人间；转型 AI 建设，在流程与人之间找到新价值，故事继续。
 - Tags: #agent #view
@@ -39,13 +43,9 @@
 - 作者用 ZimaBoard 2 和 RTX 5060 Ti 搭建了本地私有 ChatGPT，基于家庭文档库，通过 Open WebUI 提供类 ChatGPT 界面，并自定义系统提示词以符合家庭价值观，实现隐私、可控的家庭 AI 助手。
 - Tags: #home #setup
 
-(2026-07-01) [你不知道的 Agent：原理、架构与工程实践](202607/2026-07-01-%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-agent%EF%BC%9A%E5%8E%9F%E7%90%86%E3%80%81%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5.md)
-- 本文系统梳理 Agent 工程实践，强调 Harness、上下文工程、工具设计等因素比模型本身更关键，并提供 OpenClaw 落地案例和反模式总结。
-- Tags: #agent #design
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (10 entries)
+- [2026-07](202607/monthly-index.md) (11 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

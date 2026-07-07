@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-07) [Everything I know about running LLMs locally](202607/2026-07-07-everything-i-know-about-running-llms-locally.md)
+  - Tags: #setup
+  - Summary: 用 ~$50k 的 4× RTX PRO 6000（384GB VRAM）搭配二手 EPYC 主机和独立 PCIe 交换机，实现本地 SOTA 大模型高性能推理，P2P 带宽达 27.5 GB/s，并分享了硬件选型、BIOS 调优和软件配置的完整方案。
+
 - (2026-07-07) [当编程变得不再有趣](202607/2026-07-07-%E5%BD%93%E7%BC%96%E7%A8%8B%E5%8F%98%E5%BE%97%E4%B8%8D%E5%86%8D%E6%9C%89%E8%B6%A3.md)
   - Tags: #agent #view
   - Summary: AI 的高效让作者感到编程乐趣消失，但反思后认识到创作不只编程，决策与设计仍属人间；转型 AI 建设，在流程与人之间找到新价值，故事继续。

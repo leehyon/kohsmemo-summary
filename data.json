@@ -2235,5 +2235,14 @@
       "agent",
       "view"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "Everything I know about running LLMs locally",
+    "url": "https://github.com/jamesob/local-llm",
+    "timestamp": 1783389158,
+    "tags": [
+      "setup"
+    ]
   }
 ]
