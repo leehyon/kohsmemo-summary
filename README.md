@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-07) [Vibe Coding 时代的角色与架构](202607/2026-07-07-vibe-coding-%E6%97%B6%E4%BB%A3%E7%9A%84%E8%A7%92%E8%89%B2%E4%B8%8E%E6%9E%B6%E6%9E%84.md)
+- Vibe Coding 无法替代人类在产品研发中的核心作用。文章指出，快速代码输出会加速架构腐化，只有通过严谨的流程和人类对问题的深刻理解，才能维持工程可持续性。人类的价值在于提出好问题、把控方向。
+- Tags: #agent #vibe-coding
+
 (2026-07-07) [Everything I know about running LLMs locally](202607/2026-07-07-everything-i-know-about-running-llms-locally.md)
 - 用 ~$50k 的 4× RTX PRO 6000（384GB VRAM）搭配二手 EPYC 主机和独立 PCIe 交换机，实现本地 SOTA 大模型高性能推理，P2P 带宽达 27.5 GB/s，并分享了硬件选型、BIOS 调优和软件配置的完整方案。
 - Tags: #setup
@@ -39,13 +43,9 @@
 - Pi 是一个开源终端编码代理，核心最小化，通过扩展按需添加功能。作者用它做侧项目，搭配 DeepSeek 等模型，速度飞快且成本极低。本文详细介绍了安装、配置、包管理及使用技巧。
 - Tags: #agent #setup
 
-(2026-07-02) [I built a private ChatGPT for my family](202607/2026-07-02-i-built-a-private-chatgpt-for-my-family.md)
-- 作者用 ZimaBoard 2 和 RTX 5060 Ti 搭建了本地私有 ChatGPT，基于家庭文档库，通过 Open WebUI 提供类 ChatGPT 界面，并自定义系统提示词以符合家庭价值观，实现隐私、可控的家庭 AI 助手。
-- Tags: #home #setup
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (11 entries)
+- [2026-07](202607/monthly-index.md) (12 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

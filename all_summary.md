@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-07) [Vibe Coding 时代的角色与架构](202607/2026-07-07-vibe-coding-%E6%97%B6%E4%BB%A3%E7%9A%84%E8%A7%92%E8%89%B2%E4%B8%8E%E6%9E%B6%E6%9E%84.md)
+  - Tags: #agent #vibe-coding
+  - Summary: Vibe Coding 无法替代人类在产品研发中的核心作用。文章指出，快速代码输出会加速架构腐化，只有通过严谨的流程和人类对问题的深刻理解，才能维持工程可持续性。人类的价值在于提出好问题、把控方向。
+
 - (2026-07-07) [Everything I know about running LLMs locally](202607/2026-07-07-everything-i-know-about-running-llms-locally.md)
   - Tags: #setup
   - Summary: 用 ~$50k 的 4× RTX PRO 6000（384GB VRAM）搭配二手 EPYC 主机和独立 PCIe 交换机，实现本地 SOTA 大模型高性能推理，P2P 带宽达 27.5 GB/s，并分享了硬件选型、BIOS 调优和软件配置的完整方案。
