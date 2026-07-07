@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-07) [当编程变得不再有趣](202607/2026-07-07-%E5%BD%93%E7%BC%96%E7%A8%8B%E5%8F%98%E5%BE%97%E4%B8%8D%E5%86%8D%E6%9C%89%E8%B6%A3.md)
+- AI 的高效让作者感到编程乐趣消失，但反思后认识到创作不只编程，决策与设计仍属人间；转型 AI 建设，在流程与人之间找到新价值，故事继续。
+- Tags: #agent #view
+
 (2026-07-03) [Why I Stopped Arguing With People](202607/2026-07-03-why-i-stopped-arguing-with-people.md)
 - 作者停止争论，因为发现争论往往以 ego 为中心且无效。他转而利用认知差异创造价值，仅在他人请求时提供帮助，并专注自我提升。核心转变是：从追求正确转向追求成长。
 - Tags: #life #view
@@ -39,13 +43,9 @@
 - 本文系统梳理 Agent 工程实践，强调 Harness、上下文工程、工具设计等因素比模型本身更关键，并提供 OpenClaw 落地案例和反模式总结。
 - Tags: #agent #design
 
-(2026-06-30) [Just Talk To It - the no-bs Way of Agentic Engineering](202606/2026-06-30-just-talk-to-it---the-no-bs-way-of-agentic-engineering.md)
-- 作者主张直接与 AI 编码代理对话（Just Talk to It），推荐 codex CLI，反对复杂框架，强调通过自然语言、截图、并行代理和迭代而非规范驱动来高效开发软件。
-- Tags: #agent #workflow
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (9 entries)
+- [2026-07](202607/monthly-index.md) (10 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
