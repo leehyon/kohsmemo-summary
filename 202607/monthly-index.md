@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-10) [A software engineering interview question I like: computing the median](2026-07-10-a-software-engineering-interview-question-i-like-computing-the-median.md)
+- 计算中位数是一道简单但有深度的面试题，能考察编程、边界、API 设计、统计及算法优化等多方面能力。
+- Tags: #career #math
+
 (2026-07-07) [这四个工作习惯，或许也能帮你找到掌控感](2026-07-07-%E8%BF%99%E5%9B%9B%E4%B8%AA%E5%B7%A5%E4%BD%9C%E4%B9%A0%E6%83%AF%EF%BC%8C%E6%88%96%E8%AE%B8%E4%B9%9F%E8%83%BD%E5%B8%AE%E4%BD%A0%E6%89%BE%E5%88%B0%E6%8E%8C%E6%8E%A7%E6%84%9F.md)
 - 通过工作日记、人脉维护、影响力输出和安全网四个习惯，将职场生活系统化，从而提升掌控感，减少焦虑，并两次升职。
 - Tags: #career #life

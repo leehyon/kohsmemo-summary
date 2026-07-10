@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-10) [A software engineering interview question I like: computing the median](202607/2026-07-10-a-software-engineering-interview-question-i-like-computing-the-median.md)
+- 计算中位数是一道简单但有深度的面试题，能考察编程、边界、API 设计、统计及算法优化等多方面能力。
+- Tags: #career #math
+
 (2026-07-07) [这四个工作习惯，或许也能帮你找到掌控感](202607/2026-07-07-%E8%BF%99%E5%9B%9B%E4%B8%AA%E5%B7%A5%E4%BD%9C%E4%B9%A0%E6%83%AF%EF%BC%8C%E6%88%96%E8%AE%B8%E4%B9%9F%E8%83%BD%E5%B8%AE%E4%BD%A0%E6%89%BE%E5%88%B0%E6%8E%8C%E6%8E%A7%E6%84%9F.md)
 - 通过工作日记、人脉维护、影响力输出和安全网四个习惯，将职场生活系统化，从而提升掌控感，减少焦虑，并两次升职。
 - Tags: #career #life
@@ -39,13 +43,9 @@
 - TOTP 通过将 HOTP 的计数器替换为时间，利用 HMAC 单向函数生成每 30 秒自动刷新的动态密码，实现零操作的安全验证。其安全性依赖于密钥保密和限流机制，但需防范钓鱼和种子泄露等系统级风险。
 - Tags: #algorithm
 
-(2026-07-03) [用交易平台风控设置改掉逆市加仓这个坏习惯](202607/2026-07-03-%E7%94%A8%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E9%A3%8E%E6%8E%A7%E8%AE%BE%E7%BD%AE%E6%94%B9%E6%8E%89%E9%80%86%E5%B8%82%E5%8A%A0%E4%BB%93%E8%BF%99%E4%B8%AA%E5%9D%8F%E4%B9%A0%E6%83%AF.md)
-- 用平台风控（自动止损、日亏损/盈利线、合约限制、锁盘）替代意志力，从装置上禁止逆市加仓等坏习惯，先做到 20 天亏损单零加仓，再谈稳定盈利。
-- Tags: #trade
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (14 entries)
+- [2026-07](202607/monthly-index.md) (15 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
