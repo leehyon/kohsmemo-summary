@@ -2284,5 +2284,14 @@
       "career",
       "math"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "The Git Commands I Run Before Reading Any Code",
+    "url": "https://piechowski.io/post/git-commands-before-reading-code/",
+    "timestamp": 1783661919,
+    "tags": [
+      "best-practice"
+    ]
   }
 ]

@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-10) [The Git Commands I Run Before Reading Any Code](2026-07-10-the-git-commands-i-run-before-reading-any-code.md)
+- 通过五个 Git 命令快速诊断代码库：变更热点、Bus Factor、Bug 集群、提交趋势和危机模式，几分钟内揭示项目健康状态，指导后续代码阅读。
+- Tags: #best-practice
+
 (2026-07-10) [A software engineering interview question I like: computing the median](2026-07-10-a-software-engineering-interview-question-i-like-computing-the-median.md)
 - 计算中位数是一道简单但有深度的面试题，能考察编程、边界、API 设计、统计及算法优化等多方面能力。
 - Tags: #career #math
