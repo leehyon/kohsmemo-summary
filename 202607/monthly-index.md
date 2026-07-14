@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-14) [Why write code in 2026](2026-07-14-why-write-code-in-2026.md)
+- 在 AI 编码时代，手动写代码仍是重要的思考与注意工具，能提升架构理解与代码质量。
+- Tags: #agent #vibe-coding #view
+
 (2026-07-14) [How to read more books](2026-07-14-how-to-read-more-books.md)
 - 每周读一本书的关键在于用阅读替代屏幕时间，随时带书并养成习惯，同时避免速读和有声书，专注于深度阅读。
 - Tags: #reading

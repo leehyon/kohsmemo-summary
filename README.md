@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-14) [Why write code in 2026](202607/2026-07-14-why-write-code-in-2026.md)
+- 在 AI 编码时代，手动写代码仍是重要的思考与注意工具，能提升架构理解与代码质量。
+- Tags: #agent #vibe-coding #view
+
 (2026-07-14) [How to read more books](202607/2026-07-14-how-to-read-more-books.md)
 - 每周读一本书的关键在于用阅读替代屏幕时间，随时带书并养成习惯，同时避免速读和有声书，专注于深度阅读。
 - Tags: #reading
@@ -39,13 +43,9 @@
 - AI 的高效让作者感到编程乐趣消失，但反思后认识到创作不只编程，决策与设计仍属人间；转型 AI 建设，在流程与人之间找到新价值，故事继续。
 - Tags: #agent #view
 
-(2026-07-03) [Why I Stopped Arguing With People](202607/2026-07-03-why-i-stopped-arguing-with-people.md)
-- 作者停止争论，因为发现争论往往以 ego 为中心且无效。他转而利用认知差异创造价值，仅在他人请求时提供帮助，并专注自我提升。核心转变是：从追求正确转向追求成长。
-- Tags: #life #view
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (18 entries)
+- [2026-07](202607/monthly-index.md) (19 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
