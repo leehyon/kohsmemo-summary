@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-14) [How to read more books](202607/2026-07-14-how-to-read-more-books.md)
+  - Tags: #reading
+  - Summary: 每周读一本书的关键在于用阅读替代屏幕时间，随时带书并养成习惯，同时避免速读和有声书，专注于深度阅读。
+
 - (2026-07-14) [So You Want to Learn Physics…](202607/2026-07-14-so-you-want-to-learn-physics%E2%80%A6.md)
   - Tags: #physics
   - Summary: 一份针对自学者的完整物理课程指南，涵盖从高中数学基础到研究生核心课程的全部教材、数学路径与学习方法，强调解题和按序学习。
