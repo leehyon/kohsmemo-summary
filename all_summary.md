@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-14) [Don't you mean extinct?](202607/2026-07-14-don%27t-you-mean-extinct.md)
+  - Tags: #agent #view
+  - Summary: 以《侏罗纪公园》特效师 Phil Tippett 的“灭绝”轶事类比程序员对 LLM 的焦虑，强调应主动学习 LLM 原理、优化编码与审查流程、拥抱工具进化，从而像 Tippett 一样转型而非被淘汰。
+
 - (2026-07-14) [Why write code in 2026](202607/2026-07-14-why-write-code-in-2026.md)
   - Tags: #agent #vibe-coding #view
   - Summary: 在 AI 编码时代，手动写代码仍是重要的思考与注意工具，能提升架构理解与代码质量。

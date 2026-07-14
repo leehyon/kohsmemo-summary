@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-14) [Don't you mean extinct?](202607/2026-07-14-don%27t-you-mean-extinct.md)
+- 以《侏罗纪公园》特效师 Phil Tippett 的“灭绝”轶事类比程序员对 LLM 的焦虑，强调应主动学习 LLM 原理、优化编码与审查流程、拥抱工具进化，从而像 Tippett 一样转型而非被淘汰。
+- Tags: #agent #view
+
 (2026-07-14) [Why write code in 2026](202607/2026-07-14-why-write-code-in-2026.md)
 - 在 AI 编码时代，手动写代码仍是重要的思考与注意工具，能提升架构理解与代码质量。
 - Tags: #agent #vibe-coding #view
@@ -39,13 +43,9 @@
 - 用 ~$50k 的 4× RTX PRO 6000（384GB VRAM）搭配二手 EPYC 主机和独立 PCIe 交换机，实现本地 SOTA 大模型高性能推理，P2P 带宽达 27.5 GB/s，并分享了硬件选型、BIOS 调优和软件配置的完整方案。
 - Tags: #setup
 
-(2026-07-07) [当编程变得不再有趣](202607/2026-07-07-%E5%BD%93%E7%BC%96%E7%A8%8B%E5%8F%98%E5%BE%97%E4%B8%8D%E5%86%8D%E6%9C%89%E8%B6%A3.md)
-- AI 的高效让作者感到编程乐趣消失，但反思后认识到创作不只编程，决策与设计仍属人间；转型 AI 建设，在流程与人之间找到新价值，故事继续。
-- Tags: #agent #view
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (19 entries)
+- [2026-07](202607/monthly-index.md) (20 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
