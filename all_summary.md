@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-14) [So You Want to Learn Physics…](202607/2026-07-14-so-you-want-to-learn-physics%E2%80%A6.md)
+  - Tags: #physics
+  - Summary: 一份针对自学者的完整物理课程指南，涵盖从高中数学基础到研究生核心课程的全部教材、数学路径与学习方法，强调解题和按序学习。
+
 - (2026-07-10) [The Git Commands I Run Before Reading Any Code](202607/2026-07-10-the-git-commands-i-run-before-reading-any-code.md)
   - Tags: #best-practice
   - Summary: 通过五个 Git 命令快速诊断代码库：变更热点、Bus Factor、Bug 集群、提交趋势和危机模式，几分钟内揭示项目健康状态，指导后续代码阅读。

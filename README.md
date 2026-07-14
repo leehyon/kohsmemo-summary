@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-14) [So You Want to Learn Physics…](202607/2026-07-14-so-you-want-to-learn-physics%E2%80%A6.md)
+- 一份针对自学者的完整物理课程指南，涵盖从高中数学基础到研究生核心课程的全部教材、数学路径与学习方法，强调解题和按序学习。
+- Tags: #physics
+
 (2026-07-10) [The Git Commands I Run Before Reading Any Code](202607/2026-07-10-the-git-commands-i-run-before-reading-any-code.md)
 - 通过五个 Git 命令快速诊断代码库：变更热点、Bus Factor、Bug 集群、提交趋势和危机模式，几分钟内揭示项目健康状态，指导后续代码阅读。
 - Tags: #best-practice
@@ -39,13 +43,9 @@
 - 本文系统性地总结了 API 设计的关键原则：以不破坏用户空间为核心，平衡熟悉度与灵活性；强调产品价值的重要性，并提供实用建议如幂等性、速率限制、游标分页等。
 - Tags: #design
 
-(2026-07-03) [Design Patterns Suck](202607/2026-07-03-design-patterns-suck.md)
-- 设计模式是语言缺陷的变通方案，多数模式在高级语言中消失；其唯一价值是沟通术语，不应作为设计教条。
-- Tags: #design
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (16 entries)
+- [2026-07](202607/monthly-index.md) (17 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
