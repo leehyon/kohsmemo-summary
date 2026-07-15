@@ -2339,5 +2339,15 @@
     "url": "https://joshblais.com/blog/using-the-internet-like-its-1999/",
     "timestamp": 1784080003,
     "tags": []
+  },
+  {
+    "month": "202607",
+    "title": "Docker Build Cache: The 80/20 Rules That Cut CI Image Builds From Minutes to Seconds",
+    "url": "https://the-practical-developer.online/posts/docker-layer-caching-ci-build-speed/",
+    "timestamp": 1784080280,
+    "tags": [
+      "build",
+      "guide"
+    ]
   }
 ]

@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-15) [Docker Build Cache: The 80/20 Rules That Cut CI Image Builds From Minutes to Seconds](202607/2026-07-15-docker-build-cache-the-80-20-rules-that-cut-ci-image-builds-from-minutes-to-seconds.md)
+  - Tags: #build #guide
+  - Summary: 通过层排序、多阶段构建、BuildKit 缓存挂载和远程缓存四条规则，可将 Docker 构建时间从几分钟降至 20 秒左右，核心是优先缓存不常变的依赖层。
+
 - (2026-07-15) [Using the internet like its 1999](202607/2026-07-15-using-the-internet-like-its-1999.md)
   - Summary: 本文倡导回归 1999 年的互联网使用方式，通过 RSS、IRC、邮件等协议逃离算法和 AI 垃圾，找回自主性与真实性。
 

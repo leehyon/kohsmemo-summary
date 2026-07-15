@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-15) [Docker Build Cache: The 80/20 Rules That Cut CI Image Builds From Minutes to Seconds](202607/2026-07-15-docker-build-cache-the-80-20-rules-that-cut-ci-image-builds-from-minutes-to-seconds.md)
+- 通过层排序、多阶段构建、BuildKit 缓存挂载和远程缓存四条规则，可将 Docker 构建时间从几分钟降至 20 秒左右，核心是优先缓存不常变的依赖层。
+- Tags: #build #guide
+
 (2026-07-15) [Using the internet like its 1999](202607/2026-07-15-using-the-internet-like-its-1999.md)
 - 本文倡导回归 1999 年的互联网使用方式，通过 RSS、IRC、邮件等协议逃离算法和 AI 垃圾，找回自主性与真实性。
 
@@ -38,13 +42,9 @@
 - 大模型训练正从"推理式思考"转向"智能体式思考"，核心是模型在真实环境中通过行动与反馈持续优化，Harness Engineering 成为关键竞争力。
 - Tags: #agent #design
 
-(2026-07-07) [Vibe Coding 时代的角色与架构](202607/2026-07-07-vibe-coding-%E6%97%B6%E4%BB%A3%E7%9A%84%E8%A7%92%E8%89%B2%E4%B8%8E%E6%9E%B6%E6%9E%84.md)
-- Vibe Coding 无法替代人类在产品研发中的核心作用。文章指出，快速代码输出会加速架构腐化，只有通过严谨的流程和人类对问题的深刻理解，才能维持工程可持续性。人类的价值在于提出好问题、把控方向。
-- Tags: #agent #vibe-coding
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (21 entries)
+- [2026-07](202607/monthly-index.md) (22 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
