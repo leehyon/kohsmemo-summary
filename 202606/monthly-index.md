@@ -129,7 +129,7 @@
 
 (2026-06-08) [You should keep a developer’s journal](2026-06-08-you-should-keep-a-developer%E2%80%99s-journal.md)
 - 开发者日志通过规划、记录、反思，提升编码效率与个人成长。本文解释了其价值并提供了实用技巧。
-- Tags: #writing #blog
+- Tags: #writing
 
 (2026-06-08) [Smart core, thin interfaces](2026-06-08-smart-core%2C-thin-interfaces.md)
 - 本文提出“智能核心，薄接口”架构：将业务逻辑集中在核心模块，用轻量接口处理不同参与者的交互，从而降低耦合、提高可维护性。
@@ -145,7 +145,7 @@
 
 (2026-06-08) [Cognitive Surrender](2026-06-08-cognitive-surrender.md)
 - 认知投降是工程师无批判接受 AI 输出，导致理解债务。文章揭示其危害并提供策略：保持独立判断，让 AI 辅助而非替代思考。
-- Tags: #engineering #view
+- Tags: #engineering
 
 (2026-06-08) [Most vibe-coded tools are not for you](2026-06-08-most-vibe-coded-tools-are-not-for-you.md)
 - AI 驱动的“氛围编码”导致低质量工具泛滥，它们缺失触及范围、社交性和完成度，根源在于缺乏工艺、关怀与意图，作者呼吁创造有意义作品。

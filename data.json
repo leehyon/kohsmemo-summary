@@ -285,8 +285,7 @@
     "timestamp": 1773369391,
     "tags": [
       "workflow",
-      "vibe-coding",
-      "dev"
+      "vibe-coding"
     ]
   },
   {
@@ -1789,8 +1788,7 @@
     "url": "https://addyosmani.com/blog/cognitive-surrender/",
     "timestamp": 1780909670,
     "tags": [
-      "engineering",
-      "view"
+      "engineering"
     ]
   },
   {
@@ -1827,8 +1825,7 @@
     "url": "https://stackoverflow.blog/2024/12/24/you-should-keep-a-developer-s-journal/",
     "timestamp": 1780912520,
     "tags": [
-      "writing",
-      "blog"
+      "writing"
     ]
   },
   {
@@ -2368,6 +2365,16 @@
       "agent",
       "design",
       "product"
+    ]
+  },
+  {
+    "month": "202607",
+    "title": "From “Reasoning” Thinking to “Agentic” Thinking",
+    "url": "https://x.com/JustinLin610/status/2037116325210829168",
+    "timestamp": 1784109978,
+    "tags": [
+      "agent",
+      "design"
     ]
   }
 ]

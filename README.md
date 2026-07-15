@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-15) [From “Reasoning” Thinking to “Agentic” Thinking](202607/2026-07-15-from-%E2%80%9Creasoning%E2%80%9D-thinking-to-%E2%80%9Cagentic%E2%80%9D-thinking.md)
+- 过去两年，AI 模型从追求推理能力转向培养代理性思维，o1 里程碑式地让思考成为可训练的一等能力，重塑了评估标准和发展方向。
+- Tags: #agent #design
+
 (2026-07-15) [The Tower Keeps Rising](202607/2026-07-15-the-tower-keeps-rising.md)
 - AI 代理消除了维持共同理解的摩擦，使软件项目在集体理解崩溃后仍能盲目扩张，如同巴别塔永不倒塌，但隐患隐匿。
 - Tags: #agent #design #product
@@ -38,13 +42,9 @@
 - 通过五个 Git 命令快速诊断代码库：变更热点、Bus Factor、Bug 集群、提交趋势和危机模式，几分钟内揭示项目健康状态，指导后续代码阅读。
 - Tags: #best-practice
 
-(2026-07-10) [A software engineering interview question I like: computing the median](202607/2026-07-10-a-software-engineering-interview-question-i-like-computing-the-median.md)
-- 计算中位数是一道简单但有深度的面试题，能考察编程、边界、API 设计、统计及算法优化等多方面能力。
-- Tags: #career #math
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (24 entries)
+- [2026-07](202607/monthly-index.md) (25 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

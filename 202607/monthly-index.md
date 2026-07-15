@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-15) [From “Reasoning” Thinking to “Agentic” Thinking](2026-07-15-from-%E2%80%9Creasoning%E2%80%9D-thinking-to-%E2%80%9Cagentic%E2%80%9D-thinking.md)
+- 过去两年，AI 模型从追求推理能力转向培养代理性思维，o1 里程碑式地让思考成为可训练的一等能力，重塑了评估标准和发展方向。
+- Tags: #agent #design
+
 (2026-07-15) [The Tower Keeps Rising](2026-07-15-the-tower-keeps-rising.md)
 - AI 代理消除了维持共同理解的摩擦，使软件项目在集体理解崩溃后仍能盲目扩张，如同巴别塔永不倒塌，但隐患隐匿。
 - Tags: #agent #design #product
