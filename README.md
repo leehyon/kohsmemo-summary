@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-07-15) [Using the internet like its 1999](202607/2026-07-15-using-the-internet-like-its-1999.md)
+- 本文倡导回归 1999 年的互联网使用方式，通过 RSS、IRC、邮件等协议逃离算法和 AI 垃圾，找回自主性与真实性。
+
 (2026-07-14) [Don't you mean extinct?](202607/2026-07-14-don%27t-you-mean-extinct.md)
 - 以《侏罗纪公园》特效师 Phil Tippett 的“灭绝”轶事类比程序员对 LLM 的焦虑，强调应主动学习 LLM 原理、优化编码与审查流程、拥抱工具进化，从而像 Tippett 一样转型而非被淘汰。
 - Tags: #agent #view
@@ -39,13 +42,9 @@
 - Vibe Coding 无法替代人类在产品研发中的核心作用。文章指出，快速代码输出会加速架构腐化，只有通过严谨的流程和人类对问题的深刻理解，才能维持工程可持续性。人类的价值在于提出好问题、把控方向。
 - Tags: #agent #vibe-coding
 
-(2026-07-07) [Everything I know about running LLMs locally](202607/2026-07-07-everything-i-know-about-running-llms-locally.md)
-- 用 ~$50k 的 4× RTX PRO 6000（384GB VRAM）搭配二手 EPYC 主机和独立 PCIe 交换机，实现本地 SOTA 大模型高性能推理，P2P 带宽达 27.5 GB/s，并分享了硬件选型、BIOS 调优和软件配置的完整方案。
-- Tags: #setup
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (20 entries)
+- [2026-07](202607/monthly-index.md) (21 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

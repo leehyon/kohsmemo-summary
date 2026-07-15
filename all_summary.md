@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-07-15) [Using the internet like its 1999](202607/2026-07-15-using-the-internet-like-its-1999.md)
+  - Summary: 本文倡导回归 1999 年的互联网使用方式，通过 RSS、IRC、邮件等协议逃离算法和 AI 垃圾，找回自主性与真实性。
+
 - (2026-07-14) [Don't you mean extinct?](202607/2026-07-14-don%27t-you-mean-extinct.md)
   - Tags: #agent #view
   - Summary: 以《侏罗纪公园》特效师 Phil Tippett 的“灭绝”轶事类比程序员对 LLM 的焦虑，强调应主动学习 LLM 原理、优化编码与审查流程、拥抱工具进化，从而像 Tippett 一样转型而非被淘汰。
