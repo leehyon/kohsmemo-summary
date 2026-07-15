@@ -779,13 +779,6 @@ def call_llm_api_json(prompt: str, content: str) -> dict:
     if not api_endpoint:
         raise ConfigError("LLM_BASE_URL is empty. Provide a valid API endpoint.")
 
-    reasoning_effort = os.environ.get("LLM_REASONING_EFFORT", "high")
-
-    thinking_enabled = (
-        os.environ.get("LLM_THINKING_ENABLED", "true").lower()
-        in ("1", "true", "yes")
-    )
-
     data: dict = {
         "model": model,
         "messages": [
@@ -797,10 +790,6 @@ def call_llm_api_json(prompt: str, content: str) -> dict:
         # produce JSON; we do that in `summarize_to_json` below.
         "response_format": {"type": "json_object"},
     }
-    if reasoning_effort:
-        data["reasoning_effort"] = reasoning_effort
-    if thinking_enabled:
-        data["thinking"] = {"type": "enabled"}
 
     logging.info("Calling LLM API with model: %s", model)
     logging.info("LLM endpoint: %s", api_endpoint)
