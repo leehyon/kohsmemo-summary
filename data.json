@@ -2358,5 +2358,16 @@
     "tags": [
       "explained"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "The Tower Keeps Rising",
+    "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+    "timestamp": 1784094555,
+    "tags": [
+      "agent",
+      "design",
+      "product"
+    ]
   }
 ]

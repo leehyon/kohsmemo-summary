@@ -1,7 +1,11 @@
 # 2026-07 Monthly Index
 
+(2026-07-15) [The Tower Keeps Rising](2026-07-15-the-tower-keeps-rising.md)
+- AI 代理消除了维持共同理解的摩擦，使软件项目在集体理解崩溃后仍能盲目扩张，如同巴别塔永不倒塌，但隐患隐匿。
+- Tags: #agent #design #product
+
 (2026-07-15) [htop explained](2026-07-15-htop-explained.md)
-- 本文详细解释了 htop 中各项系统指标的含义，包括负载均值、进程状态、内存使用等，并通过实际操作演示了如何从 `/proc` 文件系统获取信息。
+- 本文详细解释了 htop 中各项系统指标的含义，包括负载均值、进程状态、内存使用等，并通过实际操作演示了如何从  文件系统获取信息。
 - Tags: #explained
 
 (2026-07-15) [Docker Build Cache: The 80/20 Rules That Cut CI Image Builds From Minutes to Seconds](2026-07-15-docker-build-cache-the-80-20-rules-that-cut-ci-image-builds-from-minutes-to-seconds.md)

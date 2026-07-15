@@ -3,8 +3,12 @@
 
 ## Latest 10 Entries
 
+(2026-07-15) [The Tower Keeps Rising](202607/2026-07-15-the-tower-keeps-rising.md)
+- AI 代理消除了维持共同理解的摩擦，使软件项目在集体理解崩溃后仍能盲目扩张，如同巴别塔永不倒塌，但隐患隐匿。
+- Tags: #agent #design #product
+
 (2026-07-15) [htop explained](202607/2026-07-15-htop-explained.md)
-- 本文详细解释了 htop 中各项系统指标的含义，包括负载均值、进程状态、内存使用等，并通过实际操作演示了如何从 `/proc` 文件系统获取信息。
+- 本文详细解释了 htop 中各项系统指标的含义，包括负载均值、进程状态、内存使用等，并通过实际操作演示了如何从  文件系统获取信息。
 - Tags: #explained
 
 (2026-07-15) [Docker Build Cache: The 80/20 Rules That Cut CI Image Builds From Minutes to Seconds](202607/2026-07-15-docker-build-cache-the-80-20-rules-that-cut-ci-image-builds-from-minutes-to-seconds.md)
@@ -38,13 +42,9 @@
 - 计算中位数是一道简单但有深度的面试题，能考察编程、边界、API 设计、统计及算法优化等多方面能力。
 - Tags: #career #math
 
-(2026-07-07) [这四个工作习惯，或许也能帮你找到掌控感](202607/2026-07-07-%E8%BF%99%E5%9B%9B%E4%B8%AA%E5%B7%A5%E4%BD%9C%E4%B9%A0%E6%83%AF%EF%BC%8C%E6%88%96%E8%AE%B8%E4%B9%9F%E8%83%BD%E5%B8%AE%E4%BD%A0%E6%89%BE%E5%88%B0%E6%8E%8C%E6%8E%A7%E6%84%9F.md)
-- 通过工作日记、人脉维护、影响力输出和安全网四个习惯，将职场生活系统化，从而提升掌控感，减少焦虑，并两次升职。
-- Tags: #career #life
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (23 entries)
+- [2026-07](202607/monthly-index.md) (24 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
