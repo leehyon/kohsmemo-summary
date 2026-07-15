@@ -792,7 +792,7 @@ def call_llm_api_json(prompt: str, content: str) -> dict:
     }
 
     logging.info("Calling LLM API with model: %s", model)
-    logging.info("LLM endpoint: %s", api_endpoint)
+    logging.info("LLM API endpoint: %s", api_endpoint)
 
     response: requests.Response = requests.post(
         api_endpoint,
@@ -844,7 +844,34 @@ def call_llm_api_json(prompt: str, content: str) -> dict:
         logging.error("Full response: %s", response_json)
         raise LLMError(error_msg)
 
-    raw_content: str = response_json["choices"][0]["message"]["content"]
+    try:
+        message = response_json["choices"][0]["message"]
+    except (KeyError, IndexError, TypeError) as err:
+        raise LLMError("LLM response missing choices[0].message") from err
+
+    raw_content = message.get("content")
+    if isinstance(raw_content, list):
+        # Some OpenAI-compatible providers return content as a list of blocks.
+        text_parts: List[str] = []
+        for part in raw_content:
+            if not isinstance(part, dict):
+                continue
+            text = part.get("text")
+            if isinstance(text, str) and text.strip():
+                text_parts.append(text)
+        raw_content = "\n".join(text_parts).strip()
+    elif isinstance(raw_content, dict):
+        text = raw_content.get("text")
+        raw_content = text if isinstance(text, str) else ""
+
+    if (not raw_content or not isinstance(raw_content, str)) and isinstance(
+        message.get("parsed"), dict
+    ):
+        return message["parsed"]
+
+    if not isinstance(raw_content, str) or not raw_content.strip():
+        raise LLMError("LLM response message.content is empty or not text")
+
     try:
         parsed = json.loads(raw_content)
     except (TypeError, ValueError) as err:
@@ -1460,6 +1487,10 @@ def process_changes(backfill: bool = False, dry_run: bool = False) -> None:
                         ingestion_result.summary_path,
                         ingestion_result.summary_markdown,
                         dry_run=False,
+                    )
+                    logging.info(
+                        "Summary markdown generated: %s",
+                        ingestion_result.summary_path,
                     )
                     overrides[bookmark_identity(ingestion_result.bookmark)] = (
                         ingestion_result.one_sentence
