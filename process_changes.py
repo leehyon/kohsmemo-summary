@@ -78,8 +78,8 @@ SOFT_FAIL_CONTENT_LENGTH: int = 1000
 MAX_RETRIES: int = 3  # Maximum retry attempts for fetching content
 NO_SUMMARY_TAG: str = "#nosummary"
 TOMBSTONE_TAG: str = "tombstone"  # marker tag (without '#') that triggers summary deletion
-HTTP_CONNECT_TIMEOUT_SECONDS: int = 5
-HTTP_READ_TIMEOUT_SECONDS: int = 30
+HTTP_CONNECT_TIMEOUT_SECONDS: int = 10
+HTTP_READ_TIMEOUT_SECONDS: int = 60
 RETRYABLE_HTTP_STATUS_CODES: Set[int] = {429, 500, 502, 503, 504}
 # -- configurations end --
 
