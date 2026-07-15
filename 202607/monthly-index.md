@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-15) [htop explained](2026-07-15-htop-explained.md)
+- 本文详细解释了 htop 中各项系统指标的含义，包括负载均值、进程状态、内存使用等，并通过实际操作演示了如何从 `/proc` 文件系统获取信息。
+- Tags: #explained
+
 (2026-07-15) [Docker Build Cache: The 80/20 Rules That Cut CI Image Builds From Minutes to Seconds](2026-07-15-docker-build-cache-the-80-20-rules-that-cut-ci-image-builds-from-minutes-to-seconds.md)
 - 通过层排序、多阶段构建、BuildKit 缓存挂载和远程缓存四条规则，可将 Docker 构建时间从几分钟降至 20 秒左右，核心是优先缓存不常变的依赖层。
 - Tags: #build #guide

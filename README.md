@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-15) [htop explained](202607/2026-07-15-htop-explained.md)
+- 本文详细解释了 htop 中各项系统指标的含义，包括负载均值、进程状态、内存使用等，并通过实际操作演示了如何从 `/proc` 文件系统获取信息。
+- Tags: #explained
+
 (2026-07-15) [Docker Build Cache: The 80/20 Rules That Cut CI Image Builds From Minutes to Seconds](202607/2026-07-15-docker-build-cache-the-80-20-rules-that-cut-ci-image-builds-from-minutes-to-seconds.md)
 - 通过层排序、多阶段构建、BuildKit 缓存挂载和远程缓存四条规则，可将 Docker 构建时间从几分钟降至 20 秒左右，核心是优先缓存不常变的依赖层。
 - Tags: #build #guide
@@ -38,13 +42,9 @@
 - 通过工作日记、人脉维护、影响力输出和安全网四个习惯，将职场生活系统化，从而提升掌控感，减少焦虑，并两次升职。
 - Tags: #career #life
 
-(2026-07-07) [From “Reasoning” Thinking to “Agentic” Thinking](202607/2026-07-07-from-%E2%80%9Creasoning%E2%80%9D-thinking-to-%E2%80%9Cagentic%E2%80%9D-thinking.md)
-- 大模型训练正从"推理式思考"转向"智能体式思考"，核心是模型在真实环境中通过行动与反馈持续优化，Harness Engineering 成为关键竞争力。
-- Tags: #agent #design
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (22 entries)
+- [2026-07](202607/monthly-index.md) (23 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

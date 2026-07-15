@@ -2349,5 +2349,14 @@
       "build",
       "guide"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "htop explained",
+    "url": "https://peteris.rocks/blog/htop/",
+    "timestamp": 1784080678,
+    "tags": [
+      "explained"
+    ]
   }
 ]
