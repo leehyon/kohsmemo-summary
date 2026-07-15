@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-07-15) [The illustrated guide to a Ph.D.](202607/2026-07-15-the-illustrated-guide-to-a-ph.d..md)
+  - Summary: 文章用圆圈比喻直观展示 PhD 的本质：在人类知识边界上通过数年研究做出一个微小但原创的突破，即获得博士学位。
+
 - (2026-07-15) [From “Reasoning” Thinking to “Agentic” Thinking](202607/2026-07-15-from-%E2%80%9Creasoning%E2%80%9D-thinking-to-%E2%80%9Cagentic%E2%80%9D-thinking.md)
   - Tags: #agent #design
   - Summary: 过去两年，AI 模型从追求推理能力转向培养代理性思维，o1 里程碑式地让思考成为可训练的一等能力，重塑了评估标准和发展方向。

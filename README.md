@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-07-15) [The illustrated guide to a Ph.D.](202607/2026-07-15-the-illustrated-guide-to-a-ph.d..md)
+- 文章用圆圈比喻直观展示 PhD 的本质：在人类知识边界上通过数年研究做出一个微小但原创的突破，即获得博士学位。
+
 (2026-07-15) [From “Reasoning” Thinking to “Agentic” Thinking](202607/2026-07-15-from-%E2%80%9Creasoning%E2%80%9D-thinking-to-%E2%80%9Cagentic%E2%80%9D-thinking.md)
 - 过去两年，AI 模型从追求推理能力转向培养代理性思维，o1 里程碑式地让思考成为可训练的一等能力，重塑了评估标准和发展方向。
 - Tags: #agent #design
@@ -38,13 +41,9 @@
 - 一份针对自学者的完整物理课程指南，涵盖从高中数学基础到研究生核心课程的全部教材、数学路径与学习方法，强调解题和按序学习。
 - Tags: #physics
 
-(2026-07-10) [The Git Commands I Run Before Reading Any Code](202607/2026-07-10-the-git-commands-i-run-before-reading-any-code.md)
-- 通过五个 Git 命令快速诊断代码库：变更热点、Bus Factor、Bug 集群、提交趋势和危机模式，几分钟内揭示项目健康状态，指导后续代码阅读。
-- Tags: #best-practice
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (25 entries)
+- [2026-07](202607/monthly-index.md) (26 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
