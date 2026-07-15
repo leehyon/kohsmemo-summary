@@ -774,10 +774,10 @@ def call_llm_api_json(prompt: str, content: str) -> dict:
         "Content-Type": "application/json",
     }
     api_endpoint = os.environ.get(
-        "LLM_BASE_URL", "https://api.deepseek.com/chat/completions"
+        "LLM_API_ENDPOINT", "https://api.deepseek.com/chat/completions"
     ).strip()
     if not api_endpoint:
-        raise ConfigError("LLM_BASE_URL is empty. Provide a valid API endpoint.")
+        raise ConfigError("LLM_API_ENDPOINT is empty. Provide a valid API endpoint.")
 
     data: dict = {
         "model": model,
