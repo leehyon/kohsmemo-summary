@@ -1,4 +1,5 @@
 import argparse
+import html
 import json
 import logging
 import os
@@ -58,7 +59,7 @@ class LLMRateLimitError(LLMError):
 
 
 class ConfigError(IngestionError):
-    """Local environment is broken (e.g. OPENAI_API_KEY missing). Hard-fail
+    """Local environment is broken (e.g. LLM_API_KEY missing). Hard-fail
     with a clear message — retrying won't help and the run is meaningless
     without the missing input."""
 # -- exception hierarchy end --
@@ -79,6 +80,7 @@ NO_SUMMARY_TAG: str = "#nosummary"
 TOMBSTONE_TAG: str = "tombstone"  # marker tag (without '#') that triggers summary deletion
 HTTP_CONNECT_TIMEOUT_SECONDS: int = 5
 HTTP_READ_TIMEOUT_SECONDS: int = 30
+RETRYABLE_HTTP_STATUS_CODES: Set[int] = {429, 500, 502, 503, 504}
 # -- configurations end --
 
 logging.basicConfig(
@@ -511,6 +513,150 @@ def preflight_check_url(url: str) -> Tuple[Optional[int], Optional[str]]:
         return None, str(error)
 
 
+def fetch_with_retry(
+    url: str,
+    *,
+    source: str,
+    headers: Dict[str, str],
+    timeout: Tuple[int, int],
+    allow_redirects: bool = True,
+    retryable_statuses: Optional[Set[int]] = None,
+    not_found_statuses: Optional[Set[int]] = None,
+) -> requests.Response:
+    """Fetch URL with consistent retry policy and logging semantics."""
+    if retryable_statuses is None:
+        retryable_statuses = RETRYABLE_HTTP_STATUS_CODES
+
+    for attempt in range(MAX_RETRIES):
+        try:
+            response: requests.Response = requests.get(
+                url,
+                headers=headers,
+                timeout=timeout,
+                allow_redirects=allow_redirects,
+            )
+        except requests.RequestException as error:
+            error_msg = (
+                f"{source} request failed - attempt {attempt + 1}/{MAX_RETRIES}: {error}"
+            )
+            logging.warning(error_msg)
+            if attempt < MAX_RETRIES - 1:
+                wait_time = 2**attempt
+                logging.info("Retrying %s in %d seconds...", source.lower(), wait_time)
+                time.sleep(wait_time)
+                continue
+            raise FetchTransientError(
+                f"All {MAX_RETRIES} attempts failed for {source}. Last error: {error_msg}"
+            ) from error
+
+        status = response.status_code
+        if status < 400:
+            return response
+
+        error_msg = (
+            f"{source} fetch failed (HTTP {status}) - attempt {attempt + 1}/{MAX_RETRIES}"
+        )
+        logging.warning(error_msg)
+
+        should_retry = status in retryable_statuses
+        if should_retry and attempt < MAX_RETRIES - 1:
+            wait_time = 2**attempt
+            logging.info("Retrying %s in %d seconds...", source.lower(), wait_time)
+            time.sleep(wait_time)
+            continue
+
+        if not_found_statuses and status in not_found_statuses:
+            raise ContentUnavailableError(
+                f"{source} URL not found (HTTP {status}): {url}"
+            )
+
+        if should_retry:
+            raise FetchTransientError(
+                f"All {MAX_RETRIES} attempts failed for {source}. Last error: {error_msg}"
+            )
+        raise ContentUnavailableError(
+            f"All {MAX_RETRIES} attempts failed for {source}. Last error: {error_msg}"
+        )
+
+
+def _extract_text_from_html(html_content: str) -> str:
+    """Extract readable text from raw HTML using stdlib-only heuristics."""
+    # Prefer semantic meta text first for JS-heavy pages (for example social
+    # platforms), then append body-derived text when available.
+    meta_texts = re.findall(
+        r'<meta[^>]+(?:name|property)=["\'](?:description|og:description|twitter:description)["\'][^>]+content=["\'](.*?)["\']',
+        html_content,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    title_matches = re.findall(
+        r"<title[^>]*>(.*?)</title>",
+        html_content,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+
+    cleaned = re.sub(
+        r"<(script|style|noscript|svg|iframe|canvas)[^>]*>.*?</\1>",
+        " ",
+        html_content,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    cleaned = re.sub(r"<[^>]+>", " ", cleaned)
+    cleaned = html.unescape(cleaned)
+    body_text = re.sub(r"\s+", " ", cleaned).strip()
+
+    segments: List[str] = []
+    for segment in title_matches + meta_texts + [body_text]:
+        normalized = re.sub(r"\s+", " ", html.unescape(segment)).strip()
+        if normalized and normalized not in segments:
+            segments.append(normalized)
+
+    return "\n\n".join(segments).strip()
+
+
+def _fetch_from_origin_fallback(url: str) -> str:
+    """Fetch and extract text from the origin URL when Jina is unavailable."""
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+        )
+    }
+    timeout = (HTTP_CONNECT_TIMEOUT_SECONDS, HTTP_READ_TIMEOUT_SECONDS)
+
+    response = fetch_with_retry(
+        url,
+        source="Origin fallback",
+        headers=headers,
+        timeout=timeout,
+        allow_redirects=True,
+        not_found_statuses={404, 410},
+    )
+
+    content_type = (response.headers.get("Content-Type") or "").lower()
+    raw_text = response.text.strip()
+    if "text/html" in content_type or "application/xhtml+xml" in content_type:
+        content = _extract_text_from_html(raw_text)
+    else:
+        content = raw_text
+
+    if len(content) < MIN_CONTENT_LENGTH:
+        raise FetchTransientError(
+            "Origin fallback content too short for summarization "
+            f"({len(content)} chars, minimum {MIN_CONTENT_LENGTH})."
+        )
+
+    if len(content) > MAX_CONTENT_LENGTH:
+        logging.warning(
+            "Origin fallback content length (%d) exceeds maximum (%d), truncating...",
+            len(content),
+            MAX_CONTENT_LENGTH,
+        )
+        content = content[:MAX_CONTENT_LENGTH]
+
+    logging.info("Origin fallback succeeded with %d characters", len(content))
+    return content
+
+
 @log_execution_time
 def get_text_content(url: str) -> str:
     if requests is None:
@@ -541,140 +687,105 @@ def get_text_content(url: str) -> str:
     }
     timeout = (HTTP_CONNECT_TIMEOUT_SECONDS, HTTP_READ_TIMEOUT_SECONDS)
 
-    for attempt in range(MAX_RETRIES):
-        try:
-            response: requests.Response = requests.get(
-                jina_url,
-                headers=headers,
-                timeout=timeout,
-            )
-            if response.status_code >= 400:
-                status = response.status_code
-                error_msg = f"Jina fetch failed (HTTP {status}) - attempt {attempt + 1}/{MAX_RETRIES}"
-                logging.warning(error_msg)
+    try:
+        response = fetch_with_retry(
+            jina_url,
+            source="Jina",
+            headers=headers,
+            timeout=timeout,
+            allow_redirects=True,
+        )
 
-                should_retry = status in (429, 500, 502, 503, 504)
-                if should_retry and attempt < MAX_RETRIES - 1:
-                    wait_time = 2**attempt
-                    logging.info("Retrying in %d seconds...", wait_time)
-                    time.sleep(wait_time)
-                    continue
-                # Retries exhausted. 5xx/429 → transient; everything else
-                # means the resource is gone or unreachable in a way that
-                # retrying won't fix.
-                if status in (429, 500, 502, 503, 504):
-                    raise FetchTransientError(
-                        f"All {MAX_RETRIES} retry attempts failed. Last error: {error_msg}"
-                    )
-                raise ContentUnavailableError(
-                    f"All {MAX_RETRIES} retry attempts failed. Last error: {error_msg}"
-                )
-
-            content = response.text.strip()
-
-            if len(content) < MIN_CONTENT_LENGTH:
-                if (
-                    "upstream connect error" in content.lower()
-                    or "connection termination" in content.lower()
-                ):
-                    error_msg = f"Connection error detected (attempt {attempt + 1}/{MAX_RETRIES})"
-                else:
-                    error_msg = (
-                        f"Content too short ({len(content)} chars, minimum {MIN_CONTENT_LENGTH}) "
-                        f"- attempt {attempt + 1}/{MAX_RETRIES}"
-                    )
-
-                logging.warning(error_msg)
-
-                if attempt < MAX_RETRIES - 1:
-                    wait_time = 2**attempt
-                    logging.info("Retrying in %d seconds...", wait_time)
-                    time.sleep(wait_time)
-                    continue
-                # Short / connection-error content from a mirror is treated
-                # as transient: a later CI run may succeed.
+        content = response.text.strip()
+        if len(content) < MIN_CONTENT_LENGTH:
+            if (
+                "upstream connect error" in content.lower()
+                or "connection termination" in content.lower()
+            ):
                 raise FetchTransientError(
-                    f"All {MAX_RETRIES} retry attempts failed. Last error: {error_msg}"
+                    "Jina content indicates upstream connection error."
                 )
-
-            # Soft-fail when Jina returns suspiciously little content (e.g. a
-            # paywall stub, cookie wall, or 403 interstitial). The previous
-            # MIN_CONTENT_LENGTH=200 check was too permissive — an essay
-            # that is 289 chars long "succeeds" but the LLM has nothing
-            # useful to summarize. Real long-form articles are almost
-            # always > 1000 chars; below that, we treat it as a fetch
-            # problem and skip (caller will log + return None, no
-            # data.json entry, no summary .md). No retry: if the mirror
-            # only sent 289 chars once, it will likely do so again.
-            if len(content) < SOFT_FAIL_CONTENT_LENGTH:
-                raise FetchTransientError(
-                    f"Content too short for summarization "
-                    f"({len(content)} chars, soft-fail threshold {SOFT_FAIL_CONTENT_LENGTH}): "
-                    f"likely a paywall, cookie wall, or error page. "
-                    f"Skipping — a future run may succeed."
-                )
-
-            if len(content) > MAX_CONTENT_LENGTH:
-                logging.warning(
-                    "Content length (%d) exceeds maximum (%d), truncating...",
-                    len(content),
-                    MAX_CONTENT_LENGTH,
-                )
-                content = content[:MAX_CONTENT_LENGTH]
-
-            logging.info(
-                "Successfully fetched content with %d characters", len(content)
+            raise FetchTransientError(
+                f"Jina content too short ({len(content)} chars, minimum {MIN_CONTENT_LENGTH})."
             )
-            return content
 
-        except requests.RequestException as error:
+        # Jina-specific quality threshold: protects against short paywall or
+        # error interstitial text that passes the generic minimum-length check.
+        if len(content) < SOFT_FAIL_CONTENT_LENGTH:
+            raise FetchTransientError(
+                f"Jina content too short for summarization "
+                f"({len(content)} chars, soft-fail threshold {SOFT_FAIL_CONTENT_LENGTH})."
+            )
+
+        if len(content) > MAX_CONTENT_LENGTH:
             logging.warning(
-                "Request failed (attempt %d/%d): %s",
-                attempt + 1,
-                MAX_RETRIES,
-                error,
+                "Jina content length (%d) exceeds maximum (%d), truncating...",
+                len(content),
+                MAX_CONTENT_LENGTH,
             )
-            if attempt < MAX_RETRIES - 1:
-                wait_time = 2**attempt
-                logging.info("Retrying in %d seconds...", wait_time)
-                time.sleep(wait_time)
-            else:
-                raise FetchTransientError(
-                    f"All {MAX_RETRIES} retry attempts failed. Last error: {error}"
-                ) from error
+            content = content[:MAX_CONTENT_LENGTH]
+
+        logging.info("Jina fetch succeeded with %d characters", len(content))
+        return content
+    except (ContentUnavailableError, FetchTransientError) as jina_error:
+        logging.warning(
+            "Primary Jina fetch failed for %s (%s): %s. Trying origin fallback...",
+            url,
+            type(jina_error).__name__,
+            jina_error,
+        )
+        try:
+            return _fetch_from_origin_fallback(url)
+        except (ContentUnavailableError, FetchTransientError) as fallback_error:
+            raise type(fallback_error)(
+                f"Jina failed: {jina_error}; origin fallback failed: {fallback_error}"
+            ) from fallback_error
 
 
 @log_execution_time
-def call_openai_api_json(prompt: str, content: str) -> dict:
-    """Call OpenAI chat completions in strict JSON mode.
+def call_llm_api_json(prompt: str, content: str) -> dict:
+    """Call LLM chat completions in strict JSON mode.
 
     The response body is parsed as JSON and returned as a dict. Any failure
     to parse (LLM returned prose around the JSON, truncated, or a non-object
     payload) is treated as a hard `LLMError` — we do not retry, because
     re-running with the same input usually produces the same style of
-    output. The expectation is that strict prompting + OpenAI's
+    output. The expectation is that strict prompting + provider
     `response_format={"type": "json_object"}` mode is enough to keep
     parse failures rare; if they ever become common we can switch to a
     one-shot retry (Phase B follow-up).
 
-    Status-code handling matches the prior `call_openai_api`:
+    Status-code handling:
     429 → `LLMRateLimitError` (soft-fail in caller); other non-200 and
     any missing/malformed `choices` → `LLMError` (hard-fail).
     """
     if requests is None:
-        raise ConfigError("requests package not available; cannot call OpenAI API.")
+        raise ConfigError("requests package not available; cannot call LLM API.")
 
-    api_key = os.environ.get("OPENAI_API_KEY")
+    api_key = os.environ.get("LLM_API_KEY")
     if not api_key:
         raise ConfigError(
-            "OPENAI_API_KEY is not set. Export it before running the pipeline."
+            "LLM_API_KEY is not set. Export it before running the pipeline."
         )
 
-    model: str = os.environ.get("OPENAI_API_MODEL", "gpt-4o-mini")
+    model: str = os.environ.get("LLM_MODEL", "deepseek-v4-flash")
     headers: dict = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
     }
+    api_endpoint = os.environ.get(
+        "LLM_BASE_URL", "https://api.deepseek.com/chat/completions"
+    ).strip()
+    if not api_endpoint:
+        raise ConfigError("LLM_BASE_URL is empty. Provide a valid API endpoint.")
+
+    reasoning_effort = os.environ.get("LLM_REASONING_EFFORT", "high")
+
+    thinking_enabled = (
+        os.environ.get("LLM_THINKING_ENABLED", "true").lower()
+        in ("1", "true", "yes")
+    )
+
     data: dict = {
         "model": model,
         "messages": [
@@ -686,23 +797,52 @@ def call_openai_api_json(prompt: str, content: str) -> dict:
         # produce JSON; we do that in `summarize_to_json` below.
         "response_format": {"type": "json_object"},
     }
-    api_endpoint: str = os.environ.get(
-        "OPENAI_API_ENDPOINT", "https://api.openai.com/v1/chat/completions"
-    )
+    if reasoning_effort:
+        data["reasoning_effort"] = reasoning_effort
+    if thinking_enabled:
+        data["thinking"] = {"type": "enabled"}
 
-    logging.info("Calling OpenAI API with model: %s", model)
-    logging.info("API endpoint: %s", api_endpoint)
+    logging.info("Calling LLM API with model: %s", model)
+    logging.info("LLM endpoint: %s", api_endpoint)
 
     response: requests.Response = requests.post(
-        api_endpoint, headers=headers, data=json.dumps(data)
+        api_endpoint,
+        headers=headers,
+        data=json.dumps(data),
+        timeout=(HTTP_CONNECT_TIMEOUT_SECONDS, HTTP_READ_TIMEOUT_SECONDS),
     )
 
+    if response.status_code >= 400 and "response_format" in data:
+        try:
+            error_probe = response.json()
+            error_text = json.dumps(error_probe, ensure_ascii=False).lower()
+        except ValueError:
+            error_text = (response.text or "").lower()
+
+        if "response_format" in error_text:
+            logging.warning(
+                "Provider rejected response_format; retrying once without response_format."
+            )
+            retry_payload = dict(data)
+            retry_payload.pop("response_format", None)
+            response = requests.post(
+                api_endpoint,
+                headers=headers,
+                data=json.dumps(retry_payload),
+                timeout=(HTTP_CONNECT_TIMEOUT_SECONDS, HTTP_READ_TIMEOUT_SECONDS),
+            )
+
     logging.info("Response status code: %d", response.status_code)
-    response_json = response.json()
+    try:
+        response_json = response.json()
+    except ValueError as err:
+        snippet = response.text[:300] if hasattr(response, "text") else ""
+        logging.error("LLM API returned non-JSON response: %s", snippet)
+        raise LLMError(f"LLM API returned non-JSON response: {err}") from err
     logging.debug("Response content: %s", json.dumps(response_json, ensure_ascii=False))
 
     if response.status_code != 200:
-        error_msg = f"OpenAI API request failed with status {response.status_code}"
+        error_msg = f"LLM API request failed with status {response.status_code}"
         logging.error(error_msg)
         logging.error("Error response: %s", response_json)
         if response.status_code == 429:
@@ -722,19 +862,19 @@ def call_openai_api_json(prompt: str, content: str) -> dict:
         # LLM did not return a valid JSON object. Strict mode contract: this
         # is a hard failure, no fallback to regex extraction.
         snippet = raw_content[:200] if isinstance(raw_content, str) else str(raw_content)
-        logging.error("OpenAI response is not valid JSON: %s", snippet)
+        logging.error("LLM response is not valid JSON: %s", snippet)
         raise LLMError(
-            f"OpenAI response is not valid JSON: {err}"
+            f"LLM response is not valid JSON: {err}"
         )
 
     if not isinstance(parsed, dict):
         logging.error(
-            "OpenAI JSON response is not an object: type=%s value=%s",
+            "LLM JSON response is not an object: type=%s value=%s",
             type(parsed).__name__,
             str(parsed)[:200],
         )
         raise LLMError(
-            f"OpenAI JSON response is not an object (got {type(parsed).__name__})"
+            f"LLM JSON response is not an object (got {type(parsed).__name__})"
         )
 
     return parsed
@@ -811,7 +951,7 @@ def summarize_to_json(text: str) -> SummaryAndTldr:
     """One-shot summarization: returns both the structured summary and the
     TL;DR in a single OpenAI call. Replaces the two-call sequence
     `summarize_text` + `one_sentence_summary`."""
-    parsed = call_openai_api_json(_SUMMARIZE_JSON_PROMPT, text)
+    parsed = call_llm_api_json(_SUMMARIZE_JSON_PROMPT, text)
     summary = parsed.get("summary")
     tldr = parsed.get("tldr")
     if not isinstance(summary, str) or not isinstance(tldr, str):
@@ -1158,21 +1298,21 @@ def ingest_bookmark(title: str, url: str, tags: List[str]) -> Optional[Ingestion
     Returns:
         - An IngestionResult on success (caller writes the .md file and
           appends the bookmark to the in-memory list).
-        - ``None`` on soft-fail (ContentUnavailableError, FetchTransientError,
-          LLMRateLimitError). The caller is expected to log and skip —
+        - ``None`` on soft-fail (LLMRateLimitError only). The caller is expected to log and skip —
           the URL is NOT written to data.json, and no stub .md is
           produced. A future CI run that re-fetches the same URL will
           retry from scratch.
 
-    Hard-fail exceptions (ConfigError, LLMError other than rate-limit,
-    including strict-JSON parse failures) propagate to the caller, which
-    aborts the run before any writes.
+    Hard-fail exceptions (ContentUnavailableError, FetchTransientError,
+    ConfigError, LLMError other than rate-limit, including strict-JSON
+    parse failures) propagate to the caller, which aborts the run before
+    any writes.
     """
     submit_to_wayback_machine(url)
     try:
         text_content: str = get_text_content(url)
         combined = summarize_to_json(text_content)
-    except (ContentUnavailableError, FetchTransientError, LLMRateLimitError) as err:
+    except LLMRateLimitError as err:
         logging.warning(
             "Soft-fail ingesting %s (%s): %s. "
             "Skipping — no stub summary, no data.json entry; "
@@ -1294,27 +1434,30 @@ def process_changes(backfill: bool = False, dry_run: bool = False) -> None:
                 )
             else:
                 logging.info("Processing new bookmark: %s", title)
-                # Hard-fail (ConfigError, LLMError other than rate-limit) must
-                # abort the run — there is no point in continuing with a
-                # broken setup. Soft-fail (ContentUnavailableError,
-                # FetchTransientError, LLMRateLimitError) is caught inside
-                # `ingest_bookmark` and turned into a None return; we log
-                # and move on without writing the URL to data.json or
-                # producing a stub .md file.
+                # Content fetch failures (ContentUnavailableError,
+                # FetchTransientError) and hard LLM/setup failures abort the
+                # run so CI returns non-zero. Only LLMRateLimitError is
+                # downgraded to soft-fail (None return) inside ingest_bookmark.
                 try:
                     ingestion_result = ingest_bookmark(title, url, tags)
-                except (ConfigError, LLMError) as err:
+                except (
+                    ContentUnavailableError,
+                    FetchTransientError,
+                    ConfigError,
+                    LLMError,
+                ) as err:
                     logging.error(
-                        "Hard-fail ingesting %s (%s): %s",
+                        "Ingestion failed for %s (%s): %s",
                         url,
                         type(err).__name__,
                         err,
                     )
                     logging.error(
                         "Aborting the run before writing derived files; "
-                        "data.json / indexes will not be touched."
+                        "data.json / indexes will not be touched. "
+                        "Raising error so workflow fails."
                     )
-                    return
+                    raise
                 if ingestion_result is not None:
                     # Soft-fail returns None; the warning was already
                     # logged in ingest_bookmark. The negative branch
