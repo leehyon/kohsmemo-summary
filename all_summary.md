@@ -1,5 +1,20 @@
 # All Summary
 
+- (2026-07-16) [Agentic Autonomy Levels](202607/2026-07-16-agentic-autonomy-levels.md)
+  - Tags: #agent
+  - Summary: AI 代理自主性需从代理与编排两个维度校准，六个级别对应辅助、代理主导、编排三个时代。核心是匹配任务风险与可逆性，确保验证不落后。
+
+- (2026-07-16) [In defense of not understanding your codebase](202607/2026-07-16-in-defense-of-not-understanding-your-codebase.md)
+  - Tags: #engineering
+  - Summary: 本文为大代码库中不必完全理解代码库辩护，反驳了 Naur 的“编程即理论构建”观点，强调部分理解是常态，且理论构建只是众多工程价值之一。
+
+- (2026-07-15) [The illustrated guide to a Ph.D.](202607/2026-07-15-the-illustrated-guide-to-a-ph.d..md)
+  - Summary: 文章用圆圈比喻直观展示 PhD 的本质：在人类知识边界上通过数年研究做出一个微小但原创的突破，即获得博士学位。
+
+- (2026-07-15) [From “Reasoning” Thinking to “Agentic” Thinking](202607/2026-07-15-from-%E2%80%9Creasoning%E2%80%9D-thinking-to-%E2%80%9Cagentic%E2%80%9D-thinking.md)
+  - Tags: #agent #design
+  - Summary: 过去两年，AI 模型从追求推理能力转向培养代理性思维，o1 里程碑式地让思考成为可训练的一等能力，重塑了评估标准和发展方向。
+
 - (2026-07-15) [The Tower Keeps Rising](202607/2026-07-15-the-tower-keeps-rising.md)
   - Tags: #agent #design #product
   - Summary: AI 代理消除了维持共同理解的摩擦，使软件项目在集体理解崩溃后仍能盲目扩张，如同巴别塔永不倒塌，但隐患隐匿。
@@ -223,7 +238,7 @@
   - Summary: 作者分享了一套通过“无模板日记 + AI 分析”实现自我认知与创作素材储备的系统，核心是降低记录压力、外包复盘、自动生成画像与选题种子，让持续复盘变得轻松可行。
 
 - (2026-06-08) [You should keep a developer’s journal](202606/2026-06-08-you-should-keep-a-developer%E2%80%99s-journal.md)
-  - Tags: #writing #blog
+  - Tags: #writing
   - Summary: 开发者日志通过规划、记录、反思，提升编码效率与个人成长。本文解释了其价值并提供了实用技巧。
 
 - (2026-06-08) [Smart core, thin interfaces](202606/2026-06-08-smart-core%2C-thin-interfaces.md)
@@ -239,7 +254,7 @@
   - Summary: 提示词是技术债务且更危险：模型更新后悄然失效。建议用第三方工具并最小化定制，AGENTS.md 只写事实，避免行为引导。
 
 - (2026-06-08) [Cognitive Surrender](202606/2026-06-08-cognitive-surrender.md)
-  - Tags: #engineering #view
+  - Tags: #engineering
   - Summary: 认知投降是工程师无批判接受 AI 输出，导致理解债务。文章揭示其危害并提供策略：保持独立判断，让 AI 辅助而非替代思考。
 
 - (2026-06-08) [Most vibe-coded tools are not for you](202606/2026-06-08-most-vibe-coded-tools-are-not-for-you.md)
@@ -852,7 +867,7 @@
   - Summary: 谷歌工程师经验表明，技术成功关键在于软技能：专注用户问题、协作精神、行动导向、清晰表达和人脉建设。职业生涯是长期复利，需保持好奇谦逊，记住工作始终是关于人的。
 
 - (2026-03-13) [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](202603/2026-03-13-understanding-spec-driven-development-kiro%2C-spec-kit%2C-and-tessl.md)
-  - Tags: #workflow #vibe-coding #dev
+  - Tags: #workflow #vibe-coding
   - Summary: 规范驱动开发 (SDD) 强调先编写规范再编码，分为三个层次。现有工具支持不同工作流，但仍面临灵活性不足、审查负担重等问题，需从历史教训中学习。
 
 - (2026-03-13) [To get better at technical writing, lower your expectations](202603/2026-03-13-to-get-better-at-technical-writing%2C-lower-your-expectations.md)

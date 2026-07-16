@@ -3,6 +3,21 @@
 
 ## Latest 10 Entries
 
+(2026-07-16) [Agentic Autonomy Levels](202607/2026-07-16-agentic-autonomy-levels.md)
+- AI 代理自主性需从代理与编排两个维度校准，六个级别对应辅助、代理主导、编排三个时代。核心是匹配任务风险与可逆性，确保验证不落后。
+- Tags: #agent
+
+(2026-07-16) [In defense of not understanding your codebase](202607/2026-07-16-in-defense-of-not-understanding-your-codebase.md)
+- 本文为大代码库中不必完全理解代码库辩护，反驳了 Naur 的“编程即理论构建”观点，强调部分理解是常态，且理论构建只是众多工程价值之一。
+- Tags: #engineering
+
+(2026-07-15) [The illustrated guide to a Ph.D.](202607/2026-07-15-the-illustrated-guide-to-a-ph.d..md)
+- 文章用圆圈比喻直观展示 PhD 的本质：在人类知识边界上通过数年研究做出一个微小但原创的突破，即获得博士学位。
+
+(2026-07-15) [From “Reasoning” Thinking to “Agentic” Thinking](202607/2026-07-15-from-%E2%80%9Creasoning%E2%80%9D-thinking-to-%E2%80%9Cagentic%E2%80%9D-thinking.md)
+- 过去两年，AI 模型从追求推理能力转向培养代理性思维，o1 里程碑式地让思考成为可训练的一等能力，重塑了评估标准和发展方向。
+- Tags: #agent #design
+
 (2026-07-15) [The Tower Keeps Rising](202607/2026-07-15-the-tower-keeps-rising.md)
 - AI 代理消除了维持共同理解的摩擦，使软件项目在集体理解崩溃后仍能盲目扩张，如同巴别塔永不倒塌，但隐患隐匿。
 - Tags: #agent #design #product
@@ -26,25 +41,9 @@
 - 在 AI 编码时代，手动写代码仍是重要的思考与注意工具，能提升架构理解与代码质量。
 - Tags: #agent #vibe-coding #view
 
-(2026-07-14) [How to read more books](202607/2026-07-14-how-to-read-more-books.md)
-- 每周读一本书的关键在于用阅读替代屏幕时间，随时带书并养成习惯，同时避免速读和有声书，专注于深度阅读。
-- Tags: #reading
-
-(2026-07-14) [So You Want to Learn Physics…](202607/2026-07-14-so-you-want-to-learn-physics%E2%80%A6.md)
-- 一份针对自学者的完整物理课程指南，涵盖从高中数学基础到研究生核心课程的全部教材、数学路径与学习方法，强调解题和按序学习。
-- Tags: #physics
-
-(2026-07-10) [The Git Commands I Run Before Reading Any Code](202607/2026-07-10-the-git-commands-i-run-before-reading-any-code.md)
-- 通过五个 Git 命令快速诊断代码库：变更热点、Bus Factor、Bug 集群、提交趋势和危机模式，几分钟内揭示项目健康状态，指导后续代码阅读。
-- Tags: #best-practice
-
-(2026-07-10) [A software engineering interview question I like: computing the median](202607/2026-07-10-a-software-engineering-interview-question-i-like-computing-the-median.md)
-- 计算中位数是一道简单但有深度的面试题，能考察编程、边界、API 设计、统计及算法优化等多方面能力。
-- Tags: #career #math
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (24 entries)
+- [2026-07](202607/monthly-index.md) (28 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

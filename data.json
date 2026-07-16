@@ -285,8 +285,7 @@
     "timestamp": 1773369391,
     "tags": [
       "workflow",
-      "vibe-coding",
-      "dev"
+      "vibe-coding"
     ]
   },
   {
@@ -1789,8 +1788,7 @@
     "url": "https://addyosmani.com/blog/cognitive-surrender/",
     "timestamp": 1780909670,
     "tags": [
-      "engineering",
-      "view"
+      "engineering"
     ]
   },
   {
@@ -1827,8 +1825,7 @@
     "url": "https://stackoverflow.blog/2024/12/24/you-should-keep-a-developer-s-journal/",
     "timestamp": 1780912520,
     "tags": [
-      "writing",
-      "blog"
+      "writing"
     ]
   },
   {
@@ -2368,6 +2365,41 @@
       "agent",
       "design",
       "product"
+    ]
+  },
+  {
+    "month": "202607",
+    "title": "From “Reasoning” Thinking to “Agentic” Thinking",
+    "url": "https://x.com/JustinLin610/status/2037116325210829168",
+    "timestamp": 1784109978,
+    "tags": [
+      "agent",
+      "design"
+    ]
+  },
+  {
+    "month": "202607",
+    "title": "The illustrated guide to a Ph.D.",
+    "url": "https://matt.might.net/articles/phd-school-in-pictures/?_nospa=true",
+    "timestamp": 1784110012,
+    "tags": []
+  },
+  {
+    "month": "202607",
+    "title": "In defense of not understanding your codebase",
+    "url": "https://www.seangoedecke.com/in-defense-of-not-understanding-your-codebase/",
+    "timestamp": 1784180123,
+    "tags": [
+      "engineering"
+    ]
+  },
+  {
+    "month": "202607",
+    "title": "Agentic Autonomy Levels",
+    "url": "https://addyosmani.com/blog/agentic-autonomy-levels/",
+    "timestamp": 1784180971,
+    "tags": [
+      "agent"
     ]
   }
 ]

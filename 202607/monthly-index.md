@@ -1,5 +1,20 @@
 # 2026-07 Monthly Index
 
+(2026-07-16) [Agentic Autonomy Levels](2026-07-16-agentic-autonomy-levels.md)
+- AI 代理自主性需从代理与编排两个维度校准，六个级别对应辅助、代理主导、编排三个时代。核心是匹配任务风险与可逆性，确保验证不落后。
+- Tags: #agent
+
+(2026-07-16) [In defense of not understanding your codebase](2026-07-16-in-defense-of-not-understanding-your-codebase.md)
+- 本文为大代码库中不必完全理解代码库辩护，反驳了 Naur 的“编程即理论构建”观点，强调部分理解是常态，且理论构建只是众多工程价值之一。
+- Tags: #engineering
+
+(2026-07-15) [The illustrated guide to a Ph.D.](2026-07-15-the-illustrated-guide-to-a-ph.d..md)
+- 文章用圆圈比喻直观展示 PhD 的本质：在人类知识边界上通过数年研究做出一个微小但原创的突破，即获得博士学位。
+
+(2026-07-15) [From “Reasoning” Thinking to “Agentic” Thinking](2026-07-15-from-%E2%80%9Creasoning%E2%80%9D-thinking-to-%E2%80%9Cagentic%E2%80%9D-thinking.md)
+- 过去两年，AI 模型从追求推理能力转向培养代理性思维，o1 里程碑式地让思考成为可训练的一等能力，重塑了评估标准和发展方向。
+- Tags: #agent #design
+
 (2026-07-15) [The Tower Keeps Rising](2026-07-15-the-tower-keeps-rising.md)
 - AI 代理消除了维持共同理解的摩擦，使软件项目在集体理解崩溃后仍能盲目扩张，如同巴别塔永不倒塌，但隐患隐匿。
 - Tags: #agent #design #product
