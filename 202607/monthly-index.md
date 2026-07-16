@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-16) [In defense of not understanding your codebase](2026-07-16-in-defense-of-not-understanding-your-codebase.md)
+- 本文为大代码库中不必完全理解代码库辩护，反驳了 Naur 的“编程即理论构建”观点，强调部分理解是常态，且理论构建只是众多工程价值之一。
+- Tags: #engineering
+
 (2026-07-15) [The illustrated guide to a Ph.D.](2026-07-15-the-illustrated-guide-to-a-ph.d..md)
 - 文章用圆圈比喻直观展示 PhD 的本质：在人类知识边界上通过数年研究做出一个微小但原创的突破，即获得博士学位。
 

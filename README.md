@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-16) [In defense of not understanding your codebase](202607/2026-07-16-in-defense-of-not-understanding-your-codebase.md)
+- 本文为大代码库中不必完全理解代码库辩护，反驳了 Naur 的“编程即理论构建”观点，强调部分理解是常态，且理论构建只是众多工程价值之一。
+- Tags: #engineering
+
 (2026-07-15) [The illustrated guide to a Ph.D.](202607/2026-07-15-the-illustrated-guide-to-a-ph.d..md)
 - 文章用圆圈比喻直观展示 PhD 的本质：在人类知识边界上通过数年研究做出一个微小但原创的突破，即获得博士学位。
 
@@ -37,13 +41,9 @@
 - 每周读一本书的关键在于用阅读替代屏幕时间，随时带书并养成习惯，同时避免速读和有声书，专注于深度阅读。
 - Tags: #reading
 
-(2026-07-14) [So You Want to Learn Physics…](202607/2026-07-14-so-you-want-to-learn-physics%E2%80%A6.md)
-- 一份针对自学者的完整物理课程指南，涵盖从高中数学基础到研究生核心课程的全部教材、数学路径与学习方法，强调解题和按序学习。
-- Tags: #physics
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (26 entries)
+- [2026-07](202607/monthly-index.md) (27 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

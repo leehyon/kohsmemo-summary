@@ -2383,5 +2383,14 @@
     "url": "https://matt.might.net/articles/phd-school-in-pictures/?_nospa=true",
     "timestamp": 1784110012,
     "tags": []
+  },
+  {
+    "month": "202607",
+    "title": "In defense of not understanding your codebase",
+    "url": "https://www.seangoedecke.com/in-defense-of-not-understanding-your-codebase/",
+    "timestamp": 1784180123,
+    "tags": [
+      "engineering"
+    ]
   }
 ]
