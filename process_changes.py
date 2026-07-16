@@ -132,6 +132,7 @@ if not SUMMARY_ROOT.exists():
 
 DATA_PATH = SUMMARY_ROOT / "data.json"
 SUMMARY_README_PATH = SUMMARY_ROOT / "README.md"
+TLDR_CACHE_PATH = SUMMARY_ROOT / ".tldr_cache.json"
 
 COLLECTION_ROOT = Path(MEMO_REPO_NAME)
 COLLECTION_README_PATH = COLLECTION_ROOT / "README.md"
@@ -169,6 +170,16 @@ def write_text_file(path: Path, content: str, dry_run: bool = False) -> None:
             "Dry-run: would write %s (%d bytes)", path, len(content.encode("utf-8"))
         )
         return
+
+    if path.exists():
+        try:
+            existing = path.read_text(encoding="utf-8")
+            if existing == content:
+                logging.info("No content change for %s; skipping write.", path)
+                return
+        except OSError as error:
+            logging.warning("Failed to read %s before write: %s", path, error)
+
     ensure_directory(path.parent, dry_run=False)
     with path.open("w", encoding="utf-8") as handle:
         handle.write(content)
@@ -209,9 +220,47 @@ def save_summarized_bookmarks(
         )
         return
 
+    content = json.dumps(payload, indent=2, ensure_ascii=False)
+    if DATA_PATH.exists():
+        try:
+            existing = DATA_PATH.read_text(encoding="utf-8")
+            if existing == content:
+                logging.info("No content change for %s; skipping write.", DATA_PATH)
+                return
+        except OSError as error:
+            logging.warning("Failed to read %s before write: %s", DATA_PATH, error)
+
     ensure_directory(DATA_PATH.parent, dry_run=False)
     with DATA_PATH.open("w", encoding="utf-8") as handle:
-        json.dump(payload, handle, indent=2, ensure_ascii=False)
+        handle.write(content)
+
+
+def _bookmark_identity_key(bookmark: SummarizedBookmark) -> str:
+    return f"{bookmark.month}\t{bookmark.title}\t{bookmark.timestamp}"
+
+
+def load_tldr_cache() -> Dict[str, Dict[str, object]]:
+    if not TLDR_CACHE_PATH.exists():
+        return {}
+    try:
+        raw = json.loads(TLDR_CACHE_PATH.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as error:
+        logging.warning("Could not load TLDR cache from %s: %s", TLDR_CACHE_PATH, error)
+        return {}
+
+    if not isinstance(raw, dict):
+        return {}
+
+    cache: Dict[str, Dict[str, object]] = {}
+    for key, value in raw.items():
+        if isinstance(key, str) and isinstance(value, dict):
+            cache[key] = value
+    return cache
+
+
+def save_tldr_cache(cache: Dict[str, Dict[str, object]], dry_run: bool = False) -> None:
+    payload = json.dumps(cache, indent=2, ensure_ascii=False, sort_keys=True)
+    write_text_file(TLDR_CACHE_PATH, payload + "\n", dry_run=dry_run)
 
 
 def read_bookmark_collection_lines() -> List[str]:
@@ -351,10 +400,15 @@ def parse_readme_to_entries(
     return entries
 
 
-def build_url_tag_lookup(bookmark_lines: Iterable[str]) -> Dict[str, List[str]]:
+def build_url_tag_lookup(
+    bookmark_lines: Iterable[str],
+    entries: Optional[List[BookmarkEntry]] = None,
+) -> Dict[str, List[str]]:
     """Backward-compatible URL → tags lookup, now built from the unified
     BookmarkEntry list (Phase C). Returns the union of tags for each URL."""
-    return {e.url: e.tags for e in parse_readme_to_entries(bookmark_lines)}
+    if entries is None:
+        entries = parse_readme_to_entries(bookmark_lines)
+    return {e.url: e.tags for e in entries}
 
 
 def slugify(text: str) -> str:
@@ -1177,14 +1231,35 @@ def build_all_summary_md(
 def collect_tldrs(
     bookmarks: Iterable[SummarizedBookmark],
     overrides: Optional[Dict[Tuple[str, str, int], str]] = None,
+    cache: Optional[Dict[str, Dict[str, object]]] = None,
 ) -> Dict[Tuple[str, str, int], str]:
     overrides = overrides or {}
+    cache = cache if cache is not None else {}
     lookup: Dict[Tuple[str, str, int], str] = {}
 
     for bookmark in bookmarks:
         key = bookmark_identity(bookmark)
+        cache_key = _bookmark_identity_key(bookmark)
         if key in overrides:
-            lookup[key] = overrides[key]
+            tldr = overrides[key]
+            lookup[key] = tldr
+            summary_file_path = get_summary_file_path(
+                title=bookmark.title,
+                timestamp=bookmark.timestamp,
+                month=bookmark.month,
+                in_readme_md=False,
+            )
+            mtime_ns = 0
+            try:
+                if summary_file_path.exists():
+                    mtime_ns = summary_file_path.stat().st_mtime_ns
+            except OSError:
+                mtime_ns = 0
+            cache[cache_key] = {
+                "tldr": tldr,
+                "summary_path": str(summary_file_path),
+                "mtime_ns": mtime_ns,
+            }
             continue
 
         summary_file_path = get_summary_file_path(
@@ -1193,7 +1268,33 @@ def collect_tldrs(
             month=bookmark.month,
             in_readme_md=False,
         )
-        lookup[key] = extract_tldr_from_markdown(str(summary_file_path))
+        try:
+            current_mtime_ns = summary_file_path.stat().st_mtime_ns
+        except OSError:
+            current_mtime_ns = -1
+
+        cached = cache.get(cache_key, {})
+        cached_tldr = cached.get("tldr") if isinstance(cached, dict) else None
+        cached_path = cached.get("summary_path") if isinstance(cached, dict) else None
+        cached_mtime = cached.get("mtime_ns") if isinstance(cached, dict) else None
+
+        if (
+            isinstance(cached_tldr, str)
+            and isinstance(cached_path, str)
+            and isinstance(cached_mtime, int)
+            and cached_path == str(summary_file_path)
+            and cached_mtime == current_mtime_ns
+        ):
+            lookup[key] = cached_tldr
+            continue
+
+        tldr = extract_tldr_from_markdown(str(summary_file_path))
+        lookup[key] = tldr
+        cache[cache_key] = {
+            "tldr": tldr,
+            "summary_path": str(summary_file_path),
+            "mtime_ns": current_mtime_ns,
+        }
 
     return lookup
 
@@ -1240,24 +1341,28 @@ def process_bookmark_file():
 
 def _extract_urls_with_tombstone(
     bookmark_lines: Iterable[str],
+    entries: Optional[List[BookmarkEntry]] = None,
 ) -> Set[str]:
     """Return the set of URLs marked with #tombstone in the kohsmemo README.
 
     Phase C: built from the unified BookmarkEntry list.
     """
-    return {e.url for e in parse_readme_to_entries(bookmark_lines) if e.has_tombstone}
+    if entries is None:
+        entries = parse_readme_to_entries(bookmark_lines)
+    return {e.url for e in entries if e.has_tombstone}
 
 
 def find_tombstoned_bookmarks(
     bookmark_lines: Iterable[str],
     summarized_bookmarks: Iterable[SummarizedBookmark],
+    entries: Optional[List[BookmarkEntry]] = None,
 ) -> List[SummarizedBookmark]:
     """Return summary entries whose source URL is marked #tombstone.
 
     Phase C: uses the unified BookmarkEntry list to look up the tombstoned
     URL set. The caller passes `summarized_bookmarks` for the cross-check.
     """
-    tombstoned_urls = _extract_urls_with_tombstone(bookmark_lines)
+    tombstoned_urls = _extract_urls_with_tombstone(bookmark_lines, entries=entries)
     if not tombstoned_urls:
         return []
     return [b for b in summarized_bookmarks if b.url in tombstoned_urls]
@@ -1286,7 +1391,9 @@ def remove_bookmark(bookmark: SummarizedBookmark, dry_run: bool = False) -> None
 
 
 def find_next_bookmark_to_process(
-    bookmark_lines: Iterable[str], summarized_urls: Iterable[str]
+    bookmark_lines: Iterable[str],
+    summarized_urls: Iterable[str],
+    entries: Optional[List[BookmarkEntry]] = None,
 ) -> Optional[Tuple[str, str, List[str]]]:
     """Return (title, url, tags) for the first bookmark in the README that
     hasn't been summarized yet, ignoring rows with #nosummary.
@@ -1296,7 +1403,10 @@ def find_next_bookmark_to_process(
     is not marked #nosummary.
     """
     summarized_url_set = set(summarized_urls)
-    for entry in parse_readme_to_entries(bookmark_lines):
+    if entries is None:
+        entries = parse_readme_to_entries(bookmark_lines)
+
+    for entry in entries:
         if entry.url in summarized_url_set:
             continue
         if entry.has_nosummary:
@@ -1372,7 +1482,8 @@ def process_changes(backfill: bool = False, dry_run: bool = False) -> None:
     summarized_urls = [bookmark.url for bookmark in summarized_bookmarks]
 
     bookmark_lines = read_bookmark_collection_lines()
-    url_tag_lookup = build_url_tag_lookup(bookmark_lines)
+    bookmark_entries = parse_readme_to_entries(bookmark_lines)
+    url_tag_lookup = build_url_tag_lookup(bookmark_lines, entries=bookmark_entries)
     if url_tag_lookup:
         for bookmark in summarized_bookmarks:
             if bookmark.url in url_tag_lookup:
@@ -1398,7 +1509,9 @@ def process_changes(backfill: bool = False, dry_run: bool = False) -> None:
         # in the user's local working copy but were never part of the
         # triggering commit.
         tombstoned = find_tombstoned_bookmarks(
-            bookmark_lines, summarized_bookmarks
+            bookmark_lines,
+            summarized_bookmarks,
+            entries=bookmark_entries,
         )
         # Stable order by timestamp (oldest first) for predictable logging.
         to_remove = sorted(tombstoned, key=lambda b: b.timestamp)
@@ -1439,7 +1552,11 @@ def process_changes(backfill: bool = False, dry_run: bool = False) -> None:
                 "Run with --backfill or install optional dependencies."
             )
     else:
-        next_bookmark = find_next_bookmark_to_process(bookmark_lines, summarized_urls)
+        next_bookmark = find_next_bookmark_to_process(
+            bookmark_lines,
+            summarized_urls,
+            entries=bookmark_entries,
+        )
 
         if next_bookmark:
             title, url, tags = next_bookmark
@@ -1503,10 +1620,13 @@ def process_changes(backfill: bool = False, dry_run: bool = False) -> None:
     save_summarized_bookmarks(summarized_bookmarks, dry_run=dry_run)
 
     grouped = group_bookmarks_by_month(summarized_bookmarks)
+    tldr_cache = load_tldr_cache()
     tldr_lookup = collect_tldrs(
         summarized_bookmarks,
         overrides=overrides,
+        cache=tldr_cache,
     )
+    save_tldr_cache(tldr_cache, dry_run=dry_run)
 
     write_monthly_indexes(grouped, tldr_lookup, dry_run=dry_run)
 
