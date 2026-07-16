@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-16) [Superpowers 6](2026-07-16-superpowers-6.md)
+- Superpowers 6 速度提升 50%，成本降低 60%，通过合并审查代理和自动化优化实现，现已发布。
+- Tags: #agent
+
 (2026-07-16) [Agentic Autonomy Levels](2026-07-16-agentic-autonomy-levels.md)
 - AI 代理自主性需从代理与编排两个维度校准，六个级别对应辅助、代理主导、编排三个时代。核心是匹配任务风险与可逆性，确保验证不落后。
 - Tags: #agent

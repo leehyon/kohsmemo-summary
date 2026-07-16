@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-16) [Superpowers 6](202607/2026-07-16-superpowers-6.md)
+- Superpowers 6 速度提升 50%，成本降低 60%，通过合并审查代理和自动化优化实现，现已发布。
+- Tags: #agent
+
 (2026-07-16) [Agentic Autonomy Levels](202607/2026-07-16-agentic-autonomy-levels.md)
 - AI 代理自主性需从代理与编排两个维度校准，六个级别对应辅助、代理主导、编排三个时代。核心是匹配任务风险与可逆性，确保验证不落后。
 - Tags: #agent
@@ -37,13 +41,9 @@
 - 以《侏罗纪公园》特效师 Phil Tippett 的“灭绝”轶事类比程序员对 LLM 的焦虑，强调应主动学习 LLM 原理、优化编码与审查流程、拥抱工具进化，从而像 Tippett 一样转型而非被淘汰。
 - Tags: #agent #view
 
-(2026-07-14) [Why write code in 2026](202607/2026-07-14-why-write-code-in-2026.md)
-- 在 AI 编码时代，手动写代码仍是重要的思考与注意工具，能提升架构理解与代码质量。
-- Tags: #agent #vibe-coding #view
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (28 entries)
+- [2026-07](202607/monthly-index.md) (29 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
