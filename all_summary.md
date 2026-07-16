@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-16) [Agentic Autonomy Levels](202607/2026-07-16-agentic-autonomy-levels.md)
+  - Tags: #agent
+  - Summary: AI 代理自主性需从代理与编排两个维度校准，六个级别对应辅助、代理主导、编排三个时代。核心是匹配任务风险与可逆性，确保验证不落后。
+
 - (2026-07-16) [In defense of not understanding your codebase](202607/2026-07-16-in-defense-of-not-understanding-your-codebase.md)
   - Tags: #engineering
   - Summary: 本文为大代码库中不必完全理解代码库辩护，反驳了 Naur 的“编程即理论构建”观点，强调部分理解是常态，且理论构建只是众多工程价值之一。

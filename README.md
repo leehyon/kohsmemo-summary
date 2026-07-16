@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-16) [Agentic Autonomy Levels](202607/2026-07-16-agentic-autonomy-levels.md)
+- AI 代理自主性需从代理与编排两个维度校准，六个级别对应辅助、代理主导、编排三个时代。核心是匹配任务风险与可逆性，确保验证不落后。
+- Tags: #agent
+
 (2026-07-16) [In defense of not understanding your codebase](202607/2026-07-16-in-defense-of-not-understanding-your-codebase.md)
 - 本文为大代码库中不必完全理解代码库辩护，反驳了 Naur 的“编程即理论构建”观点，强调部分理解是常态，且理论构建只是众多工程价值之一。
 - Tags: #engineering
@@ -37,13 +41,9 @@
 - 在 AI 编码时代，手动写代码仍是重要的思考与注意工具，能提升架构理解与代码质量。
 - Tags: #agent #vibe-coding #view
 
-(2026-07-14) [How to read more books](202607/2026-07-14-how-to-read-more-books.md)
-- 每周读一本书的关键在于用阅读替代屏幕时间，随时带书并养成习惯，同时避免速读和有声书，专注于深度阅读。
-- Tags: #reading
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (27 entries)
+- [2026-07](202607/monthly-index.md) (28 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
