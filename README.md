@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-17) [Stop Naming Your Variables "Flag": The Art of Boolean Prefixes](202607/2026-07-17-stop-naming-your-variables-flag-the-art-of-boolean-prefixes.md)
+- 命名布尔变量应使用 `is`、`has`、`can`、`should` 前缀，形成清晰的问题；禁止否定名称；参数布尔易引发陷阱，需用拆方法、枚举或配置对象替代。
+- Tags: #design
+
 (2026-07-16) [Superpowers 6](202607/2026-07-16-superpowers-6.md)
 - Superpowers 6 速度提升 50%，成本降低 60%，通过合并审查代理和自动化优化实现，现已发布。
 - Tags: #agent
@@ -37,13 +41,9 @@
 (2026-07-15) [Using the internet like its 1999](202607/2026-07-15-using-the-internet-like-its-1999.md)
 - 本文倡导回归 1999 年的互联网使用方式，通过 RSS、IRC、邮件等协议逃离算法和 AI 垃圾，找回自主性与真实性。
 
-(2026-07-14) [Don't you mean extinct?](202607/2026-07-14-don%27t-you-mean-extinct.md)
-- 以《侏罗纪公园》特效师 Phil Tippett 的“灭绝”轶事类比程序员对 LLM 的焦虑，强调应主动学习 LLM 原理、优化编码与审查流程、拥抱工具进化，从而像 Tippett 一样转型而非被淘汰。
-- Tags: #agent #view
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (29 entries)
+- [2026-07](202607/monthly-index.md) (30 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

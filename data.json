@@ -2410,5 +2410,14 @@
     "tags": [
       "agent"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "Stop Naming Your Variables \"Flag\": The Art of Boolean Prefixes",
+    "url": "https://thatamazingprogrammer.com/posts/stop-naming-your-variables-flag-the-art-of-boolean-prefixes/",
+    "timestamp": 1784258745,
+    "tags": [
+      "design"
+    ]
   }
 ]

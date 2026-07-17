@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-17) [Stop Naming Your Variables "Flag": The Art of Boolean Prefixes](2026-07-17-stop-naming-your-variables-flag-the-art-of-boolean-prefixes.md)
+- 命名布尔变量应使用 `is`、`has`、`can`、`should` 前缀，形成清晰的问题；禁止否定名称；参数布尔易引发陷阱，需用拆方法、枚举或配置对象替代。
+- Tags: #design
+
 (2026-07-16) [Superpowers 6](2026-07-16-superpowers-6.md)
 - Superpowers 6 速度提升 50%，成本降低 60%，通过合并审查代理和自动化优化实现，现已发布。
 - Tags: #agent
