@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-17) [ML Job Interviews: The Ultimate Guide](202607/2026-07-17-ml-job-interviews-the-ultimate-guide.md)
+- ML 研究岗面试指南：需专门准备 1 个月，掌握编码与 ML 实现，用 LLM 模拟，注重情绪管理，谈判时利用多方 offer。作者最终入职 DeepMind。
+- Tags: #career
+
 (2026-07-17) [我让 AI 复盘日记：挖掘隐藏线索，避免自我内耗](202607/2026-07-17-%E6%88%91%E8%AE%A9-ai-%E5%A4%8D%E7%9B%98%E6%97%A5%E8%AE%B0%EF%BC%9A%E6%8C%96%E6%8E%98%E9%9A%90%E8%97%8F%E7%BA%BF%E7%B4%A2%EF%BC%8C%E9%81%BF%E5%85%8D%E8%87%AA%E6%88%91%E5%86%85%E8%80%97.md)
 - 作者设计 AI 助手分析日记，通过 7 步工作流避免自我内耗，挖掘长期线索，让日记从情绪出口变成滋养未来的土壤，并分享 skill 文件可供参考。
 - Tags: #life
@@ -38,13 +42,9 @@
 - 本文详细解释了 htop 中各项系统指标的含义，包括负载均值、进程状态、内存使用等，并通过实际操作演示了如何从  文件系统获取信息。
 - Tags: #explained
 
-(2026-07-15) [Docker Build Cache: The 80/20 Rules That Cut CI Image Builds From Minutes to Seconds](202607/2026-07-15-docker-build-cache-the-80-20-rules-that-cut-ci-image-builds-from-minutes-to-seconds.md)
-- 通过层排序、多阶段构建、BuildKit 缓存挂载和远程缓存四条规则，可将 Docker 构建时间从几分钟降至 20 秒左右，核心是优先缓存不常变的依赖层。
-- Tags: #build #guide
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (31 entries)
+- [2026-07](202607/monthly-index.md) (32 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

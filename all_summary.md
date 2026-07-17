@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-17) [ML Job Interviews: The Ultimate Guide](202607/2026-07-17-ml-job-interviews-the-ultimate-guide.md)
+  - Tags: #career
+  - Summary: ML 研究岗面试指南：需专门准备 1 个月，掌握编码与 ML 实现，用 LLM 模拟，注重情绪管理，谈判时利用多方 offer。作者最终入职 DeepMind。
+
 - (2026-07-17) [我让 AI 复盘日记：挖掘隐藏线索，避免自我内耗](202607/2026-07-17-%E6%88%91%E8%AE%A9-ai-%E5%A4%8D%E7%9B%98%E6%97%A5%E8%AE%B0%EF%BC%9A%E6%8C%96%E6%8E%98%E9%9A%90%E8%97%8F%E7%BA%BF%E7%B4%A2%EF%BC%8C%E9%81%BF%E5%85%8D%E8%87%AA%E6%88%91%E5%86%85%E8%80%97.md)
   - Tags: #life
   - Summary: 作者设计 AI 助手分析日记，通过 7 步工作流避免自我内耗，挖掘长期线索，让日记从情绪出口变成滋养未来的土壤，并分享 skill 文件可供参考。
