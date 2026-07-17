@@ -1,7 +1,11 @@
 # 2026-07 Monthly Index
 
+(2026-07-17) [我让 AI 复盘日记：挖掘隐藏线索，避免自我内耗](2026-07-17-%E6%88%91%E8%AE%A9-ai-%E5%A4%8D%E7%9B%98%E6%97%A5%E8%AE%B0%EF%BC%9A%E6%8C%96%E6%8E%98%E9%9A%90%E8%97%8F%E7%BA%BF%E7%B4%A2%EF%BC%8C%E9%81%BF%E5%85%8D%E8%87%AA%E6%88%91%E5%86%85%E8%80%97.md)
+- 作者设计 AI 助手分析日记，通过 7 步工作流避免自我内耗，挖掘长期线索，让日记从情绪出口变成滋养未来的土壤，并分享 skill 文件可供参考。
+- Tags: #life
+
 (2026-07-17) [Stop Naming Your Variables "Flag": The Art of Boolean Prefixes](2026-07-17-stop-naming-your-variables-flag-the-art-of-boolean-prefixes.md)
-- 命名布尔变量应使用 `is`、`has`、`can`、`should` 前缀，形成清晰的问题；禁止否定名称；参数布尔易引发陷阱，需用拆方法、枚举或配置对象替代。
+- 命名布尔变量应使用 、、、 前缀，形成清晰的问题；禁止否定名称；参数布尔易引发陷阱，需用拆方法、枚举或配置对象替代。
 - Tags: #design
 
 (2026-07-16) [Superpowers 6](2026-07-16-superpowers-6.md)
