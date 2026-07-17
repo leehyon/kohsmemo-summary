@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-17) [Reverse mode Automatic Differentiation](2026-07-17-reverse-mode-automatic-differentiation.md)
+- 文章详细讲解反向模式自动微分（AD）的原理，从链式法则出发，通过线性链和一般 DAG 示例演示梯度反向传播，并给出简单 Python 实现。重点强调 VJP 概念及其在机器学习中的高效性。
+- Tags: #math
+
 (2026-07-17) [ML Job Interviews: The Ultimate Guide](2026-07-17-ml-job-interviews-the-ultimate-guide.md)
 - ML 研究岗面试指南：需专门准备 1 个月，掌握编码与 ML 实现，用 LLM 模拟，注重情绪管理，谈判时利用多方 offer。作者最终入职 DeepMind。
 - Tags: #career

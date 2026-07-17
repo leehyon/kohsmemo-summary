@@ -2437,5 +2437,14 @@
     "tags": [
       "career"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "Reverse mode Automatic Differentiation",
+    "url": "https://eli.thegreenplace.net/2025/reverse-mode-automatic-differentiation/",
+    "timestamp": 1784275231,
+    "tags": [
+      "math"
+    ]
   }
 ]

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-17) [Reverse mode Automatic Differentiation](202607/2026-07-17-reverse-mode-automatic-differentiation.md)
+- 文章详细讲解反向模式自动微分（AD）的原理，从链式法则出发，通过线性链和一般 DAG 示例演示梯度反向传播，并给出简单 Python 实现。重点强调 VJP 概念及其在机器学习中的高效性。
+- Tags: #math
+
 (2026-07-17) [ML Job Interviews: The Ultimate Guide](202607/2026-07-17-ml-job-interviews-the-ultimate-guide.md)
 - ML 研究岗面试指南：需专门准备 1 个月，掌握编码与 ML 实现，用 LLM 模拟，注重情绪管理，谈判时利用多方 offer。作者最终入职 DeepMind。
 - Tags: #career
@@ -38,13 +42,9 @@
 - AI 代理消除了维持共同理解的摩擦，使软件项目在集体理解崩溃后仍能盲目扩张，如同巴别塔永不倒塌，但隐患隐匿。
 - Tags: #agent #design #product
 
-(2026-07-15) [htop explained](202607/2026-07-15-htop-explained.md)
-- 本文详细解释了 htop 中各项系统指标的含义，包括负载均值、进程状态、内存使用等，并通过实际操作演示了如何从  文件系统获取信息。
-- Tags: #explained
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (32 entries)
+- [2026-07](202607/monthly-index.md) (33 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
