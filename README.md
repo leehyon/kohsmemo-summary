@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-20) [当 AI 越来越像你，你也在越来越像 AI](202607/2026-07-20-%E5%BD%93-ai-%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%83%8F%E4%BD%A0%EF%BC%8C%E4%BD%A0%E4%B9%9F%E5%9C%A8%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%83%8F-ai.md)
+- 文章警示人与 AI 长期互动可能导致思维被同化，内化其框架而不自知。需要主动保留不顺滑的经验，守住改变自己的主导权，而非拒绝改变。
+- Tags: #agent #life #view
+
 (2026-07-20) [小象超市鮮啤簡評](202607/2026-07-20-%E5%B0%8F%E8%B1%A1%E8%B6%85%E5%B8%82%E9%AE%AE%E5%95%A4%E7%B0%A1%E8%A9%95.md)
 - 作者品尝小象超市多款鲜啤，推荐澄穗日式（清爽）、美式拉格（量大）、普鲁士风暴（浓郁），避免小麦博克（酒精味重）。
 - Tags: #life
@@ -38,13 +42,9 @@
 (2026-07-15) [The illustrated guide to a Ph.D.](202607/2026-07-15-the-illustrated-guide-to-a-ph.d..md)
 - 文章用圆圈比喻直观展示 PhD 的本质：在人类知识边界上通过数年研究做出一个微小但原创的突破，即获得博士学位。
 
-(2026-07-15) [From “Reasoning” Thinking to “Agentic” Thinking](202607/2026-07-15-from-%E2%80%9Creasoning%E2%80%9D-thinking-to-%E2%80%9Cagentic%E2%80%9D-thinking.md)
-- 过去两年，AI 模型从追求推理能力转向培养代理性思维，o1 里程碑式地让思考成为可训练的一等能力，重塑了评估标准和发展方向。
-- Tags: #agent #design
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (34 entries)
+- [2026-07](202607/monthly-index.md) (35 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
