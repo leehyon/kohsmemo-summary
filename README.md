@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-20) [小象超市鮮啤簡評](202607/2026-07-20-%E5%B0%8F%E8%B1%A1%E8%B6%85%E5%B8%82%E9%AE%AE%E5%95%A4%E7%B0%A1%E8%A9%95.md)
+- 作者品尝小象超市多款鲜啤，推荐澄穗日式（清爽）、美式拉格（量大）、普鲁士风暴（浓郁），避免小麦博克（酒精味重）。
+- Tags: #life
+
 (2026-07-17) [Reverse mode Automatic Differentiation](202607/2026-07-17-reverse-mode-automatic-differentiation.md)
 - 文章详细讲解反向模式自动微分（AD）的原理，从链式法则出发，通过线性链和一般 DAG 示例演示梯度反向传播，并给出简单 Python 实现。重点强调 VJP 概念及其在机器学习中的高效性。
 - Tags: #math
@@ -38,13 +42,9 @@
 - 过去两年，AI 模型从追求推理能力转向培养代理性思维，o1 里程碑式地让思考成为可训练的一等能力，重塑了评估标准和发展方向。
 - Tags: #agent #design
 
-(2026-07-15) [The Tower Keeps Rising](202607/2026-07-15-the-tower-keeps-rising.md)
-- AI 代理消除了维持共同理解的摩擦，使软件项目在集体理解崩溃后仍能盲目扩张，如同巴别塔永不倒塌，但隐患隐匿。
-- Tags: #agent #design #product
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (33 entries)
+- [2026-07](202607/monthly-index.md) (34 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

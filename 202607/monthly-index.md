@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-20) [小象超市鮮啤簡評](2026-07-20-%E5%B0%8F%E8%B1%A1%E8%B6%85%E5%B8%82%E9%AE%AE%E5%95%A4%E7%B0%A1%E8%A9%95.md)
+- 作者品尝小象超市多款鲜啤，推荐澄穗日式（清爽）、美式拉格（量大）、普鲁士风暴（浓郁），避免小麦博克（酒精味重）。
+- Tags: #life
+
 (2026-07-17) [Reverse mode Automatic Differentiation](2026-07-17-reverse-mode-automatic-differentiation.md)
 - 文章详细讲解反向模式自动微分（AD）的原理，从链式法则出发，通过线性链和一般 DAG 示例演示梯度反向传播，并给出简单 Python 实现。重点强调 VJP 概念及其在机器学习中的高效性。
 - Tags: #math
