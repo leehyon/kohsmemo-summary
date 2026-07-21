@@ -2466,5 +2466,15 @@
       "life",
       "view"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "Perfection is not over-engineering",
+    "url": "https://var0.xyz/posts/perfection-is-not-over-engineering.html",
+    "timestamp": 1784625290,
+    "tags": [
+      "design",
+      "engineering"
+    ]
   }
 ]

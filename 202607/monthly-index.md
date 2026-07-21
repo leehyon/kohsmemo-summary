@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-21) [Perfection is not over-engineering](2026-07-21-perfection-is-not-over-engineering.md)
+- 完美与过度工程不同：过度工程是解决错误问题，而完美解在清晰需求下是唯一且正确的。关键在于获取正确需求。
+- Tags: #design #engineering
+
 (2026-07-20) [当 AI 越来越像你，你也在越来越像 AI](2026-07-20-%E5%BD%93-ai-%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%83%8F%E4%BD%A0%EF%BC%8C%E4%BD%A0%E4%B9%9F%E5%9C%A8%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%83%8F-ai.md)
 - 文章警示人与 AI 长期互动可能导致思维被同化，内化其框架而不自知。需要主动保留不顺滑的经验，守住改变自己的主导权，而非拒绝改变。
 - Tags: #agent #life #view
