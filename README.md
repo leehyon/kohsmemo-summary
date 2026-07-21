@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-07-21) [Who’s Afraid of Chinese Models?](202607/2026-07-21-who%E2%80%99s-afraid-of-chinese-models.md)
+- 对 Kimi K3 的恐慌过度，AI 智能商品化下成本结构更重要。中国模型未必更便宜，但美国应通过开放和蒸馏合法化保持优势，尤其网络安全需放开前沿模型使用。
+
 (2026-07-21) [Perfection is not over-engineering](202607/2026-07-21-perfection-is-not-over-engineering.md)
 - 完美与过度工程不同：过度工程是解决错误问题，而完美解在清晰需求下是唯一且正确的。关键在于获取正确需求。
 - Tags: #design #engineering
@@ -39,13 +42,9 @@
 - AI 代理自主性需从代理与编排两个维度校准，六个级别对应辅助、代理主导、编排三个时代。核心是匹配任务风险与可逆性，确保验证不落后。
 - Tags: #agent
 
-(2026-07-16) [In defense of not understanding your codebase](202607/2026-07-16-in-defense-of-not-understanding-your-codebase.md)
-- 本文为大代码库中不必完全理解代码库辩护，反驳了 Naur 的“编程即理论构建”观点，强调部分理解是常态，且理论构建只是众多工程价值之一。
-- Tags: #engineering
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (36 entries)
+- [2026-07](202607/monthly-index.md) (37 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

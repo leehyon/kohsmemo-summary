@@ -1,5 +1,8 @@
 # 2026-07 Monthly Index
 
+(2026-07-21) [Who’s Afraid of Chinese Models?](2026-07-21-who%E2%80%99s-afraid-of-chinese-models.md)
+- 对 Kimi K3 的恐慌过度，AI 智能商品化下成本结构更重要。中国模型未必更便宜，但美国应通过开放和蒸馏合法化保持优势，尤其网络安全需放开前沿模型使用。
+
 (2026-07-21) [Perfection is not over-engineering](2026-07-21-perfection-is-not-over-engineering.md)
 - 完美与过度工程不同：过度工程是解决错误问题，而完美解在清晰需求下是唯一且正确的。关键在于获取正确需求。
 - Tags: #design #engineering
