@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-22) [AI Didn’t Make Programming Easier. It Just Made It Differently Difficult](202607/2026-07-22-ai-didn%E2%80%99t-make-programming-easier.-it-just-made-it-differently-difficult.md)
+- AI 编程工具并未简化编程，而是将困难从“写代码”转向“理解与验证 AI 的输出”，要求开发者具备更强的判断力和系统思维。
+- Tags: #engineering
+
 (2026-07-21) [Who’s Afraid of Chinese Models?](202607/2026-07-21-who%E2%80%99s-afraid-of-chinese-models.md)
 - 对 Kimi K3 的恐慌过度，AI 智能商品化下成本结构更重要。中国模型未必更便宜，但美国应通过开放和蒸馏合法化保持优势，尤其网络安全需放开前沿模型使用。
 
@@ -38,13 +42,9 @@
 - Superpowers 6 速度提升 50%，成本降低 60%，通过合并审查代理和自动化优化实现，现已发布。
 - Tags: #agent
 
-(2026-07-16) [Agentic Autonomy Levels](202607/2026-07-16-agentic-autonomy-levels.md)
-- AI 代理自主性需从代理与编排两个维度校准，六个级别对应辅助、代理主导、编排三个时代。核心是匹配任务风险与可逆性，确保验证不落后。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (37 entries)
+- [2026-07](202607/monthly-index.md) (38 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

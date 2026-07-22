@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-22) [AI Didn’t Make Programming Easier. It Just Made It Differently Difficult](202607/2026-07-22-ai-didn%E2%80%99t-make-programming-easier.-it-just-made-it-differently-difficult.md)
+  - Tags: #engineering
+  - Summary: AI 编程工具并未简化编程，而是将困难从“写代码”转向“理解与验证 AI 的输出”，要求开发者具备更强的判断力和系统思维。
+
 - (2026-07-21) [Who’s Afraid of Chinese Models?](202607/2026-07-21-who%E2%80%99s-afraid-of-chinese-models.md)
   - Summary: 对 Kimi K3 的恐慌过度，AI 智能商品化下成本结构更重要。中国模型未必更便宜，但美国应通过开放和蒸馏合法化保持优势，尤其网络安全需放开前沿模型使用。
 

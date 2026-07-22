@@ -2483,5 +2483,14 @@
     "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
     "timestamp": 1784625599,
     "tags": []
+  },
+  {
+    "month": "202607",
+    "title": "AI Didn’t Make Programming Easier. It Just Made It Differently Difficult",
+    "url": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
+    "timestamp": 1784685570,
+    "tags": [
+      "engineering"
+    ]
   }
 ]
