@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-23) [探索 AI 时代的人机协作](202607/2026-07-23-%E6%8E%A2%E7%B4%A2-ai-%E6%97%B6%E4%BB%A3%E7%9A%84%E4%BA%BA%E6%9C%BA%E5%8D%8F%E4%BD%9C.md)
+  - Tags: #agent #engineering
+  - Summary: 本文探讨 AI 时代人机协作，指出 AI 改变工作基本单元，执行能力平权后判断更珍贵，组织需将上下文结构化，个人从执行者转向 Owner，对结果负责，最终重新定义人机责任。
+
 - (2026-07-22) [AI Didn’t Make Programming Easier. It Just Made It Differently Difficult](202607/2026-07-22-ai-didn%E2%80%99t-make-programming-easier.-it-just-made-it-differently-difficult.md)
   - Tags: #engineering
   - Summary: AI 编程工具并未简化编程，而是将困难从“写代码”转向“理解与验证 AI 的输出”，要求开发者具备更强的判断力和系统思维。

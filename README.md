@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-23) [探索 AI 时代的人机协作](202607/2026-07-23-%E6%8E%A2%E7%B4%A2-ai-%E6%97%B6%E4%BB%A3%E7%9A%84%E4%BA%BA%E6%9C%BA%E5%8D%8F%E4%BD%9C.md)
+- 本文探讨 AI 时代人机协作，指出 AI 改变工作基本单元，执行能力平权后判断更珍贵，组织需将上下文结构化，个人从执行者转向 Owner，对结果负责，最终重新定义人机责任。
+- Tags: #agent #engineering
+
 (2026-07-22) [AI Didn’t Make Programming Easier. It Just Made It Differently Difficult](202607/2026-07-22-ai-didn%E2%80%99t-make-programming-easier.-it-just-made-it-differently-difficult.md)
 - AI 编程工具并未简化编程，而是将困难从“写代码”转向“理解与验证 AI 的输出”，要求开发者具备更强的判断力和系统思维。
 - Tags: #engineering
@@ -38,13 +42,9 @@
 - 命名布尔变量应使用 、、、 前缀，形成清晰的问题；禁止否定名称；参数布尔易引发陷阱，需用拆方法、枚举或配置对象替代。
 - Tags: #design
 
-(2026-07-16) [Superpowers 6](202607/2026-07-16-superpowers-6.md)
-- Superpowers 6 速度提升 50%，成本降低 60%，通过合并审查代理和自动化优化实现，现已发布。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (38 entries)
+- [2026-07](202607/monthly-index.md) (39 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
