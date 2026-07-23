@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-23) [构建 Claude Code 的经验：我们如何使用 Skills](202607/2026-07-23-%E6%9E%84%E5%BB%BA-claude-code-%E7%9A%84%E7%BB%8F%E9%AA%8C%EF%BC%9A%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-skills.md)
+  - Tags: #agent #skill
+  - Summary: 文章分享了 Anthropic 使用 Claude Code Skills 的实践经验，包括 9 种技能类型、编写技巧（如 Gotchas、渐进式披露）、分发方式与衡量方法，强调 Skills 是包含可操作信息的目录。
+
 - (2026-07-23) [探索 AI 时代的人机协作](202607/2026-07-23-%E6%8E%A2%E7%B4%A2-ai-%E6%97%B6%E4%BB%A3%E7%9A%84%E4%BA%BA%E6%9C%BA%E5%8D%8F%E4%BD%9C.md)
   - Tags: #agent #engineering
   - Summary: 本文探讨 AI 时代人机协作，指出 AI 改变工作基本单元，执行能力平权后判断更珍贵，组织需将上下文结构化，个人从执行者转向 Owner，对结果负责，最终重新定义人机责任。

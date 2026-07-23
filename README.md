@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-23) [构建 Claude Code 的经验：我们如何使用 Skills](202607/2026-07-23-%E6%9E%84%E5%BB%BA-claude-code-%E7%9A%84%E7%BB%8F%E9%AA%8C%EF%BC%9A%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-skills.md)
+- 文章分享了 Anthropic 使用 Claude Code Skills 的实践经验，包括 9 种技能类型、编写技巧（如 Gotchas、渐进式披露）、分发方式与衡量方法，强调 Skills 是包含可操作信息的目录。
+- Tags: #agent #skill
+
 (2026-07-23) [探索 AI 时代的人机协作](202607/2026-07-23-%E6%8E%A2%E7%B4%A2-ai-%E6%97%B6%E4%BB%A3%E7%9A%84%E4%BA%BA%E6%9C%BA%E5%8D%8F%E4%BD%9C.md)
 - 本文探讨 AI 时代人机协作，指出 AI 改变工作基本单元，执行能力平权后判断更珍贵，组织需将上下文结构化，个人从执行者转向 Owner，对结果负责，最终重新定义人机责任。
 - Tags: #agent #engineering
@@ -38,13 +42,9 @@
 - 作者设计 AI 助手分析日记，通过 7 步工作流避免自我内耗，挖掘长期线索，让日记从情绪出口变成滋养未来的土壤，并分享 skill 文件可供参考。
 - Tags: #life
 
-(2026-07-17) [Stop Naming Your Variables "Flag": The Art of Boolean Prefixes](202607/2026-07-17-stop-naming-your-variables-flag-the-art-of-boolean-prefixes.md)
-- 命名布尔变量应使用 、、、 前缀，形成清晰的问题；禁止否定名称；参数布尔易引发陷阱，需用拆方法、枚举或配置对象替代。
-- Tags: #design
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (39 entries)
+- [2026-07](202607/monthly-index.md) (40 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

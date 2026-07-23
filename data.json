@@ -2502,5 +2502,15 @@
       "agent",
       "engineering"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "构建 Claude Code 的经验：我们如何使用 Skills",
+    "url": "https://transcrab.onev.cat/a/2026/07/lessons-from-building-claude-code-how-we-use-skills-2/",
+    "timestamp": 1784795673,
+    "tags": [
+      "agent",
+      "skill"
+    ]
   }
 ]
