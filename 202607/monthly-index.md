@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-23) [The Human-in-the-Loop is Tired](2026-07-23-the-human-in-the-loop-is-tired.md)
+- LLM 辅助编程提高了产出，却加重了监督负担，降低了工作满意度。开发者陷入“奖励函数断裂”的疲劳中，核心技能转向品味与判断，团队需主动对抗孤独感。
+- Tags: #agent
+
 (2026-07-23) [构建 Claude Code 的经验：我们如何使用 Skills](2026-07-23-%E6%9E%84%E5%BB%BA-claude-code-%E7%9A%84%E7%BB%8F%E9%AA%8C%EF%BC%9A%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-skills.md)
 - 文章分享了 Anthropic 使用 Claude Code Skills 的实践经验，包括 9 种技能类型、编写技巧（如 Gotchas、渐进式披露）、分发方式与衡量方法，强调 Skills 是包含可操作信息的目录。
 - Tags: #agent #skill

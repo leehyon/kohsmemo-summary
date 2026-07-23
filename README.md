@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-23) [The Human-in-the-Loop is Tired](202607/2026-07-23-the-human-in-the-loop-is-tired.md)
+- LLM 辅助编程提高了产出，却加重了监督负担，降低了工作满意度。开发者陷入“奖励函数断裂”的疲劳中，核心技能转向品味与判断，团队需主动对抗孤独感。
+- Tags: #agent
+
 (2026-07-23) [构建 Claude Code 的经验：我们如何使用 Skills](202607/2026-07-23-%E6%9E%84%E5%BB%BA-claude-code-%E7%9A%84%E7%BB%8F%E9%AA%8C%EF%BC%9A%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-skills.md)
 - 文章分享了 Anthropic 使用 Claude Code Skills 的实践经验，包括 9 种技能类型、编写技巧（如 Gotchas、渐进式披露）、分发方式与衡量方法，强调 Skills 是包含可操作信息的目录。
 - Tags: #agent #skill
@@ -38,13 +42,9 @@
 - ML 研究岗面试指南：需专门准备 1 个月，掌握编码与 ML 实现，用 LLM 模拟，注重情绪管理，谈判时利用多方 offer。作者最终入职 DeepMind。
 - Tags: #career
 
-(2026-07-17) [我让 AI 复盘日记：挖掘隐藏线索，避免自我内耗](202607/2026-07-17-%E6%88%91%E8%AE%A9-ai-%E5%A4%8D%E7%9B%98%E6%97%A5%E8%AE%B0%EF%BC%9A%E6%8C%96%E6%8E%98%E9%9A%90%E8%97%8F%E7%BA%BF%E7%B4%A2%EF%BC%8C%E9%81%BF%E5%85%8D%E8%87%AA%E6%88%91%E5%86%85%E8%80%97.md)
-- 作者设计 AI 助手分析日记，通过 7 步工作流避免自我内耗，挖掘长期线索，让日记从情绪出口变成滋养未来的土壤，并分享 skill 文件可供参考。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (40 entries)
+- [2026-07](202607/monthly-index.md) (41 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

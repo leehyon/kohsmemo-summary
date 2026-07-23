@@ -2512,5 +2512,14 @@
       "agent",
       "skill"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "The Human-in-the-Loop is Tired",
+    "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired",
+    "timestamp": 1784796356,
+    "tags": [
+      "agent"
+    ]
   }
 ]
