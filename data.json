@@ -2531,5 +2531,14 @@
       "agent",
       "transcript"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "A faster way to copy SQLite databases between computers",
+    "url": "https://alexwlchan.net/2025/copying-sqlite-databases/",
+    "timestamp": 1784858591,
+    "tags": [
+      "guide"
+    ]
   }
 ]
