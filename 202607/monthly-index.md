@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-24) [姚期智万字长文演讲！解析“ AI 研究的下一个层次”](2026-07-24-%E5%A7%9A%E6%9C%9F%E6%99%BA%E4%B8%87%E5%AD%97%E9%95%BF%E6%96%87%E6%BC%94%E8%AE%B2%EF%BC%81%E8%A7%A3%E6%9E%90%E2%80%9C-ai-%E7%A0%94%E7%A9%B6%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%B1%82%E6%AC%A1%E2%80%9D.md)
+- 姚期智指出 AI 存在理论局限，但 AI for Science 已实现理论突破；量子 AI 将在 5-10 年开启新范式，研究者需适应人机协作，核心能力是抽象与概念创造。
+- Tags: #agent #transcript
+
 (2026-07-23) [The Human-in-the-Loop is Tired](2026-07-23-the-human-in-the-loop-is-tired.md)
 - LLM 辅助编程提高了产出，却加重了监督负担，降低了工作满意度。开发者陷入“奖励函数断裂”的疲劳中，核心技能转向品味与判断，团队需主动对抗孤独感。
 - Tags: #agent
