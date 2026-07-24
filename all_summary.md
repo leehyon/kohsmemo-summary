@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-07-24) [The Insanity of Being a Software Engineer](202607/2026-07-24-the-insanity-of-being-a-software-engineer.md)
+  - Summary: 软件工程师被期望掌握从编程到 DevOps 到管理的无尽技能，行业失去了专业化，或许 AI 能带来改变。
+
 - (2026-07-24) [Git exclude, a handy feature you might not know about](202607/2026-07-24-git-exclude%2C-a-handy-feature-you-might-not-know-about.md)
   - Tags: #guide
   - Summary: Git exclude 是位于 .git/info/exclude 的忽略文件，语法同 ignore，但不被跟踪，适合存储个人或临时文件。文章对比了三类忽略机制的使用场景与建议。

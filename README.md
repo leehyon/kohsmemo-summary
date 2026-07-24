@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-07-24) [The Insanity of Being a Software Engineer](202607/2026-07-24-the-insanity-of-being-a-software-engineer.md)
+- 软件工程师被期望掌握从编程到 DevOps 到管理的无尽技能，行业失去了专业化，或许 AI 能带来改变。
+
 (2026-07-24) [Git exclude, a handy feature you might not know about](202607/2026-07-24-git-exclude%2C-a-handy-feature-you-might-not-know-about.md)
 - Git exclude 是位于 .git/info/exclude 的忽略文件，语法同 ignore，但不被跟踪，适合存储个人或临时文件。文章对比了三类忽略机制的使用场景与建议。
 - Tags: #guide
@@ -38,13 +41,9 @@
 - 完美与过度工程不同：过度工程是解决错误问题，而完美解在清晰需求下是唯一且正确的。关键在于获取正确需求。
 - Tags: #design #engineering
 
-(2026-07-20) [当 AI 越来越像你，你也在越来越像 AI](202607/2026-07-20-%E5%BD%93-ai-%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%83%8F%E4%BD%A0%EF%BC%8C%E4%BD%A0%E4%B9%9F%E5%9C%A8%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%83%8F-ai.md)
-- 文章警示人与 AI 长期互动可能导致思维被同化，内化其框架而不自知。需要主动保留不顺滑的经验，守住改变自己的主导权，而非拒绝改变。
-- Tags: #agent #life #view
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (44 entries)
+- [2026-07](202607/monthly-index.md) (45 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
