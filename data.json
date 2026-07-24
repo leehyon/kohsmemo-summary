@@ -2540,5 +2540,14 @@
     "tags": [
       "guide"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "Git exclude, a handy feature you might not know about",
+    "url": "http://marijkeluttekes.dev/blog/articles/2025/09/03/git-exclude-a-handy-feature-you-might-not-know-about/",
+    "timestamp": 1784858687,
+    "tags": [
+      "guide"
+    ]
   }
 ]

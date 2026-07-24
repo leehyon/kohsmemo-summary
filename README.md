@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-24) [Git exclude, a handy feature you might not know about](202607/2026-07-24-git-exclude%2C-a-handy-feature-you-might-not-know-about.md)
+- Git exclude 是位于 .git/info/exclude 的忽略文件，语法同 ignore，但不被跟踪，适合存储个人或临时文件。文章对比了三类忽略机制的使用场景与建议。
+- Tags: #guide
+
 (2026-07-24) [A faster way to copy SQLite databases between computers](202607/2026-07-24-a-faster-way-to-copy-sqlite-databases-between-computers.md)
 - 通过 SQLite 的 .dump 导出文本并 gzip 压缩，可大幅减小数据库体积（如 3.4 GB 降至 240 MB），从而加速远程复制，且避免传输中数据损坏。
 - Tags: #guide
@@ -38,13 +42,9 @@
 - 文章警示人与 AI 长期互动可能导致思维被同化，内化其框架而不自知。需要主动保留不顺滑的经验，守住改变自己的主导权，而非拒绝改变。
 - Tags: #agent #life #view
 
-(2026-07-20) [小象超市鮮啤簡評](202607/2026-07-20-%E5%B0%8F%E8%B1%A1%E8%B6%85%E5%B8%82%E9%AE%AE%E5%95%A4%E7%B0%A1%E8%A9%95.md)
-- 作者品尝小象超市多款鲜啤，推荐澄穗日式（清爽）、美式拉格（量大）、普鲁士风暴（浓郁），避免小麦博克（酒精味重）。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (43 entries)
+- [2026-07](202607/monthly-index.md) (44 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-24) [Git exclude, a handy feature you might not know about](2026-07-24-git-exclude%2C-a-handy-feature-you-might-not-know-about.md)
+- Git exclude 是位于 .git/info/exclude 的忽略文件，语法同 ignore，但不被跟踪，适合存储个人或临时文件。文章对比了三类忽略机制的使用场景与建议。
+- Tags: #guide
+
 (2026-07-24) [A faster way to copy SQLite databases between computers](2026-07-24-a-faster-way-to-copy-sqlite-databases-between-computers.md)
 - 通过 SQLite 的 .dump 导出文本并 gzip 压缩，可大幅减小数据库体积（如 3.4 GB 降至 240 MB），从而加速远程复制，且避免传输中数据损坏。
 - Tags: #guide
