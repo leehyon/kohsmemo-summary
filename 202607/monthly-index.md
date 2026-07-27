@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-27) [A Fireside Chat with Cat and Thariq from the Claude Code team](2026-07-27-a-fireside-chat-with-cat-and-thariq-from-the-claude-code-team.md)
+- Anthropic Claude Code 团队分享编程代理演进、Claude Tag、系统提示优化和自动化代码审查，强调基于信任和评估的开发方法。
+- Tags: #podcast
+
 (2026-07-27) [A scorecard for the AI age](2026-07-27-a-scorecard-for-the-ai-age.md)
 - AI 价值应以“每美元完成的有用智能”衡量，关注实际工作产出、成功任务总成本、可靠性及规模化效率，而非 token 价格或采纳率。
 - Tags: #agent #engineering

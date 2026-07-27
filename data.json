@@ -2566,5 +2566,14 @@
       "agent",
       "engineering"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+    "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/",
+    "timestamp": 1785117021,
+    "tags": [
+      "podcast"
+    ]
   }
 ]

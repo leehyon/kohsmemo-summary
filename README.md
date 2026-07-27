@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-27) [A Fireside Chat with Cat and Thariq from the Claude Code team](202607/2026-07-27-a-fireside-chat-with-cat-and-thariq-from-the-claude-code-team.md)
+- Anthropic Claude Code 团队分享编程代理演进、Claude Tag、系统提示优化和自动化代码审查，强调基于信任和评估的开发方法。
+- Tags: #podcast
+
 (2026-07-27) [A scorecard for the AI age](202607/2026-07-27-a-scorecard-for-the-ai-age.md)
 - AI 价值应以“每美元完成的有用智能”衡量，关注实际工作产出、成功任务总成本、可靠性及规模化效率，而非 token 价格或采纳率。
 - Tags: #agent #engineering
@@ -38,12 +42,9 @@
 - AI 编程工具并未简化编程，而是将困难从“写代码”转向“理解与验证 AI 的输出”，要求开发者具备更强的判断力和系统思维。
 - Tags: #engineering
 
-(2026-07-21) [Who’s Afraid of Chinese Models?](202607/2026-07-21-who%E2%80%99s-afraid-of-chinese-models.md)
-- 对 Kimi K3 的恐慌过度，AI 智能商品化下成本结构更重要。中国模型未必更便宜，但美国应通过开放和蒸馏合法化保持优势，尤其网络安全需放开前沿模型使用。
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (46 entries)
+- [2026-07](202607/monthly-index.md) (47 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
