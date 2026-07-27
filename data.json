@@ -2556,5 +2556,15 @@
     "url": "https://0x1.pt/2025/04/06/the-insanity-of-being-a-software-engineer/",
     "timestamp": 1784859275,
     "tags": []
+  },
+  {
+    "month": "202607",
+    "title": "A scorecard for the AI age",
+    "url": "https://openai.com/index/a-scorecard-for-the-ai-age/",
+    "timestamp": 1785116235,
+    "tags": [
+      "agent",
+      "engineering"
+    ]
   }
 ]

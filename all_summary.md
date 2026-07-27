@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-27) [A scorecard for the AI age](202607/2026-07-27-a-scorecard-for-the-ai-age.md)
+  - Tags: #agent #engineering
+  - Summary: AI 价值应以“每美元完成的有用智能”衡量，关注实际工作产出、成功任务总成本、可靠性及规模化效率，而非 token 价格或采纳率。
+
 - (2026-07-24) [The Insanity of Being a Software Engineer](202607/2026-07-24-the-insanity-of-being-a-software-engineer.md)
   - Summary: 软件工程师被期望掌握从编程到 DevOps 到管理的无尽技能，行业失去了专业化，或许 AI 能带来改变。
 

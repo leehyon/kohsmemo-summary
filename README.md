@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-27) [A scorecard for the AI age](202607/2026-07-27-a-scorecard-for-the-ai-age.md)
+- AI 价值应以“每美元完成的有用智能”衡量，关注实际工作产出、成功任务总成本、可靠性及规模化效率，而非 token 价格或采纳率。
+- Tags: #agent #engineering
+
 (2026-07-24) [The Insanity of Being a Software Engineer](202607/2026-07-24-the-insanity-of-being-a-software-engineer.md)
 - 软件工程师被期望掌握从编程到 DevOps 到管理的无尽技能，行业失去了专业化，或许 AI 能带来改变。
 
@@ -37,13 +41,9 @@
 (2026-07-21) [Who’s Afraid of Chinese Models?](202607/2026-07-21-who%E2%80%99s-afraid-of-chinese-models.md)
 - 对 Kimi K3 的恐慌过度，AI 智能商品化下成本结构更重要。中国模型未必更便宜，但美国应通过开放和蒸馏合法化保持优势，尤其网络安全需放开前沿模型使用。
 
-(2026-07-21) [Perfection is not over-engineering](202607/2026-07-21-perfection-is-not-over-engineering.md)
-- 完美与过度工程不同：过度工程是解决错误问题，而完美解在清晰需求下是唯一且正确的。关键在于获取正确需求。
-- Tags: #design #engineering
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (45 entries)
+- [2026-07](202607/monthly-index.md) (46 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
