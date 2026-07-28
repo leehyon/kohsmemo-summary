@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-28) [calm technologies that excite me](2026-07-28-calm-technologies-that-excite-me.md)
+- 作者呼唤"平静技术"：设备应专一、低干扰，如 Daylight 计算机、改装 iPod、Clicks 副机、TRMNL 仪表板及录音笔。通过限制功能与交互步骤，重获专注与休息空间。
+- Tags: #life
+
 (2026-07-28) [You probably don't need Oh My Zsh](2026-07-28-you-probably-don%27t-need-oh-my-zsh.md)
 - 放弃 Oh My Zsh，它因脚本臃肿导致启动慢。改用最小 Zsh 配置 + starship + fzf，启动时间可从 0.38 秒降至 0.07 秒。
 - Tags: #setup

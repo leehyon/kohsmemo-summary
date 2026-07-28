@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-28) [calm technologies that excite me](202607/2026-07-28-calm-technologies-that-excite-me.md)
+- 作者呼唤"平静技术"：设备应专一、低干扰，如 Daylight 计算机、改装 iPod、Clicks 副机、TRMNL 仪表板及录音笔。通过限制功能与交互步骤，重获专注与休息空间。
+- Tags: #life
+
 (2026-07-28) [You probably don't need Oh My Zsh](202607/2026-07-28-you-probably-don%27t-need-oh-my-zsh.md)
 - 放弃 Oh My Zsh，它因脚本臃肿导致启动慢。改用最小 Zsh 配置 + starship + fzf，启动时间可从 0.38 秒降至 0.07 秒。
 - Tags: #setup
@@ -38,13 +42,9 @@
 - 文章分享了 Anthropic 使用 Claude Code Skills 的实践经验，包括 9 种技能类型、编写技巧（如 Gotchas、渐进式披露）、分发方式与衡量方法，强调 Skills 是包含可操作信息的目录。
 - Tags: #agent #skill
 
-(2026-07-23) [探索 AI 时代的人机协作](202607/2026-07-23-%E6%8E%A2%E7%B4%A2-ai-%E6%97%B6%E4%BB%A3%E7%9A%84%E4%BA%BA%E6%9C%BA%E5%8D%8F%E4%BD%9C.md)
-- 本文探讨 AI 时代人机协作，指出 AI 改变工作基本单元，执行能力平权后判断更珍贵，组织需将上下文结构化，个人从执行者转向 Owner，对结果负责，最终重新定义人机责任。
-- Tags: #agent #engineering
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (48 entries)
+- [2026-07](202607/monthly-index.md) (49 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
