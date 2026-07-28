@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-28) [You probably don't need Oh My Zsh](202607/2026-07-28-you-probably-don%27t-need-oh-my-zsh.md)
+  - Tags: #setup
+  - Summary: 放弃 Oh My Zsh，它因脚本臃肿导致启动慢。改用最小 Zsh 配置 + starship + fzf，启动时间可从 0.38 秒降至 0.07 秒。
+
 - (2026-07-27) [A Fireside Chat with Cat and Thariq from the Claude Code team](202607/2026-07-27-a-fireside-chat-with-cat-and-thariq-from-the-claude-code-team.md)
   - Tags: #podcast
   - Summary: Anthropic Claude Code 团队分享编程代理演进、Claude Tag、系统提示优化和自动化代码审查，强调基于信任和评估的开发方法。

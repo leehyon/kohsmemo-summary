@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-28) [You probably don't need Oh My Zsh](202607/2026-07-28-you-probably-don%27t-need-oh-my-zsh.md)
+- 放弃 Oh My Zsh，它因脚本臃肿导致启动慢。改用最小 Zsh 配置 + starship + fzf，启动时间可从 0.38 秒降至 0.07 秒。
+- Tags: #setup
+
 (2026-07-27) [A Fireside Chat with Cat and Thariq from the Claude Code team](202607/2026-07-27-a-fireside-chat-with-cat-and-thariq-from-the-claude-code-team.md)
 - Anthropic Claude Code 团队分享编程代理演进、Claude Tag、系统提示优化和自动化代码审查，强调基于信任和评估的开发方法。
 - Tags: #podcast
@@ -38,13 +42,9 @@
 - 本文探讨 AI 时代人机协作，指出 AI 改变工作基本单元，执行能力平权后判断更珍贵，组织需将上下文结构化，个人从执行者转向 Owner，对结果负责，最终重新定义人机责任。
 - Tags: #agent #engineering
 
-(2026-07-22) [AI Didn’t Make Programming Easier. It Just Made It Differently Difficult](202607/2026-07-22-ai-didn%E2%80%99t-make-programming-easier.-it-just-made-it-differently-difficult.md)
-- AI 编程工具并未简化编程，而是将困难从“写代码”转向“理解与验证 AI 的输出”，要求开发者具备更强的判断力和系统思维。
-- Tags: #engineering
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (47 entries)
+- [2026-07](202607/monthly-index.md) (48 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)

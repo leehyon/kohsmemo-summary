@@ -2575,5 +2575,14 @@
     "tags": [
       "podcast"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "You probably don't need Oh My Zsh",
+    "url": "https://rushter.com/blog/zsh-shell/",
+    "timestamp": 1785231152,
+    "tags": [
+      "setup"
+    ]
   }
 ]
