@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-29) [Teach Yourself Programming in Ten Years](2026-07-29-teach-yourself-programming-in-ten-years.md)
+- 编程无法速成，需要十年刻意练习。保持兴趣、多实践、多交流、学多语言，才是成为专家的正道。
+- Tags: #career
+
 (2026-07-29) [Substack writers, you need a website!](2026-07-29-substack-writers%2C-you-need-a-website%21.md)
 - 作者强烈建议 Substack 作者拥有独立网站，将平台仅作为分发渠道，以保障数字主权和长期内容安全。
 - Tags: #writing

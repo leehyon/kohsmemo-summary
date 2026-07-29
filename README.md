@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-29) [Teach Yourself Programming in Ten Years](202607/2026-07-29-teach-yourself-programming-in-ten-years.md)
+- 编程无法速成，需要十年刻意练习。保持兴趣、多实践、多交流、学多语言，才是成为专家的正道。
+- Tags: #career
+
 (2026-07-29) [Substack writers, you need a website!](202607/2026-07-29-substack-writers%2C-you-need-a-website%21.md)
 - 作者强烈建议 Substack 作者拥有独立网站，将平台仅作为分发渠道，以保障数字主权和长期内容安全。
 - Tags: #writing
@@ -38,13 +42,9 @@
 - 姚期智指出 AI 存在理论局限，但 AI for Science 已实现理论突破；量子 AI 将在 5-10 年开启新范式，研究者需适应人机协作，核心能力是抽象与概念创造。
 - Tags: #agent #transcript
 
-(2026-07-23) [The Human-in-the-Loop is Tired](202607/2026-07-23-the-human-in-the-loop-is-tired.md)
-- LLM 辅助编程提高了产出，却加重了监督负担，降低了工作满意度。开发者陷入“奖励函数断裂”的疲劳中，核心技能转向品味与判断，团队需主动对抗孤独感。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (50 entries)
+- [2026-07](202607/monthly-index.md) (51 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
