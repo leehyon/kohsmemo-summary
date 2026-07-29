@@ -1,5 +1,9 @@
 # 2026-07 Monthly Index
 
+(2026-07-29) [Substack writers, you need a website!](2026-07-29-substack-writers%2C-you-need-a-website%21.md)
+- 作者强烈建议 Substack 作者拥有独立网站，将平台仅作为分发渠道，以保障数字主权和长期内容安全。
+- Tags: #writing
+
 (2026-07-28) [calm technologies that excite me](2026-07-28-calm-technologies-that-excite-me.md)
 - 作者呼唤"平静技术"：设备应专一、低干扰，如 Daylight 计算机、改装 iPod、Clicks 副机、TRMNL 仪表板及录音笔。通过限制功能与交互步骤，重获专注与休息空间。
 - Tags: #life

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-29) [Substack writers, you need a website!](202607/2026-07-29-substack-writers%2C-you-need-a-website%21.md)
+- 作者强烈建议 Substack 作者拥有独立网站，将平台仅作为分发渠道，以保障数字主权和长期内容安全。
+- Tags: #writing
+
 (2026-07-28) [calm technologies that excite me](202607/2026-07-28-calm-technologies-that-excite-me.md)
 - 作者呼唤"平静技术"：设备应专一、低干扰，如 Daylight 计算机、改装 iPod、Clicks 副机、TRMNL 仪表板及录音笔。通过限制功能与交互步骤，重获专注与休息空间。
 - Tags: #life
@@ -38,13 +42,9 @@
 - LLM 辅助编程提高了产出，却加重了监督负担，降低了工作满意度。开发者陷入“奖励函数断裂”的疲劳中，核心技能转向品味与判断，团队需主动对抗孤独感。
 - Tags: #agent
 
-(2026-07-23) [构建 Claude Code 的经验：我们如何使用 Skills](202607/2026-07-23-%E6%9E%84%E5%BB%BA-claude-code-%E7%9A%84%E7%BB%8F%E9%AA%8C%EF%BC%9A%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-skills.md)
-- 文章分享了 Anthropic 使用 Claude Code Skills 的实践经验，包括 9 种技能类型、编写技巧（如 Gotchas、渐进式披露）、分发方式与衡量方法，强调 Skills 是包含可操作信息的目录。
-- Tags: #agent #skill
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (49 entries)
+- [2026-07](202607/monthly-index.md) (50 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
