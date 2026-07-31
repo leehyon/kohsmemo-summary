@@ -2621,5 +2621,14 @@
       "engineering",
       "vibe-coding"
     ]
+  },
+  {
+    "month": "202607",
+    "title": "The Economic Benefit of Refactoring",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
+    "timestamp": 1785488662,
+    "tags": [
+      "engineering"
+    ]
   }
 ]

@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-31) [The Economic Benefit of Refactoring](202607/2026-07-31-the-economic-benefit-of-refactoring.md)
+  - Tags: #engineering
+  - Summary: 实验表明，重构 AI 生成的代码可将后续智能体修改的输入 token 消耗降低 83%，虽重构过程需人工指导，但长期经济收益明确。
+
 - (2026-07-31) [Write-Only Code](202607/2026-07-31-write-only-code.md)
   - Tags: #engineering #vibe-coding
   - Summary: AI 让生产代码逐渐变成无人阅读的 Write-Only Code，工程师角色从代码审查者转向系统设计者，信任需由新指标与工具重建。

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-31) [The Economic Benefit of Refactoring](202607/2026-07-31-the-economic-benefit-of-refactoring.md)
+- 实验表明，重构 AI 生成的代码可将后续智能体修改的输入 token 消耗降低 83%，虽重构过程需人工指导，但长期经济收益明确。
+- Tags: #engineering
+
 (2026-07-31) [Write-Only Code](202607/2026-07-31-write-only-code.md)
 - AI 让生产代码逐渐变成无人阅读的 Write-Only Code，工程师角色从代码审查者转向系统设计者，信任需由新指标与工具重建。
 - Tags: #engineering #vibe-coding
@@ -38,13 +42,9 @@
 - Git exclude 是位于 .git/info/exclude 的忽略文件，语法同 ignore，但不被跟踪，适合存储个人或临时文件。文章对比了三类忽略机制的使用场景与建议。
 - Tags: #guide
 
-(2026-07-24) [A faster way to copy SQLite databases between computers](202607/2026-07-24-a-faster-way-to-copy-sqlite-databases-between-computers.md)
-- 通过 SQLite 的 .dump 导出文本并 gzip 压缩，可大幅减小数据库体积（如 3.4 GB 降至 240 MB），从而加速远程复制，且避免传输中数据损坏。
-- Tags: #guide
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (52 entries)
+- [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
