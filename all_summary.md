@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-07-31) [Write-Only Code](202607/2026-07-31-write-only-code.md)
+  - Tags: #engineering #vibe-coding
+  - Summary: AI 让生产代码逐渐变成无人阅读的 Write-Only Code，工程师角色从代码审查者转向系统设计者，信任需由新指标与工具重建。
+
 - (2026-07-29) [Teach Yourself Programming in Ten Years](202607/2026-07-29-teach-yourself-programming-in-ten-years.md)
   - Tags: #career
   - Summary: 编程无法速成，需要十年刻意练习。保持兴趣、多实践、多交流、学多语言，才是成为专家的正道。

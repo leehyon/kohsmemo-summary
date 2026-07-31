@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-07-31) [Write-Only Code](202607/2026-07-31-write-only-code.md)
+- AI 让生产代码逐渐变成无人阅读的 Write-Only Code，工程师角色从代码审查者转向系统设计者，信任需由新指标与工具重建。
+- Tags: #engineering #vibe-coding
+
 (2026-07-29) [Teach Yourself Programming in Ten Years](202607/2026-07-29-teach-yourself-programming-in-ten-years.md)
 - 编程无法速成，需要十年刻意练习。保持兴趣、多实践、多交流、学多语言，才是成为专家的正道。
 - Tags: #career
@@ -38,13 +42,9 @@
 - 通过 SQLite 的 .dump 导出文本并 gzip 压缩，可大幅减小数据库体积（如 3.4 GB 降至 240 MB），从而加速远程复制，且避免传输中数据损坏。
 - Tags: #guide
 
-(2026-07-24) [姚期智万字长文演讲！解析“ AI 研究的下一个层次”](202607/2026-07-24-%E5%A7%9A%E6%9C%9F%E6%99%BA%E4%B8%87%E5%AD%97%E9%95%BF%E6%96%87%E6%BC%94%E8%AE%B2%EF%BC%81%E8%A7%A3%E6%9E%90%E2%80%9C-ai-%E7%A0%94%E7%A9%B6%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%B1%82%E6%AC%A1%E2%80%9D.md)
-- 姚期智指出 AI 存在理论局限，但 AI for Science 已实现理论突破；量子 AI 将在 5-10 年开启新范式，研究者需适应人机协作，核心能力是抽象与概念创造。
-- Tags: #agent #transcript
-
 ## Monthly Archive
 
-- [2026-07](202607/monthly-index.md) (51 entries)
+- [2026-07](202607/monthly-index.md) (52 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
 - [2026-04](202604/monthly-index.md) (44 entries)
