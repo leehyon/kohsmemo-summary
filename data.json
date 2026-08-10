@@ -2655,5 +2655,15 @@
     "tags": [
       "transcript"
     ]
+  },
+  {
+    "month": "202608",
+    "title": "Agent 插件如何走向工程化",
+    "url": "https://www.phodal.com/blog/agent-plugin-engineering/",
+    "timestamp": 1786343537,
+    "tags": [
+      "engineering",
+      "agent"
+    ]
   }
 ]

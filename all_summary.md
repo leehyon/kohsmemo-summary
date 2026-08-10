@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-08-10) [Agent 插件如何走向工程化](202608/2026-08-10-agent-%E6%8F%92%E4%BB%B6%E5%A6%82%E4%BD%95%E8%B5%B0%E5%90%91%E5%B7%A5%E7%A8%8B%E5%8C%96.md)
+  - Tags: #engineering #agent
+  - Summary: Agent 插件工程化需把能力当软件资产：通过规格驱动、上下文编排、确定性验证、行为评测、证据闭环五个实践，确保插件可验证、可维护、可持续演进。核心是让每一次修改都有证据证明变得更好。
+
 - (2026-08-10) [This CPO regrets that product management exists](202608/2026-08-10-this-cpo-regrets-that-product-management-exists.md)
   - Tags: #transcript
   - Summary: Whatnot 的 CPO Tom Verrilli 主张“后悔产品管理存在”，让资深 PM 直接做 IC 工作，并借助 AI 重塑产品角色，避免组织陷入流程戏剧。

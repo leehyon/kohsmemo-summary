@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-10) [Agent 插件如何走向工程化](202608/2026-08-10-agent-%E6%8F%92%E4%BB%B6%E5%A6%82%E4%BD%95%E8%B5%B0%E5%90%91%E5%B7%A5%E7%A8%8B%E5%8C%96.md)
+- Agent 插件工程化需把能力当软件资产：通过规格驱动、上下文编排、确定性验证、行为评测、证据闭环五个实践，确保插件可验证、可维护、可持续演进。核心是让每一次修改都有证据证明变得更好。
+- Tags: #engineering #agent
+
 (2026-08-10) [This CPO regrets that product management exists](202608/2026-08-10-this-cpo-regrets-that-product-management-exists.md)
 - Whatnot 的 CPO Tom Verrilli 主张“后悔产品管理存在”，让资深 PM 直接做 IC 工作，并借助 AI 重塑产品角色，避免组织陷入流程戏剧。
 - Tags: #transcript
@@ -38,13 +42,9 @@
 - 放弃 Oh My Zsh，它因脚本臃肿导致启动慢。改用最小 Zsh 配置 + starship + fzf，启动时间可从 0.38 秒降至 0.07 秒。
 - Tags: #setup
 
-(2026-07-27) [A Fireside Chat with Cat and Thariq from the Claude Code team](202607/2026-07-27-a-fireside-chat-with-cat-and-thariq-from-the-claude-code-team.md)
-- Anthropic Claude Code 团队分享编程代理演进、Claude Tag、系统提示优化和自动化代码审查，强调基于信任和评估的开发方法。
-- Tags: #podcast
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (3 entries)
+- [2026-08](202608/monthly-index.md) (4 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
