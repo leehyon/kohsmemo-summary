@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-08-10) [Open Weights and American AI Leadership](202608/2026-08-10-open-weights-and-american-ai-leadership.md)
+- 文章呼吁美国支持开放权重 AI 模型，认为这能扩大创新、竞争与安全，并借开源历史强调开放生态对美国 AI 领导力的重要性。
+
 (2026-08-10) [预测市场生态的项目为什么难做](202608/2026-08-10-%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E7%94%9F%E6%80%81%E7%9A%84%E9%A1%B9%E7%9B%AE%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9A%BE%E5%81%9A.md)
 - 团队半年来在预测市场生态尝试了语义搜索、聚合终端、Copy Trading、Agentic Trading 等多个方向，均未找到 PMF。核心问题是获客难，以及 Polymarket 作为中心化平台对第三方项目的结构性挤压。
 - Tags: #product
@@ -39,12 +42,9 @@
 - AI 价值应以“每美元完成的有用智能”衡量，关注实际工作产出、成功任务总成本、可靠性及规模化效率，而非 token 价格或采纳率。
 - Tags: #agent #engineering
 
-(2026-07-24) [The Insanity of Being a Software Engineer](202607/2026-07-24-the-insanity-of-being-a-software-engineer.md)
-- 软件工程师被期望掌握从编程到 DevOps 到管理的无尽技能，行业失去了专业化，或许 AI 能带来改变。
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (1 entries)
+- [2026-08](202608/monthly-index.md) (2 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
