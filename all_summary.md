@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-08-10) [预测市场生态的项目为什么难做](202608/2026-08-10-%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E7%94%9F%E6%80%81%E7%9A%84%E9%A1%B9%E7%9B%AE%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9A%BE%E5%81%9A.md)
+  - Tags: #product
+  - Summary: 团队半年来在预测市场生态尝试了语义搜索、聚合终端、Copy Trading、Agentic Trading 等多个方向，均未找到 PMF。核心问题是获客难，以及 Polymarket 作为中心化平台对第三方项目的结构性挤压。
+
 - (2026-07-31) [The Economic Benefit of Refactoring](202607/2026-07-31-the-economic-benefit-of-refactoring.md)
   - Tags: #engineering
   - Summary: 实验表明，重构 AI 生成的代码可将后续智能体修改的输入 token 消耗降低 83%，虽重构过程需人工指导，但长期经济收益明确。

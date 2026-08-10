@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-10) [预测市场生态的项目为什么难做](202608/2026-08-10-%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E7%94%9F%E6%80%81%E7%9A%84%E9%A1%B9%E7%9B%AE%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9A%BE%E5%81%9A.md)
+- 团队半年来在预测市场生态尝试了语义搜索、聚合终端、Copy Trading、Agentic Trading 等多个方向，均未找到 PMF。核心问题是获客难，以及 Polymarket 作为中心化平台对第三方项目的结构性挤压。
+- Tags: #product
+
 (2026-07-31) [The Economic Benefit of Refactoring](202607/2026-07-31-the-economic-benefit-of-refactoring.md)
 - 实验表明，重构 AI 生成的代码可将后续智能体修改的输入 token 消耗降低 83%，虽重构过程需人工指导，但长期经济收益明确。
 - Tags: #engineering
@@ -38,12 +42,9 @@
 (2026-07-24) [The Insanity of Being a Software Engineer](202607/2026-07-24-the-insanity-of-being-a-software-engineer.md)
 - 软件工程师被期望掌握从编程到 DevOps 到管理的无尽技能，行业失去了专业化，或许 AI 能带来改变。
 
-(2026-07-24) [Git exclude, a handy feature you might not know about](202607/2026-07-24-git-exclude%2C-a-handy-feature-you-might-not-know-about.md)
-- Git exclude 是位于 .git/info/exclude 的忽略文件，语法同 ignore，但不被跟踪，适合存储个人或临时文件。文章对比了三类忽略机制的使用场景与建议。
-- Tags: #guide
-
 ## Monthly Archive
 
+- [2026-08](202608/monthly-index.md) (1 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
