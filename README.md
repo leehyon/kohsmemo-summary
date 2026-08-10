@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-10) [How a Frontier Model Gets Built, Read from the Kimi K3 Report](202608/2026-08-10-how-a-frontier-model-gets-built%2C-read-from-the-kimi-k3-report.md)
+- Kimi K3 报告显示，构建前沿模型的重心在环境、数据与系统工程而非模型；开源最强模型接近封闭前沿，但需警惕滥用风险。
+- Tags: #agent
+
 (2026-08-10) [对话李开复：小人物的机会，在哪里？](202608/2026-08-10-%E5%AF%B9%E8%AF%9D%E6%9D%8E%E5%BC%80%E5%A4%8D%EF%BC%9A%E5%B0%8F%E4%BA%BA%E7%89%A9%E7%9A%84%E6%9C%BA%E4%BC%9A%EF%BC%8C%E5%9C%A8%E5%93%AA%E9%87%8C%EF%BC%9F.md)
 - 李开复指出 AI 的真正价值在于 AI-native 转型与承担责任，DRI 和 OPC 带来新机会，而爱和判断力仍是人类的核心竞争力。
 - Tags: #career
@@ -38,13 +42,9 @@
 - 作者强烈建议 Substack 作者拥有独立网站，将平台仅作为分发渠道，以保障数字主权和长期内容安全。
 - Tags: #writing
 
-(2026-07-28) [calm technologies that excite me](202607/2026-07-28-calm-technologies-that-excite-me.md)
-- 作者呼唤"平静技术"：设备应专一、低干扰，如 Daylight 计算机、改装 iPod、Clicks 副机、TRMNL 仪表板及录音笔。通过限制功能与交互步骤，重获专注与休息空间。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (5 entries)
+- [2026-08](202608/monthly-index.md) (6 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)

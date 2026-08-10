@@ -2674,5 +2674,14 @@
     "tags": [
       "career"
     ]
+  },
+  {
+    "month": "202608",
+    "title": "How a Frontier Model Gets Built, Read from the Kimi K3 Report",
+    "url": "https://towardsdatascience.com/how-a-frontier-model-gets-built-read-from-the-kimi-k3-report/",
+    "timestamp": 1786346988,
+    "tags": [
+      "agent"
+    ]
   }
 ]
