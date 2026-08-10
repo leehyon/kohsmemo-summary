@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-08-10) [This CPO regrets that product management exists](202608/2026-08-10-this-cpo-regrets-that-product-management-exists.md)
+  - Tags: #transcript
+  - Summary: Whatnot 的 CPO Tom Verrilli 主张“后悔产品管理存在”，让资深 PM 直接做 IC 工作，并借助 AI 重塑产品角色，避免组织陷入流程戏剧。
+
 - (2026-08-10) [Open Weights and American AI Leadership](202608/2026-08-10-open-weights-and-american-ai-leadership.md)
   - Summary: 文章呼吁美国支持开放权重 AI 模型，认为这能扩大创新、竞争与安全，并借开源历史强调开放生态对美国 AI 领导力的重要性。
 

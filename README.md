@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-10) [This CPO regrets that product management exists](202608/2026-08-10-this-cpo-regrets-that-product-management-exists.md)
+- Whatnot 的 CPO Tom Verrilli 主张“后悔产品管理存在”，让资深 PM 直接做 IC 工作，并借助 AI 重塑产品角色，避免组织陷入流程戏剧。
+- Tags: #transcript
+
 (2026-08-10) [Open Weights and American AI Leadership](202608/2026-08-10-open-weights-and-american-ai-leadership.md)
 - 文章呼吁美国支持开放权重 AI 模型，认为这能扩大创新、竞争与安全，并借开源历史强调开放生态对美国 AI 领导力的重要性。
 
@@ -38,13 +42,9 @@
 - Anthropic Claude Code 团队分享编程代理演进、Claude Tag、系统提示优化和自动化代码审查，强调基于信任和评估的开发方法。
 - Tags: #podcast
 
-(2026-07-27) [A scorecard for the AI age](202607/2026-07-27-a-scorecard-for-the-ai-age.md)
-- AI 价值应以“每美元完成的有用智能”衡量，关注实际工作产出、成功任务总成本、可靠性及规模化效率，而非 token 价格或采纳率。
-- Tags: #agent #engineering
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (2 entries)
+- [2026-08](202608/monthly-index.md) (3 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
