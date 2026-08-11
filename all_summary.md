@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-08-11) [Pi, Minimal and Performant](202608/2026-08-11-pi%2C-minimal-and-performant.md)
+  - Tags: #agent #benchmark
+  - Summary: Pi 以极简设计（仅 4 工具、<1,000 tokens 提示）成为高性能编码 harness；Databricks 与 Shopify 案例显示它更便宜、更快、更可扩展，通过上下文纪律与可扩展机制优于复杂工具。
+
 - (2026-08-10) [How a Frontier Model Gets Built, Read from the Kimi K3 Report](202608/2026-08-10-how-a-frontier-model-gets-built%2C-read-from-the-kimi-k3-report.md)
   - Tags: #agent
   - Summary: Kimi K3 报告显示，构建前沿模型的重心在环境、数据与系统工程而非模型；开源最强模型接近封闭前沿，但需警惕滥用风险。

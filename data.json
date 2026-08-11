@@ -2683,5 +2683,15 @@
     "tags": [
       "agent"
     ]
+  },
+  {
+    "month": "202608",
+    "title": "Pi, Minimal and Performant",
+    "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
+    "timestamp": 1786418464,
+    "tags": [
+      "agent",
+      "benchmark"
+    ]
   }
 ]

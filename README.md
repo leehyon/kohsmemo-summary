@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-11) [Pi, Minimal and Performant](202608/2026-08-11-pi%2C-minimal-and-performant.md)
+- Pi 以极简设计（仅 4 工具、<1,000 tokens 提示）成为高性能编码 harness；Databricks 与 Shopify 案例显示它更便宜、更快、更可扩展，通过上下文纪律与可扩展机制优于复杂工具。
+- Tags: #agent #benchmark
+
 (2026-08-10) [How a Frontier Model Gets Built, Read from the Kimi K3 Report](202608/2026-08-10-how-a-frontier-model-gets-built%2C-read-from-the-kimi-k3-report.md)
 - Kimi K3 报告显示，构建前沿模型的重心在环境、数据与系统工程而非模型；开源最强模型接近封闭前沿，但需警惕滥用风险。
 - Tags: #agent
@@ -38,13 +42,9 @@
 - 编程无法速成，需要十年刻意练习。保持兴趣、多实践、多交流、学多语言，才是成为专家的正道。
 - Tags: #career
 
-(2026-07-29) [Substack writers, you need a website!](202607/2026-07-29-substack-writers%2C-you-need-a-website%21.md)
-- 作者强烈建议 Substack 作者拥有独立网站，将平台仅作为分发渠道，以保障数字主权和长期内容安全。
-- Tags: #writing
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (6 entries)
+- [2026-08](202608/monthly-index.md) (7 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
