@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-08-12) [我是怎么用 Hermes 的](202608/2026-08-12-%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E7%94%A8-hermes-%E7%9A%84.md)
+  - Tags: #agent
+  - Summary: 作者亲测 Hermes Agent 半年，认为其最大优势是能直接操作电脑，通过 Telegram 查告警、回飞书、写代码等。核心在于技能与记忆系统，让 AI 助手与工作流深度粘合。
+
 - (2026-08-11) [Pi, Minimal and Performant](202608/2026-08-11-pi%2C-minimal-and-performant.md)
   - Tags: #agent #benchmark
   - Summary: Pi 以极简设计（仅 4 工具、<1,000 tokens 提示）成为高性能编码 harness；Databricks 与 Shopify 案例显示它更便宜、更快、更可扩展，通过上下文纪律与可扩展机制优于复杂工具。
