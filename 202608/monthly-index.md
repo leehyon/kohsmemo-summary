@@ -1,5 +1,9 @@
 # 2026-08 Monthly Index
 
+(2026-08-17) [Your Agentic Workflow's Cache Keepalive Costs 8x Too Much](2026-08-17-your-agentic-workflow%27s-cache-keepalive-costs-8x-too-much.md)
+- 常见的 30 秒缓存 keepalive 比最优贵约 8 倍。实测显示 Anthropic 最优约 4 分钟、OpenAI 约 8 分钟，超过 TTL 的 ping 会反复重建死缓存。只在暂停超过驱逐点、低于盈亏平衡点（约 46 分钟）时保温才省钱；DeepSeek、Gemini 只值延迟。
+- Tags: #agent
+
 (2026-08-12) [我是怎么用 Hermes 的](2026-08-12-%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E7%94%A8-hermes-%E7%9A%84.md)
 - 作者亲测 Hermes Agent 半年，认为其最大优势是能直接操作电脑，通过 Telegram 查告警、回飞书、写代码等。核心在于技能与记忆系统，让 AI 助手与工作流深度粘合。
 - Tags: #agent

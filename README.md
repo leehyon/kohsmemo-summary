@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-17) [Your Agentic Workflow's Cache Keepalive Costs 8x Too Much](202608/2026-08-17-your-agentic-workflow%27s-cache-keepalive-costs-8x-too-much.md)
+- 常见的 30 秒缓存 keepalive 比最优贵约 8 倍。实测显示 Anthropic 最优约 4 分钟、OpenAI 约 8 分钟，超过 TTL 的 ping 会反复重建死缓存。只在暂停超过驱逐点、低于盈亏平衡点（约 46 分钟）时保温才省钱；DeepSeek、Gemini 只值延迟。
+- Tags: #agent
+
 (2026-08-12) [我是怎么用 Hermes 的](202608/2026-08-12-%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E7%94%A8-hermes-%E7%9A%84.md)
 - 作者亲测 Hermes Agent 半年，认为其最大优势是能直接操作电脑，通过 Telegram 查告警、回飞书、写代码等。核心在于技能与记忆系统，让 AI 助手与工作流深度粘合。
 - Tags: #agent
@@ -38,13 +42,9 @@
 - 实验表明，重构 AI 生成的代码可将后续智能体修改的输入 token 消耗降低 83%，虽重构过程需人工指导，但长期经济收益明确。
 - Tags: #engineering
 
-(2026-07-31) [Write-Only Code](202607/2026-07-31-write-only-code.md)
-- AI 让生产代码逐渐变成无人阅读的 Write-Only Code，工程师角色从代码审查者转向系统设计者，信任需由新指标与工具重建。
-- Tags: #engineering #vibe-coding
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (8 entries)
+- [2026-08](202608/monthly-index.md) (9 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
