@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-08-17) [Elevators](202608/2026-08-17-elevators.md)
+- 电梯调度算法远比想象复杂；简单 LOOK 在高流量时优于花哨的 RSR，目的地派梯因缺乏灵活性反而更慢，核心在于动态重优化与灵活性。
+
 (2026-08-17) [My server is a phone now](202608/2026-08-17-my-server-is-a-phone-now.md)
 - 作者用闲置的 CMF Phone 1 刷 Android + Termux + chroot 替代 VPS，通过 Ansible 管理、Cloudflare Tunnel 和 Tailscale 接入，跑 Surf 等个人服务，省钱又可复现。
 - Tags: #setup #home
@@ -39,12 +42,9 @@
 - Whatnot 的 CPO Tom Verrilli 主张“后悔产品管理存在”，让资深 PM 直接做 IC 工作，并借助 AI 重塑产品角色，避免组织陷入流程戏剧。
 - Tags: #transcript
 
-(2026-08-10) [Open Weights and American AI Leadership](202608/2026-08-10-open-weights-and-american-ai-leadership.md)
-- 文章呼吁美国支持开放权重 AI 模型，认为这能扩大创新、竞争与安全，并借开源历史强调开放生态对美国 AI 领导力的重要性。
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (11 entries)
+- [2026-08](202608/monthly-index.md) (12 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)

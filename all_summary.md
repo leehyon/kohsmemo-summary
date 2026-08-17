@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-08-17) [Elevators](202608/2026-08-17-elevators.md)
+  - Summary: 电梯调度算法远比想象复杂；简单 LOOK 在高流量时优于花哨的 RSR，目的地派梯因缺乏灵活性反而更慢，核心在于动态重优化与灵活性。
+
 - (2026-08-17) [My server is a phone now](202608/2026-08-17-my-server-is-a-phone-now.md)
   - Tags: #setup #home
   - Summary: 作者用闲置的 CMF Phone 1 刷 Android + Termux + chroot 替代 VPS，通过 Ansible 管理、Cloudflare Tunnel 和 Tailscale 接入，跑 Surf 等个人服务，省钱又可复现。
