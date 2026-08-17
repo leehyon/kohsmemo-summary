@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-17) [Use Task Runners for Common Coding Tasks](202608/2026-08-17-use-task-runners-for-common-coding-tasks.md)
+- 作者建议用任务运行器（bash 脚本、make、just、mise）统一跨仓库的构建、测试、格式化等常见命令，避免记忆各技术栈的不同命令，只需执行统一的 run build、make test 等。提供实现示例和优缺点。
+- Tags: #efficiency
+
 (2026-08-17) [Your Agentic Workflow's Cache Keepalive Costs 8x Too Much](202608/2026-08-17-your-agentic-workflow%27s-cache-keepalive-costs-8x-too-much.md)
 - 常见的 30 秒缓存 keepalive 比最优贵约 8 倍。实测显示 Anthropic 最优约 4 分钟、OpenAI 约 8 分钟，超过 TTL 的 ping 会反复重建死缓存。只在暂停超过驱逐点、低于盈亏平衡点（约 46 分钟）时保温才省钱；DeepSeek、Gemini 只值延迟。
 - Tags: #agent
@@ -38,13 +42,9 @@
 - 团队半年来在预测市场生态尝试了语义搜索、聚合终端、Copy Trading、Agentic Trading 等多个方向，均未找到 PMF。核心问题是获客难，以及 Polymarket 作为中心化平台对第三方项目的结构性挤压。
 - Tags: #product
 
-(2026-07-31) [The Economic Benefit of Refactoring](202607/2026-07-31-the-economic-benefit-of-refactoring.md)
-- 实验表明，重构 AI 生成的代码可将后续智能体修改的输入 token 消耗降低 83%，虽重构过程需人工指导，但长期经济收益明确。
-- Tags: #engineering
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (9 entries)
+- [2026-08](202608/monthly-index.md) (10 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)

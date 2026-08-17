@@ -1,5 +1,9 @@
 # 2026-08 Monthly Index
 
+(2026-08-17) [Use Task Runners for Common Coding Tasks](2026-08-17-use-task-runners-for-common-coding-tasks.md)
+- 作者建议用任务运行器（bash 脚本、make、just、mise）统一跨仓库的构建、测试、格式化等常见命令，避免记忆各技术栈的不同命令，只需执行统一的 run build、make test 等。提供实现示例和优缺点。
+- Tags: #efficiency
+
 (2026-08-17) [Your Agentic Workflow's Cache Keepalive Costs 8x Too Much](2026-08-17-your-agentic-workflow%27s-cache-keepalive-costs-8x-too-much.md)
 - 常见的 30 秒缓存 keepalive 比最优贵约 8 倍。实测显示 Anthropic 最优约 4 分钟、OpenAI 约 8 分钟，超过 TTL 的 ping 会反复重建死缓存。只在暂停超过驱逐点、低于盈亏平衡点（约 46 分钟）时保温才省钱；DeepSeek、Gemini 只值延迟。
 - Tags: #agent

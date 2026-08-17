@@ -2711,5 +2711,14 @@
     "tags": [
       "agent"
     ]
+  },
+  {
+    "month": "202608",
+    "title": "Use Task Runners for Common Coding Tasks",
+    "url": "https://hamvocke.com/blog/task-runners/",
+    "timestamp": 1786930954,
+    "tags": [
+      "efficiency"
+    ]
   }
 ]
