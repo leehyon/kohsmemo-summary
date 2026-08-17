@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-08-17) [My server is a phone now](202608/2026-08-17-my-server-is-a-phone-now.md)
+  - Tags: #setup #home
+  - Summary: 作者用闲置的 CMF Phone 1 刷 Android + Termux + chroot 替代 VPS，通过 Ansible 管理、Cloudflare Tunnel 和 Tailscale 接入，跑 Surf 等个人服务，省钱又可复现。
+
 - (2026-08-17) [Use Task Runners for Common Coding Tasks](202608/2026-08-17-use-task-runners-for-common-coding-tasks.md)
   - Tags: #efficiency
   - Summary: 作者建议用任务运行器（bash 脚本、make、just、mise）统一跨仓库的构建、测试、格式化等常见命令，避免记忆各技术栈的不同命令，只需执行统一的 run build、make test 等。提供实现示例和优缺点。
