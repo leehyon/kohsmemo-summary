@@ -2737,5 +2737,15 @@
     "url": "https://john.fun/elevators",
     "timestamp": 1786931166,
     "tags": []
+  },
+  {
+    "month": "202608",
+    "title": "AI 时代我的开发工作流：从踩坑复盘到多项目并行验证",
+    "url": "https://innei.in/posts/tinkering/ai-era-dev-workflow-review-and-verify",
+    "timestamp": 1786949727,
+    "tags": [
+      "agent",
+      "workflow"
+    ]
   }
 ]

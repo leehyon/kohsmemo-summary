@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-17) [AI 时代我的开发工作流：从踩坑复盘到多项目并行验证](202608/2026-08-17-ai-%E6%97%B6%E4%BB%A3%E6%88%91%E7%9A%84%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C%E6%B5%81%EF%BC%9A%E4%BB%8E%E8%B8%A9%E5%9D%91%E5%A4%8D%E7%9B%98%E5%88%B0%E5%A4%9A%E9%A1%B9%E7%9B%AE%E5%B9%B6%E8%A1%8C%E9%AA%8C%E8%AF%81.md)
+- AI 时代作者从深度钻研转向多项目并行，通过 CLI 和 Skill 将踩坑会话自动沉淀为文章，并利用 LobeHub 的 acceptance skill 实现 UI 自动化验收，显著提升开发效率。
+- Tags: #agent #workflow
+
 (2026-08-17) [Elevators](202608/2026-08-17-elevators.md)
 - 电梯调度算法远比想象复杂；简单 LOOK 在高流量时优于花哨的 RSR，目的地派梯因缺乏灵活性反而更慢，核心在于动态重优化与灵活性。
 
@@ -38,13 +42,9 @@
 - Agent 插件工程化需把能力当软件资产：通过规格驱动、上下文编排、确定性验证、行为评测、证据闭环五个实践，确保插件可验证、可维护、可持续演进。核心是让每一次修改都有证据证明变得更好。
 - Tags: #engineering #agent
 
-(2026-08-10) [This CPO regrets that product management exists](202608/2026-08-10-this-cpo-regrets-that-product-management-exists.md)
-- Whatnot 的 CPO Tom Verrilli 主张“后悔产品管理存在”，让资深 PM 直接做 IC 工作，并借助 AI 重塑产品角色，避免组织陷入流程戏剧。
-- Tags: #transcript
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (12 entries)
+- [2026-08](202608/monthly-index.md) (13 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
