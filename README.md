@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-18) [聊一聊商业产品背后的定价逻辑](202608/2026-08-18-%E8%81%8A%E4%B8%80%E8%81%8A%E5%95%86%E4%B8%9A%E4%BA%A7%E5%93%81%E8%83%8C%E5%90%8E%E7%9A%84%E5%AE%9A%E4%BB%B7%E9%80%BB%E8%BE%91.md)
+- 会员制与订阅制利用使用强度差异，让低频用户补贴高频用户，实现整体盈利。AI 因成本更高需限额与分级。消费者判断是否值得付费，应看过去实际用量，并用回本次数计算盈亏平衡。
+- Tags: #explained
+
 (2026-08-17) [AI 时代我的开发工作流：从踩坑复盘到多项目并行验证](202608/2026-08-17-ai-%E6%97%B6%E4%BB%A3%E6%88%91%E7%9A%84%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C%E6%B5%81%EF%BC%9A%E4%BB%8E%E8%B8%A9%E5%9D%91%E5%A4%8D%E7%9B%98%E5%88%B0%E5%A4%9A%E9%A1%B9%E7%9B%AE%E5%B9%B6%E8%A1%8C%E9%AA%8C%E8%AF%81.md)
 - AI 时代作者从深度钻研转向多项目并行，通过 CLI 和 Skill 将踩坑会话自动沉淀为文章，并利用 LobeHub 的 acceptance skill 实现 UI 自动化验收，显著提升开发效率。
 - Tags: #agent #workflow
@@ -38,13 +42,9 @@
 - 李开复指出 AI 的真正价值在于 AI-native 转型与承担责任，DRI 和 OPC 带来新机会，而爱和判断力仍是人类的核心竞争力。
 - Tags: #career
 
-(2026-08-10) [Agent 插件如何走向工程化](202608/2026-08-10-agent-%E6%8F%92%E4%BB%B6%E5%A6%82%E4%BD%95%E8%B5%B0%E5%90%91%E5%B7%A5%E7%A8%8B%E5%8C%96.md)
-- Agent 插件工程化需把能力当软件资产：通过规格驱动、上下文编排、确定性验证、行为评测、证据闭环五个实践，确保插件可验证、可维护、可持续演进。核心是让每一次修改都有证据证明变得更好。
-- Tags: #engineering #agent
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (13 entries)
+- [2026-08](202608/monthly-index.md) (14 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
