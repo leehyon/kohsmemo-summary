@@ -1,5 +1,9 @@
 # 2026-08 Monthly Index
 
+(2026-08-20) [Extensible Software in the age of LLMs](2026-08-20-extensible-software-in-the-age-of-llms.md)
+- 本文提出以“稳固核心+能力沙箱+LLM”构建可扩展 Web 软件，让用户通过自然语言生成安全扩展，并以 Cloudflare Dynamic Workers 为例说明实现可能。
+- Tags: #llm #agent
+
 (2026-08-20) [The two factions of C++](2026-08-20-the-two-factions-of-c%2B%2B.md)
 - 文章分析 C++ 因向后兼容与安全需求之间的根本冲突而分裂为现代与遗留两大阵营，指出工具链和构建能力是分水岭，并解释了委员会在 Safety Profiles 等提案上的立场。
 - Tags: #language

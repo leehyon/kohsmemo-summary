@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-20) [Extensible Software in the age of LLMs](202608/2026-08-20-extensible-software-in-the-age-of-llms.md)
+- 本文提出以“稳固核心+能力沙箱+LLM”构建可扩展 Web 软件，让用户通过自然语言生成安全扩展，并以 Cloudflare Dynamic Workers 为例说明实现可能。
+- Tags: #llm #agent
+
 (2026-08-20) [The two factions of C++](202608/2026-08-20-the-two-factions-of-c%2B%2B.md)
 - 文章分析 C++ 因向后兼容与安全需求之间的根本冲突而分裂为现代与遗留两大阵营，指出工具链和构建能力是分水岭，并解释了委员会在 Safety Profiles 等提案上的立场。
 - Tags: #language
@@ -38,13 +42,9 @@
 - Pi 以极简设计（仅 4 工具、<1,000 tokens 提示）成为高性能编码 harness；Databricks 与 Shopify 案例显示它更便宜、更快、更可扩展，通过上下文纪律与可扩展机制优于复杂工具。
 - Tags: #agent #benchmark
 
-(2026-08-10) [How a Frontier Model Gets Built, Read from the Kimi K3 Report](202608/2026-08-10-how-a-frontier-model-gets-built%2C-read-from-the-kimi-k3-report.md)
-- Kimi K3 报告显示，构建前沿模型的重心在环境、数据与系统工程而非模型；开源最强模型接近封闭前沿，但需警惕滥用风险。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (15 entries)
+- [2026-08](202608/monthly-index.md) (16 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
