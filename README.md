@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-20) [The two factions of C++](202608/2026-08-20-the-two-factions-of-c%2B%2B.md)
+- 文章分析 C++ 因向后兼容与安全需求之间的根本冲突而分裂为现代与遗留两大阵营，指出工具链和构建能力是分水岭，并解释了委员会在 Safety Profiles 等提案上的立场。
+- Tags: #language
+
 (2026-08-18) [聊一聊商业产品背后的定价逻辑](202608/2026-08-18-%E8%81%8A%E4%B8%80%E8%81%8A%E5%95%86%E4%B8%9A%E4%BA%A7%E5%93%81%E8%83%8C%E5%90%8E%E7%9A%84%E5%AE%9A%E4%BB%B7%E9%80%BB%E8%BE%91.md)
 - 会员制与订阅制利用使用强度差异，让低频用户补贴高频用户，实现整体盈利。AI 因成本更高需限额与分级。消费者判断是否值得付费，应看过去实际用量，并用回本次数计算盈亏平衡。
 - Tags: #explained
@@ -38,13 +42,9 @@
 - Kimi K3 报告显示，构建前沿模型的重心在环境、数据与系统工程而非模型；开源最强模型接近封闭前沿，但需警惕滥用风险。
 - Tags: #agent
 
-(2026-08-10) [对话李开复：小人物的机会，在哪里？](202608/2026-08-10-%E5%AF%B9%E8%AF%9D%E6%9D%8E%E5%BC%80%E5%A4%8D%EF%BC%9A%E5%B0%8F%E4%BA%BA%E7%89%A9%E7%9A%84%E6%9C%BA%E4%BC%9A%EF%BC%8C%E5%9C%A8%E5%93%AA%E9%87%8C%EF%BC%9F.md)
-- 李开复指出 AI 的真正价值在于 AI-native 转型与承担责任，DRI 和 OPC 带来新机会，而爱和判断力仍是人类的核心竞争力。
-- Tags: #career
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (14 entries)
+- [2026-08](202608/monthly-index.md) (15 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
