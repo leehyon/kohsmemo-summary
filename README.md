@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-20) [There are no lossless transformations of natural-language text](202608/2026-08-20-there-are-no-lossless-transformations-of-natural-language-text.md)
+- 无损耗的自然语言转换不存在；AI 写作必须由作者逐句把关，写作即思考，尊重读者时间，更短更好。
+- Tags: #agent #writing
+
 (2026-08-20) [The Same Side of the Table](202608/2026-08-20-the-same-side-of-the-table.md)
 - 管理者与下属开会时必须始终站在同一战线，团队失误就是自己的失误；用接管、暂停、防守等方式保护下属，能建立信任并避免恐惧文化。
 - Tags: #career
@@ -38,13 +42,9 @@
 - 作者建议用任务运行器（bash 脚本、make、just、mise）统一跨仓库的构建、测试、格式化等常见命令，避免记忆各技术栈的不同命令，只需执行统一的 run build、make test 等。提供实现示例和优缺点。
 - Tags: #efficiency
 
-(2026-08-17) [Your Agentic Workflow's Cache Keepalive Costs 8x Too Much](202608/2026-08-17-your-agentic-workflow%27s-cache-keepalive-costs-8x-too-much.md)
-- 常见的 30 秒缓存 keepalive 比最优贵约 8 倍。实测显示 Anthropic 最优约 4 分钟、OpenAI 约 8 分钟，超过 TTL 的 ping 会反复重建死缓存。只在暂停超过驱逐点、低于盈亏平衡点（约 46 分钟）时保温才省钱；DeepSeek、Gemini 只值延迟。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (18 entries)
+- [2026-08](202608/monthly-index.md) (19 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)

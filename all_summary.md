@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-08-20) [There are no lossless transformations of natural-language text](202608/2026-08-20-there-are-no-lossless-transformations-of-natural-language-text.md)
+  - Tags: #agent #writing
+  - Summary: 无损耗的自然语言转换不存在；AI 写作必须由作者逐句把关，写作即思考，尊重读者时间，更短更好。
+
 - (2026-08-20) [The Same Side of the Table](202608/2026-08-20-the-same-side-of-the-table.md)
   - Tags: #career
   - Summary: 管理者与下属开会时必须始终站在同一战线，团队失误就是自己的失误；用接管、暂停、防守等方式保护下属，能建立信任并避免恐惧文化。
