@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-20) [AI is removing the middle class of software engineering](202608/2026-08-20-ai-is-removing-the-middle-class-of-software-engineering.md)
+- AI 让写代码变快，但理解代码仍然很慢，因此坏决策快速堆积，工程文化弱的项目迅速崩溃。中层工程师被淘汰，真正理解系统的人变得更重要。
+- Tags: #agent #engineering #career
+
 (2026-08-20) [Extensible Software in the age of LLMs](202608/2026-08-20-extensible-software-in-the-age-of-llms.md)
 - 本文提出以“稳固核心+能力沙箱+LLM”构建可扩展 Web 软件，让用户通过自然语言生成安全扩展，并以 Cloudflare Dynamic Workers 为例说明实现可能。
 - Tags: #llm #agent
@@ -38,13 +42,9 @@
 - 作者亲测 Hermes Agent 半年，认为其最大优势是能直接操作电脑，通过 Telegram 查告警、回飞书、写代码等。核心在于技能与记忆系统，让 AI 助手与工作流深度粘合。
 - Tags: #agent
 
-(2026-08-11) [Pi, Minimal and Performant](202608/2026-08-11-pi%2C-minimal-and-performant.md)
-- Pi 以极简设计（仅 4 工具、<1,000 tokens 提示）成为高性能编码 harness；Databricks 与 Shopify 案例显示它更便宜、更快、更可扩展，通过上下文纪律与可扩展机制优于复杂工具。
-- Tags: #agent #benchmark
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (16 entries)
+- [2026-08](202608/monthly-index.md) (17 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)

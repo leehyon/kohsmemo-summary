@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-08-20) [AI is removing the middle class of software engineering](202608/2026-08-20-ai-is-removing-the-middle-class-of-software-engineering.md)
+  - Tags: #agent #engineering #career
+  - Summary: AI 让写代码变快，但理解代码仍然很慢，因此坏决策快速堆积，工程文化弱的项目迅速崩溃。中层工程师被淘汰，真正理解系统的人变得更重要。
+
 - (2026-08-20) [Extensible Software in the age of LLMs](202608/2026-08-20-extensible-software-in-the-age-of-llms.md)
   - Tags: #llm #agent
   - Summary: 本文提出以“稳固核心+能力沙箱+LLM”构建可扩展 Web 软件，让用户通过自然语言生成安全扩展，并以 Cloudflare Dynamic Workers 为例说明实现可能。
