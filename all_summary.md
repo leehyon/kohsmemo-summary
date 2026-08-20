@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-08-20) [How to keep thinking](202608/2026-08-20-how-to-keep-thinking.md)
+  - Tags: #view
+  - Summary: 在 AI 时代保持深度思考：用自己的话写作，读非虚构书籍，并组合二者；别让快速浏览 LLM 输出磨掉慢思考能力。
+
 - (2026-08-20) [There are no lossless transformations of natural-language text](202608/2026-08-20-there-are-no-lossless-transformations-of-natural-language-text.md)
   - Tags: #agent #writing
   - Summary: 无损耗的自然语言转换不存在；AI 写作必须由作者逐句把关，写作即思考，尊重读者时间，更短更好。

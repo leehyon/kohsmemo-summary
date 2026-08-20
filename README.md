@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-20) [How to keep thinking](202608/2026-08-20-how-to-keep-thinking.md)
+- 在 AI 时代保持深度思考：用自己的话写作，读非虚构书籍，并组合二者；别让快速浏览 LLM 输出磨掉慢思考能力。
+- Tags: #view
+
 (2026-08-20) [There are no lossless transformations of natural-language text](202608/2026-08-20-there-are-no-lossless-transformations-of-natural-language-text.md)
 - 无损耗的自然语言转换不存在；AI 写作必须由作者逐句把关，写作即思考，尊重读者时间，更短更好。
 - Tags: #agent #writing
@@ -38,13 +42,9 @@
 - 作者用闲置的 CMF Phone 1 刷 Android + Termux + chroot 替代 VPS，通过 Ansible 管理、Cloudflare Tunnel 和 Tailscale 接入，跑 Surf 等个人服务，省钱又可复现。
 - Tags: #setup #home
 
-(2026-08-17) [Use Task Runners for Common Coding Tasks](202608/2026-08-17-use-task-runners-for-common-coding-tasks.md)
-- 作者建议用任务运行器（bash 脚本、make、just、mise）统一跨仓库的构建、测试、格式化等常见命令，避免记忆各技术栈的不同命令，只需执行统一的 run build、make test 等。提供实现示例和优缺点。
-- Tags: #efficiency
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (19 entries)
+- [2026-08](202608/monthly-index.md) (20 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
