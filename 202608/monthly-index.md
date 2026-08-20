@@ -1,5 +1,9 @@
 # 2026-08 Monthly Index
 
+(2026-08-20) [The Same Side of the Table](2026-08-20-the-same-side-of-the-table.md)
+- 管理者与下属开会时必须始终站在同一战线，团队失误就是自己的失误；用接管、暂停、防守等方式保护下属，能建立信任并避免恐惧文化。
+- Tags: #career
+
 (2026-08-20) [AI is removing the middle class of software engineering](2026-08-20-ai-is-removing-the-middle-class-of-software-engineering.md)
 - AI 让写代码变快，但理解代码仍然很慢，因此坏决策快速堆积，工程文化弱的项目迅速崩溃。中层工程师被淘汰，真正理解系统的人变得更重要。
 - Tags: #agent #engineering #career

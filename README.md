@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-20) [The Same Side of the Table](202608/2026-08-20-the-same-side-of-the-table.md)
+- 管理者与下属开会时必须始终站在同一战线，团队失误就是自己的失误；用接管、暂停、防守等方式保护下属，能建立信任并避免恐惧文化。
+- Tags: #career
+
 (2026-08-20) [AI is removing the middle class of software engineering](202608/2026-08-20-ai-is-removing-the-middle-class-of-software-engineering.md)
 - AI 让写代码变快，但理解代码仍然很慢，因此坏决策快速堆积，工程文化弱的项目迅速崩溃。中层工程师被淘汰，真正理解系统的人变得更重要。
 - Tags: #agent #engineering #career
@@ -38,13 +42,9 @@
 - 常见的 30 秒缓存 keepalive 比最优贵约 8 倍。实测显示 Anthropic 最优约 4 分钟、OpenAI 约 8 分钟，超过 TTL 的 ping 会反复重建死缓存。只在暂停超过驱逐点、低于盈亏平衡点（约 46 分钟）时保温才省钱；DeepSeek、Gemini 只值延迟。
 - Tags: #agent
 
-(2026-08-12) [我是怎么用 Hermes 的](202608/2026-08-12-%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E7%94%A8-hermes-%E7%9A%84.md)
-- 作者亲测 Hermes Agent 半年，认为其最大优势是能直接操作电脑，通过 Telegram 查告警、回飞书、写代码等。核心在于技能与记忆系统，让 AI 助手与工作流深度粘合。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (17 entries)
+- [2026-08](202608/monthly-index.md) (18 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
