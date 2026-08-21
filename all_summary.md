@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-08-21) [SQLite for Everything](202608/2026-08-21-sqlite-for-everything.md)
+  - Summary: 本文主张 SQLite 可替代许多专用系统：搜索、文档、队列、时序、向量、缓存等，因它稳定、简单、快且内置于进程；多数场景无需独立服务，达到单机上限前应先用 SQLite。
+
 - (2026-08-21) [PostgreSQL for Everything](202608/2026-08-21-postgresql-for-everything.md)
   - Summary: PostgreSQL 凭稳定、易扩展和丰富插件，可在多数场景替代 Kafka、Redis、Elasticsearch 等专用系统，简化架构并加速交付。先问“PostgreSQL 能否做到”，避免盲目引入新组件。
 
