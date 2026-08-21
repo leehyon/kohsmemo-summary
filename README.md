@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-21) [Tabs, Spaces, Hand Tools, and Seat Belts](202608/2026-08-21-tabs%2C-spaces%2C-hand-tools%2C-and-seat-belts.md)
+- 从 Bun 迁移到 Rust 引发的争议出发，探讨软件生产究竟是工业流程还是手工艺；作者认为软件生产已工业化，自动格式化与 Go 等语言体现去技能化，而 Clojure 等代表手艺理想，最终问题开放。
+- Tags: #career #agent
+
 (2026-08-20) [How to keep thinking](202608/2026-08-20-how-to-keep-thinking.md)
 - 在 AI 时代保持深度思考：用自己的话写作，读非虚构书籍，并组合二者；别让快速浏览 LLM 输出磨掉慢思考能力。
 - Tags: #view
@@ -38,13 +42,9 @@
 (2026-08-17) [Elevators](202608/2026-08-17-elevators.md)
 - 电梯调度算法远比想象复杂；简单 LOOK 在高流量时优于花哨的 RSR，目的地派梯因缺乏灵活性反而更慢，核心在于动态重优化与灵活性。
 
-(2026-08-17) [My server is a phone now](202608/2026-08-17-my-server-is-a-phone-now.md)
-- 作者用闲置的 CMF Phone 1 刷 Android + Termux + chroot 替代 VPS，通过 Ansible 管理、Cloudflare Tunnel 和 Tailscale 接入，跑 Surf 等个人服务，省钱又可复现。
-- Tags: #setup #home
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (20 entries)
+- [2026-08](202608/monthly-index.md) (21 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)

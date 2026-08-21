@@ -1,5 +1,9 @@
 # 2026-08 Monthly Index
 
+(2026-08-21) [Tabs, Spaces, Hand Tools, and Seat Belts](2026-08-21-tabs%2C-spaces%2C-hand-tools%2C-and-seat-belts.md)
+- 从 Bun 迁移到 Rust 引发的争议出发，探讨软件生产究竟是工业流程还是手工艺；作者认为软件生产已工业化，自动格式化与 Go 等语言体现去技能化，而 Clojure 等代表手艺理想，最终问题开放。
+- Tags: #career #agent
+
 (2026-08-20) [How to keep thinking](2026-08-20-how-to-keep-thinking.md)
 - 在 AI 时代保持深度思考：用自己的话写作，读非虚构书籍，并组合二者；别让快速浏览 LLM 输出磨掉慢思考能力。
 - Tags: #view
