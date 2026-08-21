@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-08-21) [PostgreSQL for Everything](202608/2026-08-21-postgresql-for-everything.md)
+- PostgreSQL 凭稳定、易扩展和丰富插件，可在多数场景替代 Kafka、Redis、Elasticsearch 等专用系统，简化架构并加速交付。先问“PostgreSQL 能否做到”，避免盲目引入新组件。
+
 (2026-08-21) [Tabs, Spaces, Hand Tools, and Seat Belts](202608/2026-08-21-tabs%2C-spaces%2C-hand-tools%2C-and-seat-belts.md)
 - 从 Bun 迁移到 Rust 引发的争议出发，探讨软件生产究竟是工业流程还是手工艺；作者认为软件生产已工业化，自动格式化与 Go 等语言体现去技能化，而 Clojure 等代表手艺理想，最终问题开放。
 - Tags: #career #agent
@@ -39,12 +42,9 @@
 - AI 时代作者从深度钻研转向多项目并行，通过 CLI 和 Skill 将踩坑会话自动沉淀为文章，并利用 LobeHub 的 acceptance skill 实现 UI 自动化验收，显著提升开发效率。
 - Tags: #agent #workflow
 
-(2026-08-17) [Elevators](202608/2026-08-17-elevators.md)
-- 电梯调度算法远比想象复杂；简单 LOOK 在高流量时优于花哨的 RSR，目的地派梯因缺乏灵活性反而更慢，核心在于动态重优化与灵活性。
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (21 entries)
+- [2026-08](202608/monthly-index.md) (22 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)

@@ -2824,5 +2824,12 @@
       "career",
       "agent"
     ]
+  },
+  {
+    "month": "202608",
+    "title": "PostgreSQL for Everything",
+    "url": "https://www.raphaelbauer.com/posts/postgresql-everything/",
+    "timestamp": 1787280804,
+    "tags": []
   }
 ]
