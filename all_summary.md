@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-08-24) [Everything I own, owned](202608/2026-08-24-everything-i-own%2C-owned.md)
+  - Tags: #hardware #agent
+  - Summary: 作者用 AI 代理逆向五款外设，发现固件普遍无保护，可关闭摄像头 LED、获取麦克风命令 shell，并绕过补光灯签名。AI 让硬件破解变得极易，安全风险大增。
+
 - (2026-08-24) [My agent.md to improve LLM-assisted code quality](202608/2026-08-24-my-agent.md-to-improve-llm-assisted-code-quality.md)
   - Tags: #agent #best-practice
   - Summary: 作者通过创建 agent.md 文件，将代码风格偏好固化到 LLM 提示中，显著提升生成代码的可维护性，并分享应对上下文稀释的方法。
