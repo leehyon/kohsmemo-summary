@@ -1,5 +1,9 @@
 # 2026-08 Monthly Index
 
+(2026-08-24) [My agent.md to improve LLM-assisted code quality](2026-08-24-my-agent.md-to-improve-llm-assisted-code-quality.md)
+- 作者通过创建 agent.md 文件，将代码风格偏好固化到 LLM 提示中，显著提升生成代码的可维护性，并分享应对上下文稀释的方法。
+- Tags: #agent #best-practice
+
 (2026-08-21) [SQLite for Everything](2026-08-21-sqlite-for-everything.md)
 - 本文主张 SQLite 可替代许多专用系统：搜索、文档、队列、时序、向量、缓存等，因它稳定、简单、快且内置于进程；多数场景无需独立服务，达到单机上限前应先用 SQLite。
 

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-24) [My agent.md to improve LLM-assisted code quality](202608/2026-08-24-my-agent.md-to-improve-llm-assisted-code-quality.md)
+- 作者通过创建 agent.md 文件，将代码风格偏好固化到 LLM 提示中，显著提升生成代码的可维护性，并分享应对上下文稀释的方法。
+- Tags: #agent #best-practice
+
 (2026-08-21) [SQLite for Everything](202608/2026-08-21-sqlite-for-everything.md)
 - 本文主张 SQLite 可替代许多专用系统：搜索、文档、队列、时序、向量、缓存等，因它稳定、简单、快且内置于进程；多数场景无需独立服务，达到单机上限前应先用 SQLite。
 
@@ -37,13 +41,9 @@
 - 文章分析 C++ 因向后兼容与安全需求之间的根本冲突而分裂为现代与遗留两大阵营，指出工具链和构建能力是分水岭，并解释了委员会在 Safety Profiles 等提案上的立场。
 - Tags: #language
 
-(2026-08-18) [聊一聊商业产品背后的定价逻辑](202608/2026-08-18-%E8%81%8A%E4%B8%80%E8%81%8A%E5%95%86%E4%B8%9A%E4%BA%A7%E5%93%81%E8%83%8C%E5%90%8E%E7%9A%84%E5%AE%9A%E4%BB%B7%E9%80%BB%E8%BE%91.md)
-- 会员制与订阅制利用使用强度差异，让低频用户补贴高频用户，实现整体盈利。AI 因成本更高需限额与分级。消费者判断是否值得付费，应看过去实际用量，并用回本次数计算盈亏平衡。
-- Tags: #explained
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (23 entries)
+- [2026-08](202608/monthly-index.md) (24 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)

@@ -2838,5 +2838,15 @@
     "url": "https://joecode.com/2026-08-19-sqlite3/",
     "timestamp": 1787280853,
     "tags": []
+  },
+  {
+    "month": "202608",
+    "title": "My agent.md to improve LLM-assisted code quality",
+    "url": "https://fabiensanglard.net/agent.md/index.html",
+    "timestamp": 1787539641,
+    "tags": [
+      "agent",
+      "best-practice"
+    ]
   }
 ]
