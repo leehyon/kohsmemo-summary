@@ -1,5 +1,9 @@
 # 2026-08 Monthly Index
 
+(2026-08-25) [我和 AI 共创了一套会自己生长的 Obsidian 知识库](2026-08-25-%E6%88%91%E5%92%8C-ai-%E5%85%B1%E5%88%9B%E4%BA%86%E4%B8%80%E5%A5%97%E4%BC%9A%E8%87%AA%E5%B7%B1%E7%94%9F%E9%95%BF%E7%9A%84-obsidian-%E7%9F%A5%E8%AF%86%E5%BA%93.md)
+- 作者用 Obsidian + Claude Code 搭建了一套由 AI 持续维护的知识库，通过收录、查问、体检三个流程让笔记自动更新、关联和质检，并用 CLAUDE.md 规范 AI 行为，最终实现从找资料到用知识的转变。
+- Tags: #note-taking #agent
+
 (2026-08-24) [Everything I own, owned](2026-08-24-everything-i-own%2C-owned.md)
 - 作者用 AI 代理逆向五款外设，发现固件普遍无保护，可关闭摄像头 LED、获取麦克风命令 shell，并绕过补光灯签名。AI 让硬件破解变得极易，安全风险大增。
 - Tags: #hardware #agent

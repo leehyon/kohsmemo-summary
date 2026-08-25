@@ -2858,5 +2858,15 @@
       "hardware",
       "agent"
     ]
+  },
+  {
+    "month": "202608",
+    "title": "我和 AI 共创了一套会自己生长的 Obsidian 知识库",
+    "url": "https://zxs.io/article/2215",
+    "timestamp": 1787621451,
+    "tags": [
+      "note-taking",
+      "agent"
+    ]
   }
 ]

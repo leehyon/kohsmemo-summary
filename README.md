@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-25) [我和 AI 共创了一套会自己生长的 Obsidian 知识库](202608/2026-08-25-%E6%88%91%E5%92%8C-ai-%E5%85%B1%E5%88%9B%E4%BA%86%E4%B8%80%E5%A5%97%E4%BC%9A%E8%87%AA%E5%B7%B1%E7%94%9F%E9%95%BF%E7%9A%84-obsidian-%E7%9F%A5%E8%AF%86%E5%BA%93.md)
+- 作者用 Obsidian + Claude Code 搭建了一套由 AI 持续维护的知识库，通过收录、查问、体检三个流程让笔记自动更新、关联和质检，并用 CLAUDE.md 规范 AI 行为，最终实现从找资料到用知识的转变。
+- Tags: #note-taking #agent
+
 (2026-08-24) [Everything I own, owned](202608/2026-08-24-everything-i-own%2C-owned.md)
 - 作者用 AI 代理逆向五款外设，发现固件普遍无保护，可关闭摄像头 LED、获取麦克风命令 shell，并绕过补光灯签名。AI 让硬件破解变得极易，安全风险大增。
 - Tags: #hardware #agent
@@ -37,13 +41,9 @@
 - AI 让写代码变快，但理解代码仍然很慢，因此坏决策快速堆积，工程文化弱的项目迅速崩溃。中层工程师被淘汰，真正理解系统的人变得更重要。
 - Tags: #agent #engineering #career
 
-(2026-08-20) [Extensible Software in the age of LLMs](202608/2026-08-20-extensible-software-in-the-age-of-llms.md)
-- 本文提出以“稳固核心+能力沙箱+LLM”构建可扩展 Web 软件，让用户通过自然语言生成安全扩展，并以 Cloudflare Dynamic Workers 为例说明实现可能。
-- Tags: #llm #agent
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (25 entries)
+- [2026-08](202608/monthly-index.md) (26 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
