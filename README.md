@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-27) [轻松搭建飞牛音乐私人音乐库](202608/2026-08-27-%E8%BD%BB%E6%9D%BE%E6%90%AD%E5%BB%BA%E9%A3%9E%E7%89%9B%E9%9F%B3%E4%B9%90%E7%A7%81%E4%BA%BA%E9%9F%B3%E4%B9%90%E5%BA%93.md)
+- 程沛权的个人主页，介绍其作为前端工程师、Vue 3 图书作者与开源维护者的技术产出，并穿插文身、摇滚、养猫和潮州菜谱等个人生活内容。
+- Tags: #nas #setup
+
 (2026-08-25) [我和 AI 共创了一套会自己生长的 Obsidian 知识库](202608/2026-08-25-%E6%88%91%E5%92%8C-ai-%E5%85%B1%E5%88%9B%E4%BA%86%E4%B8%80%E5%A5%97%E4%BC%9A%E8%87%AA%E5%B7%B1%E7%94%9F%E9%95%BF%E7%9A%84-obsidian-%E7%9F%A5%E8%AF%86%E5%BA%93.md)
 - 作者用 Obsidian + Claude Code 搭建了一套由 AI 持续维护的知识库，通过收录、查问、体检三个流程让笔记自动更新、关联和质检，并用 CLAUDE.md 规范 AI 行为，最终实现从找资料到用知识的转变。
 - Tags: #note-taking #agent
@@ -37,13 +41,9 @@
 - 管理者与下属开会时必须始终站在同一战线，团队失误就是自己的失误；用接管、暂停、防守等方式保护下属，能建立信任并避免恐惧文化。
 - Tags: #career
 
-(2026-08-20) [AI is removing the middle class of software engineering](202608/2026-08-20-ai-is-removing-the-middle-class-of-software-engineering.md)
-- AI 让写代码变快，但理解代码仍然很慢，因此坏决策快速堆积，工程文化弱的项目迅速崩溃。中层工程师被淘汰，真正理解系统的人变得更重要。
-- Tags: #agent #engineering #career
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (26 entries)
+- [2026-08](202608/monthly-index.md) (27 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)
