@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-28) [My experience as a first time speaker](202608/2026-08-28-my-experience-as-a-first-time-speaker.md)
+- 首次演讲者经验谈：演讲是表演，内容只占三成；提前准备、小步练自信、用 Why-How-What 框架，并把紧张当兴奋。
+- Tags: #life
+
 (2026-08-28) [Models Are Getting Dumber on Purpose](202608/2026-08-28-models-are-getting-dumber-on-purpose.md)
 - 模型正有目的地用推理能力换取世界知识，事实由外部知识库承载；这使模型更小、更本地化，也让幻觉变得可追溯。
 - Tags: #agent #explained
@@ -37,13 +41,9 @@
 - 在 AI 时代保持深度思考：用自己的话写作，读非虚构书籍，并组合二者；别让快速浏览 LLM 输出磨掉慢思考能力。
 - Tags: #view
 
-(2026-08-20) [There are no lossless transformations of natural-language text](202608/2026-08-20-there-are-no-lossless-transformations-of-natural-language-text.md)
-- 无损耗的自然语言转换不存在；AI 写作必须由作者逐句把关，写作即思考，尊重读者时间，更短更好。
-- Tags: #agent #writing
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (28 entries)
+- [2026-08](202608/monthly-index.md) (29 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)

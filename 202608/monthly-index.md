@@ -1,5 +1,9 @@
 # 2026-08 Monthly Index
 
+(2026-08-28) [My experience as a first time speaker](2026-08-28-my-experience-as-a-first-time-speaker.md)
+- 首次演讲者经验谈：演讲是表演，内容只占三成；提前准备、小步练自信、用 Why-How-What 框架，并把紧张当兴奋。
+- Tags: #life
+
 (2026-08-28) [Models Are Getting Dumber on Purpose](2026-08-28-models-are-getting-dumber-on-purpose.md)
 - 模型正有目的地用推理能力换取世界知识，事实由外部知识库承载；这使模型更小、更本地化，也让幻觉变得可追溯。
 - Tags: #agent #explained
