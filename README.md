@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-28) [Parallel development without the headaches using Git worktree](202608/2026-08-28-parallel-development-without-the-headaches-using-git-worktree.md)
+- Git worktree 可在同一仓库为各分支创建独立目录，并行开发无需 stash 或 checkout，用 add、list、remove、prune 管理。
+- Tags: #dev #setup
+
 (2026-08-28) [My experience as a first time speaker](202608/2026-08-28-my-experience-as-a-first-time-speaker.md)
 - 首次演讲者经验谈：演讲是表演，内容只占三成；提前准备、小步练自信、用 Why-How-What 框架，并把紧张当兴奋。
 - Tags: #life
@@ -37,13 +41,9 @@
 - 从 Bun 迁移到 Rust 引发的争议出发，探讨软件生产究竟是工业流程还是手工艺；作者认为软件生产已工业化，自动格式化与 Go 等语言体现去技能化，而 Clojure 等代表手艺理想，最终问题开放。
 - Tags: #career #agent
 
-(2026-08-20) [How to keep thinking](202608/2026-08-20-how-to-keep-thinking.md)
-- 在 AI 时代保持深度思考：用自己的话写作，读非虚构书籍，并组合二者；别让快速浏览 LLM 输出磨掉慢思考能力。
-- Tags: #view
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (29 entries)
+- [2026-08](202608/monthly-index.md) (30 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)

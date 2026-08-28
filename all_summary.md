@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-08-28) [Parallel development without the headaches using Git worktree](202608/2026-08-28-parallel-development-without-the-headaches-using-git-worktree.md)
+  - Tags: #dev #setup
+  - Summary: Git worktree 可在同一仓库为各分支创建独立目录，并行开发无需 stash 或 checkout，用 add、list、remove、prune 管理。
+
 - (2026-08-28) [My experience as a first time speaker](202608/2026-08-28-my-experience-as-a-first-time-speaker.md)
   - Tags: #life
   - Summary: 首次演讲者经验谈：演讲是表演，内容只占三成；提前准备、小步练自信、用 Why-How-What 框架，并把紧张当兴奋。

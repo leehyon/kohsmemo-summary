@@ -2897,5 +2897,15 @@
     "tags": [
       "life"
     ]
+  },
+  {
+    "month": "202608",
+    "title": "Parallel development without the headaches using Git worktree",
+    "url": "https://barrd.dev/article/parallel-development-without-the-headaches-using-git-worktree/",
+    "timestamp": 1787906613,
+    "tags": [
+      "dev",
+      "setup"
+    ]
   }
 ]
