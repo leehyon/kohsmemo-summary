@@ -1,5 +1,9 @@
 # 2026-08 Monthly Index
 
+(2026-08-28) [Models Are Getting Dumber on Purpose](2026-08-28-models-are-getting-dumber-on-purpose.md)
+- 模型正有目的地用推理能力换取世界知识，事实由外部知识库承载；这使模型更小、更本地化，也让幻觉变得可追溯。
+- Tags: #agent #explained
+
 (2026-08-27) [轻松搭建飞牛音乐私人音乐库](2026-08-27-%E8%BD%BB%E6%9D%BE%E6%90%AD%E5%BB%BA%E9%A3%9E%E7%89%9B%E9%9F%B3%E4%B9%90%E7%A7%81%E4%BA%BA%E9%9F%B3%E4%B9%90%E5%BA%93.md)
 - 程沛权的个人主页，介绍其作为前端工程师、Vue 3 图书作者与开源维护者的技术产出，并穿插文身、摇滚、养猫和潮州菜谱等个人生活内容。
 - Tags: #nas #setup

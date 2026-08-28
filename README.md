@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-08-28) [Models Are Getting Dumber on Purpose](202608/2026-08-28-models-are-getting-dumber-on-purpose.md)
+- 模型正有目的地用推理能力换取世界知识，事实由外部知识库承载；这使模型更小、更本地化，也让幻觉变得可追溯。
+- Tags: #agent #explained
+
 (2026-08-27) [轻松搭建飞牛音乐私人音乐库](202608/2026-08-27-%E8%BD%BB%E6%9D%BE%E6%90%AD%E5%BB%BA%E9%A3%9E%E7%89%9B%E9%9F%B3%E4%B9%90%E7%A7%81%E4%BA%BA%E9%9F%B3%E4%B9%90%E5%BA%93.md)
 - 程沛权的个人主页，介绍其作为前端工程师、Vue 3 图书作者与开源维护者的技术产出，并穿插文身、摇滚、养猫和潮州菜谱等个人生活内容。
 - Tags: #nas #setup
@@ -37,13 +41,9 @@
 - 无损耗的自然语言转换不存在；AI 写作必须由作者逐句把关，写作即思考，尊重读者时间，更短更好。
 - Tags: #agent #writing
 
-(2026-08-20) [The Same Side of the Table](202608/2026-08-20-the-same-side-of-the-table.md)
-- 管理者与下属开会时必须始终站在同一战线，团队失误就是自己的失误；用接管、暂停、防守等方式保护下属，能建立信任并避免恐惧文化。
-- Tags: #career
-
 ## Monthly Archive
 
-- [2026-08](202608/monthly-index.md) (27 entries)
+- [2026-08](202608/monthly-index.md) (28 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
 - [2026-05](202605/monthly-index.md) (26 entries)

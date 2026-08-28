@@ -2878,5 +2878,15 @@
       "nas",
       "setup"
     ]
+  },
+  {
+    "month": "202608",
+    "title": "Models Are Getting Dumber on Purpose",
+    "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+    "timestamp": 1787906487,
+    "tags": [
+      "agent",
+      "explained"
+    ]
   }
 ]
