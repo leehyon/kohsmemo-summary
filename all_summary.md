@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-08-31) [Human judgment doesn't leave the software factory](202608/2026-08-31-human-judgment-doesn%27t-leave-the-software-factory.md)
+  - Tags: #agent
+  - Summary: 文章指出软件工厂不会取代人类判断，而是将其重新定位到产品意图、质量与风险控制。验证机制建立信任，决定自主性，人类仍需最终拥有发布责任。
+
 - (2026-08-28) [Parallel development without the headaches using Git worktree](202608/2026-08-28-parallel-development-without-the-headaches-using-git-worktree.md)
   - Tags: #dev #setup
   - Summary: Git worktree 可在同一仓库为各分支创建独立目录，并行开发无需 stash 或 checkout，用 add、list、remove、prune 管理。

@@ -2907,5 +2907,14 @@
       "dev",
       "setup"
     ]
+  },
+  {
+    "month": "202608",
+    "title": "Human judgment doesn't leave the software factory",
+    "url": "https://addyosmani.com/blog/human-judgment-doesnt-leave-the-software/",
+    "timestamp": 1788142022,
+    "tags": [
+      "agent"
+    ]
   }
 ]
