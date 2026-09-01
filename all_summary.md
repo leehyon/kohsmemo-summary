@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-09-01) [You have to beat the models at something](202609/2026-09-01-you-have-to-beat-the-models-at-something.md)
+  - Tags: #career #agent
+  - Summary: 工程师需找到模型无法替代的价值：深度熟悉代码库以识别模型的错误，并具备将技术内容清晰传达给人类的能力。避免沦为复制模型输出的“肉代理”。
+
 - (2026-08-31) [Human judgment doesn't leave the software factory](202608/2026-08-31-human-judgment-doesn%27t-leave-the-software-factory.md)
   - Tags: #agent
   - Summary: 文章指出软件工厂不会取代人类判断，而是将其重新定位到产品意图、质量与风险控制。验证机制建立信任，决定自主性，人类仍需最终拥有发布责任。

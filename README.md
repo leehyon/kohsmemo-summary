@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-09-01) [You have to beat the models at something](202609/2026-09-01-you-have-to-beat-the-models-at-something.md)
+- 工程师需找到模型无法替代的价值：深度熟悉代码库以识别模型的错误，并具备将技术内容清晰传达给人类的能力。避免沦为复制模型输出的“肉代理”。
+- Tags: #career #agent
+
 (2026-08-31) [Human judgment doesn't leave the software factory](202608/2026-08-31-human-judgment-doesn%27t-leave-the-software-factory.md)
 - 文章指出软件工厂不会取代人类判断，而是将其重新定位到产品意图、质量与风险控制。验证机制建立信任，决定自主性，人类仍需最终拥有发布责任。
 - Tags: #agent
@@ -38,11 +42,9 @@
 (2026-08-21) [SQLite for Everything](202608/2026-08-21-sqlite-for-everything.md)
 - 本文主张 SQLite 可替代许多专用系统：搜索、文档、队列、时序、向量、缓存等，因它稳定、简单、快且内置于进程；多数场景无需独立服务，达到单机上限前应先用 SQLite。
 
-(2026-08-21) [PostgreSQL for Everything](202608/2026-08-21-postgresql-for-everything.md)
-- PostgreSQL 凭稳定、易扩展和丰富插件，可在多数场景替代 Kafka、Redis、Elasticsearch 等专用系统，简化架构并加速交付。先问“PostgreSQL 能否做到”，避免盲目引入新组件。
-
 ## Monthly Archive
 
+- [2026-09](202609/monthly-index.md) (1 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
