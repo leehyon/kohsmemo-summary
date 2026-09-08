@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-09-08) [AI, tools and transformation](202609/2026-09-08-ai%2C-tools-and-transformation.md)
+- AI 不会让每个人都成为工具构建者，也没有消灭应用。软件变革遵循制度化与即兴的频谱，公司需通过试点和结构性思考转型，真正重要的价值在于创造全新事物。
+- Tags: #agent #view
+
 (2026-09-08) [How we make AI coding more cost efficient without sacrificing task quality](202609/2026-09-08-how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality.md)
 - GitHub Copilot 不以单次 token 数为准，而是按完整任务效率优化：选择性压缩输出、移除无用行号、压缩提示词并直送后台结果，在保持质量的同时降低成本。
 - Tags: #agent #explained
@@ -39,13 +43,9 @@
 - 作者用 AI 代理逆向五款外设，发现固件普遍无保护，可关闭摄像头 LED、获取麦克风命令 shell，并绕过补光灯签名。AI 让硬件破解变得极易，安全风险大增。
 - Tags: #hardware #agent
 
-(2026-08-24) [My agent.md to improve LLM-assisted code quality](202608/2026-08-24-my-agent.md-to-improve-llm-assisted-code-quality.md)
-- 作者通过创建 agent.md 文件，将代码风格偏好固化到 LLM 提示中，显著提升生成代码的可维护性，并分享应对上下文稀释的方法。
-- Tags: #agent #best-practice
-
 ## Monthly Archive
 
-- [2026-09](202609/monthly-index.md) (2 entries)
+- [2026-09](202609/monthly-index.md) (3 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
