@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-09-09) [近期开发的四个开源项目 | LiuShen's Blog](202609/2026-09-09-%E8%BF%91%E6%9C%9F%E5%BC%80%E5%8F%91%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-liushen%27s-blog.md)
+- 作者因自用需求改造了 Artalk、Memora、hubProxy，分别补充 AI 审核/助手、Go 重构相册和运营后台多用户，并强调迁移前备份与版本兼容。
+- Tags: #setup #blog
+
 (2026-09-08) [AI, tools and transformation](202609/2026-09-08-ai%2C-tools-and-transformation.md)
 - AI 不会让每个人都成为工具构建者，也没有消灭应用。软件变革遵循制度化与即兴的频谱，公司需通过试点和结构性思考转型，真正重要的价值在于创造全新事物。
 - Tags: #agent #view
@@ -39,13 +43,9 @@
 - 作者用 Obsidian + Claude Code 搭建了一套由 AI 持续维护的知识库，通过收录、查问、体检三个流程让笔记自动更新、关联和质检，并用 CLAUDE.md 规范 AI 行为，最终实现从找资料到用知识的转变。
 - Tags: #note-taking #agent
 
-(2026-08-24) [Everything I own, owned](202608/2026-08-24-everything-i-own%2C-owned.md)
-- 作者用 AI 代理逆向五款外设，发现固件普遍无保护，可关闭摄像头 LED、获取麦克风命令 shell，并绕过补光灯签名。AI 让硬件破解变得极易，安全风险大增。
-- Tags: #hardware #agent
-
 ## Monthly Archive
 
-- [2026-09](202609/monthly-index.md) (3 entries)
+- [2026-09](202609/monthly-index.md) (4 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)

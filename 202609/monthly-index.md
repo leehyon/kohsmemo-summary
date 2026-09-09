@@ -1,5 +1,9 @@
 # 2026-09 Monthly Index
 
+(2026-09-09) [近期开发的四个开源项目 | LiuShen's Blog](2026-09-09-%E8%BF%91%E6%9C%9F%E5%BC%80%E5%8F%91%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-liushen%27s-blog.md)
+- 作者因自用需求改造了 Artalk、Memora、hubProxy，分别补充 AI 审核/助手、Go 重构相册和运营后台多用户，并强调迁移前备份与版本兼容。
+- Tags: #setup #blog
+
 (2026-09-08) [AI, tools and transformation](2026-09-08-ai%2C-tools-and-transformation.md)
 - AI 不会让每个人都成为工具构建者，也没有消灭应用。软件变革遵循制度化与即兴的频谱，公司需通过试点和结构性思考转型，真正重要的价值在于创造全新事物。
 - Tags: #agent #view
