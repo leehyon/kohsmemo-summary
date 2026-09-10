@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-09-10) [I'm sorry, you're not going to die from an AI-engineered supervirus](202609/2026-09-10-i%27m-sorry%2C-you%27re-not-going-to-die-from-an-ai-engineered-supervirus.md)
+- Claus Wilke 反驳 Noah Smith：AI 设计超级病毒灭绝人类极不现实，生物学权衡与实验门槛被低估；真正威胁是现实病毒与公共卫生，而非恐惧叙事。
+- Tags: #agent
+
 (2026-09-09) [近期开发的四个开源项目 | LiuShen's Blog](202609/2026-09-09-%E8%BF%91%E6%9C%9F%E5%BC%80%E5%8F%91%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-liushen%27s-blog.md)
 - 作者因自用需求改造了 Artalk、Memora、hubProxy，分别补充 AI 审核/助手、Go 重构相册和运营后台多用户，并强调迁移前备份与版本兼容。
 - Tags: #setup #blog
@@ -39,13 +43,9 @@
 - 程沛权的个人主页，介绍其作为前端工程师、Vue 3 图书作者与开源维护者的技术产出，并穿插文身、摇滚、养猫和潮州菜谱等个人生活内容。
 - Tags: #nas #setup
 
-(2026-08-25) [我和 AI 共创了一套会自己生长的 Obsidian 知识库](202608/2026-08-25-%E6%88%91%E5%92%8C-ai-%E5%85%B1%E5%88%9B%E4%BA%86%E4%B8%80%E5%A5%97%E4%BC%9A%E8%87%AA%E5%B7%B1%E7%94%9F%E9%95%BF%E7%9A%84-obsidian-%E7%9F%A5%E8%AF%86%E5%BA%93.md)
-- 作者用 Obsidian + Claude Code 搭建了一套由 AI 持续维护的知识库，通过收录、查问、体检三个流程让笔记自动更新、关联和质检，并用 CLAUDE.md 规范 AI 行为，最终实现从找资料到用知识的转变。
-- Tags: #note-taking #agent
-
 ## Monthly Archive
 
-- [2026-09](202609/monthly-index.md) (4 entries)
+- [2026-09](202609/monthly-index.md) (5 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)

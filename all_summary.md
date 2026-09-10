@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-09-10) [I'm sorry, you're not going to die from an AI-engineered supervirus](202609/2026-09-10-i%27m-sorry%2C-you%27re-not-going-to-die-from-an-ai-engineered-supervirus.md)
+  - Tags: #agent
+  - Summary: Claus Wilke 反驳 Noah Smith：AI 设计超级病毒灭绝人类极不现实，生物学权衡与实验门槛被低估；真正威胁是现实病毒与公共卫生，而非恐惧叙事。
+
 - (2026-09-09) [近期开发的四个开源项目 | LiuShen's Blog](202609/2026-09-09-%E8%BF%91%E6%9C%9F%E5%BC%80%E5%8F%91%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-liushen%27s-blog.md)
   - Tags: #setup #blog
   - Summary: 作者因自用需求改造了 Artalk、Memora、hubProxy，分别补充 AI 审核/助手、Go 重构相册和运营后台多用户，并强调迁移前备份与版本兼容。
