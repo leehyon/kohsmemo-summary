@@ -2965,5 +2965,15 @@
     "tags": [
       "agent"
     ]
+  },
+  {
+    "month": "202609",
+    "title": "Version control second coming",
+    "url": "https://psantosl.github.io/posts/version-control-second-coming/",
+    "timestamp": 1789031658,
+    "tags": [
+      "engineering",
+      "product"
+    ]
   }
 ]

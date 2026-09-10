@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-09-10) [Version control second coming](202609/2026-09-10-version-control-second-coming.md)
+- Pablo Santos 认为，AI 代理让版本控制迎来 2005 年以来最大变革：GitHub 统治松动，新 forge、Jujutsu、Diversion、Lore 等并起，焦点转向 AI 提交、超大仓库与 Git 之后。
+- Tags: #engineering #product
+
 (2026-09-10) [I'm sorry, you're not going to die from an AI-engineered supervirus](202609/2026-09-10-i%27m-sorry%2C-you%27re-not-going-to-die-from-an-ai-engineered-supervirus.md)
 - Claus Wilke 反驳 Noah Smith：AI 设计超级病毒灭绝人类极不现实，生物学权衡与实验门槛被低估；真正威胁是现实病毒与公共卫生，而非恐惧叙事。
 - Tags: #agent
@@ -39,13 +43,9 @@
 - 模型正有目的地用推理能力换取世界知识，事实由外部知识库承载；这使模型更小、更本地化，也让幻觉变得可追溯。
 - Tags: #agent #explained
 
-(2026-08-27) [轻松搭建飞牛音乐私人音乐库](202608/2026-08-27-%E8%BD%BB%E6%9D%BE%E6%90%AD%E5%BB%BA%E9%A3%9E%E7%89%9B%E9%9F%B3%E4%B9%90%E7%A7%81%E4%BA%BA%E9%9F%B3%E4%B9%90%E5%BA%93.md)
-- 程沛权的个人主页，介绍其作为前端工程师、Vue 3 图书作者与开源维护者的技术产出，并穿插文身、摇滚、养猫和潮州菜谱等个人生活内容。
-- Tags: #nas #setup
-
 ## Monthly Archive
 
-- [2026-09](202609/monthly-index.md) (5 entries)
+- [2026-09](202609/monthly-index.md) (6 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)

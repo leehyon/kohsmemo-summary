@@ -1,5 +1,9 @@
 # 2026-09 Monthly Index
 
+(2026-09-10) [Version control second coming](2026-09-10-version-control-second-coming.md)
+- Pablo Santos 认为，AI 代理让版本控制迎来 2005 年以来最大变革：GitHub 统治松动，新 forge、Jujutsu、Diversion、Lore 等并起，焦点转向 AI 提交、超大仓库与 Git 之后。
+- Tags: #engineering #product
+
 (2026-09-10) [I'm sorry, you're not going to die from an AI-engineered supervirus](2026-09-10-i%27m-sorry%2C-you%27re-not-going-to-die-from-an-ai-engineered-supervirus.md)
 - Claus Wilke 反驳 Noah Smith：AI 设计超级病毒灭绝人类极不现实，生物学权衡与实验门槛被低估；真正威胁是现实病毒与公共卫生，而非恐惧叙事。
 - Tags: #agent
