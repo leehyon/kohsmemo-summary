@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-09-11) [3 constraints before I build anything](202609/2026-09-11-3-constraints-before-i-build-anything.md)
+  - Tags: #product
+  - Summary: 构建前先过 3 条约束：一页纸写清北极星，否则不做；核心技术与产品可分离，以积累可复利 IP；选一个定义性约束塑造产品身份。任一不满足就不构建。
+
 - (2026-09-11) [Building a backyard office, the build and cost breakdown](202609/2026-09-11-building-a-backyard-office%2C-the-build-and-cost-breakdown.md)
   - Tags: #life
   - Summary: 作者为波特兰小屋的远程办公需求，用 Tuff Shed 棚屋改造后院办公室，总花费 $19,478；关键决策是混凝土基础、大窗、60A 电气、硬线 Ethernet 和 Daikin 迷你分体空调，多询价并外包部分施工省下近半全包费用。

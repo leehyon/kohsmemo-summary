@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-09-11) [3 constraints before I build anything](202609/2026-09-11-3-constraints-before-i-build-anything.md)
+- 构建前先过 3 条约束：一页纸写清北极星，否则不做；核心技术与产品可分离，以积累可复利 IP；选一个定义性约束塑造产品身份。任一不满足就不构建。
+- Tags: #product
+
 (2026-09-11) [Building a backyard office, the build and cost breakdown](202609/2026-09-11-building-a-backyard-office%2C-the-build-and-cost-breakdown.md)
 - 作者为波特兰小屋的远程办公需求，用 Tuff Shed 棚屋改造后院办公室，总花费 $19,478；关键决策是混凝土基础、大窗、60A 电气、硬线 Ethernet 和 Daikin 迷你分体空调，多询价并外包部分施工省下近半全包费用。
 - Tags: #life
@@ -39,13 +43,9 @@
 - Git worktree 可在同一仓库为各分支创建独立目录，并行开发无需 stash 或 checkout，用 add、list、remove、prune 管理。
 - Tags: #dev #setup
 
-(2026-08-28) [My experience as a first time speaker](202608/2026-08-28-my-experience-as-a-first-time-speaker.md)
-- 首次演讲者经验谈：演讲是表演，内容只占三成；提前准备、小步练自信、用 Why-How-What 框架，并把紧张当兴奋。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-09](202609/monthly-index.md) (7 entries)
+- [2026-09](202609/monthly-index.md) (8 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
