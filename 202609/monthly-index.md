@@ -1,5 +1,9 @@
 # 2026-09 Monthly Index
 
+(2026-09-11) [Building a backyard office, the build and cost breakdown](2026-09-11-building-a-backyard-office%2C-the-build-and-cost-breakdown.md)
+- 作者为波特兰小屋的远程办公需求，用 Tuff Shed 棚屋改造后院办公室，总花费 $19,478；关键决策是混凝土基础、大窗、60A 电气、硬线 Ethernet 和 Daikin 迷你分体空调，多询价并外包部分施工省下近半全包费用。
+- Tags: #life
+
 (2026-09-10) [Version control second coming](2026-09-10-version-control-second-coming.md)
 - Pablo Santos 认为，AI 代理让版本控制迎来 2005 年以来最大变革：GitHub 统治松动，新 forge、Jujutsu、Diversion、Lore 等并起，焦点转向 AI 提交、超大仓库与 Git 之后。
 - Tags: #engineering #product

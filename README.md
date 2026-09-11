@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-09-11) [Building a backyard office, the build and cost breakdown](202609/2026-09-11-building-a-backyard-office%2C-the-build-and-cost-breakdown.md)
+- 作者为波特兰小屋的远程办公需求，用 Tuff Shed 棚屋改造后院办公室，总花费 $19,478；关键决策是混凝土基础、大窗、60A 电气、硬线 Ethernet 和 Daikin 迷你分体空调，多询价并外包部分施工省下近半全包费用。
+- Tags: #life
+
 (2026-09-10) [Version control second coming](202609/2026-09-10-version-control-second-coming.md)
 - Pablo Santos 认为，AI 代理让版本控制迎来 2005 年以来最大变革：GitHub 统治松动，新 forge、Jujutsu、Diversion、Lore 等并起，焦点转向 AI 提交、超大仓库与 Git 之后。
 - Tags: #engineering #product
@@ -39,13 +43,9 @@
 - 首次演讲者经验谈：演讲是表演，内容只占三成；提前准备、小步练自信、用 Why-How-What 框架，并把紧张当兴奋。
 - Tags: #life
 
-(2026-08-28) [Models Are Getting Dumber on Purpose](202608/2026-08-28-models-are-getting-dumber-on-purpose.md)
-- 模型正有目的地用推理能力换取世界知识，事实由外部知识库承载；这使模型更小、更本地化，也让幻觉变得可追溯。
-- Tags: #agent #explained
-
 ## Monthly Archive
 
-- [2026-09](202609/monthly-index.md) (6 entries)
+- [2026-09](202609/monthly-index.md) (7 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)
