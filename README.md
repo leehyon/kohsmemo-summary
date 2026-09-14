@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-09-14) [How to fix your entire life in 1 day](202609/2026-09-14-how-to-fix-your-entire-life-in-1-day.md)
+- 真正改变不是靠自律，而是改身份与隐性目标。用一天做心理挖掘、打断自动驾驶、综合愿景与反愿景，再把人生游戏化。
+- Tags: #life
+
 (2026-09-11) [3 constraints before I build anything](202609/2026-09-11-3-constraints-before-i-build-anything.md)
 - 构建前先过 3 条约束：一页纸写清北极星，否则不做；核心技术与产品可分离，以积累可复利 IP；选一个定义性约束塑造产品身份。任一不满足就不构建。
 - Tags: #product
@@ -39,13 +43,9 @@
 - 文章指出软件工厂不会取代人类判断，而是将其重新定位到产品意图、质量与风险控制。验证机制建立信任，决定自主性，人类仍需最终拥有发布责任。
 - Tags: #agent
 
-(2026-08-28) [Parallel development without the headaches using Git worktree](202608/2026-08-28-parallel-development-without-the-headaches-using-git-worktree.md)
-- Git worktree 可在同一仓库为各分支创建独立目录，并行开发无需 stash 或 checkout，用 add、list、remove、prune 管理。
-- Tags: #dev #setup
-
 ## Monthly Archive
 
-- [2026-09](202609/monthly-index.md) (8 entries)
+- [2026-09](202609/monthly-index.md) (9 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)

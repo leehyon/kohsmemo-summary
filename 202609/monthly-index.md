@@ -1,5 +1,9 @@
 # 2026-09 Monthly Index
 
+(2026-09-14) [How to fix your entire life in 1 day](2026-09-14-how-to-fix-your-entire-life-in-1-day.md)
+- 真正改变不是靠自律，而是改身份与隐性目标。用一天做心理挖掘、打断自动驾驶、综合愿景与反愿景，再把人生游戏化。
+- Tags: #life
+
 (2026-09-11) [3 constraints before I build anything](2026-09-11-3-constraints-before-i-build-anything.md)
 - 构建前先过 3 条约束：一页纸写清北极星，否则不做；核心技术与产品可分离，以积累可复利 IP；选一个定义性约束塑造产品身份。任一不满足就不构建。
 - Tags: #product
