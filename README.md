@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-09-23) [Attention is all you have](202609/2026-09-23-attention-is-all-you-have.md)
+- 文章用俄罗斯方块效应说明：注意力会被长期关注塑造。推荐算法劫持注意力，把大脑钥匙交给平台；我们应回到博客、RSS 等主动、较慢的有意图互联网。
+- Tags: #life #view
+
 (2026-09-14) [How to fix your entire life in 1 day](202609/2026-09-14-how-to-fix-your-entire-life-in-1-day.md)
 - 真正改变不是靠自律，而是改身份与隐性目标。用一天做心理挖掘、打断自动驾驶、综合愿景与反愿景，再把人生游戏化。
 - Tags: #life
@@ -39,13 +43,9 @@
 - 工程师需找到模型无法替代的价值：深度熟悉代码库以识别模型的错误，并具备将技术内容清晰传达给人类的能力。避免沦为复制模型输出的“肉代理”。
 - Tags: #career #agent
 
-(2026-08-31) [Human judgment doesn't leave the software factory](202608/2026-08-31-human-judgment-doesn%27t-leave-the-software-factory.md)
-- 文章指出软件工厂不会取代人类判断，而是将其重新定位到产品意图、质量与风险控制。验证机制建立信任，决定自主性，人类仍需最终拥有发布责任。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-09](202609/monthly-index.md) (9 entries)
+- [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
 - [2026-06](202606/monthly-index.md) (68 entries)

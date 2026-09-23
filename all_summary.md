@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-09-23) [Attention is all you have](202609/2026-09-23-attention-is-all-you-have.md)
+  - Tags: #life #view
+  - Summary: 文章用俄罗斯方块效应说明：注意力会被长期关注塑造。推荐算法劫持注意力，把大脑钥匙交给平台；我们应回到博客、RSS 等主动、较慢的有意图互联网。
+
 - (2026-09-14) [How to fix your entire life in 1 day](202609/2026-09-14-how-to-fix-your-entire-life-in-1-day.md)
   - Tags: #life
   - Summary: 真正改变不是靠自律，而是改身份与隐性目标。用一天做心理挖掘、打断自动驾驶、综合愿景与反愿景，再把人生游戏化。
