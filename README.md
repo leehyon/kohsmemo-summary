@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-10-08) [Shipping is the foundation](202610/2026-10-08-shipping-is-the-foundation.md)
+- 能 ship 是优秀工程师的地基。若不能快速独立交付，协作、设计、估算与领导都会失真。AI 无法替代 ship 所需的上下文、判断与收尾。
+
 (2026-10-08) [How to read code](202610/2026-10-08-how-to-read-code.md)
 - 读代码不应线性通读。应多轮、非线性扫描：先追关键路径与调用链，把其余当黑盒，最后端到端读 diff 抓异常。AI 生成代码仍须亲自读，因其常有对齐偏差，不能完全交给 LLM 审阅。
 
@@ -38,13 +41,9 @@
 - AI 不会让每个人都成为工具构建者，也没有消灭应用。软件变革遵循制度化与即兴的频谱，公司需通过试点和结构性思考转型，真正重要的价值在于创造全新事物。
 - Tags: #agent #view
 
-(2026-09-08) [How we make AI coding more cost efficient without sacrificing task quality](202609/2026-09-08-how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality.md)
-- GitHub Copilot 不以单次 token 数为准，而是按完整任务效率优化：选择性压缩输出、移除无用行号、压缩提示词并直送后台结果，在保持质量的同时降低成本。
-- Tags: #agent #explained
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (1 entries)
+- [2026-10](202610/monthly-index.md) (2 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
