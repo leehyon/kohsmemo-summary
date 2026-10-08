@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-10-08) [How to read code](202610/2026-10-08-how-to-read-code.md)
+  - Summary: 读代码不应线性通读。应多轮、非线性扫描：先追关键路径与调用链，把其余当黑盒，最后端到端读 diff 抓异常。AI 生成代码仍须亲自读，因其常有对齐偏差，不能完全交给 LLM 审阅。
+
 - (2026-09-23) [Attention is all you have](202609/2026-09-23-attention-is-all-you-have.md)
   - Tags: #life #view
   - Summary: 文章用俄罗斯方块效应说明：注意力会被长期关注塑造。推荐算法劫持注意力，把大脑钥匙交给平台；我们应回到博客、RSS 等主动、较慢的有意图互联网。
