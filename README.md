@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-10-09) [Markdown in /src](202610/2026-10-09-markdown-in-src.md)
+- Markdown 正在成为源代码：应把描述代码意图的 Markdown 签入 /src 的 md 目录，代码与测试由它派生，取代临时 prompt，让人类与 agent 就近获取上下文。
+
 (2026-10-09) [Jev introduces a new shape of LLM](202610/2026-10-09-jev-introduces-a-new-shape-of-llm.md)
 - TypeSafe AI 发布 Jev，一种输出浮点决策而非文本的 System One 模型。它极快极便宜，适合分类、评分与排序，但黑箱和偏见风险高，需重视 evals。
 
@@ -36,13 +39,9 @@
 - Claus Wilke 反驳 Noah Smith：AI 设计超级病毒灭绝人类极不现实，生物学权衡与实验门槛被低估；真正威胁是现实病毒与公共卫生，而非恐惧叙事。
 - Tags: #agent
 
-(2026-09-09) [近期开发的四个开源项目 | LiuShen's Blog](202609/2026-09-09-%E8%BF%91%E6%9C%9F%E5%BC%80%E5%8F%91%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-liushen%27s-blog.md)
-- 作者因自用需求改造了 Artalk、Memora、hubProxy，分别补充 AI 审核/助手、Go 重构相册和运营后台多用户，并强调迁移前备份与版本兼容。
-- Tags: #setup #blog
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (3 entries)
+- [2026-10](202610/monthly-index.md) (4 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)

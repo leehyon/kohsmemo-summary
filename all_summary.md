@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-10-09) [Markdown in /src](202610/2026-10-09-markdown-in-src.md)
+  - Summary: Markdown 正在成为源代码：应把描述代码意图的 Markdown 签入 /src 的 md 目录，代码与测试由它派生，取代临时 prompt，让人类与 agent 就近获取上下文。
+
 - (2026-10-09) [Jev introduces a new shape of LLM](202610/2026-10-09-jev-introduces-a-new-shape-of-llm.md)
   - Summary: TypeSafe AI 发布 Jev，一种输出浮点决策而非文本的 System One 模型。它极快极便宜，适合分类、评分与排序，但黑箱和偏见风险高，需重视 evals。
 
