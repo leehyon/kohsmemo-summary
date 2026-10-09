@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-10-09) [What To Know in JavaScript (2026 Edition)](202610/2026-10-09-what-to-know-in-javascript-%282026-edition%29.md)
+- 文章盘点 2026 年 JavaScript 生态，包括 ES2025/ES2026 语言特性、框架与运行时、Vite 与 TypeScript 工具链、AI 写码及 npm 供应链安全，建议回归基础。
+
 (2026-10-09) [Markdown in /src](202610/2026-10-09-markdown-in-src.md)
 - Markdown 正在成为源代码：应把描述代码意图的 Markdown 签入 /src 的 md 目录，代码与测试由它派生，取代临时 prompt，让人类与 agent 就近获取上下文。
 
@@ -35,13 +38,9 @@
 - Pablo Santos 认为，AI 代理让版本控制迎来 2005 年以来最大变革：GitHub 统治松动，新 forge、Jujutsu、Diversion、Lore 等并起，焦点转向 AI 提交、超大仓库与 Git 之后。
 - Tags: #engineering #product
 
-(2026-09-10) [I'm sorry, you're not going to die from an AI-engineered supervirus](202609/2026-09-10-i%27m-sorry%2C-you%27re-not-going-to-die-from-an-ai-engineered-supervirus.md)
-- Claus Wilke 反驳 Noah Smith：AI 设计超级病毒灭绝人类极不现实，生物学权衡与实验门槛被低估；真正威胁是现实病毒与公共卫生，而非恐惧叙事。
-- Tags: #agent
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (4 entries)
+- [2026-10](202610/monthly-index.md) (5 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)

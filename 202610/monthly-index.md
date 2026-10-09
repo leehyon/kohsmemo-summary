@@ -1,5 +1,8 @@
 # 2026-10 Monthly Index
 
+(2026-10-09) [What To Know in JavaScript (2026 Edition)](2026-10-09-what-to-know-in-javascript-%282026-edition%29.md)
+- 文章盘点 2026 年 JavaScript 生态，包括 ES2025/ES2026 语言特性、框架与运行时、Vite 与 TypeScript 工具链、AI 写码及 npm 供应链安全，建议回归基础。
+
 (2026-10-09) [Markdown in /src](2026-10-09-markdown-in-src.md)
 - Markdown 正在成为源代码：应把描述代码意图的 Markdown 签入 /src 的 md 目录，代码与测试由它派生，取代临时 prompt，让人类与 agent 就近获取上下文。
 
