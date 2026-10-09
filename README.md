@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-10-09) [Jev introduces a new shape of LLM](202610/2026-10-09-jev-introduces-a-new-shape-of-llm.md)
+- TypeSafe AI 发布 Jev，一种输出浮点决策而非文本的 System One 模型。它极快极便宜，适合分类、评分与排序，但黑箱和偏见风险高，需重视 evals。
+
 (2026-10-08) [Shipping is the foundation](202610/2026-10-08-shipping-is-the-foundation.md)
 - 能 ship 是优秀工程师的地基。若不能快速独立交付，协作、设计、估算与领导都会失真。AI 无法替代 ship 所需的上下文、判断与收尾。
 
@@ -37,13 +40,9 @@
 - 作者因自用需求改造了 Artalk、Memora、hubProxy，分别补充 AI 审核/助手、Go 重构相册和运营后台多用户，并强调迁移前备份与版本兼容。
 - Tags: #setup #blog
 
-(2026-09-08) [AI, tools and transformation](202609/2026-09-08-ai%2C-tools-and-transformation.md)
-- AI 不会让每个人都成为工具构建者，也没有消灭应用。软件变革遵循制度化与即兴的频谱，公司需通过试点和结构性思考转型，真正重要的价值在于创造全新事物。
-- Tags: #agent #view
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (2 entries)
+- [2026-10](202610/monthly-index.md) (3 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)

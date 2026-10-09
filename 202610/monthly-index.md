@@ -1,5 +1,8 @@
 # 2026-10 Monthly Index
 
+(2026-10-09) [Jev introduces a new shape of LLM](2026-10-09-jev-introduces-a-new-shape-of-llm.md)
+- TypeSafe AI 发布 Jev，一种输出浮点决策而非文本的 System One 模型。它极快极便宜，适合分类、评分与排序，但黑箱和偏见风险高，需重视 evals。
+
 (2026-10-08) [Shipping is the foundation](2026-10-08-shipping-is-the-foundation.md)
 - 能 ship 是优秀工程师的地基。若不能快速独立交付，协作、设计、估算与领导都会失真。AI 无法替代 ship 所需的上下文、判断与收尾。
 
