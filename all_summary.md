@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-10-09) [C's Flexible Integer Sizes were Not a Design Mistake](202610/2026-10-09-c%27s-flexible-integer-sizes-were-not-a-design-mistake.md)
+  - Summary: int 从来不是 32 位的同义词。C 的整数宽度可变，是为了在 12 到 64 位字长、多种字符宽度与负数表示的机器上实现可移植与高效；强制固定尺寸会拖慢或无法实现。stdint.h 的精确宽度类型 C99 才出现且可选。
+
 - (2026-10-09) [What To Know in JavaScript (2026 Edition)](202610/2026-10-09-what-to-know-in-javascript-%282026-edition%29.md)
   - Summary: 文章盘点 2026 年 JavaScript 生态，包括 ES2025/ES2026 语言特性、框架与运行时、Vite 与 TypeScript 工具链、AI 写码及 npm 供应链安全，建议回归基础。
 

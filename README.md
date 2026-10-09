@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-10-09) [C's Flexible Integer Sizes were Not a Design Mistake](202610/2026-10-09-c%27s-flexible-integer-sizes-were-not-a-design-mistake.md)
+- int 从来不是 32 位的同义词。C 的整数宽度可变，是为了在 12 到 64 位字长、多种字符宽度与负数表示的机器上实现可移植与高效；强制固定尺寸会拖慢或无法实现。stdint.h 的精确宽度类型 C99 才出现且可选。
+
 (2026-10-09) [What To Know in JavaScript (2026 Edition)](202610/2026-10-09-what-to-know-in-javascript-%282026-edition%29.md)
 - 文章盘点 2026 年 JavaScript 生态，包括 ES2025/ES2026 语言特性、框架与运行时、Vite 与 TypeScript 工具链、AI 写码及 npm 供应链安全，建议回归基础。
 
@@ -34,13 +37,9 @@
 - 作者为波特兰小屋的远程办公需求，用 Tuff Shed 棚屋改造后院办公室，总花费 $19,478；关键决策是混凝土基础、大窗、60A 电气、硬线 Ethernet 和 Daikin 迷你分体空调，多询价并外包部分施工省下近半全包费用。
 - Tags: #life
 
-(2026-09-10) [Version control second coming](202609/2026-09-10-version-control-second-coming.md)
-- Pablo Santos 认为，AI 代理让版本控制迎来 2005 年以来最大变革：GitHub 统治松动，新 forge、Jujutsu、Diversion、Lore 等并起，焦点转向 AI 提交、超大仓库与 Git 之后。
-- Tags: #engineering #product
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (5 entries)
+- [2026-10](202610/monthly-index.md) (6 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)

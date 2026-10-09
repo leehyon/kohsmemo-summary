@@ -3047,5 +3047,12 @@
     "url": "https://blog.master.dev/what-to-know-in-javascript-2026-edition/",
     "timestamp": 1791508980,
     "tags": []
+  },
+  {
+    "month": "202610",
+    "title": "C's Flexible Integer Sizes were Not a Design Mistake",
+    "url": "https://pikuma.com/blog/c-integer-sizes-not-a-mistake",
+    "timestamp": 1791509085,
+    "tags": []
   }
 ]
