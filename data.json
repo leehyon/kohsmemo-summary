@@ -3095,5 +3095,14 @@
     "url": "https://htmx.org/essays/yes-and/",
     "timestamp": 1792118397,
     "tags": []
+  },
+  {
+    "month": "202610",
+    "title": "Anti-Patterns in Software Blogging",
+    "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
+    "timestamp": 1792118487,
+    "tags": [
+      "writing"
+    ]
   }
 ]

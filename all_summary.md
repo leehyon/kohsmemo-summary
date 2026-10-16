@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-10-16) [Anti-Patterns in Software Blogging](202610/2026-10-16-anti-patterns-in-software-blogging.md)
+  - Tags: #writing
+  - Summary: 文章总结软件博客常见反模式：开头漫谈、假设读者有相同知识、滥用链接、续集式开头、过度正式，以及移动端排版和字体可读性问题；核心是始终以读者为中心，快速给出价值并降低阅读门槛。
+
 - (2026-10-16) [Yes, and...](202610/2026-10-16-yes%2C-and....md)
   - Summary: AI 时代仍值得学编程：但初级必须亲手写代码，才能读懂代码、控制复杂度；AI 宜当助教而非代写。未来沟通、业务、架构与善用 LLM 更值钱。
 

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-10-16) [Anti-Patterns in Software Blogging](202610/2026-10-16-anti-patterns-in-software-blogging.md)
+- 文章总结软件博客常见反模式：开头漫谈、假设读者有相同知识、滥用链接、续集式开头、过度正式，以及移动端排版和字体可读性问题；核心是始终以读者为中心，快速给出价值并降低阅读门槛。
+- Tags: #writing
+
 (2026-10-16) [Yes, and...](202610/2026-10-16-yes%2C-and....md)
 - AI 时代仍值得学编程：但初级必须亲手写代码，才能读懂代码、控制复杂度；AI 宜当助教而非代写。未来沟通、业务、架构与善用 LLM 更值钱。
 
@@ -32,12 +36,9 @@
 (2026-10-09) [Jev introduces a new shape of LLM](202610/2026-10-09-jev-introduces-a-new-shape-of-llm.md)
 - TypeSafe AI 发布 Jev，一种输出浮点决策而非文本的 System One 模型。它极快极便宜，适合分类、评分与排序，但黑箱和偏见风险高，需重视 evals。
 
-(2026-10-08) [Shipping is the foundation](202610/2026-10-08-shipping-is-the-foundation.md)
-- 能 ship 是优秀工程师的地基。若不能快速独立交付，协作、设计、估算与领导都会失真。AI 无法替代 ship 所需的上下文、判断与收尾。
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (11 entries)
+- [2026-10](202610/monthly-index.md) (12 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
