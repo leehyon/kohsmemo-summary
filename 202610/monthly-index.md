@@ -1,5 +1,8 @@
 # 2026-10 Monthly Index
 
+(2026-10-16) [Will Linux phones become a viable alternative to the Android/iOS duopoly?](2026-10-16-will-linux-phones-become-a-viable-alternative-to-the-android-ios-duopoly.md)
+- Linux 手机未死：RK3588S、高通 IoT SoC、Android 内核延长支持与 Phosh 等改善条件，使其有望成为小众可行替代；真正瓶颈是公司投入与生态，而非技术。
+
 (2026-10-16) [How our vibe coded website looks like a designer made it](2026-10-16-how-our-vibe-coded-website-looks-like-a-designer-made-it.md)
 - 作者用编码智能体把 Railcode 官网做成主题公园式设计：靠海量参考、多版本生成、fork 对比、playground 调参与持续迭代，证明非设计师也能用 AI 做出有品味、像设计师操刀的网站。
 - Tags: #design #vibe-coding
