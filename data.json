@@ -3054,5 +3054,15 @@
     "url": "https://pikuma.com/blog/c-integer-sizes-not-a-mistake",
     "timestamp": 1791509085,
     "tags": []
+  },
+  {
+    "month": "202610",
+    "title": "How our vibe coded website looks like a designer made it",
+    "url": "https://railcode.dev/blog/vibe-coded-website",
+    "timestamp": 1792114772,
+    "tags": [
+      "design",
+      "vibe-coding"
+    ]
   }
 ]

@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-10-16) [How our vibe coded website looks like a designer made it](202610/2026-10-16-how-our-vibe-coded-website-looks-like-a-designer-made-it.md)
+- 作者用编码智能体把 Railcode 官网做成主题公园式设计：靠海量参考、多版本生成、fork 对比、playground 调参与持续迭代，证明非设计师也能用 AI 做出有品味、像设计师操刀的网站。
+- Tags: #design #vibe-coding
+
 (2026-10-09) [C's Flexible Integer Sizes were Not a Design Mistake](202610/2026-10-09-c%27s-flexible-integer-sizes-were-not-a-design-mistake.md)
 - int 从来不是 32 位的同义词。C 的整数宽度可变，是为了在 12 到 64 位字长、多种字符宽度与负数表示的机器上实现可移植与高效；强制固定尺寸会拖慢或无法实现。stdint.h 的精确宽度类型 C99 才出现且可选。
 
@@ -33,13 +37,9 @@
 - 构建前先过 3 条约束：一页纸写清北极星，否则不做；核心技术与产品可分离，以积累可复利 IP；选一个定义性约束塑造产品身份。任一不满足就不构建。
 - Tags: #product
 
-(2026-09-11) [Building a backyard office, the build and cost breakdown](202609/2026-09-11-building-a-backyard-office%2C-the-build-and-cost-breakdown.md)
-- 作者为波特兰小屋的远程办公需求，用 Tuff Shed 棚屋改造后院办公室，总花费 $19,478；关键决策是混凝土基础、大窗、60A 电气、硬线 Ethernet 和 Daikin 迷你分体空调，多询价并外包部分施工省下近半全包费用。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (6 entries)
+- [2026-10](202610/monthly-index.md) (7 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)

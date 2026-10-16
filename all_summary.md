@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-10-16) [How our vibe coded website looks like a designer made it](202610/2026-10-16-how-our-vibe-coded-website-looks-like-a-designer-made-it.md)
+  - Tags: #design #vibe-coding
+  - Summary: 作者用编码智能体把 Railcode 官网做成主题公园式设计：靠海量参考、多版本生成、fork 对比、playground 调参与持续迭代，证明非设计师也能用 AI 做出有品味、像设计师操刀的网站。
+
 - (2026-10-09) [C's Flexible Integer Sizes were Not a Design Mistake](202610/2026-10-09-c%27s-flexible-integer-sizes-were-not-a-design-mistake.md)
   - Summary: int 从来不是 32 位的同义词。C 的整数宽度可变，是为了在 12 到 64 位字长、多种字符宽度与负数表示的机器上实现可移植与高效；强制固定尺寸会拖慢或无法实现。stdint.h 的精确宽度类型 C99 才出现且可选。
 
