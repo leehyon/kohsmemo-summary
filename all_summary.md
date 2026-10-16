@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-10-16) [How to Build Wealth as a Career Person](202610/2026-10-16-how-to-build-wealth-as-a-career-person.md)
+  - Tags: #life #career
+  - Summary: 职业是财富引擎，不是终点：提升能力与收入，控制消费，把工资持续转为资产，并建立技能、信誉、关系等资本，最终让职业产生持久财富。
+
 - (2026-10-16) [Will Linux phones become a viable alternative to the Android/iOS duopoly?](202610/2026-10-16-will-linux-phones-become-a-viable-alternative-to-the-android-ios-duopoly.md)
   - Summary: Linux 手机未死：RK3588S、高通 IoT SoC、Android 内核延长支持与 Phosh 等改善条件，使其有望成为小众可行替代；真正瓶颈是公司投入与生态，而非技术。
 

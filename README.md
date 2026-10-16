@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-10-16) [How to Build Wealth as a Career Person](202610/2026-10-16-how-to-build-wealth-as-a-career-person.md)
+- 职业是财富引擎，不是终点：提升能力与收入，控制消费，把工资持续转为资产，并建立技能、信誉、关系等资本，最终让职业产生持久财富。
+- Tags: #life #career
+
 (2026-10-16) [Will Linux phones become a viable alternative to the Android/iOS duopoly?](202610/2026-10-16-will-linux-phones-become-a-viable-alternative-to-the-android-ios-duopoly.md)
 - Linux 手机未死：RK3588S、高通 IoT SoC、Android 内核延长支持与 Phosh 等改善条件，使其有望成为小众可行替代；真正瓶颈是公司投入与生态，而非技术。
 
@@ -32,13 +36,9 @@
 - 文章用俄罗斯方块效应说明：注意力会被长期关注塑造。推荐算法劫持注意力，把大脑钥匙交给平台；我们应回到博客、RSS 等主动、较慢的有意图互联网。
 - Tags: #life #view
 
-(2026-09-14) [How to fix your entire life in 1 day](202609/2026-09-14-how-to-fix-your-entire-life-in-1-day.md)
-- 真正改变不是靠自律，而是改身份与隐性目标。用一天做心理挖掘、打断自动驾驶、综合愿景与反愿景，再把人生游戏化。
-- Tags: #life
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (8 entries)
+- [2026-10](202610/monthly-index.md) (9 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
