@@ -1,5 +1,8 @@
 # 2026-10 Monthly Index
 
+(2026-10-16) [Nobody should type code by hand anymore](2026-10-16-nobody-should-type-code-by-hand-anymore.md)
+- 手写代码时代结束：模型已够强，瓶颈在操作者。自建智能体、用循环与验证工程化 AI，锁定模型、读模型卡、抛弃无效技能包，靠速度、好奇心与能动性取胜。
+
 (2026-10-16) [How to Build Wealth as a Career Person](2026-10-16-how-to-build-wealth-as-a-career-person.md)
 - 职业是财富引擎，不是终点：提升能力与收入，控制消费，把工资持续转为资产，并建立技能、信誉、关系等资本，最终让职业产生持久财富。
 - Tags: #life #career

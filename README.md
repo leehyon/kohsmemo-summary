@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-10-16) [Nobody should type code by hand anymore](202610/2026-10-16-nobody-should-type-code-by-hand-anymore.md)
+- 手写代码时代结束：模型已够强，瓶颈在操作者。自建智能体、用循环与验证工程化 AI，锁定模型、读模型卡、抛弃无效技能包，靠速度、好奇心与能动性取胜。
+
 (2026-10-16) [How to Build Wealth as a Career Person](202610/2026-10-16-how-to-build-wealth-as-a-career-person.md)
 - 职业是财富引擎，不是终点：提升能力与收入，控制消费，把工资持续转为资产，并建立技能、信誉、关系等资本，最终让职业产生持久财富。
 - Tags: #life #career
@@ -32,13 +35,9 @@
 (2026-10-08) [How to read code](202610/2026-10-08-how-to-read-code.md)
 - 读代码不应线性通读。应多轮、非线性扫描：先追关键路径与调用链，把其余当黑盒，最后端到端读 diff 抓异常。AI 生成代码仍须亲自读，因其常有对齐偏差，不能完全交给 LLM 审阅。
 
-(2026-09-23) [Attention is all you have](202609/2026-09-23-attention-is-all-you-have.md)
-- 文章用俄罗斯方块效应说明：注意力会被长期关注塑造。推荐算法劫持注意力，把大脑钥匙交给平台；我们应回到博客、RSS 等主动、较慢的有意图互联网。
-- Tags: #life #view
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (9 entries)
+- [2026-10](202610/monthly-index.md) (10 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
