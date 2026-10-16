@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-10-16) [Yes, and...](202610/2026-10-16-yes%2C-and....md)
+  - Summary: AI 时代仍值得学编程：但初级必须亲手写代码，才能读懂代码、控制复杂度；AI 宜当助教而非代写。未来沟通、业务、架构与善用 LLM 更值钱。
+
 - (2026-10-16) [Nobody should type code by hand anymore](202610/2026-10-16-nobody-should-type-code-by-hand-anymore.md)
   - Summary: 手写代码时代结束：模型已够强，瓶颈在操作者。自建智能体、用循环与验证工程化 AI，锁定模型、读模型卡、抛弃无效技能包，靠速度、好奇心与能动性取胜。
 
