@@ -1,5 +1,9 @@
 # 2026-10 Monthly Index
 
+(2026-10-21) [An ad-free Android TV](2026-10-21-an-ad-free-android-tv.md)
+- 用 ADB 把 Google TV 换成 Projectivy 启动器、SmartTube 与按键映射，禁用原生桌面和推广包，再配合 Pi-hole，即可得到无广告的 Android TV。
+- Tags: #home #setup
+
 (2026-10-21) [What Shall I Teach My Son?](2026-10-21-what-shall-i-teach-my-son.md)
 - 作者在 AGI 时代反思教育目的：技术颠覆学校的预言常落空，学校靠隐性制度延续并调整目的；当 AI 动摇谋生与贡献，他主张与孩子共同探索新教育目的，而非替其定答案。
 

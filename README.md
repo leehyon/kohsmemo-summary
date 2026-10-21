@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-10-21) [An ad-free Android TV](202610/2026-10-21-an-ad-free-android-tv.md)
+- 用 ADB 把 Google TV 换成 Projectivy 启动器、SmartTube 与按键映射，禁用原生桌面和推广包，再配合 Pi-hole，即可得到无广告的 Android TV。
+- Tags: #home #setup
+
 (2026-10-21) [What Shall I Teach My Son?](202610/2026-10-21-what-shall-i-teach-my-son.md)
 - 作者在 AGI 时代反思教育目的：技术颠覆学校的预言常落空，学校靠隐性制度延续并调整目的；当 AI 动摇谋生与贡献，他主张与孩子共同探索新教育目的，而非替其定答案。
 
@@ -33,12 +37,9 @@
 (2026-10-09) [What To Know in JavaScript (2026 Edition)](202610/2026-10-09-what-to-know-in-javascript-%282026-edition%29.md)
 - 文章盘点 2026 年 JavaScript 生态，包括 ES2025/ES2026 语言特性、框架与运行时、Vite 与 TypeScript 工具链、AI 写码及 npm 供应链安全，建议回归基础。
 
-(2026-10-09) [Markdown in /src](202610/2026-10-09-markdown-in-src.md)
-- Markdown 正在成为源代码：应把描述代码意图的 Markdown 签入 /src 的 md 目录，代码与测试由它派生，取代临时 prompt，让人类与 agent 就近获取上下文。
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (13 entries)
+- [2026-10](202610/monthly-index.md) (14 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
