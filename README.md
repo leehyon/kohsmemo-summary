@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-10-21) [It's still OK to enjoy programming](202610/2026-10-21-it%27s-still-ok-to-enjoy-programming.md)
+- 工作里的编程经济学已变，但工作不等于生活；周末为乐趣写代码、探索难题，甚至用 AI 辅助编程，都无需经济理由，享受编程仍然可以。
+
 (2026-10-21) [An ad-free Android TV](202610/2026-10-21-an-ad-free-android-tv.md)
 - 用 ADB 把 Google TV 换成 Projectivy 启动器、SmartTube 与按键映射，禁用原生桌面和推广包，再配合 Pi-hole，即可得到无广告的 Android TV。
 - Tags: #home #setup
@@ -34,12 +37,9 @@
 (2026-10-09) [C's Flexible Integer Sizes were Not a Design Mistake](202610/2026-10-09-c%27s-flexible-integer-sizes-were-not-a-design-mistake.md)
 - int 从来不是 32 位的同义词。C 的整数宽度可变，是为了在 12 到 64 位字长、多种字符宽度与负数表示的机器上实现可移植与高效；强制固定尺寸会拖慢或无法实现。stdint.h 的精确宽度类型 C99 才出现且可选。
 
-(2026-10-09) [What To Know in JavaScript (2026 Edition)](202610/2026-10-09-what-to-know-in-javascript-%282026-edition%29.md)
-- 文章盘点 2026 年 JavaScript 生态，包括 ES2025/ES2026 语言特性、框架与运行时、Vite 与 TypeScript 工具链、AI 写码及 npm 供应链安全，建议回归基础。
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (14 entries)
+- [2026-10](202610/monthly-index.md) (15 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)

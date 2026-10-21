@@ -1,5 +1,8 @@
 # 2026-10 Monthly Index
 
+(2026-10-21) [It's still OK to enjoy programming](2026-10-21-it%27s-still-ok-to-enjoy-programming.md)
+- 工作里的编程经济学已变，但工作不等于生活；周末为乐趣写代码、探索难题，甚至用 AI 辅助编程，都无需经济理由，享受编程仍然可以。
+
 (2026-10-21) [An ad-free Android TV](2026-10-21-an-ad-free-android-tv.md)
 - 用 ADB 把 Google TV 换成 Projectivy 启动器、SmartTube 与按键映射，禁用原生桌面和推广包，再配合 Pi-hole，即可得到无广告的 Android TV。
 - Tags: #home #setup
