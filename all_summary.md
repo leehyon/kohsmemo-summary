@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-10-21) [My Neighbor, Me, and a Grand Principle](202610/2026-10-21-my-neighbor%2C-me%2C-and-a-grand-principle.md)
+  - Summary: 邻居借诺贝尔化学奖讲解同手性：微小偏向经重复放大，形成生命手性；作者类比宇宙物质不对称，并得出 Baby Steps 的积累哲学。
+
 - (2026-10-21) [How Do Fungi Keep the Planet Healthy?](202610/2026-10-21-how-do-fungi-keep-the-planet-healthy.md)
   - Summary: 菌根真菌与多数植物进行碳—矿物交易，虽无大脑却能区别伙伴、调配资源并储存大量碳；保护地下网络关乎气候、农业与生物多样性。
 

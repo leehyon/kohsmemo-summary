@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-10-21) [My Neighbor, Me, and a Grand Principle](202610/2026-10-21-my-neighbor%2C-me%2C-and-a-grand-principle.md)
+- 邻居借诺贝尔化学奖讲解同手性：微小偏向经重复放大，形成生命手性；作者类比宇宙物质不对称，并得出 Baby Steps 的积累哲学。
+
 (2026-10-21) [How Do Fungi Keep the Planet Healthy?](202610/2026-10-21-how-do-fungi-keep-the-planet-healthy.md)
 - 菌根真菌与多数植物进行碳—矿物交易，虽无大脑却能区别伙伴、调配资源并储存大量碳；保护地下网络关乎气候、农业与生物多样性。
 
@@ -33,13 +36,9 @@
 (2026-10-16) [Will Linux phones become a viable alternative to the Android/iOS duopoly?](202610/2026-10-16-will-linux-phones-become-a-viable-alternative-to-the-android-ios-duopoly.md)
 - Linux 手机未死：RK3588S、高通 IoT SoC、Android 内核延长支持与 Phosh 等改善条件，使其有望成为小众可行替代；真正瓶颈是公司投入与生态，而非技术。
 
-(2026-10-16) [How our vibe coded website looks like a designer made it](202610/2026-10-16-how-our-vibe-coded-website-looks-like-a-designer-made-it.md)
-- 作者用编码智能体把 Railcode 官网做成主题公园式设计：靠海量参考、多版本生成、fork 对比、playground 调参与持续迭代，证明非设计师也能用 AI 做出有品味、像设计师操刀的网站。
-- Tags: #design #vibe-coding
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (16 entries)
+- [2026-10](202610/monthly-index.md) (17 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
