@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-10-21) [You could have invented transformers from memory](202610/2026-10-21-you-could-have-invented-transformers-from-memory.md)
+- 文章用干扰-信号比统一比较线性层、MLP 与自注意力作为联想记忆的容量，并说明 softmax 注意力配合 log M 缩放可近乎无界地存储键值对。
+- Tags: #math
+
 (2026-10-21) [My Neighbor, Me, and a Grand Principle](202610/2026-10-21-my-neighbor%2C-me%2C-and-a-grand-principle.md)
 - 邻居借诺贝尔化学奖讲解同手性：微小偏向经重复放大，形成生命手性；作者类比宇宙物质不对称，并得出 Baby Steps 的积累哲学。
 
@@ -33,12 +37,9 @@
 - 职业是财富引擎，不是终点：提升能力与收入，控制消费，把工资持续转为资产，并建立技能、信誉、关系等资本，最终让职业产生持久财富。
 - Tags: #life #career
 
-(2026-10-16) [Will Linux phones become a viable alternative to the Android/iOS duopoly?](202610/2026-10-16-will-linux-phones-become-a-viable-alternative-to-the-android-ios-duopoly.md)
-- Linux 手机未死：RK3588S、高通 IoT SoC、Android 内核延长支持与 Phosh 等改善条件，使其有望成为小众可行替代；真正瓶颈是公司投入与生态，而非技术。
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (17 entries)
+- [2026-10](202610/monthly-index.md) (18 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)

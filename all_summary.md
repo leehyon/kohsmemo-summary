@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-10-21) [You could have invented transformers from memory](202610/2026-10-21-you-could-have-invented-transformers-from-memory.md)
+  - Tags: #math
+  - Summary: 文章用干扰-信号比统一比较线性层、MLP 与自注意力作为联想记忆的容量，并说明 softmax 注意力配合 log M 缩放可近乎无界地存储键值对。
+
 - (2026-10-21) [My Neighbor, Me, and a Grand Principle](202610/2026-10-21-my-neighbor%2C-me%2C-and-a-grand-principle.md)
   - Summary: 邻居借诺贝尔化学奖讲解同手性：微小偏向经重复放大，形成生命手性；作者类比宇宙物质不对称，并得出 Baby Steps 的积累哲学。
 
