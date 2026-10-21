@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-10-21) [Code is clay now](202610/2026-10-21-code-is-clay-now.md)
+- 代理式编程让代码像黏土般可塑，变更成本骤降；但品味与架构仍关键。工匠模式留在循环中逐轮判断，工厂模式把判断前置到流水线，二者应按问题混用。
+
 (2026-10-21) [You could have invented transformers from memory](202610/2026-10-21-you-could-have-invented-transformers-from-memory.md)
 - 文章用干扰-信号比统一比较线性层、MLP 与自注意力作为联想记忆的容量，并说明 softmax 注意力配合 log M 缩放可近乎无界地存储键值对。
 - Tags: #math
@@ -33,13 +36,9 @@
 (2026-10-16) [Nobody should type code by hand anymore](202610/2026-10-16-nobody-should-type-code-by-hand-anymore.md)
 - 手写代码时代结束：模型已够强，瓶颈在操作者。自建智能体、用循环与验证工程化 AI，锁定模型、读模型卡、抛弃无效技能包，靠速度、好奇心与能动性取胜。
 
-(2026-10-16) [How to Build Wealth as a Career Person](202610/2026-10-16-how-to-build-wealth-as-a-career-person.md)
-- 职业是财富引擎，不是终点：提升能力与收入，控制消费，把工资持续转为资产，并建立技能、信誉、关系等资本，最终让职业产生持久财富。
-- Tags: #life #career
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (18 entries)
+- [2026-10](202610/monthly-index.md) (19 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)

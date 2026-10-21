@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-10-21) [Code is clay now](202610/2026-10-21-code-is-clay-now.md)
+  - Summary: 代理式编程让代码像黏土般可塑，变更成本骤降；但品味与架构仍关键。工匠模式留在循环中逐轮判断，工厂模式把判断前置到流水线，二者应按问题混用。
+
 - (2026-10-21) [You could have invented transformers from memory](202610/2026-10-21-you-could-have-invented-transformers-from-memory.md)
   - Tags: #math
   - Summary: 文章用干扰-信号比统一比较线性层、MLP 与自注意力作为联想记忆的容量，并说明 softmax 注意力配合 log M 缩放可近乎无界地存储键值对。
