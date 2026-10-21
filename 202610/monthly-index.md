@@ -1,5 +1,8 @@
 # 2026-10 Monthly Index
 
+(2026-10-21) [How Do Fungi Keep the Planet Healthy?](2026-10-21-how-do-fungi-keep-the-planet-healthy.md)
+- 菌根真菌与多数植物进行碳—矿物交易，虽无大脑却能区别伙伴、调配资源并储存大量碳；保护地下网络关乎气候、农业与生物多样性。
+
 (2026-10-21) [It's still OK to enjoy programming](2026-10-21-it%27s-still-ok-to-enjoy-programming.md)
 - 工作里的编程经济学已变，但工作不等于生活；周末为乐趣写代码、探索难题，甚至用 AI 辅助编程，都无需经济理由，享受编程仍然可以。
 

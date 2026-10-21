@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-10-21) [How Do Fungi Keep the Planet Healthy?](202610/2026-10-21-how-do-fungi-keep-the-planet-healthy.md)
+- 菌根真菌与多数植物进行碳—矿物交易，虽无大脑却能区别伙伴、调配资源并储存大量碳；保护地下网络关乎气候、农业与生物多样性。
+
 (2026-10-21) [It's still OK to enjoy programming](202610/2026-10-21-it%27s-still-ok-to-enjoy-programming.md)
 - 工作里的编程经济学已变，但工作不等于生活；周末为乐趣写代码、探索难题，甚至用 AI 辅助编程，都无需经济理由，享受编程仍然可以。
 
@@ -34,12 +37,9 @@
 - 作者用编码智能体把 Railcode 官网做成主题公园式设计：靠海量参考、多版本生成、fork 对比、playground 调参与持续迭代，证明非设计师也能用 AI 做出有品味、像设计师操刀的网站。
 - Tags: #design #vibe-coding
 
-(2026-10-09) [C's Flexible Integer Sizes were Not a Design Mistake](202610/2026-10-09-c%27s-flexible-integer-sizes-were-not-a-design-mistake.md)
-- int 从来不是 32 位的同义词。C 的整数宽度可变，是为了在 12 到 64 位字长、多种字符宽度与负数表示的机器上实现可移植与高效；强制固定尺寸会拖慢或无法实现。stdint.h 的精确宽度类型 C99 才出现且可选。
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (15 entries)
+- [2026-10](202610/monthly-index.md) (16 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
