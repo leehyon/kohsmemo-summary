@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-10-21) [What Shall I Teach My Son?](202610/2026-10-21-what-shall-i-teach-my-son.md)
+  - Summary: 作者在 AGI 时代反思教育目的：技术颠覆学校的预言常落空，学校靠隐性制度延续并调整目的；当 AI 动摇谋生与贡献，他主张与孩子共同探索新教育目的，而非替其定答案。
+
 - (2026-10-16) [Anti-Patterns in Software Blogging](202610/2026-10-16-anti-patterns-in-software-blogging.md)
   - Tags: #writing
   - Summary: 文章总结软件博客常见反模式：开头漫谈、假设读者有相同知识、滥用链接、续集式开头、过度正式，以及移动端排版和字体可读性问题；核心是始终以读者为中心，快速给出价值并降低阅读门槛。

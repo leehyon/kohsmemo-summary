@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-10-21) [What Shall I Teach My Son?](202610/2026-10-21-what-shall-i-teach-my-son.md)
+- 作者在 AGI 时代反思教育目的：技术颠覆学校的预言常落空，学校靠隐性制度延续并调整目的；当 AI 动摇谋生与贡献，他主张与孩子共同探索新教育目的，而非替其定答案。
+
 (2026-10-16) [Anti-Patterns in Software Blogging](202610/2026-10-16-anti-patterns-in-software-blogging.md)
 - 文章总结软件博客常见反模式：开头漫谈、假设读者有相同知识、滥用链接、续集式开头、过度正式，以及移动端排版和字体可读性问题；核心是始终以读者为中心，快速给出价值并降低阅读门槛。
 - Tags: #writing
@@ -33,12 +36,9 @@
 (2026-10-09) [Markdown in /src](202610/2026-10-09-markdown-in-src.md)
 - Markdown 正在成为源代码：应把描述代码意图的 Markdown 签入 /src 的 md 目录，代码与测试由它派生，取代临时 prompt，让人类与 agent 就近获取上下文。
 
-(2026-10-09) [Jev introduces a new shape of LLM](202610/2026-10-09-jev-introduces-a-new-shape-of-llm.md)
-- TypeSafe AI 发布 Jev，一种输出浮点决策而非文本的 System One 模型。它极快极便宜，适合分类、评分与排序，但黑箱和偏见风险高，需重视 evals。
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (12 entries)
+- [2026-10](202610/monthly-index.md) (13 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
