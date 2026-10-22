@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-10-22) [树莓派旁路由实战：Mihomo 透明代理与双 Wi-Fi 故障备用](202610/2026-10-22-%E6%A0%91%E8%8E%93%E6%B4%BE%E6%97%81%E8%B7%AF%E7%94%B1%E5%AE%9E%E6%88%98%EF%BC%9Amihomo-%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86%E4%B8%8E%E5%8F%8C-wi-fi-%E6%95%85%E9%9A%9C%E5%A4%87%E7%94%A8.md)
+- 树莓派 5 用 Mihomo TPROXY 做旁路由，保留华为 AX3 Pro 的 DHCP，仅让按需设备手动指向 Pi 的 DNS 与网关；重点规避双 DHCP、IPv6 绕过、Docker 转发和 ARP 等坑，并保留回滚。
+- Tags: #home #setup
+
 (2026-10-21) [Code is clay now](202610/2026-10-21-code-is-clay-now.md)
 - 代理式编程让代码像黏土般可塑，变更成本骤降；但品味与架构仍关键。工匠模式留在循环中逐轮判断，工厂模式把判断前置到流水线，二者应按问题混用。
 
@@ -33,12 +37,9 @@
 (2026-10-16) [Yes, and...](202610/2026-10-16-yes%2C-and....md)
 - AI 时代仍值得学编程：但初级必须亲手写代码，才能读懂代码、控制复杂度；AI 宜当助教而非代写。未来沟通、业务、架构与善用 LLM 更值钱。
 
-(2026-10-16) [Nobody should type code by hand anymore](202610/2026-10-16-nobody-should-type-code-by-hand-anymore.md)
-- 手写代码时代结束：模型已够强，瓶颈在操作者。自建智能体、用循环与验证工程化 AI，锁定模型、读模型卡、抛弃无效技能包，靠速度、好奇心与能动性取胜。
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (19 entries)
+- [2026-10](202610/monthly-index.md) (20 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)

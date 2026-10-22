@@ -3158,5 +3158,15 @@
     "url": "https://www.albertodenia.com/writing/code-is-clay-now",
     "timestamp": 1792545790,
     "tags": []
+  },
+  {
+    "month": "202610",
+    "title": "树莓派旁路由实战：Mihomo 透明代理与双 Wi-Fi 故障备用",
+    "url": "https://sumsec.me/2026/sumpi-mihomo-side-router.html",
+    "timestamp": 1792632474,
+    "tags": [
+      "home",
+      "setup"
+    ]
   }
 ]
