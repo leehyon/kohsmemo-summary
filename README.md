@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-10-23) [What I Self-Host](202610/2026-10-23-what-i-self-host.md)
+- 作者用 Beelink N100 迷你主机自托管 28 个服务，坚持不暴露公网、优先原生、Podman 替代 Docker，以简单运维替代云服务与流媒体。
+- Tags: #home #setup
+
 (2026-10-22) [树莓派旁路由实战：Mihomo 透明代理与双 Wi-Fi 故障备用](202610/2026-10-22-%E6%A0%91%E8%8E%93%E6%B4%BE%E6%97%81%E8%B7%AF%E7%94%B1%E5%AE%9E%E6%88%98%EF%BC%9Amihomo-%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86%E4%B8%8E%E5%8F%8C-wi-fi-%E6%95%85%E9%9A%9C%E5%A4%87%E7%94%A8.md)
 - 树莓派 5 用 Mihomo TPROXY 做旁路由，保留华为 AX3 Pro 的 DHCP，仅让按需设备手动指向 Pi 的 DNS 与网关；重点规避双 DHCP、IPv6 绕过、Docker 转发和 ARP 等坑，并保留回滚。
 - Tags: #home #setup
@@ -34,12 +38,9 @@
 - 文章总结软件博客常见反模式：开头漫谈、假设读者有相同知识、滥用链接、续集式开头、过度正式，以及移动端排版和字体可读性问题；核心是始终以读者为中心，快速给出价值并降低阅读门槛。
 - Tags: #writing
 
-(2026-10-16) [Yes, and...](202610/2026-10-16-yes%2C-and....md)
-- AI 时代仍值得学编程：但初级必须亲手写代码，才能读懂代码、控制复杂度；AI 宜当助教而非代写。未来沟通、业务、架构与善用 LLM 更值钱。
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (20 entries)
+- [2026-10](202610/monthly-index.md) (21 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
