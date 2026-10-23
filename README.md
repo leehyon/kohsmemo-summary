@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-10-23) [嵌入式家用智能设备刷机与逆向指南](202610/2026-10-23-%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%B6%E7%94%A8%E6%99%BA%E8%83%BD%E8%AE%BE%E5%A4%87%E5%88%B7%E6%9C%BA%E4%B8%8E%E9%80%86%E5%90%91%E6%8C%87%E5%8D%97.md)
+- 系统化嵌入式刷机与逆向指南：情报、备份和恢复链先行，核对启动链与专属分区，分级刷写并逐项验收。
+- Tags: #home #setup
+
 (2026-10-23) [What Is a Hardware Wallet?](202610/2026-10-23-what-is-a-hardware-wallet.md)
 - 硬件钱包把私钥离线保存并在设备内签名交易，降低被盗与钓鱼风险；但需备份助记词、官方渠道购买并防范物理丢失。
 
@@ -34,12 +38,9 @@
 - 用 ADB 把 Google TV 换成 Projectivy 启动器、SmartTube 与按键映射，禁用原生桌面和推广包，再配合 Pi-hole，即可得到无广告的 Android TV。
 - Tags: #home #setup
 
-(2026-10-21) [What Shall I Teach My Son?](202610/2026-10-21-what-shall-i-teach-my-son.md)
-- 作者在 AGI 时代反思教育目的：技术颠覆学校的预言常落空，学校靠隐性制度延续并调整目的；当 AI 动摇谋生与贡献，他主张与孩子共同探索新教育目的，而非替其定答案。
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (22 entries)
+- [2026-10](202610/monthly-index.md) (23 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
