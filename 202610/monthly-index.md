@@ -1,5 +1,8 @@
 # 2026-10 Monthly Index
 
+(2026-10-23) [What Is a Hardware Wallet?](2026-10-23-what-is-a-hardware-wallet.md)
+- 硬件钱包把私钥离线保存并在设备内签名交易，降低被盗与钓鱼风险；但需备份助记词、官方渠道购买并防范物理丢失。
+
 (2026-10-23) [What I Self-Host](2026-10-23-what-i-self-host.md)
 - 作者用 Beelink N100 迷你主机自托管 28 个服务，坚持不暴露公网、优先原生、Podman 替代 Docker，以简单运维替代云服务与流媒体。
 - Tags: #home #setup

@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-10-23) [What Is a Hardware Wallet?](202610/2026-10-23-what-is-a-hardware-wallet.md)
+- 硬件钱包把私钥离线保存并在设备内签名交易，降低被盗与钓鱼风险；但需备份助记词、官方渠道购买并防范物理丢失。
+
 (2026-10-23) [What I Self-Host](202610/2026-10-23-what-i-self-host.md)
 - 作者用 Beelink N100 迷你主机自托管 28 个服务，坚持不暴露公网、优先原生、Podman 替代 Docker，以简单运维替代云服务与流媒体。
 - Tags: #home #setup
@@ -34,13 +37,9 @@
 (2026-10-21) [What Shall I Teach My Son?](202610/2026-10-21-what-shall-i-teach-my-son.md)
 - 作者在 AGI 时代反思教育目的：技术颠覆学校的预言常落空，学校靠隐性制度延续并调整目的；当 AI 动摇谋生与贡献，他主张与孩子共同探索新教育目的，而非替其定答案。
 
-(2026-10-16) [Anti-Patterns in Software Blogging](202610/2026-10-16-anti-patterns-in-software-blogging.md)
-- 文章总结软件博客常见反模式：开头漫谈、假设读者有相同知识、滥用链接、续集式开头、过度正式，以及移动端排版和字体可读性问题；核心是始终以读者为中心，快速给出价值并降低阅读门槛。
-- Tags: #writing
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (21 entries)
+- [2026-10](202610/monthly-index.md) (22 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
