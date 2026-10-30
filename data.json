@@ -3195,5 +3195,14 @@
       "home",
       "setup"
     ]
+  },
+  {
+    "month": "202610",
+    "title": "C for Rust Programmers",
+    "url": "https://bd103.dev/blog/2026-10-07-c-for-rust-programmers/",
+    "timestamp": 1793339954,
+    "tags": [
+      "language"
+    ]
   }
 ]

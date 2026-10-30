@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-10-30) [C for Rust Programmers](202610/2026-10-30-c-for-rust-programmers.md)
+- 文章从 Rust 视角梳理 C 的怪癖：布尔非原生、字符串以空字节结尾、整数宽度依平台、错误处理弱、数组退化为指针、无引用与借用检查，并提醒小心内存安全。
+- Tags: #language
+
 (2026-10-23) [嵌入式家用智能设备刷机与逆向指南](202610/2026-10-23-%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%B6%E7%94%A8%E6%99%BA%E8%83%BD%E8%AE%BE%E5%A4%87%E5%88%B7%E6%9C%BA%E4%B8%8E%E9%80%86%E5%90%91%E6%8C%87%E5%8D%97.md)
 - 系统化嵌入式刷机与逆向指南：情报、备份和恢复链先行，核对启动链与专属分区，分级刷写并逐项验收。
 - Tags: #home #setup
@@ -34,13 +38,9 @@
 (2026-10-21) [It's still OK to enjoy programming](202610/2026-10-21-it%27s-still-ok-to-enjoy-programming.md)
 - 工作里的编程经济学已变，但工作不等于生活；周末为乐趣写代码、探索难题，甚至用 AI 辅助编程，都无需经济理由，享受编程仍然可以。
 
-(2026-10-21) [An ad-free Android TV](202610/2026-10-21-an-ad-free-android-tv.md)
-- 用 ADB 把 Google TV 换成 Projectivy 启动器、SmartTube 与按键映射，禁用原生桌面和推广包，再配合 Pi-hole，即可得到无广告的 Android TV。
-- Tags: #home #setup
-
 ## Monthly Archive
 
-- [2026-10](202610/monthly-index.md) (23 entries)
+- [2026-10](202610/monthly-index.md) (24 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
 - [2026-07](202607/monthly-index.md) (53 entries)
