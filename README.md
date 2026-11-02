@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-11-02) [俄罗斯软件哲学：单机榨干](202611/2026-11-02-%E4%BF%84%E7%BD%97%E6%96%AF%E8%BD%AF%E4%BB%B6%E5%93%B2%E5%AD%A6%EF%BC%9A%E5%8D%95%E6%9C%BA%E6%A6%A8%E5%B9%B2.md)
+- 俄罗斯软件以单机垂直优化、底层掌控和极简工具主义，对抗硅谷依赖云抽象与堆资源的臃肿模式。
+
 (2026-10-30) [C for Rust Programmers](202610/2026-10-30-c-for-rust-programmers.md)
 - 文章从 Rust 视角梳理 C 的怪癖：布尔非原生、字符串以空字节结尾、整数宽度依平台、错误处理弱、数组退化为指针、无引用与借用检查，并提醒小心内存安全。
 - Tags: #language
@@ -35,11 +38,9 @@
 (2026-10-21) [How Do Fungi Keep the Planet Healthy?](202610/2026-10-21-how-do-fungi-keep-the-planet-healthy.md)
 - 菌根真菌与多数植物进行碳—矿物交易，虽无大脑却能区别伙伴、调配资源并储存大量碳；保护地下网络关乎气候、农业与生物多样性。
 
-(2026-10-21) [It's still OK to enjoy programming](202610/2026-10-21-it%27s-still-ok-to-enjoy-programming.md)
-- 工作里的编程经济学已变，但工作不等于生活；周末为乐趣写代码、探索难题，甚至用 AI 辅助编程，都无需经济理由，享受编程仍然可以。
-
 ## Monthly Archive
 
+- [2026-11](202611/monthly-index.md) (1 entries)
 - [2026-10](202610/monthly-index.md) (24 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
