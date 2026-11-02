@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-11-02) [so i guess everyone uses llms to think now - eva's site](202611/2026-11-02-so-i-guess-everyone-uses-llms-to-think-now---eva%27s-site.md)
+- 作者坚持不用 LLM 做研究：研究乐趣、署名责任与学习过程更重要；LLM 虽强但仍需专家引导，当前 AI 安全营销常以恐慌和抢跑披露伤害安全实践。
+
 (2026-11-02) [Tips for more effective fuzz testing with AFL++](202611/2026-11-02-tips-for-more-effective-fuzz-testing-with-afl%2B%2B.md)
 - AFL++ 模糊测试清单：启用 sanitizer，优先 persistent mode，包含源码测内部函数，隔离状态，勿直接传 fuzz buffer，用 memfd 和更小缓冲区暴露缺陷。
 
@@ -35,12 +38,9 @@
 - 文章用干扰-信号比统一比较线性层、MLP 与自注意力作为联想记忆的容量，并说明 softmax 注意力配合 log M 缩放可近乎无界地存储键值对。
 - Tags: #math
 
-(2026-10-21) [My Neighbor, Me, and a Grand Principle](202610/2026-10-21-my-neighbor%2C-me%2C-and-a-grand-principle.md)
-- 邻居借诺贝尔化学奖讲解同手性：微小偏向经重复放大，形成生命手性；作者类比宇宙物质不对称，并得出 Baby Steps 的积累哲学。
-
 ## Monthly Archive
 
-- [2026-11](202611/monthly-index.md) (2 entries)
+- [2026-11](202611/monthly-index.md) (3 entries)
 - [2026-10](202610/monthly-index.md) (24 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
