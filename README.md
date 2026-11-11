@@ -3,6 +3,10 @@
 
 ## Latest 10 Entries
 
+(2026-11-11) [Early 2000s were peak of humanity](202611/2026-11-11-early-2000s-were-peak-of-humanity.md)
+- 作者怀念 2000 年代初：技术够用却不侵入生活。真正的问题不是技术变强，而是我们让技术替代现实、优化 engagement 而非人的安宁。
+- Tags: #view
+
 (2026-11-02) [so i guess everyone uses llms to think now - eva's site](202611/2026-11-02-so-i-guess-everyone-uses-llms-to-think-now---eva%27s-site.md)
 - 作者坚持不用 LLM 做研究：研究乐趣、署名责任与学习过程更重要；LLM 虽强但仍需专家引导，当前 AI 安全营销常以恐慌和抢跑披露伤害安全实践。
 
@@ -34,13 +38,9 @@
 (2026-10-21) [Code is clay now](202610/2026-10-21-code-is-clay-now.md)
 - 代理式编程让代码像黏土般可塑，变更成本骤降；但品味与架构仍关键。工匠模式留在循环中逐轮判断，工厂模式把判断前置到流水线，二者应按问题混用。
 
-(2026-10-21) [You could have invented transformers from memory](202610/2026-10-21-you-could-have-invented-transformers-from-memory.md)
-- 文章用干扰-信号比统一比较线性层、MLP 与自注意力作为联想记忆的容量，并说明 softmax 注意力配合 log M 缩放可近乎无界地存储键值对。
-- Tags: #math
-
 ## Monthly Archive
 
-- [2026-11](202611/monthly-index.md) (3 entries)
+- [2026-11](202611/monthly-index.md) (4 entries)
 - [2026-10](202610/monthly-index.md) (24 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)

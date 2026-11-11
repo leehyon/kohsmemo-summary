@@ -1,5 +1,9 @@
 # All Summary
 
+- (2026-11-11) [Early 2000s were peak of humanity](202611/2026-11-11-early-2000s-were-peak-of-humanity.md)
+  - Tags: #view
+  - Summary: 作者怀念 2000 年代初：技术够用却不侵入生活。真正的问题不是技术变强，而是我们让技术替代现实、优化 engagement 而非人的安宁。
+
 - (2026-11-02) [so i guess everyone uses llms to think now - eva's site](202611/2026-11-02-so-i-guess-everyone-uses-llms-to-think-now---eva%27s-site.md)
   - Summary: 作者坚持不用 LLM 做研究：研究乐趣、署名责任与学习过程更重要；LLM 虽强但仍需专家引导，当前 AI 安全营销常以恐慌和抢跑披露伤害安全实践。
 
