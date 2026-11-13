@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-11-13) [The AI coding trap](202611/2026-11-13-the-ai-coding-trap.md)
+- AI 只加速写代码，不加速思考；把 LLM 当极快的初级工程师，用规格、文档、模块化与 TDD 等实践做它的 tech lead，才能避开 vibe coding 的复杂度之墙。
+
 (2026-11-13) [I Own 28,000 Books](202611/2026-11-13-i-own-28%2C000-books.md)
 - 拥有 28,000 本书不是荣耀，而是空间、承重、搬家、保险与关系的长期管理问题；目录化、策展取舍和接受读不完，才是把收藏变成图书馆的关键。
 
@@ -33,13 +36,9 @@
 (2026-10-23) [What Is a Hardware Wallet?](202610/2026-10-23-what-is-a-hardware-wallet.md)
 - 硬件钱包把私钥离线保存并在设备内签名交易，降低被盗与钓鱼风险；但需备份助记词、官方渠道购买并防范物理丢失。
 
-(2026-10-23) [What I Self-Host](202610/2026-10-23-what-i-self-host.md)
-- 作者用 Beelink N100 迷你主机自托管 28 个服务，坚持不暴露公网、优先原生、Podman 替代 Docker，以简单运维替代云服务与流媒体。
-- Tags: #home #setup
-
 ## Monthly Archive
 
-- [2026-11](202611/monthly-index.md) (6 entries)
+- [2026-11](202611/monthly-index.md) (7 entries)
 - [2026-10](202610/monthly-index.md) (24 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
