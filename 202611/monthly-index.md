@@ -1,5 +1,8 @@
 # 2026-11 Monthly Index
 
+(2026-11-13) [You’re Not a Better Engineer Because You Type Git Commands by Hand](2026-11-13-you%E2%80%99re-not-a-better-engineer-because-you-type-git-commands-by-hand.md)
+- 作者主张把提交信息、PR 描述、注释、命名、Git/Issue 管理和发布检查交给 AI agents；关键不是放弃理解，而是自动化重复执行，把时间留给架构判断、审查与责任。
+
 (2026-11-13) [The AI coding trap](2026-11-13-the-ai-coding-trap.md)
 - AI 只加速写代码，不加速思考；把 LLM 当极快的初级工程师，用规格、文档、模块化与 TDD 等实践做它的 tech lead，才能避开 vibe coding 的复杂度之墙。
 
