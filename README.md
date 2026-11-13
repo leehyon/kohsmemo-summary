@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-11-13) [Goodbye Claude, Hello Pi](202611/2026-11-13-goodbye-claude%2C-hello-pi.md)
+- 作者因 Claude Code 在 IDE 集成、稳定性、功能堆叠和提示词膨胀上的长期问题，转而使用更极简、可定制的开源工具 Pi，并认为产品取舍比功能数量更重要。
+
 (2026-11-11) [Early 2000s were peak of humanity](202611/2026-11-11-early-2000s-were-peak-of-humanity.md)
 - 作者怀念 2000 年代初：技术够用却不侵入生活。真正的问题不是技术变强，而是我们让技术替代现实、优化 engagement 而非人的安宁。
 - Tags: #view
@@ -35,12 +38,9 @@
 - 树莓派 5 用 Mihomo TPROXY 做旁路由，保留华为 AX3 Pro 的 DHCP，仅让按需设备手动指向 Pi 的 DNS 与网关；重点规避双 DHCP、IPv6 绕过、Docker 转发和 ARP 等坑，并保留回滚。
 - Tags: #home #setup
 
-(2026-10-21) [Code is clay now](202610/2026-10-21-code-is-clay-now.md)
-- 代理式编程让代码像黏土般可塑，变更成本骤降；但品味与架构仍关键。工匠模式留在循环中逐轮判断，工厂模式把判断前置到流水线，二者应按问题混用。
-
 ## Monthly Archive
 
-- [2026-11](202611/monthly-index.md) (4 entries)
+- [2026-11](202611/monthly-index.md) (5 entries)
 - [2026-10](202610/monthly-index.md) (24 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)

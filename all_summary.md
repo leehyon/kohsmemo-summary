@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-11-13) [Goodbye Claude, Hello Pi](202611/2026-11-13-goodbye-claude%2C-hello-pi.md)
+  - Summary: 作者因 Claude Code 在 IDE 集成、稳定性、功能堆叠和提示词膨胀上的长期问题，转而使用更极简、可定制的开源工具 Pi，并认为产品取舍比功能数量更重要。
+
 - (2026-11-11) [Early 2000s were peak of humanity](202611/2026-11-11-early-2000s-were-peak-of-humanity.md)
   - Tags: #view
   - Summary: 作者怀念 2000 年代初：技术够用却不侵入生活。真正的问题不是技术变强，而是我们让技术替代现实、优化 engagement 而非人的安宁。

@@ -3234,5 +3234,12 @@
     "tags": [
       "view"
     ]
+  },
+  {
+    "month": "202611",
+    "title": "Goodbye Claude, Hello Pi",
+    "url": "https://caleb.software/posts/claude-to-pi.html",
+    "timestamp": 1794536619,
+    "tags": []
   }
 ]
