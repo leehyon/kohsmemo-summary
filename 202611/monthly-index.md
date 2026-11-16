@@ -1,5 +1,8 @@
 # 2026-11 Monthly Index
 
+(2026-11-16) [Maker's Schedule, Manager's Schedule](2026-11-16-maker%27s-schedule%2C-manager%27s-schedule.md)
+- 文章提出管理者与制造者两种日程：前者以小时排会，后者需半天以上整块时间；会议会切碎制造者时间并重创效率，双方应理解成本并用集中办公时间等机制减少打断。
+
 (2026-11-13) [You’re Not a Better Engineer Because You Type Git Commands by Hand](2026-11-13-you%E2%80%99re-not-a-better-engineer-because-you-type-git-commands-by-hand.md)
 - 作者主张把提交信息、PR 描述、注释、命名、Git/Issue 管理和发布检查交给 AI agents；关键不是放弃理解，而是自动化重复执行，把时间留给架构判断、审查与责任。
 

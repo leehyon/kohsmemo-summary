@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-11-16) [Maker's Schedule, Manager's Schedule](202611/2026-11-16-maker%27s-schedule%2C-manager%27s-schedule.md)
+- 文章提出管理者与制造者两种日程：前者以小时排会，后者需半天以上整块时间；会议会切碎制造者时间并重创效率，双方应理解成本并用集中办公时间等机制减少打断。
+
 (2026-11-13) [You’re Not a Better Engineer Because You Type Git Commands by Hand](202611/2026-11-13-you%E2%80%99re-not-a-better-engineer-because-you-type-git-commands-by-hand.md)
 - 作者主张把提交信息、PR 描述、注释、命名、Git/Issue 管理和发布检查交给 AI agents；关键不是放弃理解，而是自动化重复执行，把时间留给架构判断、审查与责任。
 
@@ -32,13 +35,9 @@
 - 文章从 Rust 视角梳理 C 的怪癖：布尔非原生、字符串以空字节结尾、整数宽度依平台、错误处理弱、数组退化为指针、无引用与借用检查，并提醒小心内存安全。
 - Tags: #language
 
-(2026-10-23) [嵌入式家用智能设备刷机与逆向指南](202610/2026-10-23-%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%B6%E7%94%A8%E6%99%BA%E8%83%BD%E8%AE%BE%E5%A4%87%E5%88%B7%E6%9C%BA%E4%B8%8E%E9%80%86%E5%90%91%E6%8C%87%E5%8D%97.md)
-- 系统化嵌入式刷机与逆向指南：情报、备份和恢复链先行，核对启动链与专属分区，分级刷写并逐项验收。
-- Tags: #home #setup
-
 ## Monthly Archive
 
-- [2026-11](202611/monthly-index.md) (8 entries)
+- [2026-11](202611/monthly-index.md) (9 entries)
 - [2026-10](202610/monthly-index.md) (24 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
