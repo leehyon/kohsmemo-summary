@@ -1,5 +1,8 @@
 # 2026-11 Monthly Index
 
+(2026-11-23) [我的 macOS 与 AI 环境配置偏好](2026-11-23-%E6%88%91%E7%9A%84-macos-%E4%B8%8E-ai-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%81%8F%E5%A5%BD.md)
+- 作者重装 macOS 后整理的精简开发与 AI 环境配置：Ghostty + Zsh、fnm 与 pnpm、Codex 和 Herdr 等 Agent 工具，外加实用小软件，主打少而核心、规避包管理心智负担。
+
 (2026-11-23) [Building Pi With Pi](2026-11-23-building-pi-with-pi.md)
 - 文章反思用 Pi 开发 Pi 时，LLM 生成的低质 issue 与过度局部防御的代码会放大维护负担；应只提交亲历事实，优先消灭坏状态，并用 Agent 并行复现而非替代人类协作与上游修复。
 
