@@ -3276,5 +3276,12 @@
     "url": "https://stratechery.com/2026/obituaries/",
     "timestamp": 1795398922,
     "tags": []
+  },
+  {
+    "month": "202611",
+    "title": "Building a Multi-Agent System: 3 Patterns, Explained Simply",
+    "url": "https://kadhar.dev/blog/multi-agent-systems-from-scratch",
+    "timestamp": 1795398962,
+    "tags": []
   }
 ]

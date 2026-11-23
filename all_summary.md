@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-11-23) [Building a Multi-Agent System: 3 Patterns, Explained Simply](202611/2026-11-23-building-a-multi-agent-system-3-patterns%2C-explained-simply.md)
+  - Summary: 先单 agent；只在需不同工具/指令、可并行或需独立测试时拆成 Pipeline、Orchestrator 或 Blackboard，并优先做交接校验、预算与日志等护栏。
+
 - (2026-11-23) [Obituaries](202611/2026-11-23-obituaries.md)
   - Summary: 黄仁勋辞任英伟达 CEO：丑闻只是导火索，真因是他拒绝按芯片管制的要求合规；一人外骨骼式组织、供应链信任与 neocloud 兜底随之动摇，AI 被当作例外技术，美国芯片生态将长期付出代价。
 

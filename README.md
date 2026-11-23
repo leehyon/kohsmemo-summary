@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-11-23) [Building a Multi-Agent System: 3 Patterns, Explained Simply](202611/2026-11-23-building-a-multi-agent-system-3-patterns%2C-explained-simply.md)
+- 先单 agent；只在需不同工具/指令、可并行或需独立测试时拆成 Pipeline、Orchestrator 或 Blackboard，并优先做交接校验、预算与日志等护栏。
+
 (2026-11-23) [Obituaries](202611/2026-11-23-obituaries.md)
 - 黄仁勋辞任英伟达 CEO：丑闻只是导火索，真因是他拒绝按芯片管制的要求合规；一人外骨骼式组织、供应链信任与 neocloud 兜底随之动摇，AI 被当作例外技术，美国芯片生态将长期付出代价。
 
@@ -31,12 +34,9 @@
 (2026-11-02) [Tips for more effective fuzz testing with AFL++](202611/2026-11-02-tips-for-more-effective-fuzz-testing-with-afl%2B%2B.md)
 - AFL++ 模糊测试清单：启用 sanitizer，优先 persistent mode，包含源码测内部函数，隔离状态，勿直接传 fuzz buffer，用 memfd 和更小缓冲区暴露缺陷。
 
-(2026-11-02) [俄罗斯软件哲学：单机榨干](202611/2026-11-02-%E4%BF%84%E7%BD%97%E6%96%AF%E8%BD%AF%E4%BB%B6%E5%93%B2%E5%AD%A6%EF%BC%9A%E5%8D%95%E6%9C%BA%E6%A6%A8%E5%B9%B2.md)
-- 俄罗斯软件以单机垂直优化、底层掌控和极简工具主义，对抗硅谷依赖云抽象与堆资源的臃肿模式。
-
 ## Monthly Archive
 
-- [2026-11](202611/monthly-index.md) (10 entries)
+- [2026-11](202611/monthly-index.md) (11 entries)
 - [2026-10](202610/monthly-index.md) (24 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
