@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-11-23) [Building Pi With Pi](202611/2026-11-23-building-pi-with-pi.md)
+- 文章反思用 Pi 开发 Pi 时，LLM 生成的低质 issue 与过度局部防御的代码会放大维护负担；应只提交亲历事实，优先消灭坏状态，并用 Agent 并行复现而非替代人类协作与上游修复。
+
 (2026-11-23) [Building a Multi-Agent System: 3 Patterns, Explained Simply](202611/2026-11-23-building-a-multi-agent-system-3-patterns%2C-explained-simply.md)
 - 先单 agent；只在需不同工具/指令、可并行或需独立测试时拆成 Pipeline、Orchestrator 或 Blackboard，并优先做交接校验、预算与日志等护栏。
 
@@ -31,12 +34,9 @@
 (2026-11-02) [so i guess everyone uses llms to think now - eva's site](202611/2026-11-02-so-i-guess-everyone-uses-llms-to-think-now---eva%27s-site.md)
 - 作者坚持不用 LLM 做研究：研究乐趣、署名责任与学习过程更重要；LLM 虽强但仍需专家引导，当前 AI 安全营销常以恐慌和抢跑披露伤害安全实践。
 
-(2026-11-02) [Tips for more effective fuzz testing with AFL++](202611/2026-11-02-tips-for-more-effective-fuzz-testing-with-afl%2B%2B.md)
-- AFL++ 模糊测试清单：启用 sanitizer，优先 persistent mode，包含源码测内部函数，隔离状态，勿直接传 fuzz buffer，用 memfd 和更小缓冲区暴露缺陷。
-
 ## Monthly Archive
 
-- [2026-11](202611/monthly-index.md) (11 entries)
+- [2026-11](202611/monthly-index.md) (12 entries)
 - [2026-10](202610/monthly-index.md) (24 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)

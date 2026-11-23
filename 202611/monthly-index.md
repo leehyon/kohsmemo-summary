@@ -1,5 +1,8 @@
 # 2026-11 Monthly Index
 
+(2026-11-23) [Building Pi With Pi](2026-11-23-building-pi-with-pi.md)
+- 文章反思用 Pi 开发 Pi 时，LLM 生成的低质 issue 与过度局部防御的代码会放大维护负担；应只提交亲历事实，优先消灭坏状态，并用 Agent 并行复现而非替代人类协作与上游修复。
+
 (2026-11-23) [Building a Multi-Agent System: 3 Patterns, Explained Simply](2026-11-23-building-a-multi-agent-system-3-patterns%2C-explained-simply.md)
 - 先单 agent；只在需不同工具/指令、可并行或需独立测试时拆成 Pipeline、Orchestrator 或 Blackboard，并优先做交接校验、预算与日志等护栏。
 
