@@ -1,5 +1,8 @@
 # All Summary
 
+- (2026-11-23) [Obituaries](202611/2026-11-23-obituaries.md)
+  - Summary: 黄仁勋辞任英伟达 CEO：丑闻只是导火索，真因是他拒绝按芯片管制的要求合规；一人外骨骼式组织、供应链信任与 neocloud 兜底随之动摇，AI 被当作例外技术，美国芯片生态将长期付出代价。
+
 - (2026-11-16) [Maker's Schedule, Manager's Schedule](202611/2026-11-16-maker%27s-schedule%2C-manager%27s-schedule.md)
   - Summary: 文章提出管理者与制造者两种日程：前者以小时排会，后者需半天以上整块时间；会议会切碎制造者时间并重创效率，双方应理解成本并用集中办公时间等机制减少打断。
 

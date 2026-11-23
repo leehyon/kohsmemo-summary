@@ -3,6 +3,9 @@
 
 ## Latest 10 Entries
 
+(2026-11-23) [Obituaries](202611/2026-11-23-obituaries.md)
+- 黄仁勋辞任英伟达 CEO：丑闻只是导火索，真因是他拒绝按芯片管制的要求合规；一人外骨骼式组织、供应链信任与 neocloud 兜底随之动摇，AI 被当作例外技术，美国芯片生态将长期付出代价。
+
 (2026-11-16) [Maker's Schedule, Manager's Schedule](202611/2026-11-16-maker%27s-schedule%2C-manager%27s-schedule.md)
 - 文章提出管理者与制造者两种日程：前者以小时排会，后者需半天以上整块时间；会议会切碎制造者时间并重创效率，双方应理解成本并用集中办公时间等机制减少打断。
 
@@ -31,13 +34,9 @@
 (2026-11-02) [俄罗斯软件哲学：单机榨干](202611/2026-11-02-%E4%BF%84%E7%BD%97%E6%96%AF%E8%BD%AF%E4%BB%B6%E5%93%B2%E5%AD%A6%EF%BC%9A%E5%8D%95%E6%9C%BA%E6%A6%A8%E5%B9%B2.md)
 - 俄罗斯软件以单机垂直优化、底层掌控和极简工具主义，对抗硅谷依赖云抽象与堆资源的臃肿模式。
 
-(2026-10-30) [C for Rust Programmers](202610/2026-10-30-c-for-rust-programmers.md)
-- 文章从 Rust 视角梳理 C 的怪癖：布尔非原生、字符串以空字节结尾、整数宽度依平台、错误处理弱、数组退化为指针、无引用与借用检查，并提醒小心内存安全。
-- Tags: #language
-
 ## Monthly Archive
 
-- [2026-11](202611/monthly-index.md) (9 entries)
+- [2026-11](202611/monthly-index.md) (10 entries)
 - [2026-10](202610/monthly-index.md) (24 entries)
 - [2026-09](202609/monthly-index.md) (10 entries)
 - [2026-08](202608/monthly-index.md) (31 entries)
